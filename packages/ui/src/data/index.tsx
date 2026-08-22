@@ -33,9 +33,14 @@ export function SourceBadge({ status, owner, size = 'md', className }: { status:
 export function DataClassBadge({ dataClass }: { dataClass: DataClass }) {
   const tone: Record<DataClass, string> = {
     PUBLIC: 'bg-white/6 text-ink-low border-white/12',
+    INTERNAL: 'bg-white/8 text-ink-mid border-white/16',
     PARTNER: 'bg-nile/12 text-info border-nile/32',
     PERSONAL: 'bg-warn/10 text-warn border-warn/30',
+    FINANCIAL: 'bg-warn/14 text-warn border-warn/38',
+    HEALTH: 'bg-danger/12 text-danger border-danger/35',
+    PRECISE_LOCATION: 'bg-danger/12 text-danger border-danger/35',
     SENSITIVE: 'bg-danger/12 text-danger border-danger/35',
+    INCIDENT_EVIDENCE: 'bg-royal/14 text-[#b6a8e0] border-royal/38',
     RESTRICTED_GOVERNMENT: 'bg-royal/18 text-[#b6a8e0] border-royal/45',
   };
   return (

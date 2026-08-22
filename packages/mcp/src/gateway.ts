@@ -50,7 +50,11 @@ export async function callTool(
 
   const base = (t?: McpTool) => ({
     tool: toolKey,
-    sourceStatus: (t?.state === 'LIVE' ? 'LIVE' : t?.state === 'SANDBOX' ? 'DEMO' : 'PLANNED_INTEGRATION') as GatewayResult['sourceStatus'],
+    sourceStatus: (
+      t?.state === 'LIVE' ? 'LIVE'
+        : t?.state === 'SANDBOX' || t?.state === 'DEMO' ? 'DEMO'
+          : 'PLANNED_INTEGRATION'
+    ) as GatewayResult['sourceStatus'],
     dataClass: (t?.dataClass ?? 'PUBLIC') as DataClass,
     sourceOwner: t?.sourceOwner ?? 'Unknown',
   });
@@ -75,11 +79,12 @@ export async function callTool(
     return { ok: false, ...base(tool), refusal: { code: 'BAD_INPUT', message: `Input did not match the declared schema for ${toolKey}.` } };
   }
 
-  if (tool.state === 'PLANNED' || tool.state === 'DISABLED') {
+  if (tool.state === 'PLANNED' || tool.state === 'APPROVED' || tool.state === 'DISABLED') {
     if (tool.auditRequired) ctx.audit({ action: 'tool.call', resource: toolKey, decision: 'DENY', dataClass: tool.dataClass, note: 'Integration not connected.' });
+    const why = tool.state === 'APPROVED' ? 'cleared for production but not yet switched on' : `a ${tool.state.toLowerCase()} integration`;
     return {
       ok: false, ...base(tool),
-      refusal: { code: 'NOT_CONNECTED', message: `${tool.name} is a ${tool.state.toLowerCase()} integration owned by ${tool.sourceOwner}. No data is available and nothing is being inferred.` },
+      refusal: { code: 'NOT_CONNECTED', message: `${tool.name} is ${why}, owned by ${tool.sourceOwner}. No data is available and nothing is being inferred.` },
     };
   }
 

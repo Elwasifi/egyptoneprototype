@@ -10,8 +10,17 @@ doesn't know about.
 `packages/mcp/src/registry.ts` declares 15 `McpServerSpec` families:
 tourism-knowledge, heritage, governorates, booking, provider, transport,
 investment, research, health, payments, analytics, content, government,
-search, map. Each has a `state` (`PLANNED` / `SANDBOX` / `LIVE` /
-`DISABLED`) — today every server is `SANDBOX` or `PLANNED`; none is `LIVE`.
+search, map. Each carries the full governance record the platform's
+vendor-registration policy requires — `owner`, `vendor`, `environment`,
+`dataClass`, `rateLimitPerMin`, `auditRequired`, `securityReview` — plus a
+`state`: `PLANNED` / `DEMO` / `SANDBOX` / `APPROVED` / `LIVE` / `DISABLED`.
+`APPROVED` means a security/governance review passed and the server is
+cleared to go live, but it is not yet switched on — the gateway still
+refuses to call it, the same as `PLANNED`. Today every server is `SANDBOX`
+or `PLANNED`, every `vendor` is either "Egypt One (in-house)" or a named
+future partner marked `(planned)`, and every `securityReview` is
+`NOT_STARTED` — no server has been through a review yet. See
+[`MCP_REGISTRY.md`](./MCP_REGISTRY.md) for the full table.
 
 ## Tools
 
@@ -32,7 +41,7 @@ unknown tool?           → UNKNOWN_TOOL
 agent not allow-listed? → AGENT_NOT_ALLOWED
 over rate limit?        → RATE_LIMIT
 input fails Zod schema? → BAD_INPUT
-tool PLANNED/DISABLED?  → NOT_CONNECTED   (audited if auditRequired)
+tool PLANNED/APPROVED/DISABLED? → NOT_CONNECTED   (audited if auditRequired)
 no handler registered?  → NOT_CONNECTED
                         → execute, catch, return typed GatewayResult
 ```

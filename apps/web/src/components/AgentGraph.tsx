@@ -72,6 +72,11 @@ export function AgentGraph() {
             {a.requiresConsent?.length ? (
               <div className="mt-1.5 text-[10.5px] text-turquoise">Requires consent: {a.requiresConsent.join(', ').toLowerCase()}</div>
             ) : null}
+            <div className="mt-2 flex flex-wrap items-center gap-1.5 border-t border-white/6 pt-2 text-[10px] text-ink-faint">
+              <span>{a.rateLimitPerMin}/min</span>
+              <span aria-hidden="true">·</span>
+              <span title={a.deniedDataClasses.join(', ')}>denies {a.deniedDataClasses.length} data class{a.deniedDataClasses.length === 1 ? '' : 'es'}</span>
+            </div>
           </div>
         ))}
       </div>

@@ -18,6 +18,10 @@ export interface AgentSpec {
   cannotDo: string[];
   allowedTools: string[];
   dataClasses: DataClass[];
+  /** Explicit deny-list, checked before dataClasses — belt-and-braces against a future accidental grant. */
+  deniedDataClasses: DataClass[];
+  /** Calls per minute this agent may make across all its tools, combined. */
+  rateLimitPerMin: number;
   requiredRoles: Role[] | 'ANY';
   requiresHumanApproval: boolean;
   requiresConsent?: string[];
@@ -34,6 +38,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Override a government decision', 'Modify restricted data', 'Present demo data as an official answer', 'Route to an agent the caller is not permitted to use'],
     allowedTools: ['search.query', 'content.get', 'analytics.trackEvent'],
     dataClasses: ['PUBLIC', 'PERSONAL'],
+    deniedDataClasses: ['SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 120,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_LABEL',
   },
   {
@@ -44,6 +50,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Issue tickets', 'Take payment', 'Confirm availability without the Booking Agent', 'Invent opening hours'],
     allowedTools: ['governorates.list', 'governorates.get', 'destinations.search', 'heritage.search', 'provider.search', 'trip.buildItinerary'],
     dataClasses: ['PUBLIC', 'PERSONAL'],
+    deniedDataClasses: ['SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 60,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_LABEL',
   },
   {
@@ -54,6 +62,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Invent history', 'Assert opening hours or ticket prices', 'Imply public access to a restricted site', 'Assert provenance for objects held abroad'],
     allowedTools: ['heritage.get', 'heritage.search', 'museums.list', 'rulers.list', 'eras.list', 'worldwide.list'],
     dataClasses: ['PUBLIC'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 120,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_CITE_OFFICIAL',
   },
   {
@@ -64,6 +74,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Invent prices or availability', 'Book through an adapter that is not LIVE', 'Hold or move funds', 'Apply a commission outside the configured revenue rules'],
     allowedTools: ['booking.searchAccommodation', 'booking.searchTransport', 'booking.searchActivity', 'booking.createDraft', 'payments.quote'],
     dataClasses: ['PUBLIC', 'PARTNER', 'PERSONAL'],
+    deniedDataClasses: ['SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 30,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_CITE_PROVIDER',
   },
   {
@@ -74,6 +86,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Modify source facts', 'Soften a legal or safety caveat in translation', 'Drop a source label during translation'],
     allowedTools: ['content.translate', 'i18n.missingKeys'],
     dataClasses: ['PUBLIC'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 120,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_LABEL',
   },
   {
@@ -84,6 +98,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Describe a person as officially licensed without a verification record', 'Share a guide’s personal contact details', 'Guarantee availability'],
     allowedTools: ['provider.search', 'provider.get', 'verification.check'],
     dataClasses: ['PUBLIC', 'PARTNER'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 60,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_CITE_PROVIDER',
   },
   {
@@ -93,7 +109,9 @@ export const AGENTS: AgentSpec[] = [
     canDo: ['Explain emergency numbers and procedures', 'Route to the correct embassy or authority', 'Walk through a lost passport workflow', 'Escalate to a human operator'],
     cannotDo: ['Access precise location without EMERGENCY_MODE consent', 'Contact authorities on the user’s behalf without consent', 'Give medical or legal instructions'],
     allowedTools: ['safety.getGuidance', 'embassy.lookup', 'location.readWithConsent', 'support.escalate'],
-    dataClasses: ['PUBLIC', 'PERSONAL', 'SENSITIVE'],
+    dataClasses: ['PUBLIC', 'PERSONAL', 'SENSITIVE', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE'],
+    deniedDataClasses: ['FINANCIAL', 'HEALTH', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 20,
     requiredRoles: 'ANY', requiresHumanApproval: false,
     requiresConsent: ['LOCATION'], sourceLabelPolicy: 'MUST_CITE_OFFICIAL',
   },
@@ -104,7 +122,9 @@ export const AGENTS: AgentSpec[] = [
     canDo: ['List verified providers and their stated specialties', 'Explain a typical medical travel journey', 'Coordinate travel around an appointment'],
     cannotDo: ['Diagnose', 'Recommend a treatment', 'Interpret test results', 'Store or transmit health data without explicit consent', 'Assert accreditation without a verification record'],
     allowedTools: ['health.searchProviders', 'health.getProvider', 'verification.check'],
-    dataClasses: ['PUBLIC', 'SENSITIVE'],
+    dataClasses: ['PUBLIC', 'SENSITIVE', 'HEALTH'],
+    deniedDataClasses: ['FINANCIAL', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 20,
     requiredRoles: 'ANY', requiresHumanApproval: false,
     requiresConsent: ['HEALTH_DATA'], sourceLabelPolicy: 'MUST_CITE_PROVIDER',
   },
@@ -116,6 +136,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Guarantee a return', 'Invent an opportunity, licence or land allocation', 'Present analysis as official approval', 'Give regulated financial advice'],
     allowedTools: ['investment.search', 'investment.get', 'analytics.governorateDemand', 'property.search'],
     dataClasses: ['PUBLIC', 'PARTNER'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 60,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'ANALYSIS_ONLY',
   },
   {
@@ -126,6 +148,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Issue or approve anything', 'Submit an application', 'State that a licence will be granted', 'Give legal advice'],
     allowedTools: ['gov.getProcedure', 'gov.listAuthorities', 'business.checklist'],
     dataClasses: ['PUBLIC', 'RESTRICTED_GOVERNMENT'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE'],
+    rateLimitPerMin: 60,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_CITE_OFFICIAL',
   },
   {
@@ -136,6 +160,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Write to a government system without an explicit transaction permission', 'Approve, reject or issue anything', 'Answer from demo data when asked an official question'],
     allowedTools: ['gov.getProcedure', 'gov.integrationStatus', 'gov.submitIfPermitted'],
     dataClasses: ['PUBLIC', 'RESTRICTED_GOVERNMENT'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE'],
+    rateLimitPerMin: 30,
     requiredRoles: 'ANY', requiresHumanApproval: true, sourceLabelPolicy: 'MUST_CITE_OFFICIAL',
   },
   {
@@ -146,6 +172,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Expose individual personal data', 'Return a cohort small enough to re-identify a person', 'Serve a caller without an analyst or officer role'],
     allowedTools: ['analytics.aggregate', 'analytics.governorateDemand', 'analytics.providerGaps'],
     dataClasses: ['PUBLIC', 'RESTRICTED_GOVERNMENT'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE'],
+    rateLimitPerMin: 60,
     requiredRoles: ['GOVERNMENT_ANALYST', 'GOVERNMENT_OFFICER', 'ADMIN', 'SUPER_ADMIN'],
     requiresHumanApproval: false, sourceLabelPolicy: 'MUST_LABEL',
   },
@@ -157,6 +185,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Grant verification', 'Represent a platform check as a government licence'],
     allowedTools: ['verification.check', 'content.provenance', 'trust.flagListing'],
     dataClasses: ['PUBLIC', 'PARTNER'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 60,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_LABEL',
   },
   {
@@ -167,6 +197,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Grant a research or excavation permit', 'Promise admission', 'Assert that an archive holds a specific unverified item'],
     allowedTools: ['research.search', 'research.get', 'universities.list', 'heritage.search'],
     dataClasses: ['PUBLIC'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 60,
     requiredRoles: 'ANY', requiresHumanApproval: false, sourceLabelPolicy: 'MUST_CITE_OFFICIAL',
   },
   {
@@ -177,6 +209,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Publish anything without human approval', 'Use sensitive data for targeting', 'Post to an external channel automatically'],
     allowedTools: ['marketing.queue', 'analytics.aggregate', 'content.classify'],
     dataClasses: ['PUBLIC', 'PARTNER'],
+    deniedDataClasses: ['PERSONAL', 'SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 30,
     requiredRoles: ['MODERATOR', 'ADMIN', 'SUPER_ADMIN'],
     requiresHumanApproval: true, sourceLabelPolicy: 'MUST_LABEL',
   },
@@ -188,6 +222,8 @@ export const AGENTS: AgentSpec[] = [
     cannotDo: ['Change a verification decision', 'Alter financial records', 'Access health data'],
     allowedTools: ['support.triage', 'provider.onboardingStatus', 'ops.alert'],
     dataClasses: ['PUBLIC', 'PERSONAL'],
+    deniedDataClasses: ['SENSITIVE', 'FINANCIAL', 'HEALTH', 'PRECISE_LOCATION', 'INCIDENT_EVIDENCE', 'RESTRICTED_GOVERNMENT'],
+    rateLimitPerMin: 60,
     requiredRoles: ['SUPPORT_AGENT', 'MODERATOR', 'ADMIN', 'SUPER_ADMIN'],
     requiresHumanApproval: false, sourceLabelPolicy: 'MUST_LABEL',
   },

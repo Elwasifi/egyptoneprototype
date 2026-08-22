@@ -1,7 +1,17 @@
 import { z } from 'zod';
 import type { DataClass } from '@egypt-one/types';
 
-export type ToolState = 'PLANNED' | 'SANDBOX' | 'LIVE' | 'DISABLED';
+/**
+ * PLANNED — declared, not built. DEMO — returns seeded demo data, no external
+ * connection. SANDBOX — connected to a non-production adapter/test credentials.
+ * APPROVED — governance/security review passed, cleared to go LIVE, but not
+ * yet switched on. LIVE — serving real data through a real connection.
+ * DISABLED — was connected, now turned off (incident, contract end, etc.).
+ */
+export type ToolState = 'PLANNED' | 'DEMO' | 'SANDBOX' | 'APPROVED' | 'LIVE' | 'DISABLED';
+
+/** Governance review state for an MCP server, tracked independently of ToolState. */
+export type SecurityReviewState = 'NOT_STARTED' | 'IN_PROGRESS' | 'PASSED' | 'FAILED';
 
 /**
  * MCP tool declaration.
@@ -36,30 +46,44 @@ export interface ToolContext {
   audit: (entry: { action: string; resource: string; decision: string; dataClass: DataClass; note?: string }) => void;
 }
 
+/**
+ * Every MCP server attached to the gateway is registered here — see
+ * docs/MCP_REGISTRY.md. No external company may attach an MCP server to
+ * production AI without an entry in this table.
+ */
 export interface McpServerSpec {
   key: string;
   name: string;
   family: string;
   description: string;
+  /** Who inside Egypt One is accountable for this server. */
+  owner: string;
+  /** Who operates the underlying integration this server talks to. "Egypt One (in-house)" until a vendor is contracted. */
+  vendor: string;
+  environment: 'LOCAL' | 'DEV' | 'STAGING' | 'PRODUCTION';
+  dataClass: DataClass;
+  rateLimitPerMin: number;
+  auditRequired: boolean;
+  securityReview: SecurityReviewState;
   state: ToolState;
 }
 
 export const MCP_SERVERS: McpServerSpec[] = [
-  { key: 'tourism-knowledge', name: 'Tourism Knowledge MCP', family: 'Content', description: 'Destinations, itineraries, seasons and traveller-facing knowledge.', state: 'SANDBOX' },
-  { key: 'heritage', name: 'Heritage MCP', family: 'Content', description: 'Heritage registry, museums, eras, rulers and objects held abroad.', state: 'SANDBOX' },
-  { key: 'governorates', name: 'Governorates MCP', family: 'Geography', description: 'The 27 governorates, cities, villages and districts.', state: 'SANDBOX' },
-  { key: 'booking', name: 'Booking MCP', family: 'Commerce', description: 'Availability and draft bookings through provider adapters.', state: 'PLANNED' },
-  { key: 'provider', name: 'Provider MCP', family: 'Supply', description: 'Provider directory, verification state and inventory.', state: 'SANDBOX' },
-  { key: 'transport', name: 'Transport MCP', family: 'Commerce', description: 'Ground transport, transfers and car rental.', state: 'PLANNED' },
-  { key: 'investment', name: 'Investment MCP', family: 'Investment', description: 'Opportunities, property and demand indicators.', state: 'SANDBOX' },
-  { key: 'research', name: 'Research MCP', family: 'Education', description: 'Universities, programmes and archives.', state: 'SANDBOX' },
-  { key: 'health', name: 'Health Provider MCP', family: 'Health', description: 'Accredited medical and wellness providers. Elevated data class.', state: 'PLANNED' },
-  { key: 'payments', name: 'Payments MCP', family: 'Finance', description: 'Quotes and settlement figures through a licensed PSP adapter.', state: 'PLANNED' },
-  { key: 'analytics', name: 'Analytics MCP', family: 'Intelligence', description: 'Aggregated tourism and investment analytics.', state: 'SANDBOX' },
-  { key: 'content', name: 'Content MCP', family: 'Content', description: 'CMS blocks, translations and provenance.', state: 'SANDBOX' },
-  { key: 'government', name: 'Government Integration MCP', family: 'Government', description: 'Read-only procedure and registry exchange with competent authorities.', state: 'PLANNED' },
-  { key: 'search', name: 'Search MCP', family: 'Platform', description: 'Unified cross-entity search.', state: 'SANDBOX' },
-  { key: 'map', name: 'Map / Location MCP', family: 'Platform', description: 'Geocoding, distance and consent-gated location reads.', state: 'PLANNED' },
+  { key: 'tourism-knowledge', name: 'Tourism Knowledge MCP', family: 'Content', description: 'Destinations, itineraries, seasons and traveller-facing knowledge.', owner: 'Egypt One content team', vendor: 'Egypt One (in-house)', environment: 'DEV', dataClass: 'PUBLIC', rateLimitPerMin: 120, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'heritage', name: 'Heritage MCP', family: 'Content', description: 'Heritage registry, museums, eras, rulers and objects held abroad.', owner: 'Egypt One content team', vendor: 'Egypt One (in-house)', environment: 'DEV', dataClass: 'PUBLIC', rateLimitPerMin: 120, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'governorates', name: 'Governorates MCP', family: 'Geography', description: 'The 27 governorates, cities, villages and districts.', owner: 'Egypt One content team', vendor: 'Egypt One (in-house)', environment: 'DEV', dataClass: 'PUBLIC', rateLimitPerMin: 120, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'booking', name: 'Booking MCP', family: 'Commerce', description: 'Availability and draft bookings through provider adapters.', owner: 'Egypt One product team', vendor: 'Accommodation / transport partners (planned, Lot H-adjacent)', environment: 'DEV', dataClass: 'PARTNER', rateLimitPerMin: 30, auditRequired: true, securityReview: 'NOT_STARTED', state: 'PLANNED' },
+  { key: 'provider', name: 'Provider MCP', family: 'Supply', description: 'Provider directory, verification state and inventory.', owner: 'Egypt One verification team', vendor: 'Egypt One (in-house)', environment: 'DEV', dataClass: 'PARTNER', rateLimitPerMin: 120, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'transport', name: 'Transport MCP', family: 'Commerce', description: 'Ground transport, transfers and car rental.', owner: 'Egypt One product team', vendor: 'Transport partners (planned)', environment: 'DEV', dataClass: 'PARTNER', rateLimitPerMin: 60, auditRequired: false, securityReview: 'NOT_STARTED', state: 'PLANNED' },
+  { key: 'investment', name: 'Investment MCP', family: 'Investment', description: 'Opportunities, property and demand indicators.', owner: 'Egypt One investment desk', vendor: 'Competent entities (planned, Lot G-adjacent)', environment: 'DEV', dataClass: 'PUBLIC', rateLimitPerMin: 60, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'research', name: 'Research MCP', family: 'Education', description: 'Universities, programmes and archives.', owner: 'Egypt One content team', vendor: 'Universities (planned)', environment: 'DEV', dataClass: 'PUBLIC', rateLimitPerMin: 60, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'health', name: 'Health Provider MCP', family: 'Health', description: 'Accredited medical and wellness providers. Elevated data class.', owner: 'Egypt One health desk', vendor: 'Accredited providers (planned)', environment: 'DEV', dataClass: 'HEALTH', rateLimitPerMin: 20, auditRequired: true, securityReview: 'NOT_STARTED', state: 'PLANNED' },
+  { key: 'payments', name: 'Payments MCP', family: 'Finance', description: 'Quotes and settlement figures through a licensed PSP adapter.', owner: 'Egypt One finance team', vendor: 'Licensed PSP (planned, Lot H)', environment: 'DEV', dataClass: 'FINANCIAL', rateLimitPerMin: 30, auditRequired: true, securityReview: 'NOT_STARTED', state: 'PLANNED' },
+  { key: 'analytics', name: 'Analytics MCP', family: 'Intelligence', description: 'Aggregated tourism and investment analytics.', owner: 'Egypt One data team', vendor: 'Egypt One (in-house)', environment: 'DEV', dataClass: 'RESTRICTED_GOVERNMENT', rateLimitPerMin: 60, auditRequired: true, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'content', name: 'Content MCP', family: 'Content', description: 'CMS blocks, translations and provenance.', owner: 'Egypt One content team', vendor: 'Egypt One (in-house)', environment: 'DEV', dataClass: 'PUBLIC', rateLimitPerMin: 120, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'government', name: 'Government Integration MCP', family: 'Government', description: 'Read-only procedure and registry exchange with competent authorities.', owner: 'Egypt One government liaison', vendor: 'Competent authority (planned, Lot G)', environment: 'DEV', dataClass: 'RESTRICTED_GOVERNMENT', rateLimitPerMin: 30, auditRequired: true, securityReview: 'NOT_STARTED', state: 'PLANNED' },
+  { key: 'search', name: 'Search MCP', family: 'Platform', description: 'Unified cross-entity search.', owner: 'Egypt One platform team', vendor: 'Egypt One (in-house)', environment: 'DEV', dataClass: 'PUBLIC', rateLimitPerMin: 240, auditRequired: false, securityReview: 'NOT_STARTED', state: 'SANDBOX' },
+  { key: 'map', name: 'Map / Location MCP', family: 'Platform', description: 'Geocoding, distance and consent-gated location reads.', owner: 'Egypt One safety desk', vendor: 'Map provider (planned; schematic vendor-neutral map by default)', environment: 'DEV', dataClass: 'PRECISE_LOCATION', rateLimitPerMin: 20, auditRequired: true, securityReview: 'NOT_STARTED', state: 'PLANNED' },
 ];
 
 const S = z;
@@ -224,7 +248,7 @@ export const MCP_TOOLS: McpTool[] = [
     key: 'health.searchProviders', server: 'health', name: 'Search medical providers',
     description: 'Accredited medical and wellness providers. Requires health-data consent for any personalised result.',
     inputSchema: S.object({ specialty: S.string().optional(), governorate: S.string().optional(), language: S.string().optional() }),
-    permissions: ['health:read'], dataClass: 'SENSITIVE', sourceOwner: 'Accredited providers (planned)',
+    permissions: ['health:read'], dataClass: 'HEALTH', sourceOwner: 'Accredited providers (planned)',
     auditRequired: true, rateLimitPerMin: 20, state: 'PLANNED',
   },
   {
@@ -252,7 +276,7 @@ export const MCP_TOOLS: McpTool[] = [
     key: 'location.readWithConsent', server: 'map', name: 'Read location with consent',
     description: 'Reads the traveller’s location only in TRIP_MODE or EMERGENCY_MODE, and always writes an audit row.',
     inputSchema: S.object({ purpose: S.enum(['TRIP', 'EMERGENCY']) }),
-    permissions: ['location:read'], dataClass: 'SENSITIVE', sourceOwner: 'Traveller',
+    permissions: ['location:read'], dataClass: 'PRECISE_LOCATION', sourceOwner: 'Traveller',
     auditRequired: true, rateLimitPerMin: 20, state: 'PLANNED',
   },
   {

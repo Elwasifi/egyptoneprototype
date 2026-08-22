@@ -1,5 +1,15 @@
 import { AGENTS, agentByKey, type AgentSpec } from './registry';
-import type { Role } from '@egypt-one/types';
+import type { DataClass, Role } from '@egypt-one/types';
+
+/**
+ * Belt-and-braces data-class check at the agent level, independent of the
+ * per-tool checks in packages/mcp and packages/security. `deniedDataClasses`
+ * wins over `dataClasses` if a future edit ever lists a class in both.
+ */
+export function isDataClassAllowed(agent: AgentSpec, dataClass: DataClass): boolean {
+  if (agent.deniedDataClasses.includes(dataClass)) return false;
+  return agent.dataClasses.includes(dataClass);
+}
 
 /**
  * Concierge orchestration.
@@ -156,4 +166,5 @@ export const SOURCE_LABEL_TEXT: Record<SourceLabel, string> = {
 export const AGENT_GRAPH = AGENTS.map((a) => ({
   key: a.key, index: a.index, name: a.name, purpose: a.purpose,
   tools: a.allowedTools, roles: a.requiredRoles, approval: a.requiresHumanApproval,
+  dataClasses: a.dataClasses, deniedDataClasses: a.deniedDataClasses, rateLimitPerMin: a.rateLimitPerMin,
 }));
