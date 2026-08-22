@@ -5,16 +5,16 @@
  * doesn't exist yet.
  */
 export const TRUST_ITEMS: { icon: string; title: string; body: string }[] = [
-  { icon: '◆', title: 'Secure payments', body: 'Handled by a licensed PSP — Egypt One never holds funds.' },
+  { icon: '◆', title: 'Secure by Design', body: 'Payments are handled by a licensed PSP — Egypt One never holds funds directly.' },
   {
-    icon: '◆', title: 'Verification, not licensing',
+    icon: '◆', title: 'Verified Provider Framework',
     body: 'Provider verification capabilities are designed into the platform; licensing remains subject to the competent authority.',
   },
-  { icon: '◆', title: 'Source labels everywhere', body: 'Each record shows whether it is live, verified, partner or demo data.' },
-  { icon: '◆', title: 'Privacy by design', body: 'Consent centre, data classes and an audit trail on sensitive access.' },
+  { icon: '◆', title: 'Source Labels Everywhere', body: 'Each record shows whether it is live, verified, partner or demo data.' },
+  { icon: '◆', title: 'Privacy by Design', body: 'Consent centre, data classes and an audit trail on sensitive access.' },
   { icon: '◆', title: 'Accessibility', body: 'Built against WCAG 2.2 AA targets.' },
   {
-    icon: '◆', title: 'Government integration-ready',
+    icon: '◆', title: 'Government Integration Ready',
     body: 'Built for future integration with competent government systems through secure, auditable connections, subject to the required approvals and agreements.',
   },
 ];

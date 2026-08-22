@@ -4,7 +4,7 @@ import { getMessages, type Locale } from '@egypt-one/i18n';
 import {
   Logo, Badge, Card, Stat, SourceBadge, GoldRule,
   SectionHeader, CarouselRow, DiscoveryCard, GovernorateCard, HeritageCard, ProviderCard,
-  SmartImage, subjectFor, BarStrip, Donut, Trend,
+  SmartImage, CinematicHero, subjectFor, BarStrip, Donut, Trend,
 } from '@egypt-one/ui';
 import { Container, Section } from '@/components/Container';
 import { HeroSearch } from '@/components/HeroSearch';
@@ -40,6 +40,16 @@ function subjectForOffer(kind: string) {
   const map: Record<string, string> = { stopover: 'city', extend: 'temple', challenge: 'desert', pass: 'modern', seasonal: 'temple', rural: 'rural', dive: 'sea', family: 'museum' };
   return (map[kind] ?? 'generic') as never;
 }
+
+const INVESTMENT_CATEGORIES: { label: string; icon: string; href: string; status: 'DEMO' | 'PLANNED' }[] = [
+  { label: 'Real Estate', icon: '◫', href: '/real-estate', status: 'DEMO' },
+  { label: 'Land & Development', icon: '◧', href: '/investment-opportunities', status: 'DEMO' },
+  { label: 'Tourism Investment', icon: '◆', href: '/tourism-investment', status: 'DEMO' },
+  { label: 'Business Setup', icon: '⬡', href: '/business-setup', status: 'DEMO' },
+  { label: 'Industrial Opportunities', icon: '◩', href: '/investment-opportunities', status: 'PLANNED' },
+  { label: 'Long-Term Residency', icon: '◈', href: '/visa', status: 'PLANNED' },
+  { label: 'Government Services', icon: '⛨', href: '/government', status: 'PLANNED' },
+];
 
 const PROGRAMME_TILES = [
   { slug: 'egypt-one-pass', icon: '♛', tone: 'gold', cta: 'Join the Pass' },
@@ -78,7 +88,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <div className="grid gap-5 xl:grid-cols-[1fr_360px]">
             <div className="surface relative overflow-hidden p-0">
               <div className="absolute inset-0">
-                <SmartImage seed="egypt-hero-cinematic" subject="pyramids" alt="Cinematic view of Egypt" ratio="21/9" className="h-full w-full rounded-none" />
+                <CinematicHero alt="Cinematic view of the Giza pyramids and sphinx at dusk" className="h-full w-full" />
               </div>
               <div className="relative px-6 py-12 sm:px-10 sm:py-16 lg:py-20">
                 <Badge tone="gold">{t('brand.tagline')}</Badge>
@@ -304,7 +314,17 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* -------------------------------------------------------------- investment */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="Invest" title={t('section.invest')} sub={`${opps.length} indicative opportunities across ${db.investment.sectors().length} sectors and all 27 governorates.`} href={l('/invest')} hrefLabel="Investor portal" />
+          <SectionHeader eyebrow="Invest" title={t('section.invest')} sub="Egypt One connects tourism with economic opportunity — real estate, industry, business setup and long-term residency, alongside the trip you're planning." href={l('/invest')} hrefLabel="Investor portal" />
+          <div className="mb-6 grid grid-cols-2 gap-2.5 sm:grid-cols-4 lg:grid-cols-7">
+            {INVESTMENT_CATEGORIES.map((c) => (
+              <Link key={c.label} href={l(c.href)} className="surface lift flex flex-col items-center gap-2 px-2 py-4 text-center">
+                <span aria-hidden="true" className="text-[19px] text-gold-400">{c.icon}</span>
+                <span className="text-[11.5px] font-medium leading-tight text-ink-hi">{c.label}</span>
+                <Badge tone={c.status === 'PLANNED' ? 'neutral' : 'gold'} className="text-[9px]">{c.status}</Badge>
+              </Link>
+            ))}
+          </div>
+          <SectionHeader title={`${opps.length} indicative opportunities`} sub={`Across ${db.investment.sectors().length} sectors and all 27 governorates.`} />
           <CarouselRow ariaLabel="Investment opportunities">
             {opps.slice(0, 10).map((o) => (
               <DiscoveryCard

@@ -89,17 +89,17 @@ function scenePyramids(seed: string, light: string, mid: string, dark: string) {
   return (
     <>
       {dunes(seed, dark, mid, 2, 138)}
-      <path d={`M${58 + shift} 132 L104 68 L150 132 Z`} fill={light} opacity="0.20" />
-      <path d={`M${58 + shift} 132 L104 68`} stroke={light} strokeOpacity="0.32" strokeWidth="0.6" fill="none" />
+      <path d={`M${58 + shift} 132 L104 68 L150 132 Z`} fill={light} opacity="0.38" />
+      <path d={`M${58 + shift} 132 L104 68`} stroke={light} strokeOpacity="0.5" strokeWidth="0.6" fill="none" />
       {[0.28, 0.5, 0.72].map((f, i) => (
         <line key={i} x1={58 + shift + (150 - 58 - shift) * (1 - f) * 0.5} y1={132 - (132 - 68) * f}
           x2={150 - (150 - 58 - shift) * (1 - f) * 0.5} y2={132 - (132 - 68) * f}
-          stroke={dark} strokeOpacity="0.35" strokeWidth="0.7" />
+          stroke={dark} strokeOpacity="0.5" strokeWidth="0.7" />
       ))}
-      <path d="M134 132 L166 84 L198 132 Z" fill={light} opacity="0.15" />
-      <path d="M188 132 L210 100 L232 132 Z" fill={light} opacity="0.11" />
+      <path d="M134 132 L166 84 L198 132 Z" fill={light} opacity="0.29" />
+      <path d="M188 132 L210 100 L232 132 Z" fill={light} opacity="0.33" />
       <path d="M20 140 Q34 128 48 140 L48 146 Q34 138 20 146 Z" fill={dark} opacity="0.5" />
-      <rect x="252" y="126" width="7" height="4" rx="1" fill={light} opacity="0.18" />
+      <rect x="252" y="126" width="7" height="4" rx="1" fill={light} opacity="0.30" />
     </>
   );
 }
@@ -108,9 +108,9 @@ function sceneSphinx(seed: string, light: string, mid: string, dark: string) {
   return (
     <>
       {dunes(seed, dark, mid, 2, 140)}
-      <path d="M200 128 L230 90 L260 128 Z" fill={light} opacity="0.14" />
+      <path d="M200 128 L230 90 L260 128 Z" fill={light} opacity="0.26" />
       <g opacity="0.85">
-        <path d="M40 150 Q40 122 62 116 L66 96 Q70 84 82 84 Q94 84 98 96 L102 116 Q124 122 124 150 L118 150 Q120 134 108 128 L106 150 L58 150 L56 128 Q44 134 46 150 Z" fill={light} opacity="0.22" />
+        <path d="M40 150 Q40 122 62 116 L66 96 Q70 84 82 84 Q94 84 98 96 L102 116 Q124 122 124 150 L118 150 Q120 134 108 128 L106 150 L58 150 L56 128 Q44 134 46 150 Z" fill={light} opacity="0.33" />
         <rect x="34" y="148" width="96" height="8" rx="1.5" fill={dark} opacity="0.4" />
       </g>
     </>
@@ -122,12 +122,12 @@ function sceneTemple(seed: string, light: string, mid: string, dark: string) {
   return (
     <>
       <rect x="0" y="140" width="320" height="60" fill={dark} opacity="0.5" />
-      <path d="M18 68 L18 140 L34 140 L34 60 Z" fill={light} opacity="0.16" />
+      <path d="M18 68 L18 140 L34 140 L34 60 Z" fill={light} opacity="0.28" />
       <rect x="14" y="60" width="24" height="6" rx="1" fill={light} opacity="0.2" />
       {Array.from({ length: cols }).map((_, i) => (
         <g key={i}>
-          <rect x={64 + i * 30} y={82} width="13" height="58" rx="1.5" fill={light} opacity="0.17" />
-          <rect x={62 + i * 30} y={78} width="17" height="6" rx="1.5" fill={light} opacity="0.22" />
+          <rect x={64 + i * 30} y={82} width="13" height="58" rx="1.5" fill={light} opacity="0.29" />
+          <rect x={62 + i * 30} y={78} width="17" height="6" rx="1.5" fill={light} opacity="0.33" />
         </g>
       ))}
       <rect x="60" y="140" width={cols * 30 + 12} height="6" rx="1" fill={mid} opacity="0.4" />
@@ -164,7 +164,7 @@ function sceneSea(seed: string, light: string, mid: string, dark: string) {
       {[0, 1, 2, 3].map((i) => (
         <path key={i} d={`M0 ${140 + i * 11} Q 80 ${136 + i * 11} 160 ${140 + i * 11} T 320 ${140 + i * 11}`} stroke={light} strokeOpacity={0.05 + i * 0.02} strokeWidth="1.6" fill="none" />
       ))}
-      <path d="M0 118 Q 60 108 130 116 Q 210 126 320 110 V132 H0 Z" fill={mid} opacity="0.18" />
+      <path d="M0 118 Q 60 108 130 116 Q 210 126 320 110 V132 H0 Z" fill={mid} opacity="0.30" />
       <g opacity="0.85">
         <path d={`M${boatX - 14} 126 L${boatX + 16} 126 L${boatX + 9} 133 L${boatX - 7} 133 Z`} fill={dark} opacity="0.7" />
         <line x1={boatX} y1="126" x2={boatX} y2="98" stroke={light} strokeOpacity="0.4" strokeWidth="1" />
@@ -219,7 +219,7 @@ function sceneCity(seed: string, light: string, mid: string, dark: string) {
         const windows = Math.max(2, Math.floor(h / 16));
         return (
           <g key={i}>
-            <rect x={x} y={y} width={w} height={h} rx="1.5" fill={light} opacity="0.14" />
+            <rect x={x} y={y} width={w} height={h} rx="1.5" fill={light} opacity="0.26" />
             {Array.from({ length: windows }).map((_, j) => (
               (hash(seed + i + 'w' + j) % 3 !== 0) && (
                 <rect key={j} x={x + w / 2 - 5} y={y + 8 + j * 14} width="10" height="4" fill={mid} opacity="0.5" />
@@ -237,10 +237,10 @@ function sceneMuseum(seed: string, light: string, mid: string, dark: string) {
   return (
     <>
       <rect x="0" y="148" width="320" height="52" fill={dark} opacity="0.5" />
-      <path d="M64 88 L160 52 L256 88 Z" fill={light} opacity="0.17" />
-      <rect x="60" y="86" width="200" height="6" rx="1" fill={light} opacity="0.22" />
+      <path d="M64 88 L160 52 L256 88 Z" fill={light} opacity="0.29" />
+      <rect x="60" y="86" width="200" height="6" rx="1" fill={light} opacity="0.33" />
       {Array.from({ length: cols }).map((_, i) => (
-        <rect key={i} x={76 + i * 28} y={94} width="12" height="52" rx="1.5" fill={light} opacity="0.16" />
+        <rect key={i} x={76 + i * 28} y={94} width="12" height="52" rx="1.5" fill={light} opacity="0.28" />
       ))}
       <rect x="58" y="146" width="204" height="5" fill={mid} opacity="0.4" />
       {[0, 1, 2].map((i) => <rect key={i} x={50 - i * 8} y={151 + i * 5} width={220 + i * 16} height="4" fill={dark} opacity="0.5" />)}
@@ -257,8 +257,8 @@ function sceneMosque(seed: string, light: string, mid: string, dark: string) {
       <path d="M188 128 a5 5 0 1 0 6 6 a4 4 0 1 1 -6 -6" fill={light} opacity="0.32" />
       {[96, 232].map((x, i) => (
         <g key={i}>
-          <rect x={x} y={92} width="7" height="58" rx="2" fill={light} opacity="0.19" />
-          <path d={`M${x - 1.5} 92 L${x + 3.5} 78 L${x + 8.5} 92 Z`} fill={light} opacity="0.22" />
+          <rect x={x} y={92} width="7" height="58" rx="2" fill={light} opacity="0.31" />
+          <path d={`M${x - 1.5} 92 L${x + 3.5} 78 L${x + 8.5} 92 Z`} fill={light} opacity="0.33" />
         </g>
       ))}
     </>
@@ -269,9 +269,9 @@ function sceneChurch(seed: string, light: string, mid: string, dark: string) {
   return (
     <>
       <rect x="0" y="150" width="320" height="50" fill={dark} opacity="0.5" />
-      <rect x="118" y="118" width="84" height="32" rx="2" fill={light} opacity="0.14" />
+      <rect x="118" y="118" width="84" height="32" rx="2" fill={light} opacity="0.26" />
       {Array.from({ length: 5 }).map((_, i) => <rect key={i} x={122 + i * 16} y={144} width="8" height="6" fill={dark} opacity="0.4" />)}
-      <path d="M138 118 A22 22 0 0 1 182 118 Z" fill={light} opacity="0.19" />
+      <path d="M138 118 A22 22 0 0 1 182 118 Z" fill={light} opacity="0.31" />
       <line x1="160" y1="96" x2="160" y2="80" stroke={light} strokeOpacity="0.35" strokeWidth="2" />
       <line x1="153" y1="86" x2="167" y2="86" stroke={light} strokeOpacity="0.35" strokeWidth="2" />
     </>
@@ -307,7 +307,7 @@ function sceneModern(seed: string, light: string, mid: string, dark: string) {
         const y = 150 - h;
         return (
           <g key={i}>
-            <rect x={x} y={y} width="26" height={h} rx="1" fill={light} opacity="0.15" />
+            <rect x={x} y={y} width="26" height={h} rx="1" fill={light} opacity="0.27" />
             {Array.from({ length: Math.floor(h / 12) }).map((_, j) => (
               <line key={j} x1={x} y1={y + 6 + j * 12} x2={x + 26} y2={y + 6 + j * 12} stroke={dark} strokeOpacity="0.35" strokeWidth="0.6" />
             ))}
@@ -328,7 +328,7 @@ function sceneRural(seed: string, light: string, mid: string, dark: string) {
       {[0, 1, 2, 3, 4].map((i) => (
         <path key={i} d={`M0 ${138 + i * 11} Q 80 ${132 + i * 11} 160 ${138 + i * 11} T 320 ${138 + i * 11}`} stroke={mid} strokeOpacity="0.22" strokeWidth="1.4" fill="none" />
       ))}
-      <path d="M226 120 L258 120 L258 134 L226 134 Z" fill={light} opacity="0.16" />
+      <path d="M226 120 L258 120 L258 134 L226 134 Z" fill={light} opacity="0.28" />
       <path d="M222 120 L242 106 L262 120 Z" fill={light} opacity="0.2" />
       <path d="M60 138 Q 58 112 60 96" stroke={dark} strokeWidth="2.2" fill="none" opacity="0.6" />
       <path d="M60 100 q -14 -4 -20 4 M60 100 q 14 -4 20 4" stroke={light} strokeOpacity="0.35" strokeWidth="1.6" fill="none" />
@@ -375,7 +375,7 @@ export function SmartImage({
           <linearGradient id={`rim-${id}`} gradientUnits="userSpaceOnUse" x1="0" y1="200" x2="320" y2="0" gradientTransform={`rotate(${rimAngle} 160 100)`}>
             <stop offset="0%" stopColor={light} stopOpacity="0" />
             <stop offset="46%" stopColor={light} stopOpacity="0" />
-            <stop offset="52%" stopColor={light} stopOpacity="0.10" />
+            <stop offset="52%" stopColor={light} stopOpacity="0.17" />
             <stop offset="58%" stopColor={light} stopOpacity="0" />
             <stop offset="100%" stopColor={light} stopOpacity="0" />
           </linearGradient>
@@ -392,12 +392,104 @@ export function SmartImage({
         <g>{SCENES[s](seed, light, mid, dark)}</g>
         <rect width="320" height="200" fill={`url(#rim-${id})`} />
       </svg>
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-base/92 via-base/25 to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-base/82 via-base/14 to-transparent" />
       {label && (
         <span className="absolute bottom-2 left-2 rounded bg-base/70 px-2 py-0.5 text-[10px] tracking-wide text-ink-low backdrop-blur">
           {label}
         </span>
       )}
+    </div>
+  );
+}
+
+/**
+ * The one bespoke, single-use cinematic composition on the site — the
+ * homepage hero. Everywhere else reuses the compact `SmartImage` scenes for
+ * DOM-weight reasons; the hero renders once per page load, so it can afford
+ * a richer plate: distant hazy pyramid skyline, a sphinx silhouette, a dark
+ * foreground ridge with a gold rim light where the sun grazes it, and a pair
+ * of palm silhouettes for scale. Still a pure function of `seed` — no
+ * randomness, so no hydration risk.
+ */
+export function CinematicHero({ seed = 'egypt-one-hero', alt, className }: { seed?: string; alt: string; className?: string }) {
+  const [dark, mid, light] = PALETTE.pyramids;
+  const haze = '#7d8aa3'; // cool blue-grey for distant silhouettes — atmospheric perspective against the warm sky, not another gold shape
+  const id = React.useId();
+  const shift = pick(seed, 'pshift', 40) - 20;
+
+  return (
+    <div className={clsx('relative overflow-hidden', className)}>
+      {/* viewBox aspect matches the hero panel's typical rendered proportions
+          (content-driven, not a fixed ratio) closely enough that xMidYMid
+          slice only trims a little off the sides at other viewport sizes,
+          rather than cropping away the sky or the foreground. */}
+      <svg viewBox="0 0 1300 1000" preserveAspectRatio="xMidYMid slice" className="h-full w-full" role="img" aria-label={alt}>
+        <defs>
+          <linearGradient id={`hsky-${id}`} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#050b12" />
+            <stop offset="32%" stopColor="#0c1420" />
+            <stop offset="58%" stopColor={dark} />
+            <stop offset="100%" stopColor={mid} />
+          </linearGradient>
+          <radialGradient id={`hsun-${id}`} cx="0.5" cy="0.5" r="0.55">
+            <stop offset="0%" stopColor={light} stopOpacity="0.55" />
+            <stop offset="45%" stopColor={light} stopOpacity="0.18" />
+            <stop offset="100%" stopColor={light} stopOpacity="0" />
+          </radialGradient>
+        </defs>
+
+        <rect width="1300" height="1000" fill={`url(#hsky-${id})`} />
+        <rect width="1300" height="1000" fill={`url(#hsun-${id})`} />
+
+        {/* atmospheric haze bands */}
+        {[0.07, 0.11, 0.15].map((o, i) => (
+          <rect key={i} x="0" y={380 + i * 40} width="1300" height="28" fill={light} opacity={o} />
+        ))}
+
+        {/* distant pyramid skyline — cool haze tone, not gold, so it separates from the warm sky */}
+        <g opacity="0.62">
+          <path d={`M${600 + shift} 480 L${730 + shift} 268 L${860 + shift} 480 Z`} fill={haze} />
+          <path d={`M${820 + shift} 480 L${900 + shift} 340 L${980 + shift} 480 Z`} fill={haze} opacity="0.8" />
+          <path d={`M${500 + shift} 480 L${560 + shift} 380 L${620 + shift} 480 Z`} fill={haze} opacity="0.7" />
+          {[0.3, 0.5, 0.7].map((f, i) => (
+            <line key={i}
+              x1={600 + shift + (860 - 600) * (1 - f) * 0.5} y1={480 - (480 - 268) * f}
+              x2={860 + shift - (860 - 600) * (1 - f) * 0.5} y2={480 - (480 - 268) * f}
+              stroke="#3d4a5e" strokeOpacity="0.5" strokeWidth="2" />
+          ))}
+        </g>
+
+        {/* sphinx silhouette, small, left of the pyramids, same cool haze tone */}
+        <path
+          d={`M${360 + shift} 482 Q${360 + shift} 442 ${380 + shift} 432 L${386 + shift} 402 Q${390 + shift} 380 ${406 + shift} 380
+              Q${422 + shift} 380 ${426 + shift} 402 L${432 + shift} 432 Q${452 + shift} 442 ${452 + shift} 482 Z`}
+          fill={haze} opacity="0.55"
+        />
+
+        {/* midground dune — warm dark, clearly a distinct silhouette band */}
+        <path d="M0 560 Q 260 520 540 552 T 1020 538 T 1300 558 V620 H0 Z" fill={dark} opacity="0.68" />
+
+        {/* gold rim-light band: a wavy gold shape peeking out just above the foreground silhouette's edge */}
+        <path
+          d="M0 700 Q 160 646 360 682 Q 600 726 840 670 Q 1080 612 1300 682 V1000 H0 Z"
+          fill={light} opacity="0.65"
+        />
+        {/* foreground silhouette — solid, offset a touch lower so only a slim gold rim shows above it */}
+        <path
+          d="M0 716 Q 160 662 360 698 Q 600 742 840 686 Q 1080 628 1300 698 V1000 H0 Z"
+          fill="#040a10"
+        />
+
+        {/* fine grain */}
+        <g opacity="0.05">
+          {Array.from({ length: 46 }).map((_, i) => (
+            <circle key={i} cx={hash(seed + 'g' + i) % 1300} cy={hash(seed + 'gy' + i) % 1000} r="1.2" fill={light} />
+          ))}
+        </g>
+      </svg>
+
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-base/55 via-transparent to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_100%_at_50%_100%,transparent_45%,rgba(4,10,16,0.5)_100%)]" />
     </div>
   );
 }

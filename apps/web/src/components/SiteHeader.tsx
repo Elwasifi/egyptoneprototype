@@ -45,28 +45,28 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
 
           <button
             onClick={() => setSearchOpen(true)}
-            className="ms-2 hidden h-10 min-w-[220px] max-w-[420px] flex-1 items-center gap-2 rounded-lg border border-white/10 bg-white/4 px-3 text-[13px] text-ink-faint transition-colors hover:border-gold-600/35 md:flex"
+            className="ms-2 hidden h-10 min-w-[110px] max-w-[420px] flex-1 items-center gap-2 rounded-lg border border-white/10 bg-white/4 px-3 text-[13px] text-ink-faint transition-colors hover:border-gold-600/35 md:flex"
           >
             <span aria-hidden="true">⌕</span>
-            <span className="flex-1 text-start">{t('search.placeholder')}</span>
+            <span className="flex-1 truncate text-start">{t('search.placeholder')}</span>
             <kbd className="rounded border border-white/12 px-1.5 py-0.5 text-[10px]">⌘K</kbd>
           </button>
 
           <nav aria-label="Primary" className="ms-auto hidden items-center gap-0.5 lg:flex">
-            <Link href={L(locale, '/')} className="rounded-lg px-3 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.home')}</Link>
+            <Link href={L(locale, '/')} className="truncate rounded-lg px-2.5 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.home')}</Link>
             {MEGA.map((s) => (
               <div key={s.key} className="relative" onMouseEnter={() => setOpen(s.key)} onMouseLeave={() => setOpen(null)}>
                 <button
                   aria-expanded={open === s.key} aria-haspopup="true"
                   onClick={() => setOpen(open === s.key ? null : s.key)}
-                  className={`rounded-lg px-3 py-2 text-[13.5px] transition-colors ${open === s.key ? 'bg-gold-600/14 text-gold-200' : 'text-ink-mid hover:bg-white/6 hover:text-ink-hi'}`}
+                  className={`truncate rounded-lg px-2.5 py-2 text-[13.5px] transition-colors ${open === s.key ? 'bg-gold-600/14 text-gold-200' : 'text-ink-mid hover:bg-white/6 hover:text-ink-hi'}`}
                 >
                   {t(s.label)}
                 </button>
               </div>
             ))}
-            <Link href={L(locale, '/map')} className="rounded-lg px-3 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.map')}</Link>
-            <Link href={L(locale, '/support')} className="rounded-lg px-3 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.support')}</Link>
+            <Link href={L(locale, '/map')} className="truncate rounded-lg px-2.5 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.map')}</Link>
+            <Link href={L(locale, '/support')} className="truncate rounded-lg px-2.5 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.support')}</Link>
           </nav>
 
           <div className="ms-auto flex items-center gap-1.5 lg:ms-0">
@@ -79,7 +79,7 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
             </select>
 
             <label className="sr-only" htmlFor="currency-select">{t('nav.currency')}</label>
-            <select id="currency-select" defaultValue="USD" className="hidden h-9 rounded-lg border border-white/10 bg-panel px-2 text-[12px] text-ink-mid xl:block">
+            <select id="currency-select" defaultValue="USD" className="hidden h-9 rounded-lg border border-white/10 bg-panel px-2 text-[12px] text-ink-mid 2xl:block">
               {CURRENCIES.map((c) => <option key={c} value={c}>{c}</option>)}
             </select>
 
@@ -94,7 +94,7 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
 
             <Link href={L(locale, '/account')} className="flex h-9 items-center gap-2 rounded-lg bg-white/6 px-2.5 text-[12.5px] text-ink-hi hover:bg-white/10">
               <span className="grid h-6 w-6 place-items-center rounded-full bg-gradient-to-br from-gold-400 to-gold-700 text-[10px] font-bold text-[#0a1017]">EO</span>
-              <span className="hidden xl:inline">{t('nav.account')}</span>
+              <span className="hidden 2xl:inline">{t('nav.account')}</span>
             </Link>
 
             <button onClick={() => setDrawer(true)} aria-label={t('nav.menu')} className="grid h-9 w-9 place-items-center rounded-lg text-ink-mid hover:bg-white/6 lg:hidden">☰</button>
