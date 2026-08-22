@@ -1,0 +1,23 @@
+# Egypt One — web app image (Next.js, standalone output)
+FROM node:20-slim AS base
+RUN corepack enable
+WORKDIR /repo
+
+FROM base AS deps
+COPY pnpm-workspace.yaml package.json pnpm-lock.yaml .npmrc tsconfig.base.json turbo.json ./
+COPY apps/web/package.json apps/web/package.json
+COPY packages ./packages
+RUN pnpm install --frozen-lockfile
+
+FROM deps AS build
+COPY . .
+RUN pnpm --filter @egypt-one/web build
+
+FROM node:20-slim AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=build /repo/apps/web/public ./public
+COPY --from=build /repo/apps/web/.next/standalone ./
+COPY --from=build /repo/apps/web/.next/static ./apps/web/.next/static
+EXPOSE 3000
+CMD ["node", "apps/web/server.js"]

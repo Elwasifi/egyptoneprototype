@@ -1,0 +1,23 @@
+{
+  "name": "@egypt-one/database",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts",
+    "./*.json": "./src/*.json"
+  },
+  "scripts": {
+    "seed": "node ./scripts/seed.mjs",
+    "prisma:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@egypt-one/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,632 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-1",
+  "slug": "traveller-story-1",
+  "name": "A month in Egypt",
+  "summary": "A traveller from Saudi Arabia shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Saudi Arabia",
+  "groupType": "Business",
+  "destinations": [
+   "Luxor",
+   "Alexandria",
+   "Hurghada"
+  ],
+  "rating": 5,
+  "positives": [
+   "Hospitality",
+   "Weather"
+  ],
+  "negatives": [
+   "Crowding at peak hours"
+  ],
+  "suggestions": [
+   "Timed entry tickets"
+  ],
+  "mediaType": "video",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-2",
+  "slug": "traveller-story-2",
+  "name": "A week in Egypt",
+  "summary": "A traveller from India shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "India",
+  "groupType": "Couple",
+  "destinations": [
+   "Dahab",
+   "Faiyum",
+   "Aswan"
+  ],
+  "rating": 4,
+  "positives": [
+   "Guide quality",
+   "Hospitality"
+  ],
+  "negatives": [
+   "Queue management"
+  ],
+  "suggestions": [
+   "Timed entry tickets"
+  ],
+  "mediaType": "text",
+  "moderationState": "PUBLISHED",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-3",
+  "slug": "traveller-story-3",
+  "name": "A month in Egypt",
+  "summary": "A traveller from Poland shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Poland",
+  "groupType": "Solo",
+  "destinations": [
+   "Hurghada",
+   "Cairo",
+   "Siwa"
+  ],
+  "rating": 5,
+  "positives": [
+   "Value",
+   "Weather"
+  ],
+  "negatives": [
+   "Queue management"
+  ],
+  "suggestions": [
+   "Clearer accessibility information"
+  ],
+  "mediaType": "video",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-4",
+  "slug": "traveller-story-4",
+  "name": "Two weeks in Egypt",
+  "summary": "A traveller from Japan shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Japan",
+  "groupType": "Solo",
+  "destinations": [
+   "Cairo",
+   "Luxor",
+   "Aswan"
+  ],
+  "rating": 4,
+  "positives": [
+   "Food",
+   "Value"
+  ],
+  "negatives": [
+   "Transfer times"
+  ],
+  "suggestions": [
+   "Clearer accessibility information"
+  ],
+  "mediaType": "video",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-5",
+  "slug": "traveller-story-5",
+  "name": "A month in Egypt",
+  "summary": "A traveller from India shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "India",
+  "groupType": "Group",
+  "destinations": [
+   "Aswan",
+   "Alexandria",
+   "Dahab"
+  ],
+  "rating": 4,
+  "positives": [
+   "Food",
+   "Weather"
+  ],
+  "negatives": [
+   "Signage"
+  ],
+  "suggestions": [
+   "Better last-mile transport"
+  ],
+  "mediaType": "text",
+  "moderationState": "PUBLISHED",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-6",
+  "slug": "traveller-story-6",
+  "name": "A month in Egypt",
+  "summary": "A traveller from Brazil shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Brazil",
+  "groupType": "Family",
+  "destinations": [
+   "Hurghada",
+   "Giza",
+   "Cairo"
+  ],
+  "rating": 5,
+  "positives": [
+   "Hospitality",
+   "Value"
+  ],
+  "negatives": [
+   "Crowding at peak hours"
+  ],
+  "suggestions": [
+   "Better last-mile transport"
+  ],
+  "mediaType": "text",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-7",
+  "slug": "traveller-story-7",
+  "name": "Ten days in Egypt",
+  "summary": "A traveller from Japan shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Japan",
+  "groupType": "Family",
+  "destinations": [
+   "Siwa",
+   "Faiyum",
+   "Dahab"
+  ],
+  "rating": 4,
+  "positives": [
+   "Heritage depth",
+   "Weather"
+  ],
+  "negatives": [
+   "Crowding at peak hours"
+  ],
+  "suggestions": [
+   "Clearer accessibility information"
+  ],
+  "mediaType": "video",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-8",
+  "slug": "traveller-story-8",
+  "name": "A week in Egypt",
+  "summary": "A traveller from India shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "India",
+  "groupType": "Solo",
+  "destinations": [
+   "Hurghada",
+   "Cairo",
+   "Dahab"
+  ],
+  "rating": 4,
+  "positives": [
+   "Weather",
+   "Hospitality"
+  ],
+  "negatives": [
+   "Crowding at peak hours"
+  ],
+  "suggestions": [
+   "More multilingual signage"
+  ],
+  "mediaType": "video",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-9",
+  "slug": "traveller-story-9",
+  "name": "Two weeks in Egypt",
+  "summary": "A traveller from Greece shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Greece",
+  "groupType": "Couple",
+  "destinations": [
+   "Cairo",
+   "Alexandria",
+   "Luxor"
+  ],
+  "rating": 5,
+  "positives": [
+   "Guide quality",
+   "Value"
+  ],
+  "negatives": [
+   "Queue management"
+  ],
+  "suggestions": [
+   "Clearer accessibility information"
+  ],
+  "mediaType": "video",
+  "moderationState": "PUBLISHED",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-10",
+  "slug": "traveller-story-10",
+  "name": "A month in Egypt",
+  "summary": "A traveller from Greece shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Greece",
+  "groupType": "Family",
+  "destinations": [
+   "Siwa",
+   "Aswan",
+   "Luxor"
+  ],
+  "rating": 5,
+  "positives": [
+   "Food",
+   "Weather"
+  ],
+  "negatives": [
+   "Transfer times"
+  ],
+  "suggestions": [
+   "Better last-mile transport"
+  ],
+  "mediaType": "text",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-11",
+  "slug": "traveller-story-11",
+  "name": "Two weeks in Egypt",
+  "summary": "A traveller from Greece shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Greece",
+  "groupType": "Solo",
+  "destinations": [
+   "Siwa",
+   "Luxor",
+   "Cairo"
+  ],
+  "rating": 5,
+  "positives": [
+   "Value",
+   "Food"
+  ],
+  "negatives": [
+   "Transfer times"
+  ],
+  "suggestions": [
+   "Better last-mile transport"
+  ],
+  "mediaType": "video",
+  "moderationState": "PUBLISHED",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-12",
+  "slug": "traveller-story-12",
+  "name": "Ten days in Egypt",
+  "summary": "A traveller from Greece shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Greece",
+  "groupType": "Solo",
+  "destinations": [
+   "Alexandria",
+   "Hurghada",
+   "Faiyum"
+  ],
+  "rating": 5,
+  "positives": [
+   "Food",
+   "Weather"
+  ],
+  "negatives": [
+   "Transfer times"
+  ],
+  "suggestions": [
+   "More multilingual signage"
+  ],
+  "mediaType": "video",
+  "moderationState": "PUBLISHED",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-13",
+  "slug": "traveller-story-13",
+  "name": "Two weeks in Egypt",
+  "summary": "A traveller from Italy shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Italy",
+  "groupType": "Business",
+  "destinations": [
+   "Hurghada",
+   "Faiyum",
+   "Siwa"
+  ],
+  "rating": 5,
+  "positives": [
+   "Heritage depth",
+   "Hospitality"
+  ],
+  "negatives": [
+   "Signage"
+  ],
+  "suggestions": [
+   "Better last-mile transport"
+  ],
+  "mediaType": "text",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-14",
+  "slug": "traveller-story-14",
+  "name": "Two weeks in Egypt",
+  "summary": "A traveller from Saudi Arabia shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Saudi Arabia",
+  "groupType": "Couple",
+  "destinations": [
+   "Siwa",
+   "Giza",
+   "Cairo"
+  ],
+  "rating": 5,
+  "positives": [
+   "Food",
+   "Guide quality"
+  ],
+  "negatives": [
+   "Queue management"
+  ],
+  "suggestions": [
+   "More multilingual signage"
+  ],
+  "mediaType": "text",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-15",
+  "slug": "traveller-story-15",
+  "name": "A week in Egypt",
+  "summary": "A traveller from Spain shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Spain",
+  "groupType": "Business",
+  "destinations": [
+   "Dahab",
+   "Hurghada",
+   "Giza"
+  ],
+  "rating": 4,
+  "positives": [
+   "Heritage depth",
+   "Weather"
+  ],
+  "negatives": [
+   "Signage"
+  ],
+  "suggestions": [
+   "Better last-mile transport"
+  ],
+  "mediaType": "text",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-16",
+  "slug": "traveller-story-16",
+  "name": "Ten days in Egypt",
+  "summary": "A traveller from Italy shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "Italy",
+  "groupType": "Business",
+  "destinations": [
+   "Alexandria",
+   "Luxor",
+   "Aswan"
+  ],
+  "rating": 5,
+  "positives": [
+   "Weather",
+   "Food"
+  ],
+  "negatives": [
+   "Queue management"
+  ],
+  "suggestions": [
+   "Better last-mile transport"
+  ],
+  "mediaType": "video",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-17",
+  "slug": "traveller-story-17",
+  "name": "A month in Egypt",
+  "summary": "A traveller from China shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "China",
+  "groupType": "Group",
+  "destinations": [
+   "Cairo",
+   "Siwa",
+   "Giza"
+  ],
+  "rating": 4,
+  "positives": [
+   "Heritage depth",
+   "Value"
+  ],
+  "negatives": [
+   "Queue management"
+  ],
+  "suggestions": [
+   "More multilingual signage"
+  ],
+  "mediaType": "text",
+  "moderationState": "IN_REVIEW",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "story-18",
+  "slug": "traveller-story-18",
+  "name": "A month in Egypt",
+  "summary": "A traveller from United States shares their journey.",
+  "description": "Demo traveller story. Published stories pass moderation and a marketing review before appearing here or on any social channel.",
+  "country": "United States",
+  "groupType": "Family",
+  "destinations": [
+   "Faiyum",
+   "Alexandria",
+   "Giza"
+  ],
+  "rating": 4,
+  "positives": [
+   "Weather",
+   "Food"
+  ],
+  "negatives": [
+   "Crowding at peak hours"
+  ],
+  "suggestions": [
+   "More multilingual signage"
+  ],
+  "mediaType": "text",
+  "moderationState": "PUBLISHED",
+  "images": [],
+  "tags": [
+   "story"
+  ]
+ }
+]

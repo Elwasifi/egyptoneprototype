@@ -1,0 +1,525 @@
+{
+ "note": "SYNTHETIC. Every figure in this file is generated for demonstration. No official statistic is represented.",
+ "sourceStatus": "SIMULATED",
+ "sourceOwner": "Egypt One demo generator",
+ "headline": {
+  "visitorsThisMonth": 2431000,
+  "visitorsYoYPct": 18.4,
+  "countriesReached": 195,
+  "avgStayNights": 8.6,
+  "tourismRevenueUsd": 3070000000,
+  "revenueYoYPct": 21.3,
+  "activeProviders": 1284,
+  "verifiedGuides": 2960,
+  "investmentLeads": 412,
+  "openComplaints": 37,
+  "emergencyCases": 8
+ },
+ "monthlyVisitors": [
+  {
+   "month": "Jan",
+   "visitors": 2436031
+  },
+  {
+   "month": "Feb",
+   "visitors": 2519250
+  },
+  {
+   "month": "Mar",
+   "visitors": 2556635
+  },
+  {
+   "month": "Apr",
+   "visitors": 1808606
+  },
+  {
+   "month": "May",
+   "visitors": 1712191
+  },
+  {
+   "month": "Jun",
+   "visitors": 1799026
+  },
+  {
+   "month": "Jul",
+   "visitors": 1373806
+  },
+  {
+   "month": "Aug",
+   "visitors": 1581636
+  },
+  {
+   "month": "Sep",
+   "visitors": 1809037
+  },
+  {
+   "month": "Oct",
+   "visitors": 2454282
+  },
+  {
+   "month": "Nov",
+   "visitors": 2630630
+  },
+  {
+   "month": "Dec",
+   "visitors": 2079244
+  }
+ ],
+ "topCountries": [
+  {
+   "country": "Saudi Arabia",
+   "sharePct": 18,
+   "visitors": 437580
+  },
+  {
+   "country": "Germany",
+   "sharePct": 12,
+   "visitors": 291720
+  },
+  {
+   "country": "United Kingdom",
+   "sharePct": 10,
+   "visitors": 243100
+  },
+  {
+   "country": "United States",
+   "sharePct": 7,
+   "visitors": 170170
+  },
+  {
+   "country": "France",
+   "sharePct": 5,
+   "visitors": 121550
+  },
+  {
+   "country": "Italy",
+   "sharePct": 4.5,
+   "visitors": 109395
+  },
+  {
+   "country": "Russia",
+   "sharePct": 4,
+   "visitors": 97240
+  },
+  {
+   "country": "Poland",
+   "sharePct": 3.5,
+   "visitors": 85085
+  },
+  {
+   "country": "Czechia",
+   "sharePct": 3,
+   "visitors": 72930
+  },
+  {
+   "country": "Ukraine",
+   "sharePct": 2.8,
+   "visitors": 68068
+  },
+  {
+   "country": "China",
+   "sharePct": 2.5,
+   "visitors": 60775
+  },
+  {
+   "country": "India",
+   "sharePct": 2.2,
+   "visitors": 53482
+  },
+  {
+   "country": "Japan",
+   "sharePct": 1.8,
+   "visitors": 43758
+  },
+  {
+   "country": "Netherlands",
+   "sharePct": 1.6,
+   "visitors": 38896
+  },
+  {
+   "country": "Spain",
+   "sharePct": 1.5,
+   "visitors": 36465
+  },
+  {
+   "country": "Belgium",
+   "sharePct": 1.3,
+   "visitors": 31603
+  },
+  {
+   "country": "Romania",
+   "sharePct": 1.2,
+   "visitors": 29172
+  },
+  {
+   "country": "Türkiye",
+   "sharePct": 1.1,
+   "visitors": 26741
+  },
+  {
+   "country": "Kuwait",
+   "sharePct": 1.0,
+   "visitors": 24310
+  },
+  {
+   "country": "Jordan",
+   "sharePct": 0.9,
+   "visitors": 21879
+  }
+ ],
+ "governorateShare": [
+  {
+   "governorate": "Giza",
+   "slug": "giza",
+   "visitors": 6100000,
+   "occupancyPct": 74,
+   "hotels": 268,
+   "guides": 2100
+  },
+  {
+   "governorate": "Cairo",
+   "slug": "cairo",
+   "visitors": 5400000,
+   "occupancyPct": 68,
+   "hotels": 412,
+   "guides": 1850
+  },
+  {
+   "governorate": "Red Sea",
+   "slug": "red-sea",
+   "visitors": 4800000,
+   "occupancyPct": 79,
+   "hotels": 302,
+   "guides": 690
+  },
+  {
+   "governorate": "South Sinai",
+   "slug": "south-sinai",
+   "visitors": 3600000,
+   "occupancyPct": 76,
+   "hotels": 241,
+   "guides": 610
+  },
+  {
+   "governorate": "Alexandria",
+   "slug": "alexandria",
+   "visitors": 2900000,
+   "occupancyPct": 61,
+   "hotels": 196,
+   "guides": 940
+  },
+  {
+   "governorate": "Luxor",
+   "slug": "luxor",
+   "visitors": 2450000,
+   "occupancyPct": 72,
+   "hotels": 118,
+   "guides": 1420
+  },
+  {
+   "governorate": "Aswan",
+   "slug": "aswan",
+   "visitors": 1380000,
+   "occupancyPct": 66,
+   "hotels": 96,
+   "guides": 780
+  },
+  {
+   "governorate": "Matrouh",
+   "slug": "matrouh",
+   "visitors": 1250000,
+   "occupancyPct": 58,
+   "hotels": 132,
+   "guides": 280
+  },
+  {
+   "governorate": "Suez",
+   "slug": "suez",
+   "visitors": 480000,
+   "occupancyPct": 63,
+   "hotels": 52,
+   "guides": 85
+  },
+  {
+   "governorate": "Faiyum",
+   "slug": "faiyum",
+   "visitors": 420000,
+   "occupancyPct": 51,
+   "hotels": 41,
+   "guides": 150
+  },
+  {
+   "governorate": "Port Said",
+   "slug": "port-said",
+   "visitors": 310000,
+   "occupancyPct": 52,
+   "hotels": 34,
+   "guides": 90
+  },
+  {
+   "governorate": "Damietta",
+   "slug": "damietta",
+   "visitors": 310000,
+   "occupancyPct": 55,
+   "hotels": 44,
+   "guides": 60
+  },
+  {
+   "governorate": "Ismailia",
+   "slug": "ismailia",
+   "visitors": 260000,
+   "occupancyPct": 49,
+   "hotels": 27,
+   "guides": 70
+  },
+  {
+   "governorate": "Qena",
+   "slug": "qena",
+   "visitors": 240000,
+   "occupancyPct": 46,
+   "hotels": 25,
+   "guides": 110
+  },
+  {
+   "governorate": "Dakahlia",
+   "slug": "dakahlia",
+   "visitors": 220000,
+   "occupancyPct": 47,
+   "hotels": 33,
+   "guides": 88
+  },
+  {
+   "governorate": "Beheira",
+   "slug": "beheira",
+   "visitors": 210000,
+   "occupancyPct": 43,
+   "hotels": 28,
+   "guides": 75
+  },
+  {
+   "governorate": "Gharbia",
+   "slug": "gharbia",
+   "visitors": 195000,
+   "occupancyPct": 45,
+   "hotels": 24,
+   "guides": 62
+  },
+  {
+   "governorate": "Sharqia",
+   "slug": "sharqia",
+   "visitors": 180000,
+   "occupancyPct": 41,
+   "hotels": 26,
+   "guides": 70
+  },
+  {
+   "governorate": "Minya",
+   "slug": "minya",
+   "visitors": 180000,
+   "occupancyPct": 41,
+   "hotels": 22,
+   "guides": 95
+  },
+  {
+   "governorate": "Sohag",
+   "slug": "sohag",
+   "visitors": 165000,
+   "occupancyPct": 43,
+   "hotels": 23,
+   "guides": 88
+  },
+  {
+   "governorate": "Kafr El Sheikh",
+   "slug": "kafr-el-sheikh",
+   "visitors": 150000,
+   "occupancyPct": 40,
+   "hotels": 19,
+   "guides": 38
+  },
+  {
+   "governorate": "Qalyubia",
+   "slug": "qalyubia",
+   "visitors": 140000,
+   "occupancyPct": 44,
+   "hotels": 21,
+   "guides": 55
+  },
+  {
+   "governorate": "Asyut",
+   "slug": "asyut",
+   "visitors": 130000,
+   "occupancyPct": 40,
+   "hotels": 20,
+   "guides": 70
+  },
+  {
+   "governorate": "Monufia",
+   "slug": "monufia",
+   "visitors": 120000,
+   "occupancyPct": 39,
+   "hotels": 17,
+   "guides": 40
+  },
+  {
+   "governorate": "Beni Suef",
+   "slug": "beni-suef",
+   "visitors": 110000,
+   "occupancyPct": 38,
+   "hotels": 15,
+   "guides": 42
+  },
+  {
+   "governorate": "New Valley",
+   "slug": "new-valley",
+   "visitors": 95000,
+   "occupancyPct": 44,
+   "hotels": 26,
+   "guides": 60
+  },
+  {
+   "governorate": "North Sinai",
+   "slug": "north-sinai",
+   "visitors": 90000,
+   "occupancyPct": 32,
+   "hotels": 18,
+   "guides": 45
+  }
+ ],
+ "interests": [
+  {
+   "name": "Ancient Egypt",
+   "sharePct": 31
+  },
+  {
+   "name": "Beach & Red Sea",
+   "sharePct": 24
+  },
+  {
+   "name": "Nile cruising",
+   "sharePct": 12
+  },
+  {
+   "name": "Islamic & Coptic heritage",
+   "sharePct": 9
+  },
+  {
+   "name": "Food & culture",
+   "sharePct": 7
+  },
+  {
+   "name": "Diving",
+   "sharePct": 6
+  },
+  {
+   "name": "Desert & oases",
+   "sharePct": 5
+  },
+  {
+   "name": "Medical & wellness",
+   "sharePct": 3
+  },
+  {
+   "name": "Business & MICE",
+   "sharePct": 3
+  }
+ ],
+ "emergingDestinations": [
+  "Faiyum & Tunis Village",
+  "Siwa Oasis",
+  "Dakhla Oasis",
+  "Rural Delta trails",
+  "Wadi El Gemal",
+  "Sohag & Abydos"
+ ],
+ "providerGaps": [
+  {
+   "governorate": "North Sinai",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Ismailia",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Qalyubia",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Sharqia",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Damietta",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Gharbia",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Monufia",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Beheira",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Kafr El Sheikh",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Beni Suef",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "Asyut",
+   "gap": "Verified guides below demand indicator"
+  },
+  {
+   "governorate": "New Valley",
+   "gap": "Verified guides below demand indicator"
+  }
+ ],
+ "revenueBySector": [
+  {
+   "sector": "Accommodation",
+   "gmvUsd": 180000000
+  },
+  {
+   "sector": "Activities",
+   "gmvUsd": 42000000
+  },
+  {
+   "sector": "Transport",
+   "gmvUsd": 31000000
+  },
+  {
+   "sector": "Guides",
+   "gmvUsd": 18000000
+  },
+  {
+   "sector": "Marketplace",
+   "gmvUsd": 9000000
+  },
+  {
+   "sector": "Events",
+   "gmvUsd": 6500000
+  },
+  {
+   "sector": "Medical",
+   "gmvUsd": 4200000
+  }
+ ],
+ "financeDemo": {
+  "gmvUsd": 290700000,
+  "grossRevenueUsd": 14100000,
+  "providerShareUsd": 276600000,
+  "egyptOneShareUsd": 13050000,
+  "taxesUsd": 1820000,
+  "paymentFeesUsd": 2180000,
+  "refundsUsd": 3400000,
+  "netSettlementUsd": 9050000,
+  "outstandingSettlementUsd": 1240000
+ }
+}

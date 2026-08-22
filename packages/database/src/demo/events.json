@@ -1,0 +1,931 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-cairo-international-film-festival",
+  "slug": "cairo-international-film-festival",
+  "name": "Cairo International Film Festival",
+  "governorateSlug": "cairo",
+  "category": "Film",
+  "startDate": "2026-11-12",
+  "endDate": "2026-11-21",
+  "venue": "Cairo Opera House",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "German",
+   "Russian",
+   "French"
+  ],
+  "summary": "Film event in Cairo.",
+  "description": "Cairo International Film Festival appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Film"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-grand-egyptian-museum-night-season",
+  "slug": "grand-egyptian-museum-night-season",
+  "name": "Grand Egyptian Museum Night Season",
+  "governorateSlug": "giza",
+  "category": "Heritage",
+  "startDate": "2026-10-01",
+  "endDate": "2026-12-15",
+  "venue": "Grand Egyptian Museum",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "English"
+  ],
+  "summary": "Heritage event in Giza.",
+  "description": "Grand Egyptian Museum Night Season appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-alexandria-mediterranean-biennale",
+  "slug": "alexandria-mediterranean-biennale",
+  "name": "Alexandria Mediterranean Biennale",
+  "governorateSlug": "alexandria",
+  "category": "Cultural",
+  "startDate": "2026-09-18",
+  "endDate": "2026-10-20",
+  "venue": "Bibliotheca Alexandrina",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Russian",
+   "English"
+  ],
+  "summary": "Cultural event in Alexandria.",
+  "description": "Alexandria Mediterranean Biennale appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-luxor-african-film-festival",
+  "slug": "luxor-african-film-festival",
+  "name": "Luxor African Film Festival",
+  "governorateSlug": "luxor",
+  "category": "Film",
+  "startDate": "2026-03-05",
+  "endDate": "2026-03-12",
+  "venue": "Luxor Cultural Palace",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "Film event in Luxor.",
+  "description": "Luxor African Film Festival appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Film"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-abu-simbel-sun-alignment",
+  "slug": "abu-simbel-sun-alignment",
+  "name": "Abu Simbel Sun Alignment",
+  "governorateSlug": "aswan",
+  "category": "Heritage",
+  "startDate": "2026-10-22",
+  "endDate": "2026-10-22",
+  "venue": "Abu Simbel Temples",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Arabic",
+   "German",
+   "English"
+  ],
+  "summary": "Heritage event in Aswan.",
+  "description": "Abu Simbel Sun Alignment appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-aswan-international-sculpture-symposium",
+  "slug": "aswan-international-sculpture-symposium",
+  "name": "Aswan International Sculpture Symposium",
+  "governorateSlug": "aswan",
+  "category": "Cultural",
+  "startDate": "2026-01-15",
+  "endDate": "2026-02-15",
+  "venue": "Aswan Granite Quarries",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "English",
+   "Arabic",
+   "French"
+  ],
+  "summary": "Cultural event in Aswan.",
+  "description": "Aswan International Sculpture Symposium appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-el-gouna-film-festival",
+  "slug": "el-gouna-film-festival",
+  "name": "El Gouna Film Festival",
+  "governorateSlug": "red-sea",
+  "category": "Film",
+  "startDate": "2026-10-16",
+  "endDate": "2026-10-24",
+  "venue": "El Gouna Marina",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "English"
+  ],
+  "summary": "Film event in Red Sea.",
+  "description": "El Gouna Film Festival appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Film"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-red-sea-diving-week",
+  "slug": "red-sea-diving-week",
+  "name": "Red Sea Diving Week",
+  "governorateSlug": "red-sea",
+  "category": "Sports",
+  "startDate": "2026-05-08",
+  "endDate": "2026-05-15",
+  "venue": "Hurghada Marina",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Arabic",
+   "German",
+   "English"
+  ],
+  "summary": "Sports event in Red Sea.",
+  "description": "Red Sea Diving Week appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Sports"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-sharm-el-sheikh-mice-forum",
+  "slug": "sharm-el-sheikh-mice-forum",
+  "name": "Sharm El Sheikh MICE Forum",
+  "governorateSlug": "south-sinai",
+  "category": "MICE",
+  "startDate": "2026-04-20",
+  "endDate": "2026-04-23",
+  "venue": "Sharm Convention Centre",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Russian"
+  ],
+  "summary": "MICE event in South Sinai.",
+  "description": "Sharm El Sheikh MICE Forum appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "MICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-saint-catherine-pilgrimage-season",
+  "slug": "saint-catherine-pilgrimage-season",
+  "name": "Saint Catherine Pilgrimage Season",
+  "governorateSlug": "south-sinai",
+  "category": "Heritage",
+  "startDate": "2026-04-01",
+  "endDate": "2026-06-30",
+  "venue": "Saint Catherine",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "Heritage event in South Sinai.",
+  "description": "Saint Catherine Pilgrimage Season appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-siwa-date-harvest-festival",
+  "slug": "siwa-date-harvest-festival",
+  "name": "Siwa Date Harvest Festival",
+  "governorateSlug": "matrouh",
+  "category": "Festival",
+  "startDate": "2026-10-05",
+  "endDate": "2026-10-12",
+  "venue": "Siwa Oasis",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "French",
+   "German"
+  ],
+  "summary": "Festival event in Matrouh.",
+  "description": "Siwa Date Harvest Festival appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Festival"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-new-alamein-summer-season",
+  "slug": "new-alamein-summer-season",
+  "name": "New Alamein Summer Season",
+  "governorateSlug": "matrouh",
+  "category": "Music",
+  "startDate": "2026-07-01",
+  "endDate": "2026-08-31",
+  "venue": "New Alamein City",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "French"
+  ],
+  "summary": "Music event in Matrouh.",
+  "description": "New Alamein Summer Season appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Music"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-faiyum-pottery-and-craft-fair",
+  "slug": "faiyum-pottery-and-craft-fair",
+  "name": "Faiyum Pottery and Craft Fair",
+  "governorateSlug": "faiyum",
+  "category": "Cultural",
+  "startDate": "2026-11-05",
+  "endDate": "2026-11-12",
+  "venue": "Tunis Village",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "Russian"
+  ],
+  "summary": "Cultural event in Faiyum.",
+  "description": "Faiyum Pottery and Craft Fair appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-wadi-el-hitan-night-sky-programme",
+  "slug": "wadi-el-hitan-night-sky-programme",
+  "name": "Wadi El Hitan Night Sky Programme",
+  "governorateSlug": "faiyum",
+  "category": "Heritage",
+  "startDate": "2026-12-01",
+  "endDate": "2026-12-20",
+  "venue": "Wadi El Hitan",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "Russian"
+  ],
+  "summary": "Heritage event in Faiyum.",
+  "description": "Wadi El Hitan Night Sky Programme appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-tanta-mawlid-season",
+  "slug": "tanta-mawlid-season",
+  "name": "Tanta Mawlid Season",
+  "governorateSlug": "gharbia",
+  "category": "Festival",
+  "startDate": "2026-10-18",
+  "endDate": "2026-10-25",
+  "venue": "Tanta",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "summary": "Festival event in Gharbia.",
+  "description": "Tanta Mawlid Season appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Festival"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-damietta-furniture-expo",
+  "slug": "damietta-furniture-expo",
+  "name": "Damietta Furniture Expo",
+  "governorateSlug": "damietta",
+  "category": "Business",
+  "startDate": "2026-03-10",
+  "endDate": "2026-03-14",
+  "venue": "Damietta Expo Centre",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "Arabic"
+  ],
+  "summary": "Business event in Damietta.",
+  "description": "Damietta Furniture Expo appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Business"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-mansoura-delta-heritage-days",
+  "slug": "mansoura-delta-heritage-days",
+  "name": "Mansoura Delta Heritage Days",
+  "governorateSlug": "dakahlia",
+  "category": "Heritage",
+  "startDate": "2026-04-08",
+  "endDate": "2026-04-14",
+  "venue": "Mansoura",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "German"
+  ],
+  "summary": "Heritage event in Dakahlia.",
+  "description": "Mansoura Delta Heritage Days appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-port-said-canal-anniversary-programme",
+  "slug": "port-said-canal-anniversary-programme",
+  "name": "Port Said Canal Anniversary Programme",
+  "governorateSlug": "port-said",
+  "category": "Cultural",
+  "startDate": "2026-11-17",
+  "endDate": "2026-11-19",
+  "venue": "Port Said Corniche",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "German",
+   "Russian",
+   "Arabic"
+  ],
+  "summary": "Cultural event in Port Said.",
+  "description": "Port Said Canal Anniversary Programme appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-ismailia-international-documentary-festival",
+  "slug": "ismailia-international-documentary-festival",
+  "name": "Ismailia International Documentary Festival",
+  "governorateSlug": "ismailia",
+  "category": "Film",
+  "startDate": "2026-06-10",
+  "endDate": "2026-06-16",
+  "venue": "Ismailia Cultural Palace",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "French"
+  ],
+  "summary": "Film event in Ismailia.",
+  "description": "Ismailia International Documentary Festival appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Film"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-suez-canal-economic-zone-investment-summit",
+  "slug": "suez-canal-economic-zone-investment-summit",
+  "name": "Suez Canal Economic Zone Investment Summit",
+  "governorateSlug": "suez",
+  "category": "Conference",
+  "startDate": "2026-02-24",
+  "endDate": "2026-02-26",
+  "venue": "Ain Sokhna",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "French",
+   "Arabic"
+  ],
+  "summary": "Conference event in Suez.",
+  "description": "Suez Canal Economic Zone Investment Summit appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Conference"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-minya-holy-family-route-season",
+  "slug": "minya-holy-family-route-season",
+  "name": "Minya Holy Family Route Season",
+  "governorateSlug": "minya",
+  "category": "Heritage",
+  "startDate": "2026-06-01",
+  "endDate": "2026-06-30",
+  "venue": "Gebel el-Teir",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "English"
+  ],
+  "summary": "Heritage event in Minya.",
+  "description": "Minya Holy Family Route Season appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-sohag-akhmim-weaving-festival",
+  "slug": "sohag-akhmim-weaving-festival",
+  "name": "Sohag Akhmim Weaving Festival",
+  "governorateSlug": "sohag",
+  "category": "Cultural",
+  "startDate": "2026-03-20",
+  "endDate": "2026-03-27",
+  "venue": "Akhmim",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "Arabic"
+  ],
+  "summary": "Cultural event in Sohag.",
+  "description": "Sohag Akhmim Weaving Festival appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-asyut-tulle-bi-telli-craft-week",
+  "slug": "asyut-tulle-bi-telli-craft-week",
+  "name": "Asyut Tulle-bi-Telli Craft Week",
+  "governorateSlug": "asyut",
+  "category": "Cultural",
+  "startDate": "2026-05-02",
+  "endDate": "2026-05-08",
+  "venue": "Asyut",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "English",
+   "Russian"
+  ],
+  "summary": "Cultural event in Asyut.",
+  "description": "Asyut Tulle-bi-Telli Craft Week appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-qena-pottery-days",
+  "slug": "qena-pottery-days",
+  "name": "Qena Pottery Days",
+  "governorateSlug": "qena",
+  "category": "Cultural",
+  "startDate": "2026-09-10",
+  "endDate": "2026-09-16",
+  "venue": "Qena",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "English"
+  ],
+  "summary": "Cultural event in Qena.",
+  "description": "Qena Pottery Days appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-dendera-astronomy-nights",
+  "slug": "dendera-astronomy-nights",
+  "name": "Dendera Astronomy Nights",
+  "governorateSlug": "qena",
+  "category": "Heritage",
+  "startDate": "2026-08-01",
+  "endDate": "2026-08-10",
+  "venue": "Dendera Temple",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Arabic",
+   "German"
+  ],
+  "summary": "Heritage event in Qena.",
+  "description": "Dendera Astronomy Nights appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-kharga-desert-heritage-days",
+  "slug": "kharga-desert-heritage-days",
+  "name": "Kharga Desert Heritage Days",
+  "governorateSlug": "new-valley",
+  "category": "Festival",
+  "startDate": "2026-12-05",
+  "endDate": "2026-12-12",
+  "venue": "Kharga Oasis",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Arabic"
+  ],
+  "summary": "Festival event in New Valley.",
+  "description": "Kharga Desert Heritage Days appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Festival"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-white-desert-astro-camp",
+  "slug": "white-desert-astro-camp",
+  "name": "White Desert Astro Camp",
+  "governorateSlug": "new-valley",
+  "category": "Sports",
+  "startDate": "2026-11-20",
+  "endDate": "2026-11-27",
+  "venue": "Farafra",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "French",
+   "Arabic",
+   "German"
+  ],
+  "summary": "Sports event in New Valley.",
+  "description": "White Desert Astro Camp appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Sports"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-beni-suef-nile-marathon",
+  "slug": "beni-suef-nile-marathon",
+  "name": "Beni Suef Nile Marathon",
+  "governorateSlug": "beni-suef",
+  "category": "Sports",
+  "startDate": "2026-02-14",
+  "endDate": "2026-02-14",
+  "venue": "Beni Suef Corniche",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "Russian",
+   "Arabic",
+   "German"
+  ],
+  "summary": "Sports event in Beni Suef.",
+  "description": "Beni Suef Nile Marathon appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Sports"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-zagazig-delta-agri-expo",
+  "slug": "zagazig-delta-agri-expo",
+  "name": "Zagazig Delta Agri Expo",
+  "governorateSlug": "sharqia",
+  "category": "Business",
+  "startDate": "2026-05-18",
+  "endDate": "2026-05-21",
+  "venue": "Zagazig",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "German"
+  ],
+  "summary": "Business event in Sharqia.",
+  "description": "Zagazig Delta Agri Expo appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Business"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-rosetta-ottoman-heritage-week",
+  "slug": "rosetta-ottoman-heritage-week",
+  "name": "Rosetta Ottoman Heritage Week",
+  "governorateSlug": "beheira",
+  "category": "Heritage",
+  "startDate": "2026-04-22",
+  "endDate": "2026-04-29",
+  "venue": "Rashid",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "French",
+   "Russian",
+   "English"
+  ],
+  "summary": "Heritage event in Beheira.",
+  "description": "Rosetta Ottoman Heritage Week appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-burullus-birdwatching-season",
+  "slug": "burullus-birdwatching-season",
+  "name": "Burullus Birdwatching Season",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "Cultural",
+  "startDate": "2026-11-01",
+  "endDate": "2026-12-31",
+  "venue": "Burullus Lake",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "English"
+  ],
+  "summary": "Cultural event in Kafr El Sheikh.",
+  "description": "Burullus Birdwatching Season appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-shibin-el-kom-rural-crafts-day",
+  "slug": "shibin-el-kom-rural-crafts-day",
+  "name": "Shibin El Kom Rural Crafts Day",
+  "governorateSlug": "monufia",
+  "category": "Cultural",
+  "startDate": "2026-10-09",
+  "endDate": "2026-10-10",
+  "venue": "Shibin El Kom",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Arabic"
+  ],
+  "summary": "Cultural event in Monufia.",
+  "description": "Shibin El Kom Rural Crafts Day appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Cultural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-banha-delta-food-festival",
+  "slug": "banha-delta-food-festival",
+  "name": "Banha Delta Food Festival",
+  "governorateSlug": "qalyubia",
+  "category": "Festival",
+  "startDate": "2026-09-04",
+  "endDate": "2026-09-07",
+  "venue": "Banha",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "Russian",
+   "German"
+  ],
+  "summary": "Festival event in Qalyubia.",
+  "description": "Banha Delta Food Festival appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Festival"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-arish-coastal-heritage-day",
+  "slug": "arish-coastal-heritage-day",
+  "name": "Arish Coastal Heritage Day",
+  "governorateSlug": "north-sinai",
+  "category": "Heritage",
+  "startDate": "2026-05-12",
+  "endDate": "2026-05-12",
+  "venue": "Arish",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "German",
+   "English",
+   "Russian"
+  ],
+  "summary": "Heritage event in North Sinai.",
+  "description": "Arish Coastal Heritage Day appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Heritage"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-cairo-international-book-fair",
+  "slug": "cairo-international-book-fair",
+  "name": "Cairo International Book Fair",
+  "governorateSlug": "cairo",
+  "category": "International",
+  "startDate": "2026-01-22",
+  "endDate": "2026-02-04",
+  "venue": "Egypt International Exhibition Centre",
+  "organiser": "Organiser record pending verification",
+  "ticketed": false,
+  "languages": [
+   "French"
+  ],
+  "summary": "International event in Cairo.",
+  "description": "Cairo International Book Fair appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "International"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "evt-egypt-investment-forum",
+  "slug": "egypt-investment-forum",
+  "name": "Egypt Investment Forum",
+  "governorateSlug": "cairo",
+  "category": "Business",
+  "startDate": "2026-06-02",
+  "endDate": "2026-06-04",
+  "venue": "New Administrative Capital",
+  "organiser": "Organiser record pending verification",
+  "ticketed": true,
+  "languages": [
+   "English",
+   "Russian",
+   "Arabic"
+  ],
+  "summary": "Business event in Cairo.",
+  "description": "Egypt Investment Forum appears in the Egypt One events registry as a demo record. Dates, venue and ticketing are confirmed only when the organiser is verified and an integration is connected.",
+  "images": [],
+  "tags": [
+   "Business"
+  ]
+ }
+]

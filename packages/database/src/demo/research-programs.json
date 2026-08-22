@@ -1,0 +1,1298 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-nubian-studies-fellowship-—-cairo-university",
+  "slug": "nubian-studies-fellowship-—-cairo-university",
+  "name": "Nubian studies Fellowship — Cairo University",
+  "university": "Cairo University",
+  "governorateSlug": "giza",
+  "field": "Nubian studies",
+  "degree": "Fellowship",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "summary": "Fellowship in Nubian studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Nubian studies",
+   "Fellowship"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-tourism-economics-phd-—-cairo-university",
+  "slug": "tourism-economics-phd-—-cairo-university",
+  "name": "Tourism economics PhD — Cairo University",
+  "university": "Cairo University",
+  "governorateSlug": "giza",
+  "field": "Tourism economics",
+  "degree": "PhD",
+  "languages": [
+   "English",
+   "German"
+  ],
+  "summary": "PhD in Tourism economics.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Tourism economics",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-museum-studies-short-course-—-ain-shams-university",
+  "slug": "museum-studies-short-course-—-ain-shams-university",
+  "name": "Museum studies Short Course — Ain Shams University",
+  "university": "Ain Shams University",
+  "governorateSlug": "cairo",
+  "field": "Museum studies",
+  "degree": "Short Course",
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "summary": "Short Course in Museum studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Museum studies",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-islamic-art-and-architecture-field-school-—-ain-shams-university",
+  "slug": "islamic-art-and-architecture-field-school-—-ain-shams-university",
+  "name": "Islamic art and architecture Field School — Ain Shams University",
+  "university": "Ain Shams University",
+  "governorateSlug": "cairo",
+  "field": "Islamic art and architecture",
+  "degree": "Field School",
+  "languages": [
+   "German",
+   "English"
+  ],
+  "summary": "Field School in Islamic art and architecture.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Islamic art and architecture",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-museum-studies-field-school-—-alexandria-university",
+  "slug": "museum-studies-field-school-—-alexandria-university",
+  "name": "Museum studies Field School — Alexandria University",
+  "university": "Alexandria University",
+  "governorateSlug": "alexandria",
+  "field": "Museum studies",
+  "degree": "Field School",
+  "languages": [
+   "German",
+   "English"
+  ],
+  "summary": "Field School in Museum studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Museum studies",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-archaeology-short-course-—-alexandria-university",
+  "slug": "archaeology-short-course-—-alexandria-university",
+  "name": "Archaeology Short Course — Alexandria University",
+  "university": "Alexandria University",
+  "governorateSlug": "alexandria",
+  "field": "Archaeology",
+  "degree": "Short Course",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "summary": "Short Course in Archaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Archaeology",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-islamic-art-and-architecture-short-course-—-the-american-university-in-cairo",
+  "slug": "islamic-art-and-architecture-short-course-—-the-american-university-in-cairo",
+  "name": "Islamic art and architecture Short Course — The American University in Cairo",
+  "university": "The American University in Cairo",
+  "governorateSlug": "cairo",
+  "field": "Islamic art and architecture",
+  "degree": "Short Course",
+  "languages": [
+   "German",
+   "English"
+  ],
+  "summary": "Short Course in Islamic art and architecture.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Islamic art and architecture",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-egyptology-fellowship-—-the-american-university-in-cairo",
+  "slug": "egyptology-fellowship-—-the-american-university-in-cairo",
+  "name": "Egyptology Fellowship — The American University in Cairo",
+  "university": "The American University in Cairo",
+  "governorateSlug": "cairo",
+  "field": "Egyptology",
+  "degree": "Fellowship",
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "summary": "Fellowship in Egyptology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Egyptology",
+   "Fellowship"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-bioarchaeology-short-course-—-helwan-university",
+  "slug": "bioarchaeology-short-course-—-helwan-university",
+  "name": "Bioarchaeology Short Course — Helwan University",
+  "university": "Helwan University",
+  "governorateSlug": "cairo",
+  "field": "Bioarchaeology",
+  "degree": "Short Course",
+  "languages": [
+   "German",
+   "French"
+  ],
+  "summary": "Short Course in Bioarchaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Bioarchaeology",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-heritage-management-short-course-—-helwan-university",
+  "slug": "heritage-management-short-course-—-helwan-university",
+  "name": "Heritage management Short Course — Helwan University",
+  "university": "Helwan University",
+  "governorateSlug": "cairo",
+  "field": "Heritage management",
+  "degree": "Short Course",
+  "languages": [
+   "French",
+   "English"
+  ],
+  "summary": "Short Course in Heritage management.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Heritage management",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-nubian-studies-phd-—-mansoura-university",
+  "slug": "nubian-studies-phd-—-mansoura-university",
+  "name": "Nubian studies PhD — Mansoura University",
+  "university": "Mansoura University",
+  "governorateSlug": "dakahlia",
+  "field": "Nubian studies",
+  "degree": "PhD",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "PhD in Nubian studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Nubian studies",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-desert-ecology-field-school-—-mansoura-university",
+  "slug": "desert-ecology-field-school-—-mansoura-university",
+  "name": "Desert ecology Field School — Mansoura University",
+  "university": "Mansoura University",
+  "governorateSlug": "dakahlia",
+  "field": "Desert ecology",
+  "degree": "Field School",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "summary": "Field School in Desert ecology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Desert ecology",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-desert-ecology-field-school-—-assiut-university",
+  "slug": "desert-ecology-field-school-—-assiut-university",
+  "name": "Desert ecology Field School — Assiut University",
+  "university": "Assiut University",
+  "governorateSlug": "asyut",
+  "field": "Desert ecology",
+  "degree": "Field School",
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "summary": "Field School in Desert ecology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Desert ecology",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-bioarchaeology-phd-—-assiut-university",
+  "slug": "bioarchaeology-phd-—-assiut-university",
+  "name": "Bioarchaeology PhD — Assiut University",
+  "university": "Assiut University",
+  "governorateSlug": "asyut",
+  "field": "Bioarchaeology",
+  "degree": "PhD",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "summary": "PhD in Bioarchaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Bioarchaeology",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-field-school-—-south-valley-university",
+  "slug": "coptic-studies-field-school-—-south-valley-university",
+  "name": "Coptic studies Field School — South Valley University",
+  "university": "South Valley University",
+  "governorateSlug": "qena",
+  "field": "Coptic studies",
+  "degree": "Field School",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "Field School in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-bioarchaeology-fellowship-—-south-valley-university",
+  "slug": "bioarchaeology-fellowship-—-south-valley-university",
+  "name": "Bioarchaeology Fellowship — South Valley University",
+  "university": "South Valley University",
+  "governorateSlug": "qena",
+  "field": "Bioarchaeology",
+  "degree": "Fellowship",
+  "languages": [
+   "German",
+   "French"
+  ],
+  "summary": "Fellowship in Bioarchaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Bioarchaeology",
+   "Fellowship"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-tourism-economics-masters-—-aswan-university",
+  "slug": "tourism-economics-masters-—-aswan-university",
+  "name": "Tourism economics Masters — Aswan University",
+  "university": "Aswan University",
+  "governorateSlug": "aswan",
+  "field": "Tourism economics",
+  "degree": "Masters",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "summary": "Masters in Tourism economics.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Tourism economics",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-bioarchaeology-field-school-—-aswan-university",
+  "slug": "bioarchaeology-field-school-—-aswan-university",
+  "name": "Bioarchaeology Field School — Aswan University",
+  "university": "Aswan University",
+  "governorateSlug": "aswan",
+  "field": "Bioarchaeology",
+  "degree": "Field School",
+  "languages": [
+   "Arabic",
+   "German"
+  ],
+  "summary": "Field School in Bioarchaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Bioarchaeology",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-archaeology-short-course-—-suez-canal-university",
+  "slug": "archaeology-short-course-—-suez-canal-university",
+  "name": "Archaeology Short Course — Suez Canal University",
+  "university": "Suez Canal University",
+  "governorateSlug": "ismailia",
+  "field": "Archaeology",
+  "degree": "Short Course",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "Short Course in Archaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Archaeology",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-archaeometry-short-course-—-suez-canal-university",
+  "slug": "archaeometry-short-course-—-suez-canal-university",
+  "name": "Archaeometry Short Course — Suez Canal University",
+  "university": "Suez Canal University",
+  "governorateSlug": "ismailia",
+  "field": "Archaeometry",
+  "degree": "Short Course",
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "Short Course in Archaeometry.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Archaeometry",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-masters-—-tanta-university",
+  "slug": "coptic-studies-masters-—-tanta-university",
+  "name": "Coptic studies Masters — Tanta University",
+  "university": "Tanta University",
+  "governorateSlug": "gharbia",
+  "field": "Coptic studies",
+  "degree": "Masters",
+  "languages": [
+   "French",
+   "Arabic"
+  ],
+  "summary": "Masters in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-islamic-art-and-architecture-masters-—-tanta-university",
+  "slug": "islamic-art-and-architecture-masters-—-tanta-university",
+  "name": "Islamic art and architecture Masters — Tanta University",
+  "university": "Tanta University",
+  "governorateSlug": "gharbia",
+  "field": "Islamic art and architecture",
+  "degree": "Masters",
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "summary": "Masters in Islamic art and architecture.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Islamic art and architecture",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-museum-studies-short-course-—-zagazig-university",
+  "slug": "museum-studies-short-course-—-zagazig-university",
+  "name": "Museum studies Short Course — Zagazig University",
+  "university": "Zagazig University",
+  "governorateSlug": "sharqia",
+  "field": "Museum studies",
+  "degree": "Short Course",
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "Short Course in Museum studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Museum studies",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-islamic-art-and-architecture-short-course-—-zagazig-university",
+  "slug": "islamic-art-and-architecture-short-course-—-zagazig-university",
+  "name": "Islamic art and architecture Short Course — Zagazig University",
+  "university": "Zagazig University",
+  "governorateSlug": "sharqia",
+  "field": "Islamic art and architecture",
+  "degree": "Short Course",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "Short Course in Islamic art and architecture.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Islamic art and architecture",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-phd-—-fayoum-university",
+  "slug": "coptic-studies-phd-—-fayoum-university",
+  "name": "Coptic studies PhD — Fayoum University",
+  "university": "Fayoum University",
+  "governorateSlug": "faiyum",
+  "field": "Coptic studies",
+  "degree": "PhD",
+  "languages": [
+   "German",
+   "English"
+  ],
+  "summary": "PhD in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-fellowship-—-fayoum-university",
+  "slug": "coptic-studies-fellowship-—-fayoum-university",
+  "name": "Coptic studies Fellowship — Fayoum University",
+  "university": "Fayoum University",
+  "governorateSlug": "faiyum",
+  "field": "Coptic studies",
+  "degree": "Fellowship",
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "Fellowship in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "Fellowship"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-tourism-economics-field-school-—-minya-university",
+  "slug": "tourism-economics-field-school-—-minya-university",
+  "name": "Tourism economics Field School — Minya University",
+  "university": "Minya University",
+  "governorateSlug": "minya",
+  "field": "Tourism economics",
+  "degree": "Field School",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "Field School in Tourism economics.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Tourism economics",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-phd-—-minya-university",
+  "slug": "coptic-studies-phd-—-minya-university",
+  "name": "Coptic studies PhD — Minya University",
+  "university": "Minya University",
+  "governorateSlug": "minya",
+  "field": "Coptic studies",
+  "degree": "PhD",
+  "languages": [
+   "English",
+   "German"
+  ],
+  "summary": "PhD in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-desert-ecology-fellowship-—-sohag-university",
+  "slug": "desert-ecology-fellowship-—-sohag-university",
+  "name": "Desert ecology Fellowship — Sohag University",
+  "university": "Sohag University",
+  "governorateSlug": "sohag",
+  "field": "Desert ecology",
+  "degree": "Fellowship",
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "Fellowship in Desert ecology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Desert ecology",
+   "Fellowship"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-conservation-science-short-course-—-sohag-university",
+  "slug": "conservation-science-short-course-—-sohag-university",
+  "name": "Conservation science Short Course — Sohag University",
+  "university": "Sohag University",
+  "governorateSlug": "sohag",
+  "field": "Conservation science",
+  "degree": "Short Course",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "summary": "Short Course in Conservation science.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Conservation science",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-papyrology-masters-—-beni-suef-university",
+  "slug": "papyrology-masters-—-beni-suef-university",
+  "name": "Papyrology Masters — Beni Suef University",
+  "university": "Beni Suef University",
+  "governorateSlug": "beni-suef",
+  "field": "Papyrology",
+  "degree": "Masters",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "Masters in Papyrology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Papyrology",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-papyrology-phd-—-beni-suef-university",
+  "slug": "papyrology-phd-—-beni-suef-university",
+  "name": "Papyrology PhD — Beni Suef University",
+  "university": "Beni Suef University",
+  "governorateSlug": "beni-suef",
+  "field": "Papyrology",
+  "degree": "PhD",
+  "languages": [
+   "French",
+   "German"
+  ],
+  "summary": "PhD in Papyrology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Papyrology",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-desert-ecology-fellowship-—-damietta-university",
+  "slug": "desert-ecology-fellowship-—-damietta-university",
+  "name": "Desert ecology Fellowship — Damietta University",
+  "university": "Damietta University",
+  "governorateSlug": "damietta",
+  "field": "Desert ecology",
+  "degree": "Fellowship",
+  "languages": [
+   "French",
+   "English"
+  ],
+  "summary": "Fellowship in Desert ecology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Desert ecology",
+   "Fellowship"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-bioarchaeology-masters-—-damietta-university",
+  "slug": "bioarchaeology-masters-—-damietta-university",
+  "name": "Bioarchaeology Masters — Damietta University",
+  "university": "Damietta University",
+  "governorateSlug": "damietta",
+  "field": "Bioarchaeology",
+  "degree": "Masters",
+  "languages": [
+   "French",
+   "German"
+  ],
+  "summary": "Masters in Bioarchaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Bioarchaeology",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-tourism-economics-field-school-—-kafrelsheikh-university",
+  "slug": "tourism-economics-field-school-—-kafrelsheikh-university",
+  "name": "Tourism economics Field School — Kafrelsheikh University",
+  "university": "Kafrelsheikh University",
+  "governorateSlug": "kafr-el-sheikh",
+  "field": "Tourism economics",
+  "degree": "Field School",
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "Field School in Tourism economics.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Tourism economics",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-conservation-science-masters-—-kafrelsheikh-university",
+  "slug": "conservation-science-masters-—-kafrelsheikh-university",
+  "name": "Conservation science Masters — Kafrelsheikh University",
+  "university": "Kafrelsheikh University",
+  "governorateSlug": "kafr-el-sheikh",
+  "field": "Conservation science",
+  "degree": "Masters",
+  "languages": [
+   "French",
+   "Arabic"
+  ],
+  "summary": "Masters in Conservation science.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Conservation science",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-bioarchaeology-masters-—-menoufia-university",
+  "slug": "bioarchaeology-masters-—-menoufia-university",
+  "name": "Bioarchaeology Masters — Menoufia University",
+  "university": "Menoufia University",
+  "governorateSlug": "monufia",
+  "field": "Bioarchaeology",
+  "degree": "Masters",
+  "languages": [
+   "French",
+   "Arabic"
+  ],
+  "summary": "Masters in Bioarchaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Bioarchaeology",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-bioarchaeology-masters-—-menoufia-university",
+  "slug": "bioarchaeology-masters-—-menoufia-university",
+  "name": "Bioarchaeology Masters — Menoufia University",
+  "university": "Menoufia University",
+  "governorateSlug": "monufia",
+  "field": "Bioarchaeology",
+  "degree": "Masters",
+  "languages": [
+   "French",
+   "English"
+  ],
+  "summary": "Masters in Bioarchaeology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Bioarchaeology",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-islamic-art-and-architecture-short-course-—-port-said-university",
+  "slug": "islamic-art-and-architecture-short-course-—-port-said-university",
+  "name": "Islamic art and architecture Short Course — Port Said University",
+  "university": "Port Said University",
+  "governorateSlug": "port-said",
+  "field": "Islamic art and architecture",
+  "degree": "Short Course",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "summary": "Short Course in Islamic art and architecture.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Islamic art and architecture",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-archaeometry-masters-—-port-said-university",
+  "slug": "archaeometry-masters-—-port-said-university",
+  "name": "Archaeometry Masters — Port Said University",
+  "university": "Port Said University",
+  "governorateSlug": "port-said",
+  "field": "Archaeometry",
+  "degree": "Masters",
+  "languages": [
+   "French",
+   "Arabic"
+  ],
+  "summary": "Masters in Archaeometry.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Archaeometry",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-papyrology-masters-—-luxor-university",
+  "slug": "papyrology-masters-—-luxor-university",
+  "name": "Papyrology Masters — Luxor University",
+  "university": "Luxor University",
+  "governorateSlug": "luxor",
+  "field": "Papyrology",
+  "degree": "Masters",
+  "languages": [
+   "French",
+   "Arabic"
+  ],
+  "summary": "Masters in Papyrology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Papyrology",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-papyrology-phd-—-luxor-university",
+  "slug": "papyrology-phd-—-luxor-university",
+  "name": "Papyrology PhD — Luxor University",
+  "university": "Luxor University",
+  "governorateSlug": "luxor",
+  "field": "Papyrology",
+  "degree": "PhD",
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "PhD in Papyrology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Papyrology",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-museum-studies-short-course-—-damanhour-university",
+  "slug": "museum-studies-short-course-—-damanhour-university",
+  "name": "Museum studies Short Course — Damanhour University",
+  "university": "Damanhour University",
+  "governorateSlug": "beheira",
+  "field": "Museum studies",
+  "degree": "Short Course",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "summary": "Short Course in Museum studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Museum studies",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-egyptology-phd-—-damanhour-university",
+  "slug": "egyptology-phd-—-damanhour-university",
+  "name": "Egyptology PhD — Damanhour University",
+  "university": "Damanhour University",
+  "governorateSlug": "beheira",
+  "field": "Egyptology",
+  "degree": "PhD",
+  "languages": [
+   "French",
+   "German"
+  ],
+  "summary": "PhD in Egyptology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Egyptology",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-field-school-—-arish-university",
+  "slug": "coptic-studies-field-school-—-arish-university",
+  "name": "Coptic studies Field School — Arish University",
+  "university": "Arish University",
+  "governorateSlug": "north-sinai",
+  "field": "Coptic studies",
+  "degree": "Field School",
+  "languages": [
+   "Arabic",
+   "German"
+  ],
+  "summary": "Field School in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "Field School"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-masters-—-arish-university",
+  "slug": "coptic-studies-masters-—-arish-university",
+  "name": "Coptic studies Masters — Arish University",
+  "university": "Arish University",
+  "governorateSlug": "north-sinai",
+  "field": "Coptic studies",
+  "degree": "Masters",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "Masters in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-coptic-studies-short-course-—-new-valley-university",
+  "slug": "coptic-studies-short-course-—-new-valley-university",
+  "name": "Coptic studies Short Course — New Valley University",
+  "university": "New Valley University",
+  "governorateSlug": "new-valley",
+  "field": "Coptic studies",
+  "degree": "Short Course",
+  "languages": [
+   "Arabic",
+   "German"
+  ],
+  "summary": "Short Course in Coptic studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Coptic studies",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-tourism-economics-masters-—-new-valley-university",
+  "slug": "tourism-economics-masters-—-new-valley-university",
+  "name": "Tourism economics Masters — New Valley University",
+  "university": "New Valley University",
+  "governorateSlug": "new-valley",
+  "field": "Tourism economics",
+  "degree": "Masters",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "summary": "Masters in Tourism economics.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Tourism economics",
+   "Masters"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-museum-studies-short-course-—-matrouh-university",
+  "slug": "museum-studies-short-course-—-matrouh-university",
+  "name": "Museum studies Short Course — Matrouh University",
+  "university": "Matrouh University",
+  "governorateSlug": "matrouh",
+  "field": "Museum studies",
+  "degree": "Short Course",
+  "languages": [
+   "German",
+   "Arabic"
+  ],
+  "summary": "Short Course in Museum studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Museum studies",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-museum-studies-phd-—-matrouh-university",
+  "slug": "museum-studies-phd-—-matrouh-university",
+  "name": "Museum studies PhD — Matrouh University",
+  "university": "Matrouh University",
+  "governorateSlug": "matrouh",
+  "field": "Museum studies",
+  "degree": "PhD",
+  "languages": [
+   "English",
+   "Arabic"
+  ],
+  "summary": "PhD in Museum studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Museum studies",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-archaeometry-fellowship-—-suez-university",
+  "slug": "archaeometry-fellowship-—-suez-university",
+  "name": "Archaeometry Fellowship — Suez University",
+  "university": "Suez University",
+  "governorateSlug": "suez",
+  "field": "Archaeometry",
+  "degree": "Fellowship",
+  "languages": [
+   "French",
+   "German"
+  ],
+  "summary": "Fellowship in Archaeometry.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Archaeometry",
+   "Fellowship"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-museum-studies-phd-—-suez-university",
+  "slug": "museum-studies-phd-—-suez-university",
+  "name": "Museum studies PhD — Suez University",
+  "university": "Suez University",
+  "governorateSlug": "suez",
+  "field": "Museum studies",
+  "degree": "PhD",
+  "languages": [
+   "French",
+   "German"
+  ],
+  "summary": "PhD in Museum studies.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Museum studies",
+   "PhD"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-desert-ecology-short-course-—-benha-university",
+  "slug": "desert-ecology-short-course-—-benha-university",
+  "name": "Desert ecology Short Course — Benha University",
+  "university": "Benha University",
+  "governorateSlug": "qalyubia",
+  "field": "Desert ecology",
+  "degree": "Short Course",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "summary": "Short Course in Desert ecology.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Desert ecology",
+   "Short Course"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "res-tourism-economics-masters-—-benha-university",
+  "slug": "tourism-economics-masters-—-benha-university",
+  "name": "Tourism economics Masters — Benha University",
+  "university": "Benha University",
+  "governorateSlug": "qalyubia",
+  "field": "Tourism economics",
+  "degree": "Masters",
+  "languages": [
+   "Arabic",
+   "French"
+  ],
+  "summary": "Masters in Tourism economics.",
+  "description": "Demo programme record. Admission requirements, fees and permits for fieldwork are set by the university and the competent authorities.",
+  "images": [],
+  "tags": [
+   "Tourism economics",
+   "Masters"
+  ]
+ }
+]

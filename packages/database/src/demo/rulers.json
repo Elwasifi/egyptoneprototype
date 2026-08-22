@@ -1,0 +1,491 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-narmer",
+  "slug": "narmer",
+  "name": "Narmer",
+  "era": "PREDYNASTIC",
+  "dynasty": "Dynasty 0/1",
+  "reign": "c. 3100 BC",
+  "achievements": [
+   "Unification of Upper and Lower Egypt",
+   "Narmer Palette"
+  ],
+  "monuments": [
+   "Hierakonpolis"
+  ],
+  "summary": "Narmer — Dynasty 0/1, c. 3100 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-djoser",
+  "slug": "djoser",
+  "name": "Djoser",
+  "era": "ANCIENT",
+  "dynasty": "3rd Dynasty",
+  "reign": "c. 2670 BC",
+  "achievements": [
+   "First monumental stone architecture",
+   "Step Pyramid complex"
+  ],
+  "monuments": [
+   "Saqqara Step Pyramid"
+  ],
+  "summary": "Djoser — 3rd Dynasty, c. 2670 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-sneferu",
+  "slug": "sneferu",
+  "name": "Sneferu",
+  "era": "ANCIENT",
+  "dynasty": "4th Dynasty",
+  "reign": "c. 2613–2589 BC",
+  "achievements": [
+   "Perfected true pyramid form",
+   "Built three pyramids"
+  ],
+  "monuments": [
+   "Bent Pyramid",
+   "Red Pyramid",
+   "Meidum Pyramid"
+  ],
+  "summary": "Sneferu — 4th Dynasty, c. 2613–2589 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-khufu",
+  "slug": "khufu",
+  "name": "Khufu",
+  "era": "ANCIENT",
+  "dynasty": "4th Dynasty",
+  "reign": "c. 2589–2566 BC",
+  "achievements": [
+   "Great Pyramid of Giza",
+   "Royal shipbuilding"
+  ],
+  "monuments": [
+   "Great Pyramid",
+   "Khufu Solar Boat"
+  ],
+  "summary": "Khufu — 4th Dynasty, c. 2589–2566 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-khafre",
+  "slug": "khafre",
+  "name": "Khafre",
+  "era": "ANCIENT",
+  "dynasty": "4th Dynasty",
+  "reign": "c. 2558–2532 BC",
+  "achievements": [
+   "Second Giza pyramid",
+   "Associated with the Great Sphinx"
+  ],
+  "monuments": [
+   "Pyramid of Khafre",
+   "Great Sphinx"
+  ],
+  "summary": "Khafre — 4th Dynasty, c. 2558–2532 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-mentuhotep-ii",
+  "slug": "mentuhotep-ii",
+  "name": "Mentuhotep II",
+  "era": "ANCIENT",
+  "dynasty": "11th Dynasty",
+  "reign": "c. 2055–2004 BC",
+  "achievements": [
+   "Reunified Egypt after the First Intermediate Period"
+  ],
+  "monuments": [
+   "Deir el-Bahari terraced temple"
+  ],
+  "summary": "Mentuhotep II — 11th Dynasty, c. 2055–2004 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-senusret-iii",
+  "slug": "senusret-iii",
+  "name": "Senusret III",
+  "era": "ANCIENT",
+  "dynasty": "12th Dynasty",
+  "reign": "c. 1878–1839 BC",
+  "achievements": [
+   "Administrative reform",
+   "Nubian fortresses"
+  ],
+  "monuments": [
+   "Dahshur pyramid",
+   "Buhen fortress"
+  ],
+  "summary": "Senusret III — 12th Dynasty, c. 1878–1839 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-hatshepsut",
+  "slug": "hatshepsut",
+  "name": "Hatshepsut",
+  "era": "ANCIENT",
+  "dynasty": "18th Dynasty",
+  "reign": "c. 1479–1458 BC",
+  "achievements": [
+   "Punt expedition",
+   "Major temple building programme"
+  ],
+  "monuments": [
+   "Deir el-Bahari",
+   "Karnak obelisks"
+  ],
+  "summary": "Hatshepsut — 18th Dynasty, c. 1479–1458 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-thutmose-iii",
+  "slug": "thutmose-iii",
+  "name": "Thutmose III",
+  "era": "ANCIENT",
+  "dynasty": "18th Dynasty",
+  "reign": "c. 1479–1425 BC",
+  "achievements": [
+   "Empire at its greatest extent",
+   "Battle of Megiddo"
+  ],
+  "monuments": [
+   "Karnak Festival Hall"
+  ],
+  "summary": "Thutmose III — 18th Dynasty, c. 1479–1425 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-akhenaten",
+  "slug": "akhenaten",
+  "name": "Akhenaten",
+  "era": "ANCIENT",
+  "dynasty": "18th Dynasty",
+  "reign": "c. 1353–1336 BC",
+  "achievements": [
+   "Aten religious reform",
+   "Founded Akhetaten"
+  ],
+  "monuments": [
+   "Tell el-Amarna"
+  ],
+  "summary": "Akhenaten — 18th Dynasty, c. 1353–1336 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-tutankhamun",
+  "slug": "tutankhamun",
+  "name": "Tutankhamun",
+  "era": "ANCIENT",
+  "dynasty": "18th Dynasty",
+  "reign": "c. 1332–1323 BC",
+  "achievements": [
+   "Restoration of traditional cults",
+   "Intact royal tomb discovered 1922"
+  ],
+  "monuments": [
+   "KV62",
+   "Grand Egyptian Museum collection"
+  ],
+  "summary": "Tutankhamun — 18th Dynasty, c. 1332–1323 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-ramesses-ii",
+  "slug": "ramesses-ii",
+  "name": "Ramesses II",
+  "era": "ANCIENT",
+  "dynasty": "19th Dynasty",
+  "reign": "c. 1279–1213 BC",
+  "achievements": [
+   "Battle of Kadesh and first recorded peace treaty",
+   "Vast building programme"
+  ],
+  "monuments": [
+   "Abu Simbel",
+   "Ramesseum",
+   "Pi-Ramesses"
+  ],
+  "summary": "Ramesses II — 19th Dynasty, c. 1279–1213 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-cleopatra-vii",
+  "slug": "cleopatra-vii",
+  "name": "Cleopatra VII",
+  "era": "PTOLEMAIC",
+  "dynasty": "Ptolemaic",
+  "reign": "51–30 BC",
+  "achievements": [
+   "Last active Ptolemaic ruler",
+   "Alexandrian diplomacy"
+  ],
+  "monuments": [
+   "Dendera reliefs",
+   "Alexandria"
+  ],
+  "summary": "Cleopatra VII — Ptolemaic, 51–30 BC."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-amr-ibn-al-as",
+  "slug": "amr-ibn-al-as",
+  "name": "Amr ibn al-As",
+  "era": "ISLAMIC",
+  "dynasty": "Rashidun governor",
+  "reign": "641–664 AD",
+  "achievements": [
+   "Founded Fustat",
+   "Egypt's first congregational mosque"
+  ],
+  "monuments": [
+   "Mosque of Amr ibn al-As"
+  ],
+  "summary": "Amr ibn al-As — Rashidun governor, 641–664 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-ahmad-ibn-tulun",
+  "slug": "ahmad-ibn-tulun",
+  "name": "Ahmad ibn Tulun",
+  "era": "ISLAMIC",
+  "dynasty": "Tulunid",
+  "reign": "868–884 AD",
+  "achievements": [
+   "Autonomous Tulunid state",
+   "Monumental congregational mosque"
+  ],
+  "monuments": [
+   "Ibn Tulun Mosque"
+  ],
+  "summary": "Ahmad ibn Tulun — Tulunid, 868–884 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-salah-el-din",
+  "slug": "salah-el-din",
+  "name": "Salah El-Din",
+  "era": "ISLAMIC",
+  "dynasty": "Ayyubid",
+  "reign": "1171–1193 AD",
+  "achievements": [
+   "Founded the Ayyubid state",
+   "Fortified Cairo"
+  ],
+  "monuments": [
+   "Citadel of Salah El-Din"
+  ],
+  "summary": "Salah El-Din — Ayyubid, 1171–1193 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-al-nasir-muhammad",
+  "slug": "al-nasir-muhammad",
+  "name": "Al-Nasir Muhammad",
+  "era": "ISLAMIC",
+  "dynasty": "Bahri Mamluk",
+  "reign": "1293–1341 AD",
+  "achievements": [
+   "Peak of Mamluk architecture and irrigation works"
+  ],
+  "monuments": [
+   "Al-Nasir Mosque, Citadel"
+  ],
+  "summary": "Al-Nasir Muhammad — Bahri Mamluk, 1293–1341 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-qaitbay",
+  "slug": "qaitbay",
+  "name": "Qaitbay",
+  "era": "ISLAMIC",
+  "dynasty": "Burji Mamluk",
+  "reign": "1468–1496 AD",
+  "achievements": [
+   "Coastal fortification programme",
+   "Refined late Mamluk architecture"
+  ],
+  "monuments": [
+   "Qaitbay Citadel, Alexandria",
+   "Qaitbay complex, Cairo"
+  ],
+  "summary": "Qaitbay — Burji Mamluk, 1468–1496 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-muhammad-ali-pasha",
+  "slug": "muhammad-ali-pasha",
+  "name": "Muhammad Ali Pasha",
+  "era": "MUHAMMAD_ALI",
+  "dynasty": "Muhammad Ali dynasty",
+  "reign": "1805–1848 AD",
+  "achievements": [
+   "Founder of modern Egypt",
+   "Industrial and military reform"
+  ],
+  "monuments": [
+   "Muhammad Ali Mosque"
+  ],
+  "summary": "Muhammad Ali Pasha — Muhammad Ali dynasty, 1805–1848 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-ismail-pasha",
+  "slug": "ismail-pasha",
+  "name": "Ismail Pasha",
+  "era": "MUHAMMAD_ALI",
+  "dynasty": "Muhammad Ali dynasty",
+  "reign": "1863–1879 AD",
+  "achievements": [
+   "Suez Canal opening",
+   "Modern Cairo planning"
+  ],
+  "monuments": [
+   "Khedivial Cairo",
+   "Cairo Opera (original)"
+  ],
+  "summary": "Ismail Pasha — Muhammad Ali dynasty, 1863–1879 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-fuad-i",
+  "slug": "fuad-i",
+  "name": "Fuad I",
+  "era": "KINGDOM",
+  "dynasty": "Muhammad Ali dynasty",
+  "reign": "1917–1936 AD",
+  "achievements": [
+   "First king of the independent Kingdom of Egypt"
+  ],
+  "monuments": [
+   "Abdeen Palace"
+  ],
+  "summary": "Fuad I — Muhammad Ali dynasty, 1917–1936 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-farouk-i",
+  "slug": "farouk-i",
+  "name": "Farouk I",
+  "era": "KINGDOM",
+  "dynasty": "Muhammad Ali dynasty",
+  "reign": "1936–1952 AD",
+  "achievements": [
+   "Last reigning king of Egypt"
+  ],
+  "monuments": [
+   "Montaza Palace",
+   "Royal Jewellery Museum collection"
+  ],
+  "summary": "Farouk I — Muhammad Ali dynasty, 1936–1952 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-gamal-abdel-nasser",
+  "slug": "gamal-abdel-nasser",
+  "name": "Gamal Abdel Nasser",
+  "era": "REPUBLIC",
+  "dynasty": "Republic",
+  "reign": "1956–1970 AD",
+  "achievements": [
+   "High Dam project",
+   "Nubian monument rescue campaign"
+  ],
+  "monuments": [
+   "Aswan High Dam"
+  ],
+  "summary": "Gamal Abdel Nasser — Republic, 1956–1970 AD."
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "ruler-anwar-sadat",
+  "slug": "anwar-sadat",
+  "name": "Anwar Sadat",
+  "era": "REPUBLIC",
+  "dynasty": "Republic",
+  "reign": "1970–1981 AD",
+  "achievements": [
+   "Economic opening",
+   "Sinai return"
+  ],
+  "monuments": [
+   "Unknown Soldier Memorial"
+  ],
+  "summary": "Anwar Sadat — Republic, 1970–1981 AD."
+ }
+]

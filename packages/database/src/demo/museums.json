@@ -1,0 +1,629 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-grand-egyptian-museum",
+  "slug": "grand-egyptian-museum",
+  "name": "Grand Egyptian Museum",
+  "governorateSlug": "giza",
+  "opened": "2025",
+  "highlights": [
+   "Tutankhamun collection",
+   "Grand staircase",
+   "Khufu boat"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Giza, opened 2025.",
+  "description": "Grand Egyptian Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-egyptian-museum-tahrir",
+  "slug": "egyptian-museum-tahrir",
+  "name": "Egyptian Museum, Tahrir",
+  "governorateSlug": "cairo",
+  "opened": "1902",
+  "highlights": [
+   "Old Kingdom statuary",
+   "Royal mummies gallery history",
+   "Amarna collection"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Cairo, opened 1902.",
+  "description": "Egyptian Museum, Tahrir is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-national-museum-of-egyptian-civilization",
+  "slug": "national-museum-of-egyptian-civilization",
+  "name": "National Museum of Egyptian Civilization",
+  "governorateSlug": "cairo",
+  "opened": "2021",
+  "highlights": [
+   "Royal Mummies Hall",
+   "Textiles gallery",
+   "Civilisation timeline"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Cairo, opened 2021.",
+  "description": "National Museum of Egyptian Civilization is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-museum-of-islamic-art",
+  "slug": "museum-of-islamic-art",
+  "name": "Museum of Islamic Art",
+  "governorateSlug": "cairo",
+  "opened": "1903",
+  "highlights": [
+   "Mamluk metalwork",
+   "Ottoman ceramics",
+   "Quranic manuscripts"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Cairo, opened 1903.",
+  "description": "Museum of Islamic Art is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-coptic-museum",
+  "slug": "coptic-museum",
+  "name": "Coptic Museum",
+  "governorateSlug": "cairo",
+  "opened": "1908",
+  "highlights": [
+   "Coptic textiles",
+   "Nag Hammadi codices",
+   "Architectural fragments"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Cairo, opened 1908.",
+  "description": "Coptic Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-manial-palace-museum",
+  "slug": "manial-palace-museum",
+  "name": "Manial Palace Museum",
+  "governorateSlug": "cairo",
+  "opened": "1929",
+  "highlights": [
+   "Ottoman-revival interiors",
+   "Royal residence",
+   "Gardens"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Cairo, opened 1929.",
+  "description": "Manial Palace Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-abdeen-palace-museum",
+  "slug": "abdeen-palace-museum",
+  "name": "Abdeen Palace Museum",
+  "governorateSlug": "cairo",
+  "opened": "1998",
+  "highlights": [
+   "Royal arms collection",
+   "Silver museum",
+   "Historical documents"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Cairo, opened 1998.",
+  "description": "Abdeen Palace Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-gayer-anderson-museum",
+  "slug": "gayer-anderson-museum",
+  "name": "Gayer-Anderson Museum",
+  "governorateSlug": "cairo",
+  "opened": "1945",
+  "highlights": [
+   "Ottoman house interiors",
+   "Orientalist collection"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Cairo, opened 1945.",
+  "description": "Gayer-Anderson Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-royal-jewellery-museum",
+  "slug": "royal-jewellery-museum",
+  "name": "Royal Jewellery Museum",
+  "governorateSlug": "alexandria",
+  "opened": "1986",
+  "highlights": [
+   "Muhammad Ali dynasty jewellery",
+   "Palace interiors"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Alexandria, opened 1986.",
+  "description": "Royal Jewellery Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-graeco-roman-museum",
+  "slug": "graeco-roman-museum",
+  "name": "Graeco-Roman Museum",
+  "governorateSlug": "alexandria",
+  "opened": "1892",
+  "highlights": [
+   "Ptolemaic sculpture",
+   "Roman mosaics",
+   "Alexandrian coins"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Alexandria, opened 1892.",
+  "description": "Graeco-Roman Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-bibliotheca-alexandrina-antiquities-museum",
+  "slug": "bibliotheca-alexandrina-antiquities-museum",
+  "name": "Bibliotheca Alexandrina Antiquities Museum",
+  "governorateSlug": "alexandria",
+  "opened": "2002",
+  "highlights": [
+   "Underwater archaeology finds",
+   "Manuscripts"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Alexandria, opened 2002.",
+  "description": "Bibliotheca Alexandrina Antiquities Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-luxor-museum",
+  "slug": "luxor-museum",
+  "name": "Luxor Museum",
+  "governorateSlug": "luxor",
+  "opened": "1975",
+  "highlights": [
+   "New Kingdom statuary",
+   "Luxor cachette",
+   "Akhenaten talatat wall"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Luxor, opened 1975.",
+  "description": "Luxor Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-mummification-museum",
+  "slug": "mummification-museum",
+  "name": "Mummification Museum",
+  "governorateSlug": "luxor",
+  "opened": "1997",
+  "highlights": [
+   "Mummification tools",
+   "Animal mummies"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Luxor, opened 1997.",
+  "description": "Mummification Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-nubian-museum",
+  "slug": "nubian-museum",
+  "name": "Nubian Museum",
+  "governorateSlug": "aswan",
+  "opened": "1997",
+  "highlights": [
+   "Nubian rescue campaign record",
+   "Nubian ethnography"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Aswan, opened 1997.",
+  "description": "Nubian Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-sohag-national-museum",
+  "slug": "sohag-national-museum",
+  "name": "Sohag National Museum",
+  "governorateSlug": "sohag",
+  "opened": "2021",
+  "highlights": [
+   "Akhmim textiles",
+   "Regional antiquities"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Sohag, opened 2021.",
+  "description": "Sohag National Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-mallawi-museum",
+  "slug": "mallawi-museum",
+  "name": "Mallawi Museum",
+  "governorateSlug": "minya",
+  "opened": "1963",
+  "highlights": [
+   "Tuna el-Gebel finds",
+   "Ibis and baboon collection"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Minya, opened 1963.",
+  "description": "Mallawi Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-kafr-el-sheikh-museum",
+  "slug": "kafr-el-sheikh-museum",
+  "name": "Kafr El Sheikh Museum",
+  "governorateSlug": "kafr-el-sheikh",
+  "opened": "2020",
+  "highlights": [
+   "Delta antiquities",
+   "Buto finds"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Kafr El Sheikh, opened 2020.",
+  "description": "Kafr El Sheikh Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-hurghada-museum",
+  "slug": "hurghada-museum",
+  "name": "Hurghada Museum",
+  "governorateSlug": "red-sea",
+  "opened": "2020",
+  "highlights": [
+   "Cross-era Egyptian collection",
+   "Red Sea maritime history"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Red Sea, opened 2020.",
+  "description": "Hurghada Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-sharm-el-sheikh-museum",
+  "slug": "sharm-el-sheikh-museum",
+  "name": "Sharm El Sheikh Museum",
+  "governorateSlug": "south-sinai",
+  "opened": "2020",
+  "highlights": [
+   "Sinai antiquities",
+   "Royal collection selection"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in South Sinai, opened 2020.",
+  "description": "Sharm El Sheikh Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-ismailia-museum",
+  "slug": "ismailia-museum",
+  "name": "Ismailia Museum",
+  "governorateSlug": "ismailia",
+  "opened": "1932",
+  "highlights": [
+   "Canal-zone antiquities",
+   "Greco-Roman mosaic"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Ismailia, opened 1932.",
+  "description": "Ismailia Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-national-museum-of-port-said",
+  "slug": "national-museum-of-port-said",
+  "name": "National Museum of Port Said",
+  "governorateSlug": "port-said",
+  "opened": "1987",
+  "highlights": [
+   "Canal history",
+   "Regional antiquities"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Port Said, opened 1987.",
+  "description": "National Museum of Port Said is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-suez-national-museum",
+  "slug": "suez-national-museum",
+  "name": "Suez National Museum",
+  "governorateSlug": "suez",
+  "opened": "2012",
+  "highlights": [
+   "Maritime history",
+   "Regional antiquities"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Suez, opened 2012.",
+  "description": "Suez National Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-faiyum-antiquities-collection-kom-aushim",
+  "slug": "faiyum-antiquities-collection-kom-aushim",
+  "name": "Faiyum Antiquities collection, Kom Aushim",
+  "governorateSlug": "faiyum",
+  "opened": "1974",
+  "highlights": [
+   "Faiyum portraits context",
+   "Karanis finds"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Faiyum, opened 1974.",
+  "description": "Faiyum Antiquities collection, Kom Aushim is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-beni-suef-museum",
+  "slug": "beni-suef-museum",
+  "name": "Beni Suef Museum",
+  "governorateSlug": "beni-suef",
+  "opened": "2015",
+  "highlights": [
+   "Ihnasia collection",
+   "Regional antiquities"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Beni Suef, opened 2015.",
+  "description": "Beni Suef Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-matrouh-military-and-heritage-museum",
+  "slug": "matrouh-military-and-heritage-museum",
+  "name": "Matrouh Military and Heritage Museum",
+  "governorateSlug": "matrouh",
+  "opened": "1990",
+  "highlights": [
+   "El Alamein campaign material"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Matrouh, opened 1990.",
+  "description": "Matrouh Military and Heritage Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-aswan-museum-elephantine",
+  "slug": "aswan-museum-elephantine",
+  "name": "Aswan Museum, Elephantine",
+  "governorateSlug": "aswan",
+  "opened": "1912",
+  "highlights": [
+   "Elephantine excavation finds"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Aswan, opened 1912.",
+  "description": "Aswan Museum, Elephantine is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "mus-denshway-museum",
+  "slug": "denshway-museum",
+  "name": "Denshway Museum",
+  "governorateSlug": "monufia",
+  "opened": "1999",
+  "highlights": [
+   "Modern national history"
+  ],
+  "access": "OPEN",
+  "collectionsCount": null,
+  "summary": "Museum in Monufia, opened 1999.",
+  "description": "Denshway Museum is listed in the Egypt One registry as a demo record. Opening hours, ticket prices and current gallery availability are set by the competent authority and are shown only when a verified source is connected.",
+  "images": [],
+  "tags": [
+   "museum"
+  ]
+ }
+]

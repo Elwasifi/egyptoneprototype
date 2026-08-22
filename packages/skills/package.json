@@ -1,0 +1,24 @@
+{
+  "name": "@egypt-one/skills",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts",
+    "./*.json": "./src/*.json"
+  },
+  "dependencies": {
+    "@egypt-one/types": "workspace:*",
+    "@egypt-one/mcp": "workspace:*",
+    "@egypt-one/database": "workspace:*",
+    "@egypt-one/config": "workspace:*",
+    "@egypt-one/integrations": "workspace:*",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.9.3"
+  }
+}

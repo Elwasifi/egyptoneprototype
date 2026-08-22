@@ -1,0 +1,12 @@
+# Egypt One — API service image (placeholder: see docs/ARCHITECTURE.md
+# for the current decision to run server logic as Next.js route handlers
+# during this prototype phase, with this Dockerfile ready for the
+# NestJS extraction described there).
+FROM node:20-slim AS base
+RUN corepack enable
+WORKDIR /repo
+COPY . .
+RUN pnpm install --frozen-lockfile
+RUN pnpm --filter @egypt-one/api build || echo "apps/api not yet scaffolded — see docs/ARCHITECTURE.md"
+EXPOSE 4000
+CMD ["node", "apps/api/dist/main.js"]

@@ -1,0 +1,130 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-stopover-egypt",
+  "slug": "stopover-egypt",
+  "name": "Stopover Egypt",
+  "summary": "Turn a transit into a two-day Cairo and Giza itinerary.",
+  "kind": "stopover",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "stopover"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-one-more-night",
+  "slug": "one-more-night",
+  "name": "One More Night",
+  "summary": "Extend an existing booking and unlock partner benefits.",
+  "kind": "extend",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "extend"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-visit-all-27-challenge",
+  "slug": "visit-all-27-challenge",
+  "name": "Visit All 27 Challenge",
+  "summary": "Collect all 27 governorates and earn Egypt One Pass tiers.",
+  "kind": "challenge",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "challenge"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-egypt-one-pass",
+  "slug": "egypt-one-pass",
+  "name": "Egypt One Pass",
+  "summary": "Membership benefits across verified providers.",
+  "kind": "pass",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "pass"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-low-season-upper-egypt",
+  "slug": "low-season-upper-egypt",
+  "name": "Low season Upper Egypt",
+  "summary": "Reduced rates on selected Luxor and Aswan stays.",
+  "kind": "seasonal",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "seasonal"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-rural-egypt-weekends",
+  "slug": "rural-egypt-weekends",
+  "name": "Rural Egypt weekends",
+  "summary": "Village stays, crafts and farm experiences.",
+  "kind": "rural",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "rural"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-red-sea-dive-packages",
+  "slug": "red-sea-dive-packages",
+  "name": "Red Sea dive packages",
+  "summary": "Multi-dive packages with verified operators.",
+  "kind": "dive",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "dive"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "offer-family-heritage-pass",
+  "slug": "family-heritage-pass",
+  "name": "Family heritage pass",
+  "summary": "Family pricing across selected museums.",
+  "kind": "family",
+  "description": "Demo offer. Discounts and benefits become real only when a provider contract and a connected booking adapter exist.",
+  "images": [],
+  "tags": [
+   "family"
+  ]
+ }
+]

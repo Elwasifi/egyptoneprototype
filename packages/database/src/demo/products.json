@@ -1,0 +1,1462 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-khayamiya-tentmaking-—-cairo-collection",
+  "slug": "khayamiya-tentmaking-—-cairo-collection",
+  "name": "Khayamiya tentmaking — Cairo collection",
+  "governorateSlug": "cairo",
+  "category": "Men's clothing",
+  "priceEgp": 4937,
+  "maker": "Cairo artisan collective (demo)",
+  "summary": "Khayamiya tentmaking from Cairo.",
+  "description": "Part of the Cairo governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Khayamiya tentmaking",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-copper-work-—-cairo-collection",
+  "slug": "copper-work-—-cairo-collection",
+  "name": "Copper work — Cairo collection",
+  "governorateSlug": "cairo",
+  "category": "Souvenirs",
+  "priceEgp": 9023,
+  "maker": "Cairo artisan collective (demo)",
+  "summary": "Copper work from Cairo.",
+  "description": "Part of the Cairo governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Copper work",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-mashrabiya-woodwork-—-cairo-collection",
+  "slug": "mashrabiya-woodwork-—-cairo-collection",
+  "name": "Mashrabiya woodwork — Cairo collection",
+  "governorateSlug": "cairo",
+  "category": "Crafts",
+  "priceEgp": 5707,
+  "maker": "Cairo artisan collective (demo)",
+  "summary": "Mashrabiya woodwork from Cairo.",
+  "description": "Part of the Cairo governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Mashrabiya woodwork",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-gold-filigree-—-cairo-collection",
+  "slug": "gold-filigree-—-cairo-collection",
+  "name": "Gold filigree — Cairo collection",
+  "governorateSlug": "cairo",
+  "category": "Souvenirs",
+  "priceEgp": 9282,
+  "maker": "Cairo artisan collective (demo)",
+  "summary": "Gold filigree from Cairo.",
+  "description": "Part of the Cairo governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Gold filigree",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-papyrus-painting-—-giza-collection",
+  "slug": "papyrus-painting-—-giza-collection",
+  "name": "Papyrus painting — Giza collection",
+  "governorateSlug": "giza",
+  "category": "Women's clothing",
+  "priceEgp": 4381,
+  "maker": "Giza artisan collective (demo)",
+  "summary": "Papyrus painting from Giza.",
+  "description": "Part of the Giza governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Papyrus painting",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-alabaster-carving-—-giza-collection",
+  "slug": "alabaster-carving-—-giza-collection",
+  "name": "Alabaster carving — Giza collection",
+  "governorateSlug": "giza",
+  "category": "Jewellery",
+  "priceEgp": 3455,
+  "maker": "Giza artisan collective (demo)",
+  "summary": "Alabaster carving from Giza.",
+  "description": "Part of the Giza governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Alabaster carving",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-carpet-weaving-—-giza-collection",
+  "slug": "carpet-weaving-—-giza-collection",
+  "name": "Carpet weaving — Giza collection",
+  "governorateSlug": "giza",
+  "category": "Souvenirs",
+  "priceEgp": 1975,
+  "maker": "Giza artisan collective (demo)",
+  "summary": "Carpet weaving from Giza.",
+  "description": "Part of the Giza governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Carpet weaving",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-glassblowing-—-alexandria-collection",
+  "slug": "glassblowing-—-alexandria-collection",
+  "name": "Glassblowing — Alexandria collection",
+  "governorateSlug": "alexandria",
+  "category": "Art",
+  "priceEgp": 5254,
+  "maker": "Alexandria artisan collective (demo)",
+  "summary": "Glassblowing from Alexandria.",
+  "description": "Part of the Alexandria governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Glassblowing",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-textile-weaving-—-alexandria-collection",
+  "slug": "textile-weaving-—-alexandria-collection",
+  "name": "Textile weaving — Alexandria collection",
+  "governorateSlug": "alexandria",
+  "category": "Crafts",
+  "priceEgp": 9401,
+  "maker": "Alexandria artisan collective (demo)",
+  "summary": "Textile weaving from Alexandria.",
+  "description": "Part of the Alexandria governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Textile weaving",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-fishing-net-craft-—-alexandria-collection",
+  "slug": "fishing-net-craft-—-alexandria-collection",
+  "name": "Fishing-net craft — Alexandria collection",
+  "governorateSlug": "alexandria",
+  "category": "Home textiles",
+  "priceEgp": 5613,
+  "maker": "Alexandria artisan collective (demo)",
+  "summary": "Fishing-net craft from Alexandria.",
+  "description": "Part of the Alexandria governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Fishing-net craft",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-alabaster-carving-—-luxor-collection",
+  "slug": "alabaster-carving-—-luxor-collection",
+  "name": "Alabaster carving — Luxor collection",
+  "governorateSlug": "luxor",
+  "category": "Home textiles",
+  "priceEgp": 6445,
+  "maker": "Luxor artisan collective (demo)",
+  "summary": "Alabaster carving from Luxor.",
+  "description": "Part of the Luxor governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Alabaster carving",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-hand-painted-papyrus-—-luxor-collection",
+  "slug": "hand-painted-papyrus-—-luxor-collection",
+  "name": "Hand-painted papyrus — Luxor collection",
+  "governorateSlug": "luxor",
+  "category": "Women's clothing",
+  "priceEgp": 1848,
+  "maker": "Luxor artisan collective (demo)",
+  "summary": "Hand-painted papyrus from Luxor.",
+  "description": "Part of the Luxor governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Hand-painted papyrus",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-frond-basketry-—-luxor-collection",
+  "slug": "palm-frond-basketry-—-luxor-collection",
+  "name": "Palm-frond basketry — Luxor collection",
+  "governorateSlug": "luxor",
+  "category": "Men's clothing",
+  "priceEgp": 1726,
+  "maker": "Luxor artisan collective (demo)",
+  "summary": "Palm-frond basketry from Luxor.",
+  "description": "Part of the Luxor governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm-frond basketry",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-nubian-pottery-—-aswan-collection",
+  "slug": "nubian-pottery-—-aswan-collection",
+  "name": "Nubian pottery — Aswan collection",
+  "governorateSlug": "aswan",
+  "category": "Men's clothing",
+  "priceEgp": 3116,
+  "maker": "Aswan artisan collective (demo)",
+  "summary": "Nubian pottery from Aswan.",
+  "description": "Part of the Aswan governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Nubian pottery",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-beadwork-—-aswan-collection",
+  "slug": "beadwork-—-aswan-collection",
+  "name": "Beadwork — Aswan collection",
+  "governorateSlug": "aswan",
+  "category": "Men's clothing",
+  "priceEgp": 3344,
+  "maker": "Aswan artisan collective (demo)",
+  "summary": "Beadwork from Aswan.",
+  "description": "Part of the Aswan governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Beadwork",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-woven-palm-mats-—-aswan-collection",
+  "slug": "woven-palm-mats-—-aswan-collection",
+  "name": "Woven palm mats — Aswan collection",
+  "governorateSlug": "aswan",
+  "category": "Souvenirs",
+  "priceEgp": 777,
+  "maker": "Aswan artisan collective (demo)",
+  "summary": "Woven palm mats from Aswan.",
+  "description": "Part of the Aswan governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Woven palm mats",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-bedouin-weaving-—-red-sea-collection",
+  "slug": "bedouin-weaving-—-red-sea-collection",
+  "name": "Bedouin weaving — Red Sea collection",
+  "governorateSlug": "red-sea",
+  "category": "Home textiles",
+  "priceEgp": 1656,
+  "maker": "Red Sea artisan collective (demo)",
+  "summary": "Bedouin weaving from Red Sea.",
+  "description": "Part of the Red Sea governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Bedouin weaving",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-shell-craft-—-red-sea-collection",
+  "slug": "shell-craft-—-red-sea-collection",
+  "name": "Shell craft — Red Sea collection",
+  "governorateSlug": "red-sea",
+  "category": "Women's clothing",
+  "priceEgp": 3892,
+  "maker": "Red Sea artisan collective (demo)",
+  "summary": "Shell craft from Red Sea.",
+  "description": "Part of the Red Sea governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Shell craft",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-silver-jewellery-—-red-sea-collection",
+  "slug": "silver-jewellery-—-red-sea-collection",
+  "name": "Silver jewellery — Red Sea collection",
+  "governorateSlug": "red-sea",
+  "category": "Traditional clothing",
+  "priceEgp": 2753,
+  "maker": "Red Sea artisan collective (demo)",
+  "summary": "Silver jewellery from Red Sea.",
+  "description": "Part of the Red Sea governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Silver jewellery",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-bedouin-embroidery-—-south-sinai-collection",
+  "slug": "bedouin-embroidery-—-south-sinai-collection",
+  "name": "Bedouin embroidery — South Sinai collection",
+  "governorateSlug": "south-sinai",
+  "category": "Women's clothing",
+  "priceEgp": 7287,
+  "maker": "South Sinai artisan collective (demo)",
+  "summary": "Bedouin embroidery from South Sinai.",
+  "description": "Part of the South Sinai governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Bedouin embroidery",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-beaded-jewellery-—-south-sinai-collection",
+  "slug": "beaded-jewellery-—-south-sinai-collection",
+  "name": "Beaded jewellery — South Sinai collection",
+  "governorateSlug": "south-sinai",
+  "category": "Souvenirs",
+  "priceEgp": 1370,
+  "maker": "South Sinai artisan collective (demo)",
+  "summary": "Beaded jewellery from South Sinai.",
+  "description": "Part of the South Sinai governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Beaded jewellery",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-camel-wool-weaving-—-south-sinai-collection",
+  "slug": "camel-wool-weaving-—-south-sinai-collection",
+  "name": "Camel-wool weaving — South Sinai collection",
+  "governorateSlug": "south-sinai",
+  "category": "Art",
+  "priceEgp": 7176,
+  "maker": "South Sinai artisan collective (demo)",
+  "summary": "Camel-wool weaving from South Sinai.",
+  "description": "Part of the South Sinai governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Camel-wool weaving",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-siwan-embroidery-—-matrouh-collection",
+  "slug": "siwan-embroidery-—-matrouh-collection",
+  "name": "Siwan embroidery — Matrouh collection",
+  "governorateSlug": "matrouh",
+  "category": "Food products",
+  "priceEgp": 2458,
+  "maker": "Matrouh artisan collective (demo)",
+  "summary": "Siwan embroidery from Matrouh.",
+  "description": "Part of the Matrouh governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Siwan embroidery",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-silver-berber-jewellery-—-matrouh-collection",
+  "slug": "silver-berber-jewellery-—-matrouh-collection",
+  "name": "Silver Berber jewellery — Matrouh collection",
+  "governorateSlug": "matrouh",
+  "category": "Jewellery",
+  "priceEgp": 2604,
+  "maker": "Matrouh artisan collective (demo)",
+  "summary": "Silver Berber jewellery from Matrouh.",
+  "description": "Part of the Matrouh governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Silver Berber jewellery",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-basketry-—-matrouh-collection",
+  "slug": "palm-basketry-—-matrouh-collection",
+  "name": "Palm basketry — Matrouh collection",
+  "governorateSlug": "matrouh",
+  "category": "Souvenirs",
+  "priceEgp": 8089,
+  "maker": "Matrouh artisan collective (demo)",
+  "summary": "Palm basketry from Matrouh.",
+  "description": "Part of the Matrouh governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm basketry",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-bedouin-embroidery-—-north-sinai-collection",
+  "slug": "bedouin-embroidery-—-north-sinai-collection",
+  "name": "Bedouin embroidery — North Sinai collection",
+  "governorateSlug": "north-sinai",
+  "category": "Art",
+  "priceEgp": 6932,
+  "maker": "North Sinai artisan collective (demo)",
+  "summary": "Bedouin embroidery from North Sinai.",
+  "description": "Part of the North Sinai governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Bedouin embroidery",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-weaving-—-north-sinai-collection",
+  "slug": "palm-weaving-—-north-sinai-collection",
+  "name": "Palm weaving — North Sinai collection",
+  "governorateSlug": "north-sinai",
+  "category": "Traditional clothing",
+  "priceEgp": 6745,
+  "maker": "North Sinai artisan collective (demo)",
+  "summary": "Palm weaving from North Sinai.",
+  "description": "Part of the North Sinai governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm weaving",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-fishing-craft-—-port-said-collection",
+  "slug": "fishing-craft-—-port-said-collection",
+  "name": "Fishing craft — Port Said collection",
+  "governorateSlug": "port-said",
+  "category": "Art",
+  "priceEgp": 4194,
+  "maker": "Port Said artisan collective (demo)",
+  "summary": "Fishing craft from Port Said.",
+  "description": "Part of the Port Said governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Fishing craft",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-boat-building-—-port-said-collection",
+  "slug": "boat-building-—-port-said-collection",
+  "name": "Boat building — Port Said collection",
+  "governorateSlug": "port-said",
+  "category": "Food products",
+  "priceEgp": 483,
+  "maker": "Port Said artisan collective (demo)",
+  "summary": "Boat building from Port Said.",
+  "description": "Part of the Port Said governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Boat building",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-craft-—-ismailia-collection",
+  "slug": "palm-craft-—-ismailia-collection",
+  "name": "Palm craft — Ismailia collection",
+  "governorateSlug": "ismailia",
+  "category": "Crafts",
+  "priceEgp": 5603,
+  "maker": "Ismailia artisan collective (demo)",
+  "summary": "Palm craft from Ismailia.",
+  "description": "Part of the Ismailia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm craft",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-boat-models-—-ismailia-collection",
+  "slug": "boat-models-—-ismailia-collection",
+  "name": "Boat models — Ismailia collection",
+  "governorateSlug": "ismailia",
+  "category": "Jewellery",
+  "priceEgp": 5787,
+  "maker": "Ismailia artisan collective (demo)",
+  "summary": "Boat models from Ismailia.",
+  "description": "Part of the Ismailia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Boat models",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-fishing-craft-—-suez-collection",
+  "slug": "fishing-craft-—-suez-collection",
+  "name": "Fishing craft — Suez collection",
+  "governorateSlug": "suez",
+  "category": "Crafts",
+  "priceEgp": 7409,
+  "maker": "Suez artisan collective (demo)",
+  "summary": "Fishing craft from Suez.",
+  "description": "Part of the Suez governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Fishing craft",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-ship-model-making-—-suez-collection",
+  "slug": "ship-model-making-—-suez-collection",
+  "name": "Ship-model making — Suez collection",
+  "governorateSlug": "suez",
+  "category": "Women's clothing",
+  "priceEgp": 9309,
+  "maker": "Suez artisan collective (demo)",
+  "summary": "Ship-model making from Suez.",
+  "description": "Part of the Suez governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Ship-model making",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-cotton-weaving-—-qalyubia-collection",
+  "slug": "cotton-weaving-—-qalyubia-collection",
+  "name": "Cotton weaving — Qalyubia collection",
+  "governorateSlug": "qalyubia",
+  "category": "Souvenirs",
+  "priceEgp": 3536,
+  "maker": "Qalyubia artisan collective (demo)",
+  "summary": "Cotton weaving from Qalyubia.",
+  "description": "Part of the Qalyubia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Cotton weaving",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-furniture-—-qalyubia-collection",
+  "slug": "furniture-—-qalyubia-collection",
+  "name": "Furniture — Qalyubia collection",
+  "governorateSlug": "qalyubia",
+  "category": "Food products",
+  "priceEgp": 5631,
+  "maker": "Qalyubia artisan collective (demo)",
+  "summary": "Furniture from Qalyubia.",
+  "description": "Part of the Qalyubia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Furniture",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-carpet-weaving-—-sharqia-collection",
+  "slug": "carpet-weaving-—-sharqia-collection",
+  "name": "Carpet weaving — Sharqia collection",
+  "governorateSlug": "sharqia",
+  "category": "Crafts",
+  "priceEgp": 1862,
+  "maker": "Sharqia artisan collective (demo)",
+  "summary": "Carpet weaving from Sharqia.",
+  "description": "Part of the Sharqia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Carpet weaving",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-pottery-—-sharqia-collection",
+  "slug": "pottery-—-sharqia-collection",
+  "name": "Pottery — Sharqia collection",
+  "governorateSlug": "sharqia",
+  "category": "Men's clothing",
+  "priceEgp": 4339,
+  "maker": "Sharqia artisan collective (demo)",
+  "summary": "Pottery from Sharqia.",
+  "description": "Part of the Sharqia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Pottery",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-copper-craft-—-dakahlia-collection",
+  "slug": "copper-craft-—-dakahlia-collection",
+  "name": "Copper craft — Dakahlia collection",
+  "governorateSlug": "dakahlia",
+  "category": "Food products",
+  "priceEgp": 5070,
+  "maker": "Dakahlia artisan collective (demo)",
+  "summary": "Copper craft from Dakahlia.",
+  "description": "Part of the Dakahlia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Copper craft",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-textile-—-dakahlia-collection",
+  "slug": "textile-—-dakahlia-collection",
+  "name": "Textile — Dakahlia collection",
+  "governorateSlug": "dakahlia",
+  "category": "Food products",
+  "priceEgp": 4012,
+  "maker": "Dakahlia artisan collective (demo)",
+  "summary": "Textile from Dakahlia.",
+  "description": "Part of the Dakahlia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Textile",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-furniture-making-—-damietta-collection",
+  "slug": "furniture-making-—-damietta-collection",
+  "name": "Furniture making — Damietta collection",
+  "governorateSlug": "damietta",
+  "category": "Art",
+  "priceEgp": 8378,
+  "maker": "Damietta artisan collective (demo)",
+  "summary": "Furniture making from Damietta.",
+  "description": "Part of the Damietta governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Furniture making",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-woodwork-—-damietta-collection",
+  "slug": "woodwork-—-damietta-collection",
+  "name": "Woodwork — Damietta collection",
+  "governorateSlug": "damietta",
+  "category": "Food products",
+  "priceEgp": 2502,
+  "maker": "Damietta artisan collective (demo)",
+  "summary": "Woodwork from Damietta.",
+  "description": "Part of the Damietta governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Woodwork",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-confectionery-—-damietta-collection",
+  "slug": "confectionery-—-damietta-collection",
+  "name": "Confectionery — Damietta collection",
+  "governorateSlug": "damietta",
+  "category": "Jewellery",
+  "priceEgp": 8634,
+  "maker": "Damietta artisan collective (demo)",
+  "summary": "Confectionery from Damietta.",
+  "description": "Part of the Damietta governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Confectionery",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-textile-weaving-—-gharbia-collection",
+  "slug": "textile-weaving-—-gharbia-collection",
+  "name": "Textile weaving — Gharbia collection",
+  "governorateSlug": "gharbia",
+  "category": "Jewellery",
+  "priceEgp": 9475,
+  "maker": "Gharbia artisan collective (demo)",
+  "summary": "Textile weaving from Gharbia.",
+  "description": "Part of the Gharbia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Textile weaving",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-cotton-crafts-—-gharbia-collection",
+  "slug": "cotton-crafts-—-gharbia-collection",
+  "name": "Cotton crafts — Gharbia collection",
+  "governorateSlug": "gharbia",
+  "category": "Traditional clothing",
+  "priceEgp": 3422,
+  "maker": "Gharbia artisan collective (demo)",
+  "summary": "Cotton crafts from Gharbia.",
+  "description": "Part of the Gharbia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Cotton crafts",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-craft-—-monufia-collection",
+  "slug": "palm-craft-—-monufia-collection",
+  "name": "Palm craft — Monufia collection",
+  "governorateSlug": "monufia",
+  "category": "Women's clothing",
+  "priceEgp": 2412,
+  "maker": "Monufia artisan collective (demo)",
+  "summary": "Palm craft from Monufia.",
+  "description": "Part of the Monufia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm craft",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-cotton-weaving-—-monufia-collection",
+  "slug": "cotton-weaving-—-monufia-collection",
+  "name": "Cotton weaving — Monufia collection",
+  "governorateSlug": "monufia",
+  "category": "Jewellery",
+  "priceEgp": 8009,
+  "maker": "Monufia artisan collective (demo)",
+  "summary": "Cotton weaving from Monufia.",
+  "description": "Part of the Monufia governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Cotton weaving",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-rosetta-woodwork-—-beheira-collection",
+  "slug": "rosetta-woodwork-—-beheira-collection",
+  "name": "Rosetta woodwork — Beheira collection",
+  "governorateSlug": "beheira",
+  "category": "Souvenirs",
+  "priceEgp": 5645,
+  "maker": "Beheira artisan collective (demo)",
+  "summary": "Rosetta woodwork from Beheira.",
+  "description": "Part of the Beheira governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Rosetta woodwork",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-reed-weaving-—-beheira-collection",
+  "slug": "reed-weaving-—-beheira-collection",
+  "name": "Reed weaving — Beheira collection",
+  "governorateSlug": "beheira",
+  "category": "Art",
+  "priceEgp": 1683,
+  "maker": "Beheira artisan collective (demo)",
+  "summary": "Reed weaving from Beheira.",
+  "description": "Part of the Beheira governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Reed weaving",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-pottery-—-beheira-collection",
+  "slug": "pottery-—-beheira-collection",
+  "name": "Pottery — Beheira collection",
+  "governorateSlug": "beheira",
+  "category": "Art",
+  "priceEgp": 4540,
+  "maker": "Beheira artisan collective (demo)",
+  "summary": "Pottery from Beheira.",
+  "description": "Part of the Beheira governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Pottery",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-reed-mat-weaving-—-kafr-el-sheikh-collection",
+  "slug": "reed-mat-weaving-—-kafr-el-sheikh-collection",
+  "name": "Reed mat weaving — Kafr El Sheikh collection",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "Home textiles",
+  "priceEgp": 2212,
+  "maker": "Kafr El Sheikh artisan collective (demo)",
+  "summary": "Reed mat weaving from Kafr El Sheikh.",
+  "description": "Part of the Kafr El Sheikh governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Reed mat weaving",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-fishing-craft-—-kafr-el-sheikh-collection",
+  "slug": "fishing-craft-—-kafr-el-sheikh-collection",
+  "name": "Fishing craft — Kafr El Sheikh collection",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "Home textiles",
+  "priceEgp": 2401,
+  "maker": "Kafr El Sheikh artisan collective (demo)",
+  "summary": "Fishing craft from Kafr El Sheikh.",
+  "description": "Part of the Kafr El Sheikh governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Fishing craft",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-fuwwah-rugs-—-kafr-el-sheikh-collection",
+  "slug": "fuwwah-rugs-—-kafr-el-sheikh-collection",
+  "name": "Fuwwah rugs — Kafr El Sheikh collection",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "Jewellery",
+  "priceEgp": 9083,
+  "maker": "Kafr El Sheikh artisan collective (demo)",
+  "summary": "Fuwwah rugs from Kafr El Sheikh.",
+  "description": "Part of the Kafr El Sheikh governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Fuwwah rugs",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-tunis-pottery-—-faiyum-collection",
+  "slug": "tunis-pottery-—-faiyum-collection",
+  "name": "Tunis pottery — Faiyum collection",
+  "governorateSlug": "faiyum",
+  "category": "Food products",
+  "priceEgp": 9366,
+  "maker": "Faiyum artisan collective (demo)",
+  "summary": "Tunis pottery from Faiyum.",
+  "description": "Part of the Faiyum governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Tunis pottery",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-basket-weaving-—-faiyum-collection",
+  "slug": "basket-weaving-—-faiyum-collection",
+  "name": "Basket weaving — Faiyum collection",
+  "governorateSlug": "faiyum",
+  "category": "Women's clothing",
+  "priceEgp": 9360,
+  "maker": "Faiyum artisan collective (demo)",
+  "summary": "Basket weaving from Faiyum.",
+  "description": "Part of the Faiyum governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Basket weaving",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-craft-—-faiyum-collection",
+  "slug": "palm-craft-—-faiyum-collection",
+  "name": "Palm craft — Faiyum collection",
+  "governorateSlug": "faiyum",
+  "category": "Crafts",
+  "priceEgp": 2941,
+  "maker": "Faiyum artisan collective (demo)",
+  "summary": "Palm craft from Faiyum.",
+  "description": "Part of the Faiyum governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm craft",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-kilim-weaving-—-beni-suef-collection",
+  "slug": "kilim-weaving-—-beni-suef-collection",
+  "name": "Kilim weaving — Beni Suef collection",
+  "governorateSlug": "beni-suef",
+  "category": "Art",
+  "priceEgp": 2566,
+  "maker": "Beni Suef artisan collective (demo)",
+  "summary": "Kilim weaving from Beni Suef.",
+  "description": "Part of the Beni Suef governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Kilim weaving",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-pottery-—-beni-suef-collection",
+  "slug": "pottery-—-beni-suef-collection",
+  "name": "Pottery — Beni Suef collection",
+  "governorateSlug": "beni-suef",
+  "category": "Women's clothing",
+  "priceEgp": 242,
+  "maker": "Beni Suef artisan collective (demo)",
+  "summary": "Pottery from Beni Suef.",
+  "description": "Part of the Beni Suef governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Pottery",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-craft-—-beni-suef-collection",
+  "slug": "palm-craft-—-beni-suef-collection",
+  "name": "Palm craft — Beni Suef collection",
+  "governorateSlug": "beni-suef",
+  "category": "Crafts",
+  "priceEgp": 6137,
+  "maker": "Beni Suef artisan collective (demo)",
+  "summary": "Palm craft from Beni Suef.",
+  "description": "Part of the Beni Suef governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm craft",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-kilim-weaving-—-minya-collection",
+  "slug": "kilim-weaving-—-minya-collection",
+  "name": "Kilim weaving — Minya collection",
+  "governorateSlug": "minya",
+  "category": "Jewellery",
+  "priceEgp": 6129,
+  "maker": "Minya artisan collective (demo)",
+  "summary": "Kilim weaving from Minya.",
+  "description": "Part of the Minya governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Kilim weaving",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-alabaster-—-minya-collection",
+  "slug": "alabaster-—-minya-collection",
+  "name": "Alabaster — Minya collection",
+  "governorateSlug": "minya",
+  "category": "Men's clothing",
+  "priceEgp": 3220,
+  "maker": "Minya artisan collective (demo)",
+  "summary": "Alabaster from Minya.",
+  "description": "Part of the Minya governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Alabaster",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-pottery-—-minya-collection",
+  "slug": "pottery-—-minya-collection",
+  "name": "Pottery — Minya collection",
+  "governorateSlug": "minya",
+  "category": "Food products",
+  "priceEgp": 1429,
+  "maker": "Minya artisan collective (demo)",
+  "summary": "Pottery from Minya.",
+  "description": "Part of the Minya governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Pottery",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-asyut-tulle-bi-telli-embroidery-—-asyut-collection",
+  "slug": "asyut-tulle-bi-telli-embroidery-—-asyut-collection",
+  "name": "Asyut tulle-bi-telli embroidery — Asyut collection",
+  "governorateSlug": "asyut",
+  "category": "Home textiles",
+  "priceEgp": 704,
+  "maker": "Asyut artisan collective (demo)",
+  "summary": "Asyut tulle-bi-telli embroidery from Asyut.",
+  "description": "Part of the Asyut governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Asyut tulle-bi-telli embroidery",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-woodwork-—-asyut-collection",
+  "slug": "woodwork-—-asyut-collection",
+  "name": "Woodwork — Asyut collection",
+  "governorateSlug": "asyut",
+  "category": "Souvenirs",
+  "priceEgp": 3130,
+  "maker": "Asyut artisan collective (demo)",
+  "summary": "Woodwork from Asyut.",
+  "description": "Part of the Asyut governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Woodwork",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-carpets-—-asyut-collection",
+  "slug": "carpets-—-asyut-collection",
+  "name": "Carpets — Asyut collection",
+  "governorateSlug": "asyut",
+  "category": "Men's clothing",
+  "priceEgp": 5220,
+  "maker": "Asyut artisan collective (demo)",
+  "summary": "Carpets from Asyut.",
+  "description": "Part of the Asyut governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Carpets",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-akhmim-hand-weaving-—-sohag-collection",
+  "slug": "akhmim-hand-weaving-—-sohag-collection",
+  "name": "Akhmim hand weaving — Sohag collection",
+  "governorateSlug": "sohag",
+  "category": "Souvenirs",
+  "priceEgp": 447,
+  "maker": "Sohag artisan collective (demo)",
+  "summary": "Akhmim hand weaving from Sohag.",
+  "description": "Part of the Sohag governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Akhmim hand weaving",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-textile-embroidery-—-sohag-collection",
+  "slug": "textile-embroidery-—-sohag-collection",
+  "name": "Textile embroidery — Sohag collection",
+  "governorateSlug": "sohag",
+  "category": "Men's clothing",
+  "priceEgp": 3449,
+  "maker": "Sohag artisan collective (demo)",
+  "summary": "Textile embroidery from Sohag.",
+  "description": "Part of the Sohag governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Textile embroidery",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-pottery-—-sohag-collection",
+  "slug": "pottery-—-sohag-collection",
+  "name": "Pottery — Sohag collection",
+  "governorateSlug": "sohag",
+  "category": "Souvenirs",
+  "priceEgp": 7848,
+  "maker": "Sohag artisan collective (demo)",
+  "summary": "Pottery from Sohag.",
+  "description": "Part of the Sohag governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Pottery",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-qena-pottery-qulal-—-qena-collection",
+  "slug": "qena-pottery-qulal-—-qena-collection",
+  "name": "Qena pottery (qulal) — Qena collection",
+  "governorateSlug": "qena",
+  "category": "Traditional clothing",
+  "priceEgp": 2522,
+  "maker": "Qena artisan collective (demo)",
+  "summary": "Qena pottery (qulal) from Qena.",
+  "description": "Part of the Qena governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Qena pottery (qulal)",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-naqada-handloom-—-qena-collection",
+  "slug": "naqada-handloom-—-qena-collection",
+  "name": "Naqada handloom — Qena collection",
+  "governorateSlug": "qena",
+  "category": "Food products",
+  "priceEgp": 6510,
+  "maker": "Qena artisan collective (demo)",
+  "summary": "Naqada handloom from Qena.",
+  "description": "Part of the Qena governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Naqada handloom",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-craft-—-qena-collection",
+  "slug": "palm-craft-—-qena-collection",
+  "name": "Palm craft — Qena collection",
+  "governorateSlug": "qena",
+  "category": "Women's clothing",
+  "priceEgp": 6827,
+  "maker": "Qena artisan collective (demo)",
+  "summary": "Palm craft from Qena.",
+  "description": "Part of the Qena governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm craft",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-mud-brick-craft-—-new-valley-collection",
+  "slug": "mud-brick-craft-—-new-valley-collection",
+  "name": "Mud-brick craft — New Valley collection",
+  "governorateSlug": "new-valley",
+  "category": "Men's clothing",
+  "priceEgp": 5688,
+  "maker": "New Valley artisan collective (demo)",
+  "summary": "Mud-brick craft from New Valley.",
+  "description": "Part of the New Valley governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Mud-brick craft",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-palm-weaving-—-new-valley-collection",
+  "slug": "palm-weaving-—-new-valley-collection",
+  "name": "Palm weaving — New Valley collection",
+  "governorateSlug": "new-valley",
+  "category": "Food products",
+  "priceEgp": 2334,
+  "maker": "New Valley artisan collective (demo)",
+  "summary": "Palm weaving from New Valley.",
+  "description": "Part of the New Valley governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Palm weaving",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prd-oasis-pottery-—-new-valley-collection",
+  "slug": "oasis-pottery-—-new-valley-collection",
+  "name": "Oasis pottery — New Valley collection",
+  "governorateSlug": "new-valley",
+  "category": "Crafts",
+  "priceEgp": 4179,
+  "maker": "New Valley artisan collective (demo)",
+  "summary": "Oasis pottery from New Valley.",
+  "description": "Part of the New Valley governorate collection. Demo catalogue entry; fulfilment runs through a marketplace adapter that is not yet connected.",
+  "images": [],
+  "tags": [
+   "Oasis pottery",
+   "new-valley"
+  ]
+ }
+]

@@ -1,0 +1,2444 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-pyramids-of-giza",
+  "slug": "pyramids-of-giza",
+  "name": "Pyramids of Giza",
+  "governorateSlug": "giza",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.9792,
+   "lng": 31.1342
+  },
+  "summary": "Ancient Egyptian heritage site in Giza.",
+  "description": "Pyramids of Giza is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-great-sphinx-of-giza",
+  "slug": "great-sphinx-of-giza",
+  "name": "Great Sphinx of Giza",
+  "governorateSlug": "giza",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.9753,
+   "lng": 31.1376
+  },
+  "summary": "Ancient Egyptian heritage site in Giza.",
+  "description": "Great Sphinx of Giza is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-saqqara-step-pyramid-complex",
+  "slug": "saqqara-step-pyramid-complex",
+  "name": "Saqqara Step Pyramid Complex",
+  "governorateSlug": "giza",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "COMPLETED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.8712,
+   "lng": 31.2165
+  },
+  "summary": "Ancient Egyptian heritage site in Giza.",
+  "description": "Saqqara Step Pyramid Complex is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-dahshur-bent-and-red-pyramids",
+  "slug": "dahshur-bent-and-red-pyramids",
+  "name": "Dahshur Bent and Red Pyramids",
+  "governorateSlug": "giza",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.7908,
+   "lng": 31.2093
+  },
+  "summary": "Ancient Egyptian heritage site in Giza.",
+  "description": "Dahshur Bent and Red Pyramids is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-memphis-open-air-museum",
+  "slug": "memphis-open-air-museum",
+  "name": "Memphis Open-Air Museum",
+  "governorateSlug": "giza",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.8494,
+   "lng": 31.2508
+  },
+  "summary": "Ancient Egyptian heritage site in Giza.",
+  "description": "Memphis Open-Air Museum is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-abusir-pyramid-field",
+  "slug": "abusir-pyramid-field",
+  "name": "Abusir Pyramid Field",
+  "governorateSlug": "giza",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 29.8961,
+   "lng": 31.2036
+  },
+  "summary": "Ancient Egyptian heritage site in Giza.",
+  "description": "Abusir Pyramid Field is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-karnak-temple-complex",
+  "slug": "karnak-temple-complex",
+  "name": "Karnak Temple Complex",
+  "governorateSlug": "luxor",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.7188,
+   "lng": 32.6573
+  },
+  "summary": "Ancient Egyptian heritage site in Luxor.",
+  "description": "Karnak Temple Complex is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-luxor-temple",
+  "slug": "luxor-temple",
+  "name": "Luxor Temple",
+  "governorateSlug": "luxor",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.6995,
+   "lng": 32.6391
+  },
+  "summary": "Ancient Egyptian heritage site in Luxor.",
+  "description": "Luxor Temple is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-valley-of-the-kings",
+  "slug": "valley-of-the-kings",
+  "name": "Valley of the Kings",
+  "governorateSlug": "luxor",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.7402,
+   "lng": 32.6014
+  },
+  "summary": "Ancient Egyptian heritage site in Luxor.",
+  "description": "Valley of the Kings is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-temple-of-hatshepsut-deir-el-bahari",
+  "slug": "temple-of-hatshepsut-deir-el-bahari",
+  "name": "Temple of Hatshepsut, Deir el-Bahari",
+  "governorateSlug": "luxor",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.7379,
+   "lng": 32.6068
+  },
+  "summary": "Ancient Egyptian heritage site in Luxor.",
+  "description": "Temple of Hatshepsut, Deir el-Bahari is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-medinet-habu",
+  "slug": "medinet-habu",
+  "name": "Medinet Habu",
+  "governorateSlug": "luxor",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.7195,
+   "lng": 32.6003
+  },
+  "summary": "Ancient Egyptian heritage site in Luxor.",
+  "description": "Medinet Habu is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-tombs-of-the-nobles-sheikh-abd-el-qurna",
+  "slug": "tombs-of-the-nobles-sheikh-abd-el-qurna",
+  "name": "Tombs of the Nobles, Sheikh Abd el-Qurna",
+  "governorateSlug": "luxor",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "PERMIT_REQUIRED",
+  "restorationStatus": "PLANNED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 25.73,
+   "lng": 32.61
+  },
+  "summary": "Ancient Egyptian heritage site in Luxor.",
+  "description": "Tombs of the Nobles, Sheikh Abd el-Qurna is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: permit required. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-abu-simbel-temples",
+  "slug": "abu-simbel-temples",
+  "name": "Abu Simbel Temples",
+  "governorateSlug": "aswan",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 22.3372,
+   "lng": 31.6258
+  },
+  "summary": "Ancient Egyptian heritage site in Aswan.",
+  "description": "Abu Simbel Temples is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-philae-temple-of-isis",
+  "slug": "philae-temple-of-isis",
+  "name": "Philae Temple of Isis",
+  "governorateSlug": "aswan",
+  "era": "PTOLEMAIC",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 24.0253,
+   "lng": 32.8843
+  },
+  "summary": "Ancient Egyptian heritage site in Aswan.",
+  "description": "Philae Temple of Isis is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ptolemaic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "PTOLEMAIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-unfinished-obelisk",
+  "slug": "unfinished-obelisk",
+  "name": "Unfinished Obelisk",
+  "governorateSlug": "aswan",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 24.0776,
+   "lng": 32.8959
+  },
+  "summary": "Ancient Egyptian heritage site in Aswan.",
+  "description": "Unfinished Obelisk is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-qubbet-el-hawa-tombs",
+  "slug": "qubbet-el-hawa-tombs",
+  "name": "Qubbet el-Hawa Tombs",
+  "governorateSlug": "aswan",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": true,
+  "coordinates": {
+   "lat": 24.0967,
+   "lng": 32.8836
+  },
+  "summary": "Ancient Egyptian heritage site in Aswan.",
+  "description": "Qubbet el-Hawa Tombs is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-kom-ombo-temple",
+  "slug": "kom-ombo-temple",
+  "name": "Kom Ombo Temple",
+  "governorateSlug": "aswan",
+  "era": "PTOLEMAIC",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 24.4522,
+   "lng": 32.9281
+  },
+  "summary": "Ancient Egyptian heritage site in Aswan.",
+  "description": "Kom Ombo Temple is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ptolemaic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "PTOLEMAIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-temple-of-horus-at-edfu",
+  "slug": "temple-of-horus-at-edfu",
+  "name": "Temple of Horus at Edfu",
+  "governorateSlug": "aswan",
+  "era": "PTOLEMAIC",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 24.9781,
+   "lng": 32.8733
+  },
+  "summary": "Ancient Egyptian heritage site in Aswan.",
+  "description": "Temple of Horus at Edfu is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ptolemaic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "PTOLEMAIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-dendera-temple-of-hathor",
+  "slug": "dendera-temple-of-hathor",
+  "name": "Dendera Temple of Hathor",
+  "governorateSlug": "qena",
+  "era": "PTOLEMAIC",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 26.142,
+   "lng": 32.6702
+  },
+  "summary": "Ancient Egyptian heritage site in Qena.",
+  "description": "Dendera Temple of Hathor is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ptolemaic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "PTOLEMAIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-abydos-temple-of-seti-i",
+  "slug": "abydos-temple-of-seti-i",
+  "name": "Abydos Temple of Seti I",
+  "governorateSlug": "sohag",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 26.1847,
+   "lng": 31.9192
+  },
+  "summary": "Ancient Egyptian heritage site in Sohag.",
+  "description": "Abydos Temple of Seti I is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-red-and-white-monasteries-sohag",
+  "slug": "red-and-white-monasteries-sohag",
+  "name": "Red and White Monasteries, Sohag",
+  "governorateSlug": "sohag",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 26.5297,
+   "lng": 31.6478
+  },
+  "summary": "Coptic / Christian heritage site in Sohag.",
+  "description": "Red and White Monasteries, Sohag is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-akhmim-archaeological-area",
+  "slug": "akhmim-archaeological-area",
+  "name": "Akhmim Archaeological Area",
+  "governorateSlug": "sohag",
+  "era": "GRECO_ROMAN",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 26.5667,
+   "lng": 31.7458
+  },
+  "summary": "Ancient Egyptian heritage site in Sohag.",
+  "description": "Akhmim Archaeological Area is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Greco Roman period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-beni-hasan-tombs",
+  "slug": "beni-hasan-tombs",
+  "name": "Beni Hasan Tombs",
+  "governorateSlug": "minya",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 27.9331,
+   "lng": 30.8756
+  },
+  "summary": "Ancient Egyptian heritage site in Minya.",
+  "description": "Beni Hasan Tombs is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-tell-el-amarna",
+  "slug": "tell-el-amarna",
+  "name": "Tell el-Amarna",
+  "governorateSlug": "minya",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "PLANNED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 27.6461,
+   "lng": 30.8961
+  },
+  "summary": "Ancient Egyptian heritage site in Minya.",
+  "description": "Tell el-Amarna is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-tuna-el-gebel-necropolis",
+  "slug": "tuna-el-gebel-necropolis",
+  "name": "Tuna el-Gebel Necropolis",
+  "governorateSlug": "minya",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 27.7644,
+   "lng": 30.7386
+  },
+  "summary": "Greco-Roman heritage site in Minya.",
+  "description": "Tuna el-Gebel Necropolis is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-gebel-el-teir-monastery",
+  "slug": "gebel-el-teir-monastery",
+  "name": "Gebel el-Teir Monastery",
+  "governorateSlug": "minya",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 28.2286,
+   "lng": 30.8253
+  },
+  "summary": "Coptic / Christian heritage site in Minya.",
+  "description": "Gebel el-Teir Monastery is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-meir-tombs",
+  "slug": "meir-tombs",
+  "name": "Meir Tombs",
+  "governorateSlug": "asyut",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 27.4197,
+   "lng": 30.7256
+  },
+  "summary": "Ancient Egyptian heritage site in Asyut.",
+  "description": "Meir Tombs is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-deir-el-muharraq",
+  "slug": "deir-el-muharraq",
+  "name": "Deir El Muharraq",
+  "governorateSlug": "asyut",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 27.4325,
+   "lng": 30.8306
+  },
+  "summary": "Coptic / Christian heritage site in Asyut.",
+  "description": "Deir El Muharraq is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-hanging-church-coptic-cairo",
+  "slug": "hanging-church-coptic-cairo",
+  "name": "Hanging Church, Coptic Cairo",
+  "governorateSlug": "cairo",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "COMPLETED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.0053,
+   "lng": 31.2306
+  },
+  "summary": "Coptic / Christian heritage site in Cairo.",
+  "description": "Hanging Church, Coptic Cairo is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-ben-ezra-synagogue",
+  "slug": "ben-ezra-synagogue",
+  "name": "Ben Ezra Synagogue",
+  "governorateSlug": "cairo",
+  "era": "ISLAMIC",
+  "classification": "Jewish",
+  "access": "OPEN",
+  "restorationStatus": "COMPLETED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.0053,
+   "lng": 31.2313
+  },
+  "summary": "Jewish heritage site in Cairo.",
+  "description": "Ben Ezra Synagogue is recorded in the Egypt One heritage registry as a Jewish site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Jewish",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-mosque-of-ibn-tulun",
+  "slug": "mosque-of-ibn-tulun",
+  "name": "Mosque of Ibn Tulun",
+  "governorateSlug": "cairo",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.0288,
+   "lng": 31.2497
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Mosque of Ibn Tulun is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-al-azhar-mosque",
+  "slug": "al-azhar-mosque",
+  "name": "Al-Azhar Mosque",
+  "governorateSlug": "cairo",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.0459,
+   "lng": 31.2625
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Al-Azhar Mosque is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-sultan-hassan-mosque-madrasa",
+  "slug": "sultan-hassan-mosque-madrasa",
+  "name": "Sultan Hassan Mosque-Madrasa",
+  "governorateSlug": "cairo",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.0322,
+   "lng": 31.2564
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Sultan Hassan Mosque-Madrasa is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-citadel-of-salah-el-din",
+  "slug": "citadel-of-salah-el-din",
+  "name": "Citadel of Salah El-Din",
+  "governorateSlug": "cairo",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.0287,
+   "lng": 31.2599
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Citadel of Salah El-Din is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-al-muizz-street-historic-corridor",
+  "slug": "al-muizz-street-historic-corridor",
+  "name": "Al-Muizz Street Historic Corridor",
+  "governorateSlug": "cairo",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.05,
+   "lng": 31.2617
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Al-Muizz Street Historic Corridor is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-bayt-al-suhaymi",
+  "slug": "bayt-al-suhaymi",
+  "name": "Bayt Al-Suhaymi",
+  "governorateSlug": "cairo",
+  "era": "OTTOMAN",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "COMPLETED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.053,
+   "lng": 31.2625
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Bayt Al-Suhaymi is recorded in the Egypt One heritage registry as a Islamic site of the Ottoman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "OTTOMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-sabil-kuttab-of-abdel-rahman-katkhuda",
+  "slug": "sabil-kuttab-of-abdel-rahman-katkhuda",
+  "name": "Sabil-Kuttab of Abdel Rahman Katkhuda",
+  "governorateSlug": "cairo",
+  "era": "OTTOMAN",
+  "classification": "Islamic",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 30.0512,
+   "lng": 31.262
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Sabil-Kuttab of Abdel Rahman Katkhuda is recorded in the Egypt One heritage registry as a Islamic site of the Ottoman period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "OTTOMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-northern-cemetery-mamluk-complexes",
+  "slug": "northern-cemetery-mamluk-complexes",
+  "name": "Northern Cemetery Mamluk Complexes",
+  "governorateSlug": "cairo",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 30.0475,
+   "lng": 31.2777
+  },
+  "summary": "Islamic heritage site in Cairo.",
+  "description": "Northern Cemetery Mamluk Complexes is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-qaitbay-citadel-alexandria",
+  "slug": "qaitbay-citadel-alexandria",
+  "name": "Qaitbay Citadel, Alexandria",
+  "governorateSlug": "alexandria",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.2139,
+   "lng": 29.8853
+  },
+  "summary": "Islamic heritage site in Alexandria.",
+  "description": "Qaitbay Citadel, Alexandria is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-catacombs-of-kom-el-shoqafa",
+  "slug": "catacombs-of-kom-el-shoqafa",
+  "name": "Catacombs of Kom El Shoqafa",
+  "governorateSlug": "alexandria",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.1783,
+   "lng": 29.8925
+  },
+  "summary": "Greco-Roman heritage site in Alexandria.",
+  "description": "Catacombs of Kom El Shoqafa is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-pompeys-pillar-and-serapeum",
+  "slug": "pompeys-pillar-and-serapeum",
+  "name": "Pompey's Pillar and Serapeum",
+  "governorateSlug": "alexandria",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.1823,
+   "lng": 29.8965
+  },
+  "summary": "Greco-Roman heritage site in Alexandria.",
+  "description": "Pompey's Pillar and Serapeum is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-roman-amphitheatre-kom-el-dikka",
+  "slug": "roman-amphitheatre-kom-el-dikka",
+  "name": "Roman Amphitheatre, Kom el-Dikka",
+  "governorateSlug": "alexandria",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.1954,
+   "lng": 29.9058
+  },
+  "summary": "Greco-Roman heritage site in Alexandria.",
+  "description": "Roman Amphitheatre, Kom el-Dikka is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-eliyahu-hanavi-synagogue",
+  "slug": "eliyahu-hanavi-synagogue",
+  "name": "Eliyahu Hanavi Synagogue",
+  "governorateSlug": "alexandria",
+  "era": "KINGDOM",
+  "classification": "Jewish",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "COMPLETED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.1997,
+   "lng": 29.9048
+  },
+  "summary": "Jewish heritage site in Alexandria.",
+  "description": "Eliyahu Hanavi Synagogue is recorded in the Egypt One heritage registry as a Jewish site of the Kingdom period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Jewish",
+   "KINGDOM"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-abu-mena-early-christian-site",
+  "slug": "abu-mena-early-christian-site",
+  "name": "Abu Mena Early Christian Site",
+  "governorateSlug": "beheira",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.8419,
+   "lng": 29.6636
+  },
+  "summary": "Coptic / Christian heritage site in Beheira.",
+  "description": "Abu Mena Early Christian Site is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-rosetta-ottoman-merchant-houses",
+  "slug": "rosetta-ottoman-merchant-houses",
+  "name": "Rosetta Ottoman Merchant Houses",
+  "governorateSlug": "beheira",
+  "era": "OTTOMAN",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.399,
+   "lng": 30.4167
+  },
+  "summary": "Islamic heritage site in Beheira.",
+  "description": "Rosetta Ottoman Merchant Houses is recorded in the Egypt One heritage registry as a Islamic site of the Ottoman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "OTTOMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-wadi-el-natrun-monasteries",
+  "slug": "wadi-el-natrun-monasteries",
+  "name": "Wadi El Natrun Monasteries",
+  "governorateSlug": "beheira",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.4,
+   "lng": 30.35
+  },
+  "summary": "Coptic / Christian heritage site in Beheira.",
+  "description": "Wadi El Natrun Monasteries is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-saint-catherine-monastery",
+  "slug": "saint-catherine-monastery",
+  "name": "Saint Catherine Monastery",
+  "governorateSlug": "south-sinai",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 28.5558,
+   "lng": 33.9758
+  },
+  "summary": "Coptic / Christian heritage site in South Sinai.",
+  "description": "Saint Catherine Monastery is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-serabit-el-khadim",
+  "slug": "serabit-el-khadim",
+  "name": "Serabit el-Khadim",
+  "governorateSlug": "south-sinai",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "PERMIT_REQUIRED",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 29.0356,
+   "lng": 33.4586
+  },
+  "summary": "Ancient Egyptian heritage site in South Sinai.",
+  "description": "Serabit el-Khadim is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: permit required. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-tell-basta-bubastis",
+  "slug": "tell-basta-bubastis",
+  "name": "Tell Basta (Bubastis)",
+  "governorateSlug": "sharqia",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "PLANNED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.5722,
+   "lng": 31.5133
+  },
+  "summary": "Ancient Egyptian heritage site in Sharqia.",
+  "description": "Tell Basta (Bubastis) is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-san-el-hagar-tanis",
+  "slug": "san-el-hagar-tanis",
+  "name": "San El Hagar (Tanis)",
+  "governorateSlug": "sharqia",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 30.975,
+   "lng": 31.8833
+  },
+  "summary": "Ancient Egyptian heritage site in Sharqia.",
+  "description": "San El Hagar (Tanis) is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-karanis-kom-aushim",
+  "slug": "karanis-kom-aushim",
+  "name": "Karanis (Kom Aushim)",
+  "governorateSlug": "faiyum",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.5186,
+   "lng": 30.9022
+  },
+  "summary": "Greco-Roman heritage site in Faiyum.",
+  "description": "Karanis (Kom Aushim) is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-hawara-pyramid-and-labyrinth-area",
+  "slug": "hawara-pyramid-and-labyrinth-area",
+  "name": "Hawara Pyramid and Labyrinth Area",
+  "governorateSlug": "faiyum",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 29.2739,
+   "lng": 30.8992
+  },
+  "summary": "Ancient Egyptian heritage site in Faiyum.",
+  "description": "Hawara Pyramid and Labyrinth Area is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-wadi-el-hitan-whale-valley",
+  "slug": "wadi-el-hitan-whale-valley",
+  "name": "Wadi El Hitan (Whale Valley)",
+  "governorateSlug": "faiyum",
+  "era": "PREDYNASTIC",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.2694,
+   "lng": 30.0433
+  },
+  "summary": "Ancient Egyptian heritage site in Faiyum.",
+  "description": "Wadi El Hitan (Whale Valley) is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Predynastic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "PREDYNASTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-meidum-pyramid",
+  "slug": "meidum-pyramid",
+  "name": "Meidum Pyramid",
+  "governorateSlug": "beni-suef",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.3881,
+   "lng": 31.1567
+  },
+  "summary": "Ancient Egyptian heritage site in Beni Suef.",
+  "description": "Meidum Pyramid is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-bagawat-necropolis-kharga",
+  "slug": "bagawat-necropolis-kharga",
+  "name": "Bagawat Necropolis, Kharga",
+  "governorateSlug": "new-valley",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.47,
+   "lng": 30.55
+  },
+  "summary": "Coptic / Christian heritage site in New Valley.",
+  "description": "Bagawat Necropolis, Kharga is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-al-qasr-islamic-village-dakhla",
+  "slug": "al-qasr-islamic-village-dakhla",
+  "name": "Al-Qasr Islamic Village, Dakhla",
+  "governorateSlug": "new-valley",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.7,
+   "lng": 28.88
+  },
+  "summary": "Islamic heritage site in New Valley.",
+  "description": "Al-Qasr Islamic Village, Dakhla is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-temple-of-hibis-kharga",
+  "slug": "temple-of-hibis-kharga",
+  "name": "Temple of Hibis, Kharga",
+  "governorateSlug": "new-valley",
+  "era": "PTOLEMAIC",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 25.474,
+   "lng": 30.558
+  },
+  "summary": "Ancient Egyptian heritage site in New Valley.",
+  "description": "Temple of Hibis, Kharga is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ptolemaic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "PTOLEMAIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-shali-fortress-siwa",
+  "slug": "shali-fortress-siwa",
+  "name": "Shali Fortress, Siwa",
+  "governorateSlug": "matrouh",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 29.2032,
+   "lng": 25.5195
+  },
+  "summary": "Islamic heritage site in Matrouh.",
+  "description": "Shali Fortress, Siwa is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-temple-of-the-oracle-aghurmi",
+  "slug": "temple-of-the-oracle-aghurmi",
+  "name": "Temple of the Oracle, Aghurmi",
+  "governorateSlug": "matrouh",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "OPEN",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 29.2,
+   "lng": 25.55
+  },
+  "summary": "Ancient Egyptian heritage site in Matrouh.",
+  "description": "Temple of the Oracle, Aghurmi is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-el-alamein-war-cemeteries",
+  "slug": "el-alamein-war-cemeteries",
+  "name": "El Alamein War Cemeteries",
+  "governorateSlug": "matrouh",
+  "era": "KINGDOM",
+  "classification": "Modern",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.83,
+   "lng": 28.95
+  },
+  "summary": "Modern heritage site in Matrouh.",
+  "description": "El Alamein War Cemeteries is recorded in the Egypt One heritage registry as a Modern site of the Kingdom period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Modern",
+   "KINGDOM"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-pelusium-archaeological-area",
+  "slug": "pelusium-archaeological-area",
+  "name": "Pelusium Archaeological Area",
+  "governorateSlug": "north-sinai",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "PERMIT_REQUIRED",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 31.04,
+   "lng": 32.54
+  },
+  "summary": "Greco-Roman heritage site in North Sinai.",
+  "description": "Pelusium Archaeological Area is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: permit required. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-naqada-predynastic-cemeteries",
+  "slug": "naqada-predynastic-cemeteries",
+  "name": "Naqada Predynastic Cemeteries",
+  "governorateSlug": "qena",
+  "era": "PREDYNASTIC",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 25.8975,
+   "lng": 32.725
+  },
+  "summary": "Ancient Egyptian heritage site in Qena.",
+  "description": "Naqada Predynastic Cemeteries is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Predynastic period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "PREDYNASTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-qift-coptos-temple-area",
+  "slug": "qift-coptos-temple-area",
+  "name": "Qift (Coptos) Temple Area",
+  "governorateSlug": "qena",
+  "era": "GRECO_ROMAN",
+  "classification": "Ancient Egyptian",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 26.0,
+   "lng": 32.8167
+  },
+  "summary": "Ancient Egyptian heritage site in Qena.",
+  "description": "Qift (Coptos) Temple Area is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Greco Roman period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-sakha-coptic-heritage-site",
+  "slug": "sakha-coptic-heritage-site",
+  "name": "Sakha Coptic Heritage Site",
+  "governorateSlug": "kafr-el-sheikh",
+  "era": "COPTIC",
+  "classification": "Coptic / Christian",
+  "access": "OPEN",
+  "restorationStatus": "PLANNED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.0833,
+   "lng": 30.95
+  },
+  "summary": "Coptic / Christian heritage site in Kafr El Sheikh.",
+  "description": "Sakha Coptic Heritage Site is recorded in the Egypt One heritage registry as a Coptic / Christian site of the Coptic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Coptic / Christian",
+   "COPTIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-damietta-old-town-houses",
+  "slug": "damietta-old-town-houses",
+  "name": "Damietta Old Town Houses",
+  "governorateSlug": "damietta",
+  "era": "OTTOMAN",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 31.4165,
+   "lng": 31.8133
+  },
+  "summary": "Islamic heritage site in Damietta.",
+  "description": "Damietta Old Town Houses is recorded in the Egypt One heritage registry as a Islamic site of the Ottoman period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "OTTOMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-sayed-el-badawi-mosque-tanta",
+  "slug": "sayed-el-badawi-mosque-tanta",
+  "name": "Sayed El Badawi Mosque, Tanta",
+  "governorateSlug": "gharbia",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "NONE",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.7885,
+   "lng": 30.9977
+  },
+  "summary": "Islamic heritage site in Gharbia.",
+  "description": "Sayed El Badawi Mosque, Tanta is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-ismailia-canal-era-district",
+  "slug": "ismailia-canal-era-district",
+  "name": "Ismailia Canal-Era District",
+  "governorateSlug": "ismailia",
+  "era": "MUHAMMAD_ALI",
+  "classification": "Modern",
+  "access": "OPEN",
+  "restorationStatus": "PLANNED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 30.5965,
+   "lng": 32.2715
+  },
+  "summary": "Modern heritage site in Ismailia.",
+  "description": "Ismailia Canal-Era District is recorded in the Egypt One heritage registry as a Modern site of the Muhammad Ali period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Modern",
+   "MUHAMMAD_ALI"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-port-said-italian-era-waterfront",
+  "slug": "port-said-italian-era-waterfront",
+  "name": "Port Said Italian-Era Waterfront",
+  "governorateSlug": "port-said",
+  "era": "KINGDOM",
+  "classification": "Modern",
+  "access": "OPEN",
+  "restorationStatus": "IN_PROGRESS",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.2653,
+   "lng": 32.3019
+  },
+  "summary": "Modern heritage site in Port Said.",
+  "description": "Port Said Italian-Era Waterfront is recorded in the Egypt One heritage registry as a Modern site of the Kingdom period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Modern",
+   "KINGDOM"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-dar-ibn-luqman-mansoura",
+  "slug": "dar-ibn-luqman-mansoura",
+  "name": "Dar Ibn Luqman, Mansoura",
+  "governorateSlug": "dakahlia",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "OPEN",
+  "restorationStatus": "COMPLETED",
+  "hidden": false,
+  "coordinates": {
+   "lat": 31.0409,
+   "lng": 31.3785
+  },
+  "summary": "Islamic heritage site in Dakahlia.",
+  "description": "Dar Ibn Luqman, Mansoura is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: open. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-ihnasia-herakleopolis-magna",
+  "slug": "ihnasia-herakleopolis-magna",
+  "name": "Ihnasia (Herakleopolis Magna)",
+  "governorateSlug": "beni-suef",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 29.0847,
+   "lng": 30.9331
+  },
+  "summary": "Greco-Roman heritage site in Beni Suef.",
+  "description": "Ihnasia (Herakleopolis Magna) is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-quesna-heritage-area",
+  "slug": "quesna-heritage-area",
+  "name": "Quesna Heritage Area",
+  "governorateSlug": "monufia",
+  "era": "ISLAMIC",
+  "classification": "Islamic",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 30.5667,
+   "lng": 31.1333
+  },
+  "summary": "Islamic heritage site in Monufia.",
+  "description": "Quesna Heritage Area is recorded in the Egypt One heritage registry as a Islamic site of the Islamic period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "ISLAMIC"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-qalyub-nile-heritage-corridor",
+  "slug": "qalyub-nile-heritage-corridor",
+  "name": "Qalyub Nile Heritage Corridor",
+  "governorateSlug": "qalyubia",
+  "era": "OTTOMAN",
+  "classification": "Islamic",
+  "access": "LIMITED_ACCESS",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 30.18,
+   "lng": 31.2
+  },
+  "summary": "Islamic heritage site in Qalyubia.",
+  "description": "Qalyub Nile Heritage Corridor is recorded in the Egypt One heritage registry as a Islamic site of the Ottoman period. Access classification: limited access. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Islamic",
+   "OTTOMAN"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-ataqa-mountain-rock-inscriptions",
+  "slug": "ataqa-mountain-rock-inscriptions",
+  "name": "Ataqa Mountain Rock Inscriptions",
+  "governorateSlug": "suez",
+  "era": "ANCIENT",
+  "classification": "Ancient Egyptian",
+  "access": "PERMIT_REQUIRED",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 29.85,
+   "lng": 32.45
+  },
+  "summary": "Ancient Egyptian heritage site in Suez.",
+  "description": "Ataqa Mountain Rock Inscriptions is recorded in the Egypt One heritage registry as a Ancient Egyptian site of the Ancient period. Access classification: permit required. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Ancient Egyptian",
+   "ANCIENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "her-wadi-el-gemal-roman-emerald-mines",
+  "slug": "wadi-el-gemal-roman-emerald-mines",
+  "name": "Wadi El Gemal Roman Emerald Mines",
+  "governorateSlug": "red-sea",
+  "era": "GRECO_ROMAN",
+  "classification": "Greco-Roman",
+  "access": "PERMIT_REQUIRED",
+  "restorationStatus": "PROPOSED",
+  "hidden": true,
+  "coordinates": {
+   "lat": 24.68,
+   "lng": 35.05
+  },
+  "summary": "Greco-Roman heritage site in Red Sea.",
+  "description": "Wadi El Gemal Roman Emerald Mines is recorded in the Egypt One heritage registry as a Greco-Roman site of the Greco Roman period. Access classification: permit required. Opening times, ticketing and permits are set by the competent authority and are not published here until a verified source is connected.",
+  "academicReferences": [
+   "Egypt One demo bibliography entry — replace with verified academic citation."
+  ],
+  "relatedFigures": [],
+  "accessibility": [
+   "Step-free route status not yet surveyed"
+  ],
+  "images": [],
+  "tags": [
+   "Greco-Roman",
+   "GRECO_ROMAN"
+  ]
+ }
+]

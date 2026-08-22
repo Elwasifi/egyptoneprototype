@@ -1,0 +1,36 @@
+import Link from 'next/link';
+import type { Metadata } from 'next';
+import { db } from '@egypt-one/database';
+import { RBAC_MATRIX, recentAudit } from '@egypt-one/security';
+import { ADAPTER_LIST } from '@egypt-one/integrations';
+import { REVENUE_RULES, DEFAULT_BASE_COMMISSION_PCT } from '@egypt-one/config';
+import { AGENTS } from '@egypt-one/agents';
+import { MCP_SERVERS, MCP_TOOLS } from '@egypt-one/mcp';
+import type { Locale } from '@egypt-one/i18n';
+import { PortalShell, Badge, SourceBadge, Stat, BarStrip, Donut, Trend, DataTable, EmptyState } from '@egypt-one/ui';
+import { InfoCard } from '@/components/Module';
+import { ACCOUNT_NAV } from '@/lib/nav';
+import { href as L } from '@/lib/locale';
+
+
+export const metadata: Metadata = { title: "Wallet & rewards", description: "Illustrative loyalty points. No stored monetary value." };
+
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const metrics = db.metrics() as any;
+
+  return (
+    <PortalShell portal={"Account"} title={"Wallet & rewards"} subtitle={"Illustrative loyalty points. No stored monetary value."} nav={ACCOUNT_NAV} active={"/account/wallet"} accent={"gold"} roleNote={""}>
+      <div className="grid gap-6">
+        <div className="grid gap-4 sm:grid-cols-3">
+          <Stat label="Points balance" value="0" />
+          <Stat label="Tier" value="Explorer" />
+          <Stat label="Lifetime spend tracked" value="$0" />
+        </div>
+        <InfoCard title="No real payment instrument is stored here" tone="warn">
+          <p>Payments are handled by a PSP-abstracted adapter (currently sandboxed). Egypt One does not hold funds or act as a payment processor.</p>
+        </InfoCard>
+      </div>
+    </PortalShell>
+  );
+}

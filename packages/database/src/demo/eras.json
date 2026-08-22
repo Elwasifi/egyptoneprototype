@@ -1,0 +1,285 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "PREDYNASTIC",
+  "name": "Predynastic & Early Egypt",
+  "from_": "c. 5500 BC",
+  "to": "c. 3100 BC",
+  "colour": "#6E7F8D",
+  "summary": "Neolithic Nile cultures — Badari, Naqada, Maadi — converge into the first unified state.",
+  "monuments": [
+   "Naqada cemeteries",
+   "Hierakonpolis",
+   "Merimde settlement"
+  ],
+  "museums": [
+   "Egyptian Museum, Tahrir"
+  ],
+  "rulers": [
+   "Narmer",
+   "Scorpion II"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "ANCIENT",
+  "name": "Ancient Egypt",
+  "from_": "c. 3100 BC",
+  "to": "332 BC",
+  "colour": "#D8A84E",
+  "summary": "Old, Middle and New Kingdoms: pyramid building, imperial expansion, and the classical temple landscape.",
+  "monuments": [
+   "Pyramids of Giza",
+   "Karnak",
+   "Abu Simbel",
+   "Saqqara",
+   "Valley of the Kings"
+  ],
+  "museums": [
+   "Grand Egyptian Museum",
+   "Luxor Museum"
+  ],
+  "rulers": [
+   "Khufu",
+   "Hatshepsut",
+   "Thutmose III",
+   "Akhenaten",
+   "Tutankhamun",
+   "Ramesses II"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "PTOLEMAIC",
+  "name": "Ptolemaic Egypt",
+  "from_": "332 BC",
+  "to": "30 BC",
+  "colour": "#C08A5E",
+  "summary": "Alexander's successors rule from Alexandria; Greek administration overlays Egyptian temple religion.",
+  "monuments": [
+   "Philae",
+   "Edfu",
+   "Dendera",
+   "Kom Ombo"
+  ],
+  "museums": [
+   "Graeco-Roman Museum, Alexandria"
+  ],
+  "rulers": [
+   "Ptolemy I Soter",
+   "Ptolemy II",
+   "Cleopatra VII"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "GRECO_ROMAN",
+  "name": "Greek & Roman Egypt",
+  "from_": "30 BC",
+  "to": "395 AD",
+  "colour": "#B08A6A",
+  "summary": "Egypt as Rome's granary; Alexandria as a Mediterranean intellectual capital.",
+  "monuments": [
+   "Pompey's Pillar",
+   "Kom El Shoqafa",
+   "Roman Amphitheatre",
+   "Dendera Roman mammisi"
+  ],
+  "museums": [
+   "Graeco-Roman Museum, Alexandria"
+  ],
+  "rulers": [
+   "Augustus",
+   "Hadrian",
+   "Diocletian"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "COPTIC",
+  "name": "Coptic & Christian Egypt",
+  "from_": "395 AD",
+  "to": "641 AD",
+  "colour": "#4E8F86",
+  "summary": "Monasticism is born in the Egyptian desert; Coptic language and art flourish.",
+  "monuments": [
+   "Hanging Church",
+   "Saint Catherine Monastery",
+   "Red & White Monasteries",
+   "Abu Mena"
+  ],
+  "museums": [
+   "Coptic Museum"
+  ],
+  "rulers": [
+   "Athanasius",
+   "Cyril of Alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "ISLAMIC",
+  "name": "Islamic Egypt",
+  "from_": "641 AD",
+  "to": "1517 AD",
+  "colour": "#3E7F9E",
+  "summary": "Fustat, Cairo, and a millennium of Islamic architecture from Tulunid to Mamluk.",
+  "monuments": [
+   "Ibn Tulun Mosque",
+   "Al-Azhar",
+   "Sultan Hassan",
+   "Al-Muizz Street",
+   "Citadel of Salah El-Din"
+  ],
+  "museums": [
+   "Museum of Islamic Art"
+  ],
+  "rulers": [
+   "Amr ibn al-As",
+   "Ahmad ibn Tulun",
+   "Salah El-Din",
+   "Al-Nasir Muhammad",
+   "Qaitbay"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "OTTOMAN",
+  "name": "Ottoman Era",
+  "from_": "1517 AD",
+  "to": "1805 AD",
+  "colour": "#7A6E9E",
+  "summary": "Egypt as an Ottoman province; Cairo's guilds, sabil-kuttabs and merchant houses.",
+  "monuments": [
+   "Sabil-Kuttab of Katkhuda",
+   "Bayt Al-Suhaymi",
+   "Rosetta Ottoman houses"
+  ],
+  "museums": [
+   "Gayer-Anderson Museum"
+  ],
+  "rulers": [
+   "Selim I",
+   "Ali Bey al-Kabir"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "MUHAMMAD_ALI",
+  "name": "Muhammad Ali Dynasty",
+  "from_": "1805 AD",
+  "to": "1882 AD",
+  "colour": "#A2703F",
+  "summary": "The modern Egyptian state forms: industry, army, canals, and the Suez Canal.",
+  "monuments": [
+   "Muhammad Ali Mosque",
+   "Manial Palace",
+   "Suez Canal works"
+  ],
+  "museums": [
+   "Manial Palace Museum",
+   "Abdeen Palace Museum"
+  ],
+  "rulers": [
+   "Muhammad Ali Pasha",
+   "Ibrahim Pasha",
+   "Ismail Pasha"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "KINGDOM",
+  "name": "Kingdom of Egypt",
+  "from_": "1922 AD",
+  "to": "1952 AD",
+  "colour": "#C99B4A",
+  "summary": "Independence, the 1923 constitution, cosmopolitan Cairo and Alexandria.",
+  "monuments": [
+   "Abdeen Palace",
+   "Montaza Palace",
+   "Downtown Cairo"
+  ],
+  "museums": [
+   "Abdeen Palace Museum",
+   "Royal Jewellery Museum"
+  ],
+  "rulers": [
+   "Fuad I",
+   "Farouk I"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "REPUBLIC",
+  "name": "Republic",
+  "from_": "1952 AD",
+  "to": "2000 AD",
+  "colour": "#2E7D9A",
+  "summary": "Republic, High Dam, Nubian rescue campaign, and mass education.",
+  "monuments": [
+   "High Dam",
+   "Abu Simbel relocation",
+   "Cairo Tower"
+  ],
+  "museums": [
+   "Nubian Museum",
+   "National Museum of Egyptian Civilization"
+  ],
+  "rulers": [
+   "Gamal Abdel Nasser",
+   "Anwar Sadat"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "key": "CONTEMPORARY",
+  "name": "Contemporary Egypt",
+  "from_": "2000 AD",
+  "to": "Today",
+  "colour": "#3FB6AD",
+  "summary": "New capital, new museums, expanded Suez Canal and a growing digital economy.",
+  "monuments": [
+   "Grand Egyptian Museum",
+   "New Administrative Capital",
+   "New Alamein City"
+  ],
+  "museums": [
+   "Grand Egyptian Museum",
+   "National Museum of Egyptian Civilization"
+  ],
+  "rulers": []
+ }
+]

@@ -1,0 +1,222 @@
+[
+ {
+  "id": "int-accommodation-aggregator-class-a",
+  "name": "Accommodation aggregator (class A)",
+  "category": "Accommodation",
+  "adapter": "AccommodationProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Third-party accommodation platform",
+  "notes": "No commercial agreement exists. Adapter contract implemented; no credentials configured.",
+  "commissionable": true
+ },
+ {
+  "id": "int-short-let-rental-platform-class-b",
+  "name": "Short-let rental platform (class B)",
+  "category": "Accommodation",
+  "adapter": "AccommodationProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Third-party rental platform",
+  "notes": "No commercial agreement exists.",
+  "commissionable": true
+ },
+ {
+  "id": "int-airline-distribution-class-a",
+  "name": "Airline distribution (class A)",
+  "category": "Flights",
+  "adapter": "FlightProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Airline / GDS",
+  "notes": "No commercial agreement exists.",
+  "commissionable": true
+ },
+ {
+  "id": "int-ride-hailing-mobility-class-a",
+  "name": "Ride-hailing mobility (class A)",
+  "category": "Mobility",
+  "adapter": "MobilityProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Mobility operator",
+  "notes": "No commercial agreement exists.",
+  "commissionable": true
+ },
+ {
+  "id": "int-activities-marketplace-class-a",
+  "name": "Activities marketplace (class A)",
+  "category": "Activities",
+  "adapter": "ActivityProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Activities platform",
+  "notes": "No commercial agreement exists.",
+  "commissionable": true
+ },
+ {
+  "id": "int-car-rental-aggregator",
+  "name": "Car rental aggregator",
+  "category": "Mobility",
+  "adapter": "MobilityProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Car rental aggregator",
+  "notes": "No commercial agreement exists.",
+  "commissionable": true
+ },
+ {
+  "id": "int-licensed-payment-service-provider",
+  "name": "Licensed payment service provider",
+  "category": "Payments",
+  "adapter": "PaymentProviderAdapter",
+  "state": "SANDBOX",
+  "dataClass": "SENSITIVE",
+  "sourceOwner": "Licensed PSP",
+  "notes": "Egypt One never holds funds directly. Sandbox only; no live settlement.",
+  "commissionable": false
+ },
+ {
+  "id": "int-travel-insurance-provider",
+  "name": "Travel insurance provider",
+  "category": "Insurance",
+  "adapter": "InsuranceProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Insurer",
+  "notes": "No commercial agreement exists.",
+  "commissionable": true
+ },
+ {
+  "id": "int-ministry-of-tourism-and-antiquities-—-site-registry",
+  "name": "Ministry of Tourism and Antiquities — site registry",
+  "category": "Government",
+  "adapter": "GovernmentServiceAdapter",
+  "state": "PLANNED",
+  "dataClass": "RESTRICTED_GOVERNMENT",
+  "sourceOwner": "Competent authority",
+  "notes": "Read-only registry exchange, subject to an approved data-sharing agreement. Not connected.",
+  "commissionable": false
+ },
+ {
+  "id": "int-ministry-of-foreign-affairs-—-mission-directory",
+  "name": "Ministry of Foreign Affairs — mission directory",
+  "category": "Government",
+  "adapter": "GovernmentServiceAdapter",
+  "state": "PLANNED",
+  "dataClass": "RESTRICTED_GOVERNMENT",
+  "sourceOwner": "Competent authority",
+  "notes": "Embassy and mission data must come from the official directory. Not connected.",
+  "commissionable": false
+ },
+ {
+  "id": "int-visa-and-entry-information-service",
+  "name": "Visa and entry information service",
+  "category": "Government",
+  "adapter": "GovernmentServiceAdapter",
+  "state": "PLANNED",
+  "dataClass": "RESTRICTED_GOVERNMENT",
+  "sourceOwner": "Competent authority",
+  "notes": "Egypt One shows guidance only and never issues or approves entry permissions.",
+  "commissionable": false
+ },
+ {
+  "id": "int-gafi-investment-services",
+  "name": "GAFI investment services",
+  "category": "Government",
+  "adapter": "GovernmentServiceAdapter",
+  "state": "PLANNED",
+  "dataClass": "RESTRICTED_GOVERNMENT",
+  "sourceOwner": "Competent authority",
+  "notes": "Business setup navigation only. Egypt One does not issue licences.",
+  "commissionable": false
+ },
+ {
+  "id": "int-capmas-statistics-feed",
+  "name": "CAPMAS statistics feed",
+  "category": "Government",
+  "adapter": "GovernmentServiceAdapter",
+  "state": "PLANNED",
+  "dataClass": "RESTRICTED_GOVERNMENT",
+  "sourceOwner": "Competent authority",
+  "notes": "Official population and tourism statistics. Until connected, all figures shown are demo values.",
+  "commissionable": false
+ },
+ {
+  "id": "int-university-admissions-directory",
+  "name": "University admissions directory",
+  "category": "Research",
+  "adapter": "UniversityAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Universities",
+  "notes": "Programme data supplied by each university.",
+  "commissionable": false
+ },
+ {
+  "id": "int-accredited-hospital-network",
+  "name": "Accredited hospital network",
+  "category": "Health",
+  "adapter": "MedicalProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "SENSITIVE",
+  "sourceOwner": "Health providers",
+  "notes": "Health data is elevated-risk; consent and purpose checks required before any exchange.",
+  "commissionable": false
+ },
+ {
+  "id": "int-map-and-geocoding-provider",
+  "name": "Map and geocoding provider",
+  "category": "Maps",
+  "adapter": "MapProviderAdapter",
+  "state": "PLANNED",
+  "dataClass": "PUBLIC",
+  "sourceOwner": "Map vendor",
+  "notes": "Vendor-neutral adapter. No vendor selected; the map renders a local vector fallback.",
+  "commissionable": false
+ },
+ {
+  "id": "int-search-index-opensearch-compatible",
+  "name": "Search index (OpenSearch-compatible)",
+  "category": "Search",
+  "adapter": "SearchAdapter",
+  "state": "SANDBOX",
+  "dataClass": "PUBLIC",
+  "sourceOwner": "Egypt One",
+  "notes": "In-memory index in demo mode; OpenSearch in staging and production.",
+  "commissionable": false
+ },
+ {
+  "id": "int-object-storage-s3-compatible",
+  "name": "Object storage (S3-compatible)",
+  "category": "Media",
+  "adapter": "StorageAdapter",
+  "state": "SANDBOX",
+  "dataClass": "PUBLIC",
+  "sourceOwner": "Egypt One",
+  "notes": "Local filesystem in demo mode.",
+  "commissionable": false
+ },
+ {
+  "id": "int-affiliate-network-generic",
+  "name": "Affiliate network (generic)",
+  "category": "Affiliate",
+  "adapter": "AffiliateAdapter",
+  "state": "PLANNED",
+  "dataClass": "PARTNER",
+  "sourceOwner": "Affiliate networks",
+  "notes": "Generic contract. Programme terms govern each payout.",
+  "commissionable": true
+ },
+ {
+  "id": "int-fx-rate-feed",
+  "name": "FX rate feed",
+  "category": "Payments",
+  "adapter": "FxAdapter",
+  "state": "PLANNED",
+  "dataClass": "PUBLIC",
+  "sourceOwner": "Licensed FX data vendor",
+  "notes": "Demo rates shown until a licensed feed is connected.",
+  "commissionable": false
+ }
+]

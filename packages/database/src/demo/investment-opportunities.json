@@ -1,0 +1,4052 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-commercial-projects-development-—-cairo-00",
+  "slug": "commercial-projects-development-—-cairo-00",
+  "name": "Commercial Projects development — Cairo",
+  "sector": "Commercial Projects",
+  "governorateSlug": "cairo",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   1000000,
+   3000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 5,400,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 68%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Commercial Projects opportunity in Cairo.",
+  "description": "An indicative commercial projects opportunity in Cairo. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Commercial Projects",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-logistics-development-—-cairo-01",
+  "slug": "logistics-development-—-cairo-01",
+  "name": "Logistics development — Cairo",
+  "sector": "Logistics",
+  "governorateSlug": "cairo",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   1000000,
+   4000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 5,400,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 68%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Logistics opportunity in Cairo.",
+  "description": "An indicative logistics opportunity in Cairo. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Logistics",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-mice-development-—-cairo-02",
+  "slug": "mice-development-—-cairo-02",
+  "name": "MICE development — Cairo",
+  "sector": "MICE",
+  "governorateSlug": "cairo",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   5000000,
+   15000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 5,400,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 68%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "MICE opportunity in Cairo.",
+  "description": "An indicative mice opportunity in Cairo. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "MICE",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-sports-development-—-giza-10",
+  "slug": "sports-development-—-giza-10",
+  "name": "Sports development — Giza",
+  "sector": "Sports",
+  "governorateSlug": "giza",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   25000000,
+   100000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 6,100,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 74%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Sports opportunity in Giza.",
+  "description": "An indicative sports opportunity in Giza. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Sports",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-technology-parks-development-—-giza-11",
+  "slug": "technology-parks-development-—-giza-11",
+  "name": "Technology parks development — Giza",
+  "sector": "Technology parks",
+  "governorateSlug": "giza",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   2000000,
+   8000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 6,100,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 74%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Technology parks opportunity in Giza.",
+  "description": "An indicative technology parks opportunity in Giza. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Technology parks",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-resorts-development-—-giza-12",
+  "slug": "resorts-development-—-giza-12",
+  "name": "Resorts development — Giza",
+  "sector": "Resorts",
+  "governorateSlug": "giza",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   10000000,
+   30000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 6,100,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 74%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Resorts opportunity in Giza.",
+  "description": "An indicative resorts opportunity in Giza. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Resorts",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-coastal-tourism-development-—-alexandria-20",
+  "slug": "coastal-tourism-development-—-alexandria-20",
+  "name": "Coastal tourism development — Alexandria",
+  "sector": "Coastal tourism",
+  "governorateSlug": "alexandria",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   2000000,
+   6000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 2,900,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 61%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Coastal tourism opportunity in Alexandria.",
+  "description": "An indicative coastal tourism opportunity in Alexandria. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Coastal tourism",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-ports-and-logistics-development-—-alexandria-21",
+  "slug": "ports-and-logistics-development-—-alexandria-21",
+  "name": "Ports & logistics development — Alexandria",
+  "sector": "Ports & logistics",
+  "governorateSlug": "alexandria",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   25000000,
+   50000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 2,900,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 61%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Ports & logistics opportunity in Alexandria.",
+  "description": "An indicative ports & logistics opportunity in Alexandria. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Ports & logistics",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-commercial-development-—-alexandria-22",
+  "slug": "commercial-development-—-alexandria-22",
+  "name": "Commercial development — Alexandria",
+  "sector": "Commercial",
+  "governorateSlug": "alexandria",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   50000000,
+   150000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 2,900,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 61%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Commercial opportunity in Alexandria.",
+  "description": "An indicative commercial opportunity in Alexandria. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Commercial",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-nile-cruising-development-—-luxor-30",
+  "slug": "nile-cruising-development-—-luxor-30",
+  "name": "Nile cruising development — Luxor",
+  "sector": "Nile cruising",
+  "governorateSlug": "luxor",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   1000000,
+   3000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 2,450,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 72%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Nile cruising opportunity in Luxor.",
+  "description": "An indicative nile cruising opportunity in Luxor. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Nile cruising",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-boutique-hospitality-development-—-luxor-31",
+  "slug": "boutique-hospitality-development-—-luxor-31",
+  "name": "Boutique hospitality development — Luxor",
+  "sector": "Boutique hospitality",
+  "governorateSlug": "luxor",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   50000000,
+   200000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 2,450,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 72%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Boutique hospitality opportunity in Luxor.",
+  "description": "An indicative boutique hospitality opportunity in Luxor. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Boutique hospitality",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-cultural-tourism-development-—-luxor-32",
+  "slug": "cultural-tourism-development-—-luxor-32",
+  "name": "Cultural tourism development — Luxor",
+  "sector": "Cultural tourism",
+  "governorateSlug": "luxor",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   1000000,
+   4000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 2,450,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 72%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Cultural tourism opportunity in Luxor.",
+  "description": "An indicative cultural tourism opportunity in Luxor. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Cultural tourism",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-cultural-tourism-development-—-aswan-40",
+  "slug": "cultural-tourism-development-—-aswan-40",
+  "name": "Cultural tourism development — Aswan",
+  "sector": "Cultural tourism",
+  "governorateSlug": "aswan",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   10000000,
+   40000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 1,380,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 66%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Cultural tourism opportunity in Aswan.",
+  "description": "An indicative cultural tourism opportunity in Aswan. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Cultural tourism",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-tourism-development-—-aswan-41",
+  "slug": "tourism-development-—-aswan-41",
+  "name": "Tourism development — Aswan",
+  "sector": "Tourism",
+  "governorateSlug": "aswan",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   1000000,
+   2000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 1,380,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 66%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Tourism opportunity in Aswan.",
+  "description": "An indicative tourism opportunity in Aswan. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Tourism",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-aquaculture-development-—-aswan-42",
+  "slug": "aquaculture-development-—-aswan-42",
+  "name": "Aquaculture development — Aswan",
+  "sector": "Aquaculture",
+  "governorateSlug": "aswan",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   50000000,
+   150000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "Ministry of Agriculture",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 1,380,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 66%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Aquaculture opportunity in Aswan.",
+  "description": "An indicative aquaculture opportunity in Aswan. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Aquaculture",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-resort-development-development-—-red-sea-50",
+  "slug": "resort-development-development-—-red-sea-50",
+  "name": "Resort development development — Red Sea",
+  "sector": "Resort development",
+  "governorateSlug": "red-sea",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   1000000,
+   3000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 4,800,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 79%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Resort development opportunity in Red Sea.",
+  "description": "An indicative resort development opportunity in Red Sea. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Resort development",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-diving-tourism-development-—-red-sea-51",
+  "slug": "diving-tourism-development-—-red-sea-51",
+  "name": "Diving tourism development — Red Sea",
+  "sector": "Diving tourism",
+  "governorateSlug": "red-sea",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   10000000,
+   40000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 4,800,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 79%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Diving tourism opportunity in Red Sea.",
+  "description": "An indicative diving tourism opportunity in Red Sea. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Diving tourism",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-renewables-development-—-red-sea-52",
+  "slug": "renewables-development-—-red-sea-52",
+  "name": "Renewables development — Red Sea",
+  "sector": "Renewables",
+  "governorateSlug": "red-sea",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   5000000,
+   15000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 4,800,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 79%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Renewables opportunity in Red Sea.",
+  "description": "An indicative renewables opportunity in Red Sea. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Renewables",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-residential-development-—-south-sinai-60",
+  "slug": "residential-development-—-south-sinai-60",
+  "name": "Residential development — South Sinai",
+  "sector": "Residential",
+  "governorateSlug": "south-sinai",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   5000000,
+   15000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 3,600,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 76%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Residential opportunity in South Sinai.",
+  "description": "An indicative residential opportunity in South Sinai. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Residential",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-wellness-tourism-development-—-south-sinai-61",
+  "slug": "wellness-tourism-development-—-south-sinai-61",
+  "name": "Wellness tourism development — South Sinai",
+  "sector": "Wellness tourism",
+  "governorateSlug": "south-sinai",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   2000000,
+   4000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 3,600,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 76%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Wellness tourism opportunity in South Sinai.",
+  "description": "An indicative wellness tourism opportunity in South Sinai. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Wellness tourism",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-diving-and-marinas-development-—-south-sinai-62",
+  "slug": "diving-and-marinas-development-—-south-sinai-62",
+  "name": "Diving & marinas development — South Sinai",
+  "sector": "Diving & marinas",
+  "governorateSlug": "south-sinai",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   2000000,
+   4000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 3,600,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 76%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Diving & marinas opportunity in South Sinai.",
+  "description": "An indicative diving & marinas opportunity in South Sinai. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Diving & marinas",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-events-development-—-matrouh-70",
+  "slug": "events-development-—-matrouh-70",
+  "name": "Events development — Matrouh",
+  "sector": "Events",
+  "governorateSlug": "matrouh",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   10000000,
+   30000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 1,250,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 58%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Events opportunity in Matrouh.",
+  "description": "An indicative events opportunity in Matrouh. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Events",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-and-olives-development-—-matrouh-71",
+  "slug": "agriculture-and-olives-development-—-matrouh-71",
+  "name": "Agriculture & olives development — Matrouh",
+  "sector": "Agriculture & olives",
+  "governorateSlug": "matrouh",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   10000000,
+   40000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 1,250,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 58%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture & olives opportunity in Matrouh.",
+  "description": "An indicative agriculture & olives opportunity in Matrouh. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture & olives",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-coastal-resorts-development-—-matrouh-72",
+  "slug": "coastal-resorts-development-—-matrouh-72",
+  "name": "Coastal resorts development — Matrouh",
+  "sector": "Coastal resorts",
+  "governorateSlug": "matrouh",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   50000000,
+   200000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 1,250,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 58%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Coastal resorts opportunity in Matrouh.",
+  "description": "An indicative coastal resorts opportunity in Matrouh. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Coastal resorts",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-development-—-north-sinai-80",
+  "slug": "agriculture-development-—-north-sinai-80",
+  "name": "Agriculture development — North Sinai",
+  "sector": "Agriculture",
+  "governorateSlug": "north-sinai",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   25000000,
+   75000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 90,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 32%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture opportunity in North Sinai.",
+  "description": "An indicative agriculture opportunity in North Sinai. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-events-development-—-north-sinai-81",
+  "slug": "events-development-—-north-sinai-81",
+  "name": "Events development — North Sinai",
+  "sector": "Events",
+  "governorateSlug": "north-sinai",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   50000000,
+   100000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 90,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 32%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Events opportunity in North Sinai.",
+  "description": "An indicative events opportunity in North Sinai. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Events",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-logistics-development-—-north-sinai-82",
+  "slug": "logistics-development-—-north-sinai-82",
+  "name": "Logistics development — North Sinai",
+  "sector": "Logistics",
+  "governorateSlug": "north-sinai",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   1000000,
+   3000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 90,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 32%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Logistics opportunity in North Sinai.",
+  "description": "An indicative logistics opportunity in North Sinai. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Logistics",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-logistics-development-—-port-said-90",
+  "slug": "logistics-development-—-port-said-90",
+  "name": "Logistics development — Port Said",
+  "sector": "Logistics",
+  "governorateSlug": "port-said",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   50000000,
+   200000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 310,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 52%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Logistics opportunity in Port Said.",
+  "description": "An indicative logistics opportunity in Port Said. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Logistics",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-entertainment-development-—-port-said-91",
+  "slug": "entertainment-development-—-port-said-91",
+  "name": "Entertainment development — Port Said",
+  "sector": "Entertainment",
+  "governorateSlug": "port-said",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   2000000,
+   6000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 310,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 52%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Entertainment opportunity in Port Said.",
+  "description": "An indicative entertainment opportunity in Port Said. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Entertainment",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-commercial-projects-development-—-port-said-92",
+  "slug": "commercial-projects-development-—-port-said-92",
+  "name": "Commercial Projects development — Port Said",
+  "sector": "Commercial Projects",
+  "governorateSlug": "port-said",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   10000000,
+   40000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 310,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 52%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Commercial Projects opportunity in Port Said.",
+  "description": "An indicative commercial projects opportunity in Port Said. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Commercial Projects",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-commercial-development-—-ismailia-100",
+  "slug": "commercial-development-—-ismailia-100",
+  "name": "Commercial development — Ismailia",
+  "sector": "Commercial",
+  "governorateSlug": "ismailia",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   25000000,
+   50000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 260,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 49%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Commercial opportunity in Ismailia.",
+  "description": "An indicative commercial opportunity in Ismailia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Commercial",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-events-development-—-ismailia-101",
+  "slug": "events-development-—-ismailia-101",
+  "name": "Events development — Ismailia",
+  "sector": "Events",
+  "governorateSlug": "ismailia",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   1000000,
+   3000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Agriculture",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 260,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 49%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Events opportunity in Ismailia.",
+  "description": "An indicative events opportunity in Ismailia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Events",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-logistics-development-—-ismailia-102",
+  "slug": "logistics-development-—-ismailia-102",
+  "name": "Logistics development — Ismailia",
+  "sector": "Logistics",
+  "governorateSlug": "ismailia",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   10000000,
+   20000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 260,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 49%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Logistics opportunity in Ismailia.",
+  "description": "An indicative logistics opportunity in Ismailia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Logistics",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-ports-and-logistics-development-—-suez-110",
+  "slug": "ports-and-logistics-development-—-suez-110",
+  "name": "Ports & logistics development — Suez",
+  "sector": "Ports & logistics",
+  "governorateSlug": "suez",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   2000000,
+   4000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 480,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 63%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Ports & logistics opportunity in Suez.",
+  "description": "An indicative ports & logistics opportunity in Suez. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Ports & logistics",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-petrochemicals-development-—-suez-111",
+  "slug": "petrochemicals-development-—-suez-111",
+  "name": "Petrochemicals development — Suez",
+  "sector": "Petrochemicals",
+  "governorateSlug": "suez",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   25000000,
+   75000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 480,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 63%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Petrochemicals opportunity in Suez.",
+  "description": "An indicative petrochemicals opportunity in Suez. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Petrochemicals",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-residential-development-—-suez-112",
+  "slug": "residential-development-—-suez-112",
+  "name": "Residential development — Suez",
+  "sector": "Residential",
+  "governorateSlug": "suez",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   5000000,
+   20000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Ministry of Agriculture",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 480,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 63%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Residential opportunity in Suez.",
+  "description": "An indicative residential opportunity in Suez. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Residential",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-land-development-—-qalyubia-120",
+  "slug": "land-development-—-qalyubia-120",
+  "name": "Land development — Qalyubia",
+  "sector": "Land",
+  "governorateSlug": "qalyubia",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   1000000,
+   2000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 140,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 44%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Land opportunity in Qalyubia.",
+  "description": "An indicative land opportunity in Qalyubia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Land",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-logistics-development-—-qalyubia-121",
+  "slug": "logistics-development-—-qalyubia-121",
+  "name": "Logistics development — Qalyubia",
+  "sector": "Logistics",
+  "governorateSlug": "qalyubia",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   2000000,
+   8000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 140,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 44%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Logistics opportunity in Qalyubia.",
+  "description": "An indicative logistics opportunity in Qalyubia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Logistics",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-housing-development-—-qalyubia-122",
+  "slug": "housing-development-—-qalyubia-122",
+  "name": "Housing development — Qalyubia",
+  "sector": "Housing",
+  "governorateSlug": "qalyubia",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   10000000,
+   20000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 140,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 44%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Housing opportunity in Qalyubia.",
+  "description": "An indicative housing opportunity in Qalyubia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Housing",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-sports-development-—-sharqia-130",
+  "slug": "sports-development-—-sharqia-130",
+  "name": "Sports development — Sharqia",
+  "sector": "Sports",
+  "governorateSlug": "sharqia",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   50000000,
+   100000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 180,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 41%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Sports opportunity in Sharqia.",
+  "description": "An indicative sports opportunity in Sharqia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Sports",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-logistics-development-—-sharqia-131",
+  "slug": "logistics-development-—-sharqia-131",
+  "name": "Logistics development — Sharqia",
+  "sector": "Logistics",
+  "governorateSlug": "sharqia",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   25000000,
+   50000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 180,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 41%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Logistics opportunity in Sharqia.",
+  "description": "An indicative logistics opportunity in Sharqia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Logistics",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-rural-development-development-—-sharqia-132",
+  "slug": "rural-development-development-—-sharqia-132",
+  "name": "Rural Development development — Sharqia",
+  "sector": "Rural Development",
+  "governorateSlug": "sharqia",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   25000000,
+   75000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 180,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 41%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Rural Development opportunity in Sharqia.",
+  "description": "An indicative rural development opportunity in Sharqia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Rural Development",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-coastal-tourism-development-—-dakahlia-140",
+  "slug": "coastal-tourism-development-—-dakahlia-140",
+  "name": "Coastal tourism development — Dakahlia",
+  "sector": "Coastal tourism",
+  "governorateSlug": "dakahlia",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   1000000,
+   4000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 220,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 47%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Coastal tourism opportunity in Dakahlia.",
+  "description": "An indicative coastal tourism opportunity in Dakahlia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Coastal tourism",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-development-—-dakahlia-141",
+  "slug": "agriculture-development-—-dakahlia-141",
+  "name": "Agriculture development — Dakahlia",
+  "sector": "Agriculture",
+  "governorateSlug": "dakahlia",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   10000000,
+   20000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Ministry of Agriculture",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 220,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 47%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture opportunity in Dakahlia.",
+  "description": "An indicative agriculture opportunity in Dakahlia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-rural-development-development-—-dakahlia-142",
+  "slug": "rural-development-development-—-dakahlia-142",
+  "name": "Rural Development development — Dakahlia",
+  "sector": "Rural Development",
+  "governorateSlug": "dakahlia",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   10000000,
+   30000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Agriculture",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 220,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 47%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Rural Development opportunity in Dakahlia.",
+  "description": "An indicative rural development opportunity in Dakahlia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Rural Development",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-coastal-tourism-development-—-damietta-150",
+  "slug": "coastal-tourism-development-—-damietta-150",
+  "name": "Coastal tourism development — Damietta",
+  "sector": "Coastal tourism",
+  "governorateSlug": "damietta",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   5000000,
+   10000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 310,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 55%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Coastal tourism opportunity in Damietta.",
+  "description": "An indicative coastal tourism opportunity in Damietta. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Coastal tourism",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-residential-development-—-damietta-151",
+  "slug": "residential-development-—-damietta-151",
+  "name": "Residential development — Damietta",
+  "sector": "Residential",
+  "governorateSlug": "damietta",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   5000000,
+   10000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 310,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 55%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Residential opportunity in Damietta.",
+  "description": "An indicative residential opportunity in Damietta. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Residential",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-development-—-damietta-152",
+  "slug": "agriculture-development-—-damietta-152",
+  "name": "Agriculture development — Damietta",
+  "sector": "Agriculture",
+  "governorateSlug": "damietta",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   2000000,
+   4000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 310,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 55%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture opportunity in Damietta.",
+  "description": "An indicative agriculture opportunity in Damietta. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-residential-development-—-gharbia-160",
+  "slug": "residential-development-—-gharbia-160",
+  "name": "Residential development — Gharbia",
+  "sector": "Residential",
+  "governorateSlug": "gharbia",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   10000000,
+   40000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 195,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 45%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Residential opportunity in Gharbia.",
+  "description": "An indicative residential opportunity in Gharbia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Residential",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-retail-development-—-gharbia-161",
+  "slug": "retail-development-—-gharbia-161",
+  "name": "Retail development — Gharbia",
+  "sector": "Retail",
+  "governorateSlug": "gharbia",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   50000000,
+   100000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 195,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 45%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Retail opportunity in Gharbia.",
+  "description": "An indicative retail opportunity in Gharbia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Retail",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-textiles-development-—-gharbia-162",
+  "slug": "textiles-development-—-gharbia-162",
+  "name": "Textiles development — Gharbia",
+  "sector": "Textiles",
+  "governorateSlug": "gharbia",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   50000000,
+   150000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 195,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 45%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Textiles opportunity in Gharbia.",
+  "description": "An indicative textiles opportunity in Gharbia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Textiles",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-commercial-projects-development-—-monufia-170",
+  "slug": "commercial-projects-development-—-monufia-170",
+  "name": "Commercial Projects development — Monufia",
+  "sector": "Commercial Projects",
+  "governorateSlug": "monufia",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   25000000,
+   100000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 120,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 39%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Commercial Projects opportunity in Monufia.",
+  "description": "An indicative commercial projects opportunity in Monufia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Commercial Projects",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-light-industry-development-—-monufia-171",
+  "slug": "light-industry-development-—-monufia-171",
+  "name": "Light industry development — Monufia",
+  "sector": "Light industry",
+  "governorateSlug": "monufia",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   2000000,
+   6000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 120,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 39%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Light industry opportunity in Monufia.",
+  "description": "An indicative light industry opportunity in Monufia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Light industry",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-marinas-development-—-monufia-172",
+  "slug": "marinas-development-—-monufia-172",
+  "name": "Marinas development — Monufia",
+  "sector": "Marinas",
+  "governorateSlug": "monufia",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   2000000,
+   4000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 120,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 39%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Marinas opportunity in Monufia.",
+  "description": "An indicative marinas opportunity in Monufia. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Marinas",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-development-—-beheira-180",
+  "slug": "agriculture-development-—-beheira-180",
+  "name": "Agriculture development — Beheira",
+  "sector": "Agriculture",
+  "governorateSlug": "beheira",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   25000000,
+   100000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 210,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 43%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture opportunity in Beheira.",
+  "description": "An indicative agriculture opportunity in Beheira. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-coastal-logistics-development-—-beheira-181",
+  "slug": "coastal-logistics-development-—-beheira-181",
+  "name": "Coastal logistics development — Beheira",
+  "sector": "Coastal logistics",
+  "governorateSlug": "beheira",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   50000000,
+   200000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 210,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 43%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Coastal logistics opportunity in Beheira.",
+  "description": "An indicative coastal logistics opportunity in Beheira. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Coastal logistics",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-events-development-—-beheira-182",
+  "slug": "events-development-—-beheira-182",
+  "name": "Events development — Beheira",
+  "sector": "Events",
+  "governorateSlug": "beheira",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   25000000,
+   100000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 210,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 43%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Events opportunity in Beheira.",
+  "description": "An indicative events opportunity in Beheira. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Events",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-rural-development-development-—-kafr-el-sheikh-190",
+  "slug": "rural-development-development-—-kafr-el-sheikh-190",
+  "name": "Rural Development development — Kafr El Sheikh",
+  "sector": "Rural Development",
+  "governorateSlug": "kafr-el-sheikh",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   1000000,
+   3000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 150,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 40%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Rural Development opportunity in Kafr El Sheikh.",
+  "description": "An indicative rural development opportunity in Kafr El Sheikh. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Rural Development",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-commercial-projects-development-—-kafr-el-sheikh-191",
+  "slug": "commercial-projects-development-—-kafr-el-sheikh-191",
+  "name": "Commercial Projects development — Kafr El Sheikh",
+  "sector": "Commercial Projects",
+  "governorateSlug": "kafr-el-sheikh",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   25000000,
+   100000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 150,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 40%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Commercial Projects opportunity in Kafr El Sheikh.",
+  "description": "An indicative commercial projects opportunity in Kafr El Sheikh. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Commercial Projects",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-development-—-kafr-el-sheikh-192",
+  "slug": "agriculture-development-—-kafr-el-sheikh-192",
+  "name": "Agriculture development — Kafr El Sheikh",
+  "sector": "Agriculture",
+  "governorateSlug": "kafr-el-sheikh",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   2000000,
+   4000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 150,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 40%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture opportunity in Kafr El Sheikh.",
+  "description": "An indicative agriculture opportunity in Kafr El Sheikh. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-real-estate-development-—-faiyum-200",
+  "slug": "real-estate-development-—-faiyum-200",
+  "name": "Real Estate development — Faiyum",
+  "sector": "Real Estate",
+  "governorateSlug": "faiyum",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   50000000,
+   150000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 420,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 51%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Real Estate opportunity in Faiyum.",
+  "description": "An indicative real estate opportunity in Faiyum. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Real Estate",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-eco-tourism-development-—-faiyum-201",
+  "slug": "eco-tourism-development-—-faiyum-201",
+  "name": "Eco-tourism development — Faiyum",
+  "sector": "Eco-tourism",
+  "governorateSlug": "faiyum",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   10000000,
+   30000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 420,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 51%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Eco-tourism opportunity in Faiyum.",
+  "description": "An indicative eco-tourism opportunity in Faiyum. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Eco-tourism",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-pottery-and-crafts-development-—-faiyum-202",
+  "slug": "pottery-and-crafts-development-—-faiyum-202",
+  "name": "Pottery & crafts development — Faiyum",
+  "sector": "Pottery & crafts",
+  "governorateSlug": "faiyum",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   10000000,
+   20000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 420,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 51%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Pottery & crafts opportunity in Faiyum.",
+  "description": "An indicative pottery & crafts opportunity in Faiyum. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Pottery & crafts",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-cultural-tourism-development-—-beni-suef-210",
+  "slug": "cultural-tourism-development-—-beni-suef-210",
+  "name": "Cultural tourism development — Beni Suef",
+  "sector": "Cultural tourism",
+  "governorateSlug": "beni-suef",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   10000000,
+   20000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 110,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 38%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Cultural tourism opportunity in Beni Suef.",
+  "description": "An indicative cultural tourism opportunity in Beni Suef. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Cultural tourism",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-logistics-development-—-beni-suef-211",
+  "slug": "logistics-development-—-beni-suef-211",
+  "name": "Logistics development — Beni Suef",
+  "sector": "Logistics",
+  "governorateSlug": "beni-suef",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   5000000,
+   10000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "New Urban Communities Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 110,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 38%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Logistics opportunity in Beni Suef.",
+  "description": "An indicative logistics opportunity in Beni Suef. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Logistics",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-water-parks-development-—-beni-suef-212",
+  "slug": "water-parks-development-—-beni-suef-212",
+  "name": "Water Parks development — Beni Suef",
+  "sector": "Water Parks",
+  "governorateSlug": "beni-suef",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   25000000,
+   100000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 110,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 38%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Water Parks opportunity in Beni Suef.",
+  "description": "An indicative water parks opportunity in Beni Suef. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Water Parks",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-development-—-minya-220",
+  "slug": "agriculture-development-—-minya-220",
+  "name": "Agriculture development — Minya",
+  "sector": "Agriculture",
+  "governorateSlug": "minya",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   50000000,
+   150000000
+  ],
+  "landRequirementHa": 2,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 180,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 41%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture opportunity in Minya.",
+  "description": "An indicative agriculture opportunity in Minya. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-sugar-industry-development-—-minya-221",
+  "slug": "sugar-industry-development-—-minya-221",
+  "name": "Sugar industry development — Minya",
+  "sector": "Sugar industry",
+  "governorateSlug": "minya",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   2000000,
+   8000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 180,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 41%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Sugar industry opportunity in Minya.",
+  "description": "An indicative sugar industry opportunity in Minya. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Sugar industry",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-entertainment-development-—-minya-222",
+  "slug": "entertainment-development-—-minya-222",
+  "name": "Entertainment development — Minya",
+  "sector": "Entertainment",
+  "governorateSlug": "minya",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   5000000,
+   15000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 180,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 41%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Entertainment opportunity in Minya.",
+  "description": "An indicative entertainment opportunity in Minya. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Entertainment",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-education-and-health-development-—-asyut-230",
+  "slug": "education-and-health-development-—-asyut-230",
+  "name": "Education & health development — Asyut",
+  "sector": "Education & health",
+  "governorateSlug": "asyut",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   5000000,
+   10000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 130,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 40%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Education & health opportunity in Asyut.",
+  "description": "An indicative education & health opportunity in Asyut. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Education & health",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-industry-development-—-asyut-231",
+  "slug": "industry-development-—-asyut-231",
+  "name": "Industry development — Asyut",
+  "sector": "Industry",
+  "governorateSlug": "asyut",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   25000000,
+   50000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Ministry of Agriculture",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 130,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 40%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Industry opportunity in Asyut.",
+  "description": "An indicative industry opportunity in Asyut. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Industry",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-new-cities-development-—-asyut-232",
+  "slug": "new-cities-development-—-asyut-232",
+  "name": "New Cities development — Asyut",
+  "sector": "New Cities",
+  "governorateSlug": "asyut",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   50000000,
+   100000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 130,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 40%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "New Cities opportunity in Asyut.",
+  "description": "An indicative new cities opportunity in Asyut. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "New Cities",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-agriculture-development-—-sohag-240",
+  "slug": "agriculture-development-—-sohag-240",
+  "name": "Agriculture development — Sohag",
+  "sector": "Agriculture",
+  "governorateSlug": "sohag",
+  "stage": "FEASIBILITY",
+  "investmentRangeUsd": [
+   25000000,
+   50000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "Ministry of Health and Population",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 165,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 43%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Agriculture opportunity in Sohag.",
+  "description": "An indicative agriculture opportunity in Sohag. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Agriculture",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-handicraft-export-development-—-sohag-241",
+  "slug": "handicraft-export-development-—-sohag-241",
+  "name": "Handicraft export development — Sohag",
+  "sector": "Handicraft export",
+  "governorateSlug": "sohag",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   1000000,
+   2000000
+  ],
+  "landRequirementHa": 5,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 165,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 43%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Handicraft export opportunity in Sohag.",
+  "description": "An indicative handicraft export opportunity in Sohag. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Handicraft export",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-new-cities-development-—-sohag-242",
+  "slug": "new-cities-development-—-sohag-242",
+  "name": "New Cities development — Sohag",
+  "sector": "New Cities",
+  "governorateSlug": "sohag",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   5000000,
+   20000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Ministry of Tourism and Antiquities",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 165,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 43%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "New Cities opportunity in Sohag.",
+  "description": "An indicative new cities opportunity in Sohag. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "New Cities",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-commercial-projects-development-—-qena-250",
+  "slug": "commercial-projects-development-—-qena-250",
+  "name": "Commercial Projects development — Qena",
+  "sector": "Commercial Projects",
+  "governorateSlug": "qena",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   10000000,
+   20000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 240,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 46%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Commercial Projects opportunity in Qena.",
+  "description": "An indicative commercial projects opportunity in Qena. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Commercial Projects",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-resorts-development-—-qena-251",
+  "slug": "resorts-development-—-qena-251",
+  "name": "Resorts development — Qena",
+  "sector": "Resorts",
+  "governorateSlug": "qena",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   10000000,
+   40000000
+  ],
+  "landRequirementHa": 12,
+  "competentEntity": "Ministry of Agriculture",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 240,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 46%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Resorts opportunity in Qena.",
+  "description": "An indicative resorts opportunity in Qena. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Resorts",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-cultural-tourism-development-—-qena-252",
+  "slug": "cultural-tourism-development-—-qena-252",
+  "name": "Cultural tourism development — Qena",
+  "sector": "Cultural tourism",
+  "governorateSlug": "qena",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   10000000,
+   30000000
+  ],
+  "landRequirementHa": 30,
+  "competentEntity": "Governorate investment unit",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 240,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 46%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Cultural tourism opportunity in Qena.",
+  "description": "An indicative cultural tourism opportunity in Qena. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Cultural tourism",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-renewables-development-—-new-valley-260",
+  "slug": "renewables-development-—-new-valley-260",
+  "name": "Renewables development — New Valley",
+  "sector": "Renewables",
+  "governorateSlug": "new-valley",
+  "stage": "READY",
+  "investmentRangeUsd": [
+   25000000,
+   75000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "General Authority for Investment and Free Zones (GAFI)",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 95,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 44%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Renewables opportunity in New Valley.",
+  "description": "An indicative renewables opportunity in New Valley. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Renewables",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-rural-development-development-—-new-valley-261",
+  "slug": "rural-development-development-—-new-valley-261",
+  "name": "Rural Development development — New Valley",
+  "sector": "Rural Development",
+  "governorateSlug": "new-valley",
+  "stage": "CONCEPT",
+  "investmentRangeUsd": [
+   2000000,
+   8000000
+  ],
+  "landRequirementHa": 80,
+  "competentEntity": "Tourism Development Authority",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 95,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 44%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Rural Development opportunity in New Valley.",
+  "description": "An indicative rural development opportunity in New Valley. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Rural Development",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "opp-mining-development-—-new-valley-262",
+  "slug": "mining-development-—-new-valley-262",
+  "name": "Mining development — New Valley",
+  "sector": "Mining",
+  "governorateSlug": "new-valley",
+  "stage": "IN_EXECUTION",
+  "investmentRangeUsd": [
+   10000000,
+   40000000
+  ],
+  "landRequirementHa": null,
+  "competentEntity": "Suez Canal Economic Zone",
+  "restrictions": [
+   "Subject to the competent authority's approval",
+   "Land allocation rules apply",
+   "Environmental clearance required"
+  ],
+  "documents": [
+   {
+    "title": "Indicative concept note",
+    "sourceStatus": "DEMO"
+   },
+   {
+    "title": "Official feasibility pack",
+    "sourceStatus": "PLANNED_INTEGRATION"
+   }
+  ],
+  "demandSignals": [
+   "Demo demand signal: 95,000 recorded visitor journeys in the demo dataset",
+   "Demo occupancy indicator: 44%"
+  ],
+  "risks": [
+   "Demo dataset — not an investment recommendation",
+   "Seasonality",
+   "Infrastructure readiness varies by site",
+   "Regulatory approvals are outside platform control"
+  ],
+  "summary": "Mining opportunity in New Valley.",
+  "description": "An indicative mining opportunity in New Valley. Egypt One does not allocate land, grant licences or guarantee returns; all terms are set by the competent entity.",
+  "images": [],
+  "tags": [
+   "Mining",
+   "new-valley"
+  ]
+ }
+]

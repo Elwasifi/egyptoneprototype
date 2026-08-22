@@ -1,0 +1,21 @@
+{
+  "name": "egypt-one",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "test:e2e": "pnpm --filter @egypt-one/web test:e2e",
+    "seed": "pnpm --filter @egypt-one/database seed",
+    "verify:routes": "node scripts/verify-routes.mjs"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.3",
+    "prettier": "^3.6.2"
+  },
+  "engines": { "node": ">=20.11" }
+}

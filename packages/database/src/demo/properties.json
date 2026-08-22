@@ -1,0 +1,1622 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-helwan-cairo-0",
+  "slug": "land-asset-—-helwan-cairo-0",
+  "name": "Land asset — Helwan",
+  "governorateSlug": "cairo",
+  "propertyType": "LAND",
+  "priceUsd": 480757,
+  "areaM2": 9611,
+  "city": "Shubra",
+  "summary": "Land in Cairo.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-new-cairo-cairo-1",
+  "slug": "residential-asset-—-new-cairo-cairo-1",
+  "name": "Residential asset — New Cairo",
+  "governorateSlug": "cairo",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 3663039,
+  "areaM2": 11862,
+  "city": "15th of May",
+  "summary": "Residential in Cairo.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-new-cairo-cairo-2",
+  "slug": "hospitality-asset-—-new-cairo-cairo-2",
+  "name": "Hospitality asset — New Cairo",
+  "governorateSlug": "cairo",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 441127,
+  "areaM2": 8654,
+  "city": "Heliopolis",
+  "summary": "Hospitality in Cairo.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-sheikh-zayed-giza-0",
+  "slug": "land-asset-—-sheikh-zayed-giza-0",
+  "name": "Land asset — Sheikh Zayed",
+  "governorateSlug": "giza",
+  "propertyType": "LAND",
+  "priceUsd": 1271017,
+  "areaM2": 4097,
+  "city": "Haram",
+  "summary": "Land in Giza.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-dokki-giza-1",
+  "slug": "land-asset-—-dokki-giza-1",
+  "name": "Land asset — Dokki",
+  "governorateSlug": "giza",
+  "propertyType": "LAND",
+  "priceUsd": 482783,
+  "areaM2": 10307,
+  "city": "Sheikh Zayed",
+  "summary": "Land in Giza.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-dokki-giza-2",
+  "slug": "hotel-apartment-asset-—-dokki-giza-2",
+  "name": "Hotel Apartment asset — Dokki",
+  "governorateSlug": "giza",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 1768398,
+  "areaM2": 932,
+  "city": "6th of October",
+  "summary": "Hotel Apartment in Giza.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-sidi-gaber-alexandria-0",
+  "slug": "office-asset-—-sidi-gaber-alexandria-0",
+  "name": "Office asset — Sidi Gaber",
+  "governorateSlug": "alexandria",
+  "propertyType": "OFFICE",
+  "priceUsd": 1102921,
+  "areaM2": 6032,
+  "city": "Borg El Arab",
+  "summary": "Office in Alexandria.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-mandara-alexandria-1",
+  "slug": "commercial-asset-—-mandara-alexandria-1",
+  "name": "Commercial asset — Mandara",
+  "governorateSlug": "alexandria",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 3557825,
+  "areaM2": 7543,
+  "city": "Amreya",
+  "summary": "Commercial in Alexandria.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-mandara-alexandria-2",
+  "slug": "hospitality-asset-—-mandara-alexandria-2",
+  "name": "Hospitality asset — Mandara",
+  "governorateSlug": "alexandria",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 3579287,
+  "areaM2": 6044,
+  "city": "Mandara",
+  "summary": "Hospitality in Alexandria.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-esna-luxor-0",
+  "slug": "office-asset-—-esna-luxor-0",
+  "name": "Office asset — Esna",
+  "governorateSlug": "luxor",
+  "propertyType": "OFFICE",
+  "priceUsd": 2493779,
+  "areaM2": 2191,
+  "city": "Esna",
+  "summary": "Office in Luxor.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-luxor-city-luxor-1",
+  "slug": "hotel-apartment-asset-—-luxor-city-luxor-1",
+  "name": "Hotel Apartment asset — Luxor City",
+  "governorateSlug": "luxor",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 4279037,
+  "areaM2": 5136,
+  "city": "El Bayadiya",
+  "summary": "Hotel Apartment in Luxor.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-armant-luxor-2",
+  "slug": "office-asset-—-armant-luxor-2",
+  "name": "Office asset — Armant",
+  "governorateSlug": "luxor",
+  "propertyType": "OFFICE",
+  "priceUsd": 2364813,
+  "areaM2": 4528,
+  "city": "El Bayadiya",
+  "summary": "Office in Luxor.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-abu-simbel-aswan-0",
+  "slug": "land-asset-—-abu-simbel-aswan-0",
+  "name": "Land asset — Abu Simbel",
+  "governorateSlug": "aswan",
+  "propertyType": "LAND",
+  "priceUsd": 1654042,
+  "areaM2": 10452,
+  "city": "Edfu",
+  "summary": "Land in Aswan.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-kom-ombo-aswan-1",
+  "slug": "commercial-asset-—-kom-ombo-aswan-1",
+  "name": "Commercial asset — Kom Ombo",
+  "governorateSlug": "aswan",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 2148436,
+  "areaM2": 8307,
+  "city": "Abu Simbel",
+  "summary": "Commercial in Aswan.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-abu-simbel-aswan-2",
+  "slug": "commercial-asset-—-abu-simbel-aswan-2",
+  "name": "Commercial asset — Abu Simbel",
+  "governorateSlug": "aswan",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 391416,
+  "areaM2": 10375,
+  "city": "Aswan City",
+  "summary": "Commercial in Aswan.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-el-quseir-red-sea-0",
+  "slug": "residential-asset-—-el-quseir-red-sea-0",
+  "name": "Residential asset — El Quseir",
+  "governorateSlug": "red-sea",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 2237002,
+  "areaM2": 7046,
+  "city": "Hurghada",
+  "summary": "Residential in Red Sea.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-hurghada-red-sea-1",
+  "slug": "office-asset-—-hurghada-red-sea-1",
+  "name": "Office asset — Hurghada",
+  "governorateSlug": "red-sea",
+  "propertyType": "OFFICE",
+  "priceUsd": 919577,
+  "areaM2": 3726,
+  "city": "Shalateen",
+  "summary": "Office in Red Sea.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-hurghada-red-sea-2",
+  "slug": "hospitality-asset-—-hurghada-red-sea-2",
+  "name": "Hospitality asset — Hurghada",
+  "governorateSlug": "red-sea",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 785126,
+  "areaM2": 11160,
+  "city": "Safaga",
+  "summary": "Hospitality in Red Sea.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-dahab-south-sinai-0",
+  "slug": "office-asset-—-dahab-south-sinai-0",
+  "name": "Office asset — Dahab",
+  "governorateSlug": "south-sinai",
+  "propertyType": "OFFICE",
+  "priceUsd": 3190490,
+  "areaM2": 8010,
+  "city": "Taba",
+  "summary": "Office in South Sinai.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-dahab-south-sinai-1",
+  "slug": "hospitality-asset-—-dahab-south-sinai-1",
+  "name": "Hospitality asset — Dahab",
+  "governorateSlug": "south-sinai",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 2897491,
+  "areaM2": 5711,
+  "city": "Taba",
+  "summary": "Hospitality in South Sinai.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-dahab-south-sinai-2",
+  "slug": "land-asset-—-dahab-south-sinai-2",
+  "name": "Land asset — Dahab",
+  "governorateSlug": "south-sinai",
+  "propertyType": "LAND",
+  "priceUsd": 683664,
+  "areaM2": 2042,
+  "city": "Taba",
+  "summary": "Land in South Sinai.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-siwa-matrouh-0",
+  "slug": "office-asset-—-siwa-matrouh-0",
+  "name": "Office asset — Siwa",
+  "governorateSlug": "matrouh",
+  "propertyType": "OFFICE",
+  "priceUsd": 3787382,
+  "areaM2": 7032,
+  "city": "Salloum",
+  "summary": "Office in Matrouh.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-el-dabaa-matrouh-1",
+  "slug": "hospitality-asset-—-el-dabaa-matrouh-1",
+  "name": "Hospitality asset — El Dabaa",
+  "governorateSlug": "matrouh",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 1324038,
+  "areaM2": 6124,
+  "city": "Siwa",
+  "summary": "Hospitality in Matrouh.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-sidi-barrani-matrouh-2",
+  "slug": "land-asset-—-sidi-barrani-matrouh-2",
+  "name": "Land asset — Sidi Barrani",
+  "governorateSlug": "matrouh",
+  "propertyType": "LAND",
+  "priceUsd": 2789574,
+  "areaM2": 4845,
+  "city": "Sidi Barrani",
+  "summary": "Land in Matrouh.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-sheikh-zuweid-north-sinai-0",
+  "slug": "land-asset-—-sheikh-zuweid-north-sinai-0",
+  "name": "Land asset — Sheikh Zuweid",
+  "governorateSlug": "north-sinai",
+  "propertyType": "LAND",
+  "priceUsd": 3647409,
+  "areaM2": 10791,
+  "city": "Rafah",
+  "summary": "Land in North Sinai.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-arish-north-sinai-1",
+  "slug": "office-asset-—-arish-north-sinai-1",
+  "name": "Office asset — Arish",
+  "governorateSlug": "north-sinai",
+  "propertyType": "OFFICE",
+  "priceUsd": 3935673,
+  "areaM2": 5390,
+  "city": "Arish",
+  "summary": "Office in North Sinai.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-arish-north-sinai-2",
+  "slug": "office-asset-—-arish-north-sinai-2",
+  "name": "Office asset — Arish",
+  "governorateSlug": "north-sinai",
+  "propertyType": "OFFICE",
+  "priceUsd": 3683781,
+  "areaM2": 9324,
+  "city": "Nakhl",
+  "summary": "Office in North Sinai.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-el-arab-port-said-0",
+  "slug": "hotel-apartment-asset-—-el-arab-port-said-0",
+  "name": "Hotel Apartment asset — El Arab",
+  "governorateSlug": "port-said",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 2567108,
+  "areaM2": 232,
+  "city": "Port Said",
+  "summary": "Hotel Apartment in Port Said.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-port-fouad-port-said-1",
+  "slug": "hospitality-asset-—-port-fouad-port-said-1",
+  "name": "Hospitality asset — Port Fouad",
+  "governorateSlug": "port-said",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 745424,
+  "areaM2": 11468,
+  "city": "El Zohour",
+  "summary": "Hospitality in Port Said.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-el-zohour-port-said-2",
+  "slug": "hotel-apartment-asset-—-el-zohour-port-said-2",
+  "name": "Hotel Apartment asset — El Zohour",
+  "governorateSlug": "port-said",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 2433264,
+  "areaM2": 2421,
+  "city": "Port Fouad",
+  "summary": "Hotel Apartment in Port Said.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-qantara-ismailia-0",
+  "slug": "hospitality-asset-—-qantara-ismailia-0",
+  "name": "Hospitality asset — Qantara",
+  "governorateSlug": "ismailia",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 3133539,
+  "areaM2": 2003,
+  "city": "Qantara",
+  "summary": "Hospitality in Ismailia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-abu-sweir-ismailia-1",
+  "slug": "land-asset-—-abu-sweir-ismailia-1",
+  "name": "Land asset — Abu Sweir",
+  "governorateSlug": "ismailia",
+  "propertyType": "LAND",
+  "priceUsd": 2402116,
+  "areaM2": 7256,
+  "city": "Tal El Kebir",
+  "summary": "Land in Ismailia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-abu-sweir-ismailia-2",
+  "slug": "hospitality-asset-—-abu-sweir-ismailia-2",
+  "name": "Hospitality asset — Abu Sweir",
+  "governorateSlug": "ismailia",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 2724383,
+  "areaM2": 3704,
+  "city": "Abu Sweir",
+  "summary": "Hospitality in Ismailia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-arbaeen-suez-0",
+  "slug": "land-asset-—-arbaeen-suez-0",
+  "name": "Land asset — Arbaeen",
+  "governorateSlug": "suez",
+  "propertyType": "LAND",
+  "priceUsd": 2142935,
+  "areaM2": 1460,
+  "city": "Ataqa",
+  "summary": "Land in Suez.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-suez-suez-1",
+  "slug": "hospitality-asset-—-suez-suez-1",
+  "name": "Hospitality asset — Suez",
+  "governorateSlug": "suez",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 3107680,
+  "areaM2": 11172,
+  "city": "Faisal",
+  "summary": "Hospitality in Suez.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-faisal-suez-2",
+  "slug": "office-asset-—-faisal-suez-2",
+  "name": "Office asset — Faisal",
+  "governorateSlug": "suez",
+  "propertyType": "OFFICE",
+  "priceUsd": 1695446,
+  "areaM2": 9317,
+  "city": "Ataqa",
+  "summary": "Office in Suez.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-qaha-qalyubia-0",
+  "slug": "hotel-apartment-asset-—-qaha-qalyubia-0",
+  "name": "Hotel Apartment asset — Qaha",
+  "governorateSlug": "qalyubia",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 1358443,
+  "areaM2": 9765,
+  "city": "Qaha",
+  "summary": "Hotel Apartment in Qalyubia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-shubra-el-kheima-qalyubia-1",
+  "slug": "commercial-asset-—-shubra-el-kheima-qalyubia-1",
+  "name": "Commercial asset — Shubra El Kheima",
+  "governorateSlug": "qalyubia",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 812790,
+  "areaM2": 7524,
+  "city": "Qalyub",
+  "summary": "Commercial in Qalyubia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-shubra-el-kheima-qalyubia-2",
+  "slug": "residential-asset-—-shubra-el-kheima-qalyubia-2",
+  "name": "Residential asset — Shubra El Kheima",
+  "governorateSlug": "qalyubia",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 4385512,
+  "areaM2": 1025,
+  "city": "Qaha",
+  "summary": "Residential in Qalyubia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-faqous-sharqia-0",
+  "slug": "commercial-asset-—-faqous-sharqia-0",
+  "name": "Commercial asset — Faqous",
+  "governorateSlug": "sharqia",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 2542014,
+  "areaM2": 446,
+  "city": "Minya El Qamh",
+  "summary": "Commercial in Sharqia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-zagazig-sharqia-1",
+  "slug": "hotel-apartment-asset-—-zagazig-sharqia-1",
+  "name": "Hotel Apartment asset — Zagazig",
+  "governorateSlug": "sharqia",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 2622507,
+  "areaM2": 9016,
+  "city": "Zagazig",
+  "summary": "Hotel Apartment in Sharqia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-zagazig-sharqia-2",
+  "slug": "hospitality-asset-—-zagazig-sharqia-2",
+  "name": "Hospitality asset — Zagazig",
+  "governorateSlug": "sharqia",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 2355494,
+  "areaM2": 1806,
+  "city": "Bilbeis",
+  "summary": "Hospitality in Sharqia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-mansoura-dakahlia-0",
+  "slug": "residential-asset-—-mansoura-dakahlia-0",
+  "name": "Residential asset — Mansoura",
+  "governorateSlug": "dakahlia",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 1266935,
+  "areaM2": 1676,
+  "city": "Sherbin",
+  "summary": "Residential in Dakahlia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-gamasa-dakahlia-1",
+  "slug": "land-asset-—-gamasa-dakahlia-1",
+  "name": "Land asset — Gamasa",
+  "governorateSlug": "dakahlia",
+  "propertyType": "LAND",
+  "priceUsd": 2118985,
+  "areaM2": 11748,
+  "city": "Talkha",
+  "summary": "Land in Dakahlia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-belqas-dakahlia-2",
+  "slug": "hotel-apartment-asset-—-belqas-dakahlia-2",
+  "name": "Hotel Apartment asset — Belqas",
+  "governorateSlug": "dakahlia",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 2896760,
+  "areaM2": 7601,
+  "city": "Gamasa",
+  "summary": "Hotel Apartment in Dakahlia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hospitality-asset-—-ras-el-bar-damietta-0",
+  "slug": "hospitality-asset-—-ras-el-bar-damietta-0",
+  "name": "Hospitality asset — Ras El Bar",
+  "governorateSlug": "damietta",
+  "propertyType": "HOSPITALITY",
+  "priceUsd": 2853124,
+  "areaM2": 11096,
+  "city": "New Damietta",
+  "summary": "Hospitality in Damietta.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOSPITALITY"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-faraskour-damietta-1",
+  "slug": "hotel-apartment-asset-—-faraskour-damietta-1",
+  "name": "Hotel Apartment asset — Faraskour",
+  "governorateSlug": "damietta",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 667909,
+  "areaM2": 11682,
+  "city": "Kafr Saad",
+  "summary": "Hotel Apartment in Damietta.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-faraskour-damietta-2",
+  "slug": "residential-asset-—-faraskour-damietta-2",
+  "name": "Residential asset — Faraskour",
+  "governorateSlug": "damietta",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 2989011,
+  "areaM2": 143,
+  "city": "Faraskour",
+  "summary": "Residential in Damietta.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-zefta-gharbia-0",
+  "slug": "residential-asset-—-zefta-gharbia-0",
+  "name": "Residential asset — Zefta",
+  "governorateSlug": "gharbia",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 264242,
+  "areaM2": 8662,
+  "city": "Kafr El Zayat",
+  "summary": "Residential in Gharbia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-tanta-gharbia-1",
+  "slug": "land-asset-—-tanta-gharbia-1",
+  "name": "Land asset — Tanta",
+  "governorateSlug": "gharbia",
+  "propertyType": "LAND",
+  "priceUsd": 982134,
+  "areaM2": 6987,
+  "city": "Zefta",
+  "summary": "Land in Gharbia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-el-mahalla-el-kubra-gharbia-2",
+  "slug": "commercial-asset-—-el-mahalla-el-kubra-gharbia-2",
+  "name": "Commercial asset — El Mahalla El Kubra",
+  "governorateSlug": "gharbia",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 1421078,
+  "areaM2": 10486,
+  "city": "Zefta",
+  "summary": "Commercial in Gharbia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-menouf-monufia-0",
+  "slug": "land-asset-—-menouf-monufia-0",
+  "name": "Land asset — Menouf",
+  "governorateSlug": "monufia",
+  "propertyType": "LAND",
+  "priceUsd": 2751733,
+  "areaM2": 3428,
+  "city": "Sadat City",
+  "summary": "Land in Monufia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-quesna-monufia-1",
+  "slug": "hotel-apartment-asset-—-quesna-monufia-1",
+  "name": "Hotel Apartment asset — Quesna",
+  "governorateSlug": "monufia",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 2509678,
+  "areaM2": 4569,
+  "city": "Shibin El Kom",
+  "summary": "Hotel Apartment in Monufia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-ashmoun-monufia-2",
+  "slug": "hotel-apartment-asset-—-ashmoun-monufia-2",
+  "name": "Hotel Apartment asset — Ashmoun",
+  "governorateSlug": "monufia",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 1023118,
+  "areaM2": 5052,
+  "city": "Berket El Sabaa",
+  "summary": "Hotel Apartment in Monufia.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-rashid-beheira-0",
+  "slug": "commercial-asset-—-rashid-beheira-0",
+  "name": "Commercial asset — Rashid",
+  "governorateSlug": "beheira",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 582983,
+  "areaM2": 7596,
+  "city": "Damanhour",
+  "summary": "Commercial in Beheira.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-edku-beheira-1",
+  "slug": "office-asset-—-edku-beheira-1",
+  "name": "Office asset — Edku",
+  "governorateSlug": "beheira",
+  "propertyType": "OFFICE",
+  "priceUsd": 365132,
+  "areaM2": 5200,
+  "city": "Damanhour",
+  "summary": "Office in Beheira.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-rashid-beheira-2",
+  "slug": "commercial-asset-—-rashid-beheira-2",
+  "name": "Commercial asset — Rashid",
+  "governorateSlug": "beheira",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 3074196,
+  "areaM2": 3641,
+  "city": "Abu Hummus",
+  "summary": "Commercial in Beheira.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-sidi-salem-kafr-el-sheikh-0",
+  "slug": "commercial-asset-—-sidi-salem-kafr-el-sheikh-0",
+  "name": "Commercial asset — Sidi Salem",
+  "governorateSlug": "kafr-el-sheikh",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 4018688,
+  "areaM2": 9824,
+  "city": "Sidi Salem",
+  "summary": "Commercial in Kafr El Sheikh.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-fuwwah-kafr-el-sheikh-1",
+  "slug": "commercial-asset-—-fuwwah-kafr-el-sheikh-1",
+  "name": "Commercial asset — Fuwwah",
+  "governorateSlug": "kafr-el-sheikh",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 1611783,
+  "areaM2": 4684,
+  "city": "Fuwwah",
+  "summary": "Commercial in Kafr El Sheikh.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-baltim-kafr-el-sheikh-2",
+  "slug": "commercial-asset-—-baltim-kafr-el-sheikh-2",
+  "name": "Commercial asset — Baltim",
+  "governorateSlug": "kafr-el-sheikh",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 4082263,
+  "areaM2": 4347,
+  "city": "Fuwwah",
+  "summary": "Commercial in Kafr El Sheikh.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-ibshaway-faiyum-0",
+  "slug": "hotel-apartment-asset-—-ibshaway-faiyum-0",
+  "name": "Hotel Apartment asset — Ibshaway",
+  "governorateSlug": "faiyum",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 835267,
+  "areaM2": 7987,
+  "city": "Sinnuris",
+  "summary": "Hotel Apartment in Faiyum.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-faiyum-city-faiyum-1",
+  "slug": "hotel-apartment-asset-—-faiyum-city-faiyum-1",
+  "name": "Hotel Apartment asset — Faiyum City",
+  "governorateSlug": "faiyum",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 1883851,
+  "areaM2": 2280,
+  "city": "Tamiya",
+  "summary": "Hotel Apartment in Faiyum.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-etsa-faiyum-2",
+  "slug": "office-asset-—-etsa-faiyum-2",
+  "name": "Office asset — Etsa",
+  "governorateSlug": "faiyum",
+  "propertyType": "OFFICE",
+  "priceUsd": 2363093,
+  "areaM2": 1029,
+  "city": "Youssef El Seddik",
+  "summary": "Office in Faiyum.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-beni-suef-beni-suef-0",
+  "slug": "commercial-asset-—-beni-suef-beni-suef-0",
+  "name": "Commercial asset — Beni Suef",
+  "governorateSlug": "beni-suef",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 4024842,
+  "areaM2": 6167,
+  "city": "Ihnasia",
+  "summary": "Commercial in Beni Suef.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-somasta-beni-suef-1",
+  "slug": "commercial-asset-—-somasta-beni-suef-1",
+  "name": "Commercial asset — Somasta",
+  "governorateSlug": "beni-suef",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 3595281,
+  "areaM2": 10009,
+  "city": "El Wasta",
+  "summary": "Commercial in Beni Suef.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-hotel-apartment-asset-—-el-wasta-beni-suef-2",
+  "slug": "hotel-apartment-asset-—-el-wasta-beni-suef-2",
+  "name": "Hotel Apartment asset — El Wasta",
+  "governorateSlug": "beni-suef",
+  "propertyType": "HOTEL_APARTMENT",
+  "priceUsd": 2759485,
+  "areaM2": 2451,
+  "city": "Nasser",
+  "summary": "Hotel Apartment in Beni Suef.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "HOTEL_APARTMENT"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-mallawi-minya-0",
+  "slug": "office-asset-—-mallawi-minya-0",
+  "name": "Office asset — Mallawi",
+  "governorateSlug": "minya",
+  "propertyType": "OFFICE",
+  "priceUsd": 2295641,
+  "areaM2": 8533,
+  "city": "Maghagha",
+  "summary": "Office in Minya.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-mallawi-minya-1",
+  "slug": "residential-asset-—-mallawi-minya-1",
+  "name": "Residential asset — Mallawi",
+  "governorateSlug": "minya",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 1555683,
+  "areaM2": 102,
+  "city": "Mallawi",
+  "summary": "Residential in Minya.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-mallawi-minya-2",
+  "slug": "commercial-asset-—-mallawi-minya-2",
+  "name": "Commercial asset — Mallawi",
+  "governorateSlug": "minya",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 751443,
+  "areaM2": 5842,
+  "city": "Samalut",
+  "summary": "Commercial in Minya.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-el-qusiya-asyut-0",
+  "slug": "office-asset-—-el-qusiya-asyut-0",
+  "name": "Office asset — El Qusiya",
+  "governorateSlug": "asyut",
+  "propertyType": "OFFICE",
+  "priceUsd": 4488748,
+  "areaM2": 1671,
+  "city": "Manfalut",
+  "summary": "Office in Asyut.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-manfalut-asyut-1",
+  "slug": "land-asset-—-manfalut-asyut-1",
+  "name": "Land asset — Manfalut",
+  "governorateSlug": "asyut",
+  "propertyType": "LAND",
+  "priceUsd": 755070,
+  "areaM2": 9691,
+  "city": "Sahel Selim",
+  "summary": "Land in Asyut.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-office-asset-—-abnub-asyut-2",
+  "slug": "office-asset-—-abnub-asyut-2",
+  "name": "Office asset — Abnub",
+  "governorateSlug": "asyut",
+  "propertyType": "OFFICE",
+  "priceUsd": 219646,
+  "areaM2": 3156,
+  "city": "Manfalut",
+  "summary": "Office in Asyut.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "OFFICE"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-tema-sohag-0",
+  "slug": "commercial-asset-—-tema-sohag-0",
+  "name": "Commercial asset — Tema",
+  "governorateSlug": "sohag",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 822904,
+  "areaM2": 7292,
+  "city": "Akhmim",
+  "summary": "Commercial in Sohag.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-tahta-sohag-1",
+  "slug": "residential-asset-—-tahta-sohag-1",
+  "name": "Residential asset — Tahta",
+  "governorateSlug": "sohag",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 3525749,
+  "areaM2": 8692,
+  "city": "El Balyana",
+  "summary": "Residential in Sohag.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-girga-sohag-2",
+  "slug": "commercial-asset-—-girga-sohag-2",
+  "name": "Commercial asset — Girga",
+  "governorateSlug": "sohag",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 2711624,
+  "areaM2": 5171,
+  "city": "El Balyana",
+  "summary": "Commercial in Sohag.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-dishna-qena-0",
+  "slug": "residential-asset-—-dishna-qena-0",
+  "name": "Residential asset — Dishna",
+  "governorateSlug": "qena",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 2624408,
+  "areaM2": 7735,
+  "city": "Naqada",
+  "summary": "Residential in Qena.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-qena-qena-1",
+  "slug": "land-asset-—-qena-qena-1",
+  "name": "Land asset — Qena",
+  "governorateSlug": "qena",
+  "propertyType": "LAND",
+  "priceUsd": 3077461,
+  "areaM2": 1298,
+  "city": "Naqada",
+  "summary": "Land in Qena.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-commercial-asset-—-qena-qena-2",
+  "slug": "commercial-asset-—-qena-qena-2",
+  "name": "Commercial asset — Qena",
+  "governorateSlug": "qena",
+  "propertyType": "COMMERCIAL",
+  "priceUsd": 3367093,
+  "areaM2": 11153,
+  "city": "Farshut",
+  "summary": "Commercial in Qena.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "COMMERCIAL"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-kharga-new-valley-0",
+  "slug": "land-asset-—-kharga-new-valley-0",
+  "name": "Land asset — Kharga",
+  "governorateSlug": "new-valley",
+  "propertyType": "LAND",
+  "priceUsd": 3795538,
+  "areaM2": 282,
+  "city": "Balat",
+  "summary": "Land in New Valley.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-land-asset-—-balat-new-valley-1",
+  "slug": "land-asset-—-balat-new-valley-1",
+  "name": "Land asset — Balat",
+  "governorateSlug": "new-valley",
+  "propertyType": "LAND",
+  "priceUsd": 2052109,
+  "areaM2": 4888,
+  "city": "Paris (Baris)",
+  "summary": "Land in New Valley.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "LAND"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "prop-residential-asset-—-balat-new-valley-2",
+  "slug": "residential-asset-—-balat-new-valley-2",
+  "name": "Residential asset — Balat",
+  "governorateSlug": "new-valley",
+  "propertyType": "RESIDENTIAL",
+  "priceUsd": 147838,
+  "areaM2": 11863,
+  "city": "Dakhla",
+  "summary": "Residential in New Valley.",
+  "description": "Demo listing. Ownership rules for non-Egyptians depend on property type, location and current law — confirm with a qualified Egyptian lawyer and the competent authority.",
+  "images": [],
+  "tags": [
+   "RESIDENTIAL"
+  ]
+ }
+]

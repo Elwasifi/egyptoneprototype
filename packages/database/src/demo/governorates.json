@@ -1,0 +1,1916 @@
+[
+ {
+  "id": "gov-cairo",
+  "slug": "cairo",
+  "name": "Cairo",
+  "nameAr": "القاهرة",
+  "code": "C",
+  "capital": "Cairo",
+  "region": "Greater Cairo",
+  "areaKm2": 3085,
+  "populationM": 10.1,
+  "coordinates": {
+   "lat": 30.0444,
+   "lng": 31.2357
+  },
+  "highlights": [
+   "Islamic Cairo",
+   "Khan el-Khalili",
+   "Coptic Cairo",
+   "Salah El-Din Citadel",
+   "Al-Muizz Street",
+   "Egyptian Museum, Tahrir"
+  ],
+  "cities": [
+   "Nasr City",
+   "Heliopolis",
+   "Maadi",
+   "New Cairo",
+   "Downtown",
+   "Shubra",
+   "Helwan",
+   "15th of May"
+  ],
+  "heritageEras": [
+   "ISLAMIC",
+   "COPTIC",
+   "OTTOMAN",
+   "MUHAMMAD_ALI",
+   "KINGDOM",
+   "REPUBLIC",
+   "CONTEMPORARY"
+  ],
+  "cuisine": [
+   "Koshari",
+   "Hawawshi",
+   "Feteer meshaltet",
+   "Om Ali"
+  ],
+  "crafts": [
+   "Khayamiya tentmaking",
+   "Copper work",
+   "Mashrabiya woodwork",
+   "Gold filigree"
+  ],
+  "nature": [
+   "Al-Azhar Park",
+   "Wadi Degla Protectorate",
+   "Nile corniche"
+  ],
+  "investmentSectors": [
+   "Hospitality",
+   "Creative industries",
+   "Fintech",
+   "Real estate",
+   "MICE",
+   "Retail"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 5400000,
+   "hotels": 412,
+   "heritageSites": 640,
+   "guides": 1850,
+   "occupancyPct": 68
+  },
+  "summary": "Cairo governorate — Greater Cairo. Capital: Cairo.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-giza",
+  "slug": "giza",
+  "name": "Giza",
+  "nameAr": "الجيزة",
+  "code": "GZ",
+  "capital": "Giza",
+  "region": "Greater Cairo",
+  "areaKm2": 13184,
+  "populationM": 9.2,
+  "coordinates": {
+   "lat": 29.987,
+   "lng": 31.2118
+  },
+  "highlights": [
+   "Pyramids of Giza",
+   "Great Sphinx",
+   "Grand Egyptian Museum",
+   "Saqqara",
+   "Dahshur",
+   "Memphis"
+  ],
+  "cities": [
+   "Dokki",
+   "Mohandessin",
+   "6th of October",
+   "Sheikh Zayed",
+   "Haram",
+   "Badrashin",
+   "Atfih"
+  ],
+  "heritageEras": [
+   "PREDYNASTIC",
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "ISLAMIC",
+   "CONTEMPORARY"
+  ],
+  "cuisine": [
+   "Grilled pigeon",
+   "Molokhia",
+   "Rice pudding"
+  ],
+  "crafts": [
+   "Papyrus painting",
+   "Alabaster carving",
+   "Carpet weaving"
+  ],
+  "nature": [
+   "Wadi El Rayan approach",
+   "Nile islands",
+   "Desert plateau"
+  ],
+  "investmentSectors": [
+   "Tourism",
+   "Hospitality",
+   "Entertainment",
+   "Logistics",
+   "Technology parks"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 6100000,
+   "hotels": 268,
+   "heritageSites": 390,
+   "guides": 2100,
+   "occupancyPct": 74
+  },
+  "summary": "Giza governorate — Greater Cairo. Capital: Giza.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-alexandria",
+  "slug": "alexandria",
+  "name": "Alexandria",
+  "nameAr": "الإسكندرية",
+  "code": "ALX",
+  "capital": "Alexandria",
+  "region": "Mediterranean",
+  "areaKm2": 2679,
+  "populationM": 5.4,
+  "coordinates": {
+   "lat": 31.2001,
+   "lng": 29.9187
+  },
+  "highlights": [
+   "Bibliotheca Alexandrina",
+   "Qaitbay Citadel",
+   "Catacombs of Kom El Shoqafa",
+   "Pompey's Pillar",
+   "Montaza Palace",
+   "Roman Amphitheatre"
+  ],
+  "cities": [
+   "Montaza",
+   "Sidi Gaber",
+   "Agami",
+   "Borg El Arab",
+   "Amreya",
+   "Mandara"
+  ],
+  "heritageEras": [
+   "GRECO_ROMAN",
+   "PTOLEMAIC",
+   "COPTIC",
+   "ISLAMIC",
+   "OTTOMAN",
+   "MUHAMMAD_ALI",
+   "KINGDOM"
+  ],
+  "cuisine": [
+   "Sayadeya fish",
+   "Alexandrian liver",
+   "Freska"
+  ],
+  "crafts": [
+   "Glassblowing",
+   "Textile weaving",
+   "Fishing-net craft"
+  ],
+  "nature": [
+   "Mediterranean beaches",
+   "Lake Mariout",
+   "Montaza gardens"
+  ],
+  "investmentSectors": [
+   "Ports & logistics",
+   "Petrochemicals",
+   "Coastal tourism",
+   "Real estate",
+   "Education"
+  ],
+  "hasCoast": true,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 2900000,
+   "hotels": 196,
+   "heritageSites": 210,
+   "guides": 940,
+   "occupancyPct": 61
+  },
+  "summary": "Alexandria governorate — Mediterranean. Capital: Alexandria.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-luxor",
+  "slug": "luxor",
+  "name": "Luxor",
+  "nameAr": "الأقصر",
+  "code": "LX",
+  "capital": "Luxor",
+  "region": "Upper Egypt",
+  "areaKm2": 2960,
+  "populationM": 1.3,
+  "coordinates": {
+   "lat": 25.6872,
+   "lng": 32.6396
+  },
+  "highlights": [
+   "Karnak Temple",
+   "Luxor Temple",
+   "Valley of the Kings",
+   "Hatshepsut Temple",
+   "Valley of the Queens",
+   "Medinet Habu"
+  ],
+  "cities": [
+   "Luxor City",
+   "Esna",
+   "Armant",
+   "Tiba",
+   "El Bayadiya"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Fattah",
+   "Tagine",
+   "Sugarcane juice"
+  ],
+  "crafts": [
+   "Alabaster carving",
+   "Hand-painted papyrus",
+   "Palm-frond basketry"
+  ],
+  "nature": [
+   "West Bank desert",
+   "Nile corniche",
+   "Sugarcane fields"
+  ],
+  "investmentSectors": [
+   "Cultural tourism",
+   "Boutique hospitality",
+   "Nile cruising",
+   "Handicrafts"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 2450000,
+   "hotels": 118,
+   "heritageSites": 310,
+   "guides": 1420,
+   "occupancyPct": 72
+  },
+  "summary": "Luxor governorate — Upper Egypt. Capital: Luxor.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-aswan",
+  "slug": "aswan",
+  "name": "Aswan",
+  "nameAr": "أسوان",
+  "code": "ASN",
+  "capital": "Aswan",
+  "region": "Upper Egypt",
+  "areaKm2": 62726,
+  "populationM": 1.6,
+  "coordinates": {
+   "lat": 24.0889,
+   "lng": 32.8998
+  },
+  "highlights": [
+   "Abu Simbel",
+   "Philae Temple",
+   "High Dam",
+   "Nubian Museum",
+   "Elephantine Island",
+   "Unfinished Obelisk"
+  ],
+  "cities": [
+   "Aswan City",
+   "Kom Ombo",
+   "Edfu",
+   "Daraw",
+   "Nasr El Nuba",
+   "Abu Simbel"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC",
+   "REPUBLIC"
+  ],
+  "cuisine": [
+   "Nubian fish",
+   "Dukka",
+   "Karkade hibiscus"
+  ],
+  "crafts": [
+   "Nubian pottery",
+   "Beadwork",
+   "Woven palm mats"
+  ],
+  "nature": [
+   "Lake Nasser",
+   "Nile cataracts",
+   "Botanical Island",
+   "Eastern Desert"
+  ],
+  "investmentSectors": [
+   "Cultural tourism",
+   "Renewable energy",
+   "Nubian heritage tourism",
+   "Aquaculture"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 1380000,
+   "hotels": 96,
+   "heritageSites": 180,
+   "guides": 780,
+   "occupancyPct": 66
+  },
+  "summary": "Aswan governorate — Upper Egypt. Capital: Aswan.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-red-sea",
+  "slug": "red-sea",
+  "name": "Red Sea",
+  "nameAr": "البحر الأحمر",
+  "code": "RS",
+  "capital": "Hurghada",
+  "region": "Red Sea",
+  "areaKm2": 119099,
+  "populationM": 0.4,
+  "coordinates": {
+   "lat": 27.2579,
+   "lng": 33.8116
+  },
+  "highlights": [
+   "Hurghada",
+   "El Gouna",
+   "Soma Bay",
+   "Marsa Alam",
+   "Safaga",
+   "Giftun Islands"
+  ],
+  "cities": [
+   "Hurghada",
+   "Safaga",
+   "El Quseir",
+   "Marsa Alam",
+   "Shalateen",
+   "Ras Ghareb"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "OTTOMAN",
+   "CONTEMPORARY"
+  ],
+  "cuisine": [
+   "Grilled Red Sea fish",
+   "Seafood tagine",
+   "Bedouin tea"
+  ],
+  "crafts": [
+   "Bedouin weaving",
+   "Shell craft",
+   "Silver jewellery"
+  ],
+  "nature": [
+   "Coral reefs",
+   "Wadi El Gemal",
+   "Eastern Desert mountains",
+   "Giftun Islands"
+  ],
+  "investmentSectors": [
+   "Resort development",
+   "Marinas",
+   "Diving tourism",
+   "Water parks",
+   "Renewables"
+  ],
+  "hasCoast": true,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 4800000,
+   "hotels": 302,
+   "heritageSites": 48,
+   "guides": 690,
+   "occupancyPct": 79
+  },
+  "summary": "Red Sea governorate — Red Sea. Capital: Hurghada.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-south-sinai",
+  "slug": "south-sinai",
+  "name": "South Sinai",
+  "nameAr": "جنوب سيناء",
+  "code": "SIN",
+  "capital": "El Tor",
+  "region": "Sinai",
+  "areaKm2": 33140,
+  "populationM": 0.11,
+  "coordinates": {
+   "lat": 28.24,
+   "lng": 33.62
+  },
+  "highlights": [
+   "Sharm El Sheikh",
+   "Dahab",
+   "Saint Catherine Monastery",
+   "Mount Sinai",
+   "Ras Mohammed",
+   "Nuweiba"
+  ],
+  "cities": [
+   "Sharm El Sheikh",
+   "Dahab",
+   "Nuweiba",
+   "Taba",
+   "Saint Catherine",
+   "El Tor"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "COPTIC",
+   "ISLAMIC",
+   "OTTOMAN",
+   "CONTEMPORARY"
+  ],
+  "cuisine": [
+   "Bedouin zarb",
+   "Fresh grilled fish",
+   "Sinai herbal tea"
+  ],
+  "crafts": [
+   "Bedouin embroidery",
+   "Beaded jewellery",
+   "Camel-wool weaving"
+  ],
+  "nature": [
+   "Ras Mohammed National Park",
+   "Blue Hole",
+   "Coloured Canyon",
+   "Sinai mountains"
+  ],
+  "investmentSectors": [
+   "Resort hospitality",
+   "Diving & marinas",
+   "Eco-lodges",
+   "Wellness tourism",
+   "MICE"
+  ],
+  "hasCoast": true,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 3600000,
+   "hotels": 241,
+   "heritageSites": 62,
+   "guides": 610,
+   "occupancyPct": 76
+  },
+  "summary": "South Sinai governorate — Sinai. Capital: El Tor.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-matrouh",
+  "slug": "matrouh",
+  "name": "Matrouh",
+  "nameAr": "مطروح",
+  "code": "MT",
+  "capital": "Marsa Matrouh",
+  "region": "Mediterranean",
+  "areaKm2": 166563,
+  "populationM": 0.5,
+  "coordinates": {
+   "lat": 31.3543,
+   "lng": 27.2373
+  },
+  "highlights": [
+   "Marsa Matrouh",
+   "Siwa Oasis",
+   "Agiba Beach",
+   "Cleopatra's Bath",
+   "Shali Fortress",
+   "El Alamein"
+  ],
+  "cities": [
+   "Marsa Matrouh",
+   "Siwa",
+   "El Alamein",
+   "El Dabaa",
+   "Sidi Barrani",
+   "Salloum"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "ISLAMIC",
+   "KINGDOM",
+   "CONTEMPORARY"
+  ],
+  "cuisine": [
+   "Siwan dates",
+   "Bedouin lamb",
+   "Olive oil dishes"
+  ],
+  "crafts": [
+   "Siwan embroidery",
+   "Silver Berber jewellery",
+   "Palm basketry"
+  ],
+  "nature": [
+   "Great Sand Sea",
+   "Salt lakes",
+   "White sand beaches",
+   "Olive groves"
+  ],
+  "investmentSectors": [
+   "Coastal resorts",
+   "Agriculture & olives",
+   "Renewables",
+   "New Alamein City real estate"
+  ],
+  "hasCoast": true,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 1250000,
+   "hotels": 132,
+   "heritageSites": 54,
+   "guides": 280,
+   "occupancyPct": 58
+  },
+  "summary": "Matrouh governorate — Mediterranean. Capital: Marsa Matrouh.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-north-sinai",
+  "slug": "north-sinai",
+  "name": "North Sinai",
+  "nameAr": "شمال سيناء",
+  "code": "NS",
+  "capital": "Arish",
+  "region": "Sinai",
+  "areaKm2": 27564,
+  "populationM": 0.46,
+  "coordinates": {
+   "lat": 31.1249,
+   "lng": 33.7986
+  },
+  "highlights": [
+   "Arish coast",
+   "Pelusium archaeological area",
+   "Zaranik Protectorate",
+   "Bedouin heritage trails"
+  ],
+  "cities": [
+   "Arish",
+   "Sheikh Zuweid",
+   "Rafah",
+   "Bir al-Abd",
+   "Nakhl",
+   "Hasana"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "ISLAMIC",
+   "OTTOMAN"
+  ],
+  "cuisine": [
+   "Bedouin fatteh",
+   "Grilled fish",
+   "Date pastries"
+  ],
+  "crafts": [
+   "Bedouin embroidery",
+   "Palm weaving"
+  ],
+  "nature": [
+   "Zaranik wetlands",
+   "Mediterranean dunes",
+   "Sinai desert"
+  ],
+  "investmentSectors": [
+   "Agriculture",
+   "Fisheries",
+   "Logistics",
+   "Development projects"
+  ],
+  "hasCoast": true,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 90000,
+   "hotels": 18,
+   "heritageSites": 36,
+   "guides": 45,
+   "occupancyPct": 32
+  },
+  "summary": "North Sinai governorate — Sinai. Capital: Arish.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-port-said",
+  "slug": "port-said",
+  "name": "Port Said",
+  "nameAr": "بورسعيد",
+  "code": "PTS",
+  "capital": "Port Said",
+  "region": "Canal",
+  "areaKm2": 1345,
+  "populationM": 0.79,
+  "coordinates": {
+   "lat": 31.2653,
+   "lng": 32.3019
+  },
+  "highlights": [
+   "Suez Canal entrance",
+   "Port Said Lighthouse",
+   "National Museum of Port Said",
+   "Italian-era architecture"
+  ],
+  "cities": [
+   "Port Said",
+   "Port Fouad",
+   "El Zohour",
+   "El Arab"
+  ],
+  "heritageEras": [
+   "MUHAMMAD_ALI",
+   "KINGDOM",
+   "REPUBLIC",
+   "CONTEMPORARY"
+  ],
+  "cuisine": [
+   "Port Said fish",
+   "Roasted mullet",
+   "Fresh seafood"
+  ],
+  "crafts": [
+   "Fishing craft",
+   "Boat building"
+  ],
+  "nature": [
+   "Lake Manzala",
+   "Mediterranean shoreline"
+  ],
+  "investmentSectors": [
+   "Logistics",
+   "Free zone industry",
+   "Fisheries",
+   "Canal services"
+  ],
+  "hasCoast": true,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 310000,
+   "hotels": 34,
+   "heritageSites": 28,
+   "guides": 90,
+   "occupancyPct": 52
+  },
+  "summary": "Port Said governorate — Canal. Capital: Port Said.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-ismailia",
+  "slug": "ismailia",
+  "name": "Ismailia",
+  "nameAr": "الإسماعيلية",
+  "code": "IS",
+  "capital": "Ismailia",
+  "region": "Canal",
+  "areaKm2": 1442,
+  "populationM": 1.4,
+  "coordinates": {
+   "lat": 30.5965,
+   "lng": 32.2715
+  },
+  "highlights": [
+   "Suez Canal Authority buildings",
+   "Ismailia Museum",
+   "Lake Timsah",
+   "Garden city district"
+  ],
+  "cities": [
+   "Ismailia",
+   "Fayed",
+   "Qantara",
+   "Abu Sweir",
+   "Tal El Kebir"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "MUHAMMAD_ALI",
+   "REPUBLIC"
+  ],
+  "cuisine": [
+   "Mango dishes",
+   "Grilled fish",
+   "Canal-side seafood"
+  ],
+  "crafts": [
+   "Palm craft",
+   "Boat models"
+  ],
+  "nature": [
+   "Lake Timsah",
+   "Bitter Lakes",
+   "Mango orchards"
+  ],
+  "investmentSectors": [
+   "Agriculture",
+   "Logistics",
+   "Technology zone",
+   "Canal industry"
+  ],
+  "hasCoast": false,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 260000,
+   "hotels": 27,
+   "heritageSites": 24,
+   "guides": 70,
+   "occupancyPct": 49
+  },
+  "summary": "Ismailia governorate — Canal. Capital: Ismailia.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-suez",
+  "slug": "suez",
+  "name": "Suez",
+  "nameAr": "السويس",
+  "code": "SUZ",
+  "capital": "Suez",
+  "region": "Canal",
+  "areaKm2": 17840,
+  "populationM": 0.79,
+  "coordinates": {
+   "lat": 29.9668,
+   "lng": 32.5498
+  },
+  "highlights": [
+   "Ain Sokhna",
+   "Suez Canal southern gate",
+   "Ataqa Mountain",
+   "Port Tawfik"
+  ],
+  "cities": [
+   "Suez",
+   "Ain Sokhna",
+   "Ataqa",
+   "Faisal",
+   "Arbaeen"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "ISLAMIC",
+   "OTTOMAN",
+   "REPUBLIC"
+  ],
+  "cuisine": [
+   "Red Sea fish",
+   "Shrimp tagine"
+  ],
+  "crafts": [
+   "Fishing craft",
+   "Ship-model making"
+  ],
+  "nature": [
+   "Ain Sokhna beaches",
+   "Ataqa Mountain",
+   "Gulf of Suez"
+  ],
+  "investmentSectors": [
+   "Petrochemicals",
+   "Ports & logistics",
+   "SCZone industry",
+   "Coastal resorts"
+  ],
+  "hasCoast": true,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 480000,
+   "hotels": 52,
+   "heritageSites": 22,
+   "guides": 85,
+   "occupancyPct": 63
+  },
+  "summary": "Suez governorate — Canal. Capital: Suez.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-qalyubia",
+  "slug": "qalyubia",
+  "name": "Qalyubia",
+  "nameAr": "القليوبية",
+  "code": "QL",
+  "capital": "Banha",
+  "region": "Greater Cairo",
+  "areaKm2": 1124,
+  "populationM": 6.0,
+  "coordinates": {
+   "lat": 30.4599,
+   "lng": 31.1837
+  },
+  "highlights": [
+   "Banha heritage centre",
+   "Qalyub Nile corniche",
+   "Delta agricultural landscapes"
+  ],
+  "cities": [
+   "Banha",
+   "Shubra El Kheima",
+   "Qalyub",
+   "Khanka",
+   "Qaha",
+   "Toukh"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "COPTIC",
+   "ISLAMIC",
+   "REPUBLIC"
+  ],
+  "cuisine": [
+   "Banha halawa",
+   "Delta duck",
+   "Mahshi"
+  ],
+  "crafts": [
+   "Cotton weaving",
+   "Furniture"
+  ],
+  "nature": [
+   "Nile Delta branches",
+   "Farmland"
+  ],
+  "investmentSectors": [
+   "Light industry",
+   "Agriculture",
+   "Logistics",
+   "Housing"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 140000,
+   "hotels": 21,
+   "heritageSites": 42,
+   "guides": 55,
+   "occupancyPct": 44
+  },
+  "summary": "Qalyubia governorate — Greater Cairo. Capital: Banha.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-sharqia",
+  "slug": "sharqia",
+  "name": "Sharqia",
+  "nameAr": "الشرقية",
+  "code": "SHR",
+  "capital": "Zagazig",
+  "region": "Delta",
+  "areaKm2": 4911,
+  "populationM": 7.6,
+  "coordinates": {
+   "lat": 30.5877,
+   "lng": 31.502
+  },
+  "highlights": [
+   "Tell Basta (Bubastis)",
+   "Zagazig Museum",
+   "San El Hagar (Tanis)",
+   "Delta rural trails"
+  ],
+  "cities": [
+   "Zagazig",
+   "10th of Ramadan",
+   "Bilbeis",
+   "Abu Hammad",
+   "Faqous",
+   "Minya El Qamh"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Sharqia duck",
+   "Rice with milk",
+   "Delta cheese"
+  ],
+  "crafts": [
+   "Carpet weaving",
+   "Pottery"
+  ],
+  "nature": [
+   "Farmland",
+   "Wadi canals"
+  ],
+  "investmentSectors": [
+   "Manufacturing",
+   "Agriculture",
+   "Logistics",
+   "Industrial cities"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 180000,
+   "hotels": 26,
+   "heritageSites": 88,
+   "guides": 70,
+   "occupancyPct": 41
+  },
+  "summary": "Sharqia governorate — Delta. Capital: Zagazig.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-dakahlia",
+  "slug": "dakahlia",
+  "name": "Dakahlia",
+  "nameAr": "الدقهلية",
+  "code": "DK",
+  "capital": "Mansoura",
+  "region": "Delta",
+  "areaKm2": 3538,
+  "populationM": 6.9,
+  "coordinates": {
+   "lat": 31.0409,
+   "lng": 31.3785
+  },
+  "highlights": [
+   "Mansoura Dar Ibn Luqman",
+   "Gamasa beaches",
+   "Lake Manzala",
+   "Talkha industrial heritage"
+  ],
+  "cities": [
+   "Mansoura",
+   "Talkha",
+   "Mit Ghamr",
+   "Gamasa",
+   "Belqas",
+   "Sherbin"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "COPTIC",
+   "ISLAMIC",
+   "OTTOMAN",
+   "KINGDOM"
+  ],
+  "cuisine": [
+   "Mansoura rice pudding",
+   "Delta fish",
+   "Om Ali"
+  ],
+  "crafts": [
+   "Copper craft",
+   "Textile"
+  ],
+  "nature": [
+   "Lake Manzala",
+   "Gamasa coast",
+   "Damietta branch"
+  ],
+  "investmentSectors": [
+   "Agriculture",
+   "Textiles",
+   "Health & education",
+   "Coastal tourism"
+  ],
+  "hasCoast": true,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 220000,
+   "hotels": 33,
+   "heritageSites": 56,
+   "guides": 88,
+   "occupancyPct": 47
+  },
+  "summary": "Dakahlia governorate — Delta. Capital: Mansoura.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-damietta",
+  "slug": "damietta",
+  "name": "Damietta",
+  "nameAr": "دمياط",
+  "code": "DT",
+  "capital": "Damietta",
+  "region": "Delta",
+  "areaKm2": 910,
+  "populationM": 1.6,
+  "coordinates": {
+   "lat": 31.4165,
+   "lng": 31.8133
+  },
+  "highlights": [
+   "Ras El Bar",
+   "Damietta furniture district",
+   "Lake Manzala",
+   "Old Damietta houses"
+  ],
+  "cities": [
+   "Damietta",
+   "New Damietta",
+   "Ras El Bar",
+   "Faraskour",
+   "Kafr Saad"
+  ],
+  "heritageEras": [
+   "ISLAMIC",
+   "OTTOMAN",
+   "MUHAMMAD_ALI",
+   "KINGDOM"
+  ],
+  "cuisine": [
+   "Damietta fish",
+   "Fresh mullet",
+   "Rice dishes"
+  ],
+  "crafts": [
+   "Furniture making",
+   "Woodwork",
+   "Confectionery"
+  ],
+  "nature": [
+   "Nile mouth",
+   "Ras El Bar sandbar",
+   "Lake Manzala"
+  ],
+  "investmentSectors": [
+   "Furniture industry",
+   "Ports",
+   "Fisheries",
+   "Coastal tourism"
+  ],
+  "hasCoast": true,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 310000,
+   "hotels": 44,
+   "heritageSites": 30,
+   "guides": 60,
+   "occupancyPct": 55
+  },
+  "summary": "Damietta governorate — Delta. Capital: Damietta.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-gharbia",
+  "slug": "gharbia",
+  "name": "Gharbia",
+  "nameAr": "الغربية",
+  "code": "GH",
+  "capital": "Tanta",
+  "region": "Delta",
+  "areaKm2": 1942,
+  "populationM": 5.2,
+  "coordinates": {
+   "lat": 30.7885,
+   "lng": 30.9977
+  },
+  "highlights": [
+   "Tanta Sayed El Badawi Mosque",
+   "Mahalla textile heritage",
+   "Delta market towns"
+  ],
+  "cities": [
+   "Tanta",
+   "El Mahalla El Kubra",
+   "Kafr El Zayat",
+   "Zefta",
+   "Samannoud",
+   "Basyoun"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "COPTIC",
+   "ISLAMIC",
+   "OTTOMAN"
+  ],
+  "cuisine": [
+   "Tanta halawa",
+   "Delta cheese",
+   "Sweet pastries"
+  ],
+  "crafts": [
+   "Textile weaving",
+   "Cotton crafts"
+  ],
+  "nature": [
+   "Farmland",
+   "Nile branches"
+  ],
+  "investmentSectors": [
+   "Textiles",
+   "Agriculture",
+   "Food processing",
+   "Retail"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 195000,
+   "hotels": 24,
+   "heritageSites": 48,
+   "guides": 62,
+   "occupancyPct": 45
+  },
+  "summary": "Gharbia governorate — Delta. Capital: Tanta.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-monufia",
+  "slug": "monufia",
+  "name": "Monufia",
+  "nameAr": "المنوفية",
+  "code": "MN",
+  "capital": "Shibin El Kom",
+  "region": "Delta",
+  "areaKm2": 2499,
+  "populationM": 4.6,
+  "coordinates": {
+   "lat": 30.5599,
+   "lng": 31.0094
+  },
+  "highlights": [
+   "Shibin El Kom",
+   "Quesna heritage",
+   "Sadat City",
+   "Rural Delta villages"
+  ],
+  "cities": [
+   "Shibin El Kom",
+   "Menouf",
+   "Ashmoun",
+   "Sadat City",
+   "Quesna",
+   "Berket El Sabaa"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "COPTIC",
+   "ISLAMIC",
+   "REPUBLIC"
+  ],
+  "cuisine": [
+   "Monufia cheese",
+   "Fereek",
+   "Rural bread"
+  ],
+  "crafts": [
+   "Palm craft",
+   "Cotton weaving"
+  ],
+  "nature": [
+   "Delta farmland",
+   "Canal network"
+  ],
+  "investmentSectors": [
+   "Agriculture",
+   "Light industry",
+   "Education",
+   "Housing"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 120000,
+   "hotels": 17,
+   "heritageSites": 38,
+   "guides": 40,
+   "occupancyPct": 39
+  },
+  "summary": "Monufia governorate — Delta. Capital: Shibin El Kom.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-beheira",
+  "slug": "beheira",
+  "name": "Beheira",
+  "nameAr": "البحيرة",
+  "code": "BH",
+  "capital": "Damanhour",
+  "region": "Delta",
+  "areaKm2": 10130,
+  "populationM": 6.4,
+  "coordinates": {
+   "lat": 31.0341,
+   "lng": 30.4682
+  },
+  "highlights": [
+   "Rosetta (Rashid) Ottoman houses",
+   "Abu Mena World Heritage area",
+   "Lake Idku",
+   "Damanhour heritage"
+  ],
+  "cities": [
+   "Damanhour",
+   "Rashid",
+   "Kafr El Dawwar",
+   "Edku",
+   "Abu Hummus",
+   "Wadi El Natrun"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC",
+   "OTTOMAN"
+  ],
+  "cuisine": [
+   "Rosetta fish",
+   "Delta duck",
+   "Fresh dairy"
+  ],
+  "crafts": [
+   "Rosetta woodwork",
+   "Reed weaving",
+   "Pottery"
+  ],
+  "nature": [
+   "Lake Idku",
+   "Wadi El Natrun lakes",
+   "Mediterranean coast"
+  ],
+  "investmentSectors": [
+   "Agriculture",
+   "Land reclamation",
+   "Food industry",
+   "Coastal logistics"
+  ],
+  "hasCoast": true,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 210000,
+   "hotels": 28,
+   "heritageSites": 94,
+   "guides": 75,
+   "occupancyPct": 43
+  },
+  "summary": "Beheira governorate — Delta. Capital: Damanhour.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-kafr-el-sheikh",
+  "slug": "kafr-el-sheikh",
+  "name": "Kafr El Sheikh",
+  "nameAr": "كفر الشيخ",
+  "code": "KFS",
+  "capital": "Kafr El Sheikh",
+  "region": "Delta",
+  "areaKm2": 3437,
+  "populationM": 3.5,
+  "coordinates": {
+   "lat": 31.1117,
+   "lng": 30.9388
+  },
+  "highlights": [
+   "Baltim beaches",
+   "Burullus Lake",
+   "Sakha Coptic heritage",
+   "Delta wetlands"
+  ],
+  "cities": [
+   "Kafr El Sheikh",
+   "Desouk",
+   "Baltim",
+   "Fuwwah",
+   "Sidi Salem",
+   "Motobas"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "COPTIC",
+   "ISLAMIC",
+   "OTTOMAN"
+  ],
+  "cuisine": [
+   "Burullus fish",
+   "Rice dishes",
+   "Delta cheese"
+  ],
+  "crafts": [
+   "Reed mat weaving",
+   "Fishing craft",
+   "Fuwwah rugs"
+  ],
+  "nature": [
+   "Burullus protected lake",
+   "Mediterranean dunes",
+   "Rice fields"
+  ],
+  "investmentSectors": [
+   "Fisheries",
+   "Agriculture",
+   "Eco-tourism",
+   "Renewables"
+  ],
+  "hasCoast": true,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 150000,
+   "hotels": 19,
+   "heritageSites": 40,
+   "guides": 38,
+   "occupancyPct": 40
+  },
+  "summary": "Kafr El Sheikh governorate — Delta. Capital: Kafr El Sheikh.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-faiyum",
+  "slug": "faiyum",
+  "name": "Faiyum",
+  "nameAr": "الفيوم",
+  "code": "FYM",
+  "capital": "Faiyum",
+  "region": "Upper Egypt",
+  "areaKm2": 6068,
+  "populationM": 3.8,
+  "coordinates": {
+   "lat": 29.3084,
+   "lng": 30.8428
+  },
+  "highlights": [
+   "Wadi El Rayan",
+   "Wadi El Hitan (Whale Valley)",
+   "Lake Qarun",
+   "Tunis Village",
+   "Hawara Pyramid",
+   "Karanis"
+  ],
+  "cities": [
+   "Faiyum City",
+   "Sinnuris",
+   "Ibshaway",
+   "Tamiya",
+   "Etsa",
+   "Youssef El Seddik"
+  ],
+  "heritageEras": [
+   "PREDYNASTIC",
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Faiyum duck",
+   "Fesikh",
+   "Local olives"
+  ],
+  "crafts": [
+   "Tunis pottery",
+   "Basket weaving",
+   "Palm craft"
+  ],
+  "nature": [
+   "Wadi El Hitan UNESCO site",
+   "Lake Qarun",
+   "Waterfalls",
+   "Desert dunes"
+  ],
+  "investmentSectors": [
+   "Eco-tourism",
+   "Pottery & crafts",
+   "Agriculture",
+   "Rural lodges"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 420000,
+   "hotels": 41,
+   "heritageSites": 120,
+   "guides": 150,
+   "occupancyPct": 51
+  },
+  "summary": "Faiyum governorate — Upper Egypt. Capital: Faiyum.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-beni-suef",
+  "slug": "beni-suef",
+  "name": "Beni Suef",
+  "nameAr": "بني سويف",
+  "code": "BNS",
+  "capital": "Beni Suef",
+  "region": "Upper Egypt",
+  "areaKm2": 10954,
+  "populationM": 3.4,
+  "coordinates": {
+   "lat": 29.0661,
+   "lng": 31.0994
+  },
+  "highlights": [
+   "Meidum Pyramid",
+   "Beni Suef Museum",
+   "Eastern Desert monasteries",
+   "Nile corniche"
+  ],
+  "cities": [
+   "Beni Suef",
+   "El Wasta",
+   "Nasser",
+   "Ihnasia",
+   "Biba",
+   "Somasta"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Upper Egyptian tagine",
+   "Fresh bread",
+   "Dates"
+  ],
+  "crafts": [
+   "Kilim weaving",
+   "Pottery",
+   "Palm craft"
+  ],
+  "nature": [
+   "Eastern Desert",
+   "Nile valley farmland"
+  ],
+  "investmentSectors": [
+   "Cement & industry",
+   "Agriculture",
+   "Logistics",
+   "Cultural tourism"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 110000,
+   "hotels": 15,
+   "heritageSites": 66,
+   "guides": 42,
+   "occupancyPct": 38
+  },
+  "summary": "Beni Suef governorate — Upper Egypt. Capital: Beni Suef.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-minya",
+  "slug": "minya",
+  "name": "Minya",
+  "nameAr": "المنيا",
+  "code": "MNY",
+  "capital": "Minya",
+  "region": "Upper Egypt",
+  "areaKm2": 32279,
+  "populationM": 6.1,
+  "coordinates": {
+   "lat": 28.1099,
+   "lng": 30.7503
+  },
+  "highlights": [
+   "Beni Hasan tombs",
+   "Tell el-Amarna",
+   "Tuna el-Gebel",
+   "Mallawi Museum",
+   "Gebel el-Teir monastery"
+  ],
+  "cities": [
+   "Minya",
+   "Mallawi",
+   "Samalut",
+   "Beni Mazar",
+   "Maghagha",
+   "Deir Mawas"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Minya tagine",
+   "Sugarcane",
+   "Country bread"
+  ],
+  "crafts": [
+   "Kilim weaving",
+   "Alabaster",
+   "Pottery"
+  ],
+  "nature": [
+   "Nile cliffs",
+   "Eastern Desert",
+   "Farmland"
+  ],
+  "investmentSectors": [
+   "Cultural tourism",
+   "Agriculture",
+   "Sugar industry",
+   "Holy Family route tourism"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 180000,
+   "hotels": 22,
+   "heritageSites": 210,
+   "guides": 95,
+   "occupancyPct": 41
+  },
+  "summary": "Minya governorate — Upper Egypt. Capital: Minya.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-asyut",
+  "slug": "asyut",
+  "name": "Asyut",
+  "nameAr": "أسيوط",
+  "code": "AST",
+  "capital": "Asyut",
+  "region": "Upper Egypt",
+  "areaKm2": 25926,
+  "populationM": 4.8,
+  "coordinates": {
+   "lat": 27.1809,
+   "lng": 31.1837
+  },
+  "highlights": [
+   "Asyut Barrage",
+   "Deir El Muharraq",
+   "Meir tombs",
+   "Asyut University heritage"
+  ],
+  "cities": [
+   "Asyut",
+   "Dairut",
+   "Abnub",
+   "Manfalut",
+   "Sahel Selim",
+   "El Qusiya"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Asyut tagine",
+   "Sugarcane molasses",
+   "Dates"
+  ],
+  "crafts": [
+   "Asyut tulle-bi-telli embroidery",
+   "Woodwork",
+   "Carpets"
+  ],
+  "nature": [
+   "Nile valley",
+   "Western Desert edge"
+  ],
+  "investmentSectors": [
+   "Agriculture",
+   "Education & health",
+   "Industry",
+   "Coptic heritage tourism"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 130000,
+   "hotels": 20,
+   "heritageSites": 140,
+   "guides": 70,
+   "occupancyPct": 40
+  },
+  "summary": "Asyut governorate — Upper Egypt. Capital: Asyut.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-sohag",
+  "slug": "sohag",
+  "name": "Sohag",
+  "nameAr": "سوهاج",
+  "code": "SHG",
+  "capital": "Sohag",
+  "region": "Upper Egypt",
+  "areaKm2": 11022,
+  "populationM": 5.4,
+  "coordinates": {
+   "lat": 26.5591,
+   "lng": 31.6957
+  },
+  "highlights": [
+   "Abydos Temple of Seti I",
+   "Red and White Monasteries",
+   "Akhmim",
+   "Sohag National Museum"
+  ],
+  "cities": [
+   "Sohag",
+   "Akhmim",
+   "Girga",
+   "El Balyana",
+   "Tahta",
+   "Tema"
+  ],
+  "heritageEras": [
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Sohag tagine",
+   "Fereek",
+   "Country pastries"
+  ],
+  "crafts": [
+   "Akhmim hand weaving",
+   "Textile embroidery",
+   "Pottery"
+  ],
+  "nature": [
+   "Nile valley",
+   "Desert plateau"
+  ],
+  "investmentSectors": [
+   "Cultural tourism",
+   "Textiles",
+   "Agriculture",
+   "Handicraft export"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 165000,
+   "hotels": 23,
+   "heritageSites": 175,
+   "guides": 88,
+   "occupancyPct": 43
+  },
+  "summary": "Sohag governorate — Upper Egypt. Capital: Sohag.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-qena",
+  "slug": "qena",
+  "name": "Qena",
+  "nameAr": "قنا",
+  "code": "QN",
+  "capital": "Qena",
+  "region": "Upper Egypt",
+  "areaKm2": 10798,
+  "populationM": 3.4,
+  "coordinates": {
+   "lat": 26.1642,
+   "lng": 32.7267
+  },
+  "highlights": [
+   "Dendera Temple of Hathor",
+   "Qift",
+   "Naqada",
+   "Qena pottery workshops"
+  ],
+  "cities": [
+   "Qena",
+   "Nag Hammadi",
+   "Qus",
+   "Farshut",
+   "Dishna",
+   "Naqada"
+  ],
+  "heritageEras": [
+   "PREDYNASTIC",
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Qena tagine",
+   "Sugarcane juice",
+   "Doum"
+  ],
+  "crafts": [
+   "Qena pottery (qulal)",
+   "Naqada handloom",
+   "Palm craft"
+  ],
+  "nature": [
+   "Nile bend",
+   "Eastern Desert wadis"
+  ],
+  "investmentSectors": [
+   "Cultural tourism",
+   "Aluminium industry",
+   "Agriculture",
+   "Crafts"
+  ],
+  "hasCoast": false,
+  "hasNile": true,
+  "metrics": {
+   "annualVisitors": 240000,
+   "hotels": 25,
+   "heritageSites": 160,
+   "guides": 110,
+   "occupancyPct": 46
+  },
+  "summary": "Qena governorate — Upper Egypt. Capital: Qena.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ },
+ {
+  "id": "gov-new-valley",
+  "slug": "new-valley",
+  "name": "New Valley",
+  "nameAr": "الوادي الجديد",
+  "code": "WAD",
+  "capital": "Kharga",
+  "region": "Western Desert",
+  "areaKm2": 440098,
+  "populationM": 0.26,
+  "coordinates": {
+   "lat": 25.4514,
+   "lng": 30.5467
+  },
+  "highlights": [
+   "Kharga Oasis",
+   "Dakhla Oasis",
+   "Farafra & White Desert",
+   "Bagawat Necropolis",
+   "Al-Qasr village"
+  ],
+  "cities": [
+   "Kharga",
+   "Dakhla",
+   "Farafra",
+   "Balat",
+   "Paris (Baris)"
+  ],
+  "heritageEras": [
+   "PREDYNASTIC",
+   "ANCIENT",
+   "GRECO_ROMAN",
+   "COPTIC",
+   "ISLAMIC"
+  ],
+  "cuisine": [
+   "Oasis dates",
+   "Desert bread",
+   "Herbal teas"
+  ],
+  "crafts": [
+   "Mud-brick craft",
+   "Palm weaving",
+   "Oasis pottery"
+  ],
+  "nature": [
+   "White Desert",
+   "Black Desert",
+   "Hot springs",
+   "Sand seas"
+  ],
+  "investmentSectors": [
+   "Desert eco-tourism",
+   "Agriculture & wells",
+   "Mining",
+   "Renewables"
+  ],
+  "hasCoast": false,
+  "hasNile": false,
+  "metrics": {
+   "annualVisitors": 95000,
+   "hotels": 26,
+   "heritageSites": 110,
+   "guides": 60,
+   "occupancyPct": 44
+  },
+  "summary": "New Valley governorate — Western Desert. Capital: Kharga.",
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "verifiedAt": null,
+  "dataClass": "PUBLIC"
+ }
+]

@@ -1,0 +1,2877 @@
+[
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-islamic-cairo",
+  "slug": "islamic-cairo",
+  "name": "Islamic Cairo",
+  "governorateSlug": "cairo",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.0444,
+   "lng": 31.2357
+  },
+  "summary": "Islamic Cairo — Cairo governorate.",
+  "description": "Islamic Cairo is one of the signature places of Cairo. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-khan-el-khalili",
+  "slug": "khan-el-khalili",
+  "name": "Khan el-Khalili",
+  "governorateSlug": "cairo",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.0444,
+   "lng": 31.2357
+  },
+  "summary": "Khan el-Khalili — Cairo governorate.",
+  "description": "Khan el-Khalili is one of the signature places of Cairo. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-coptic-cairo",
+  "slug": "coptic-cairo",
+  "name": "Coptic Cairo",
+  "governorateSlug": "cairo",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.0444,
+   "lng": 31.2357
+  },
+  "summary": "Coptic Cairo — Cairo governorate.",
+  "description": "Coptic Cairo is one of the signature places of Cairo. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-salah-el-din-citadel",
+  "slug": "salah-el-din-citadel",
+  "name": "Salah El-Din Citadel",
+  "governorateSlug": "cairo",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.0444,
+   "lng": 31.2357
+  },
+  "summary": "Salah El-Din Citadel — Cairo governorate.",
+  "description": "Salah El-Din Citadel is one of the signature places of Cairo. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-al-muizz-street",
+  "slug": "al-muizz-street",
+  "name": "Al-Muizz Street",
+  "governorateSlug": "cairo",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.0444,
+   "lng": 31.2357
+  },
+  "summary": "Al-Muizz Street — Cairo governorate.",
+  "description": "Al-Muizz Street is one of the signature places of Cairo. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-egyptian-museum-tahrir",
+  "slug": "egyptian-museum-tahrir",
+  "name": "Egyptian Museum, Tahrir",
+  "governorateSlug": "cairo",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.0444,
+   "lng": 31.2357
+  },
+  "summary": "Egyptian Museum, Tahrir — Cairo governorate.",
+  "description": "Egyptian Museum, Tahrir is one of the signature places of Cairo. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "cairo"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-pyramids-of-giza",
+  "slug": "pyramids-of-giza",
+  "name": "Pyramids of Giza",
+  "governorateSlug": "giza",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.987,
+   "lng": 31.2118
+  },
+  "summary": "Pyramids of Giza — Giza governorate.",
+  "description": "Pyramids of Giza is one of the signature places of Giza. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-great-sphinx",
+  "slug": "great-sphinx",
+  "name": "Great Sphinx",
+  "governorateSlug": "giza",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.987,
+   "lng": 31.2118
+  },
+  "summary": "Great Sphinx — Giza governorate.",
+  "description": "Great Sphinx is one of the signature places of Giza. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-grand-egyptian-museum",
+  "slug": "grand-egyptian-museum",
+  "name": "Grand Egyptian Museum",
+  "governorateSlug": "giza",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.987,
+   "lng": 31.2118
+  },
+  "summary": "Grand Egyptian Museum — Giza governorate.",
+  "description": "Grand Egyptian Museum is one of the signature places of Giza. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-saqqara",
+  "slug": "saqqara",
+  "name": "Saqqara",
+  "governorateSlug": "giza",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.987,
+   "lng": 31.2118
+  },
+  "summary": "Saqqara — Giza governorate.",
+  "description": "Saqqara is one of the signature places of Giza. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-dahshur",
+  "slug": "dahshur",
+  "name": "Dahshur",
+  "governorateSlug": "giza",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.987,
+   "lng": 31.2118
+  },
+  "summary": "Dahshur — Giza governorate.",
+  "description": "Dahshur is one of the signature places of Giza. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-memphis",
+  "slug": "memphis",
+  "name": "Memphis",
+  "governorateSlug": "giza",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.987,
+   "lng": 31.2118
+  },
+  "summary": "Memphis — Giza governorate.",
+  "description": "Memphis is one of the signature places of Giza. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "giza"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-bibliotheca-alexandrina",
+  "slug": "bibliotheca-alexandrina",
+  "name": "Bibliotheca Alexandrina",
+  "governorateSlug": "alexandria",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2001,
+   "lng": 29.9187
+  },
+  "summary": "Bibliotheca Alexandrina — Alexandria governorate.",
+  "description": "Bibliotheca Alexandrina is one of the signature places of Alexandria. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-qaitbay-citadel",
+  "slug": "qaitbay-citadel",
+  "name": "Qaitbay Citadel",
+  "governorateSlug": "alexandria",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2001,
+   "lng": 29.9187
+  },
+  "summary": "Qaitbay Citadel — Alexandria governorate.",
+  "description": "Qaitbay Citadel is one of the signature places of Alexandria. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-catacombs-of-kom-el-shoqafa",
+  "slug": "catacombs-of-kom-el-shoqafa",
+  "name": "Catacombs of Kom El Shoqafa",
+  "governorateSlug": "alexandria",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2001,
+   "lng": 29.9187
+  },
+  "summary": "Catacombs of Kom El Shoqafa — Alexandria governorate.",
+  "description": "Catacombs of Kom El Shoqafa is one of the signature places of Alexandria. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-pompeys-pillar",
+  "slug": "pompeys-pillar",
+  "name": "Pompey's Pillar",
+  "governorateSlug": "alexandria",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2001,
+   "lng": 29.9187
+  },
+  "summary": "Pompey's Pillar — Alexandria governorate.",
+  "description": "Pompey's Pillar is one of the signature places of Alexandria. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-montaza-palace",
+  "slug": "montaza-palace",
+  "name": "Montaza Palace",
+  "governorateSlug": "alexandria",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2001,
+   "lng": 29.9187
+  },
+  "summary": "Montaza Palace — Alexandria governorate.",
+  "description": "Montaza Palace is one of the signature places of Alexandria. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-roman-amphitheatre",
+  "slug": "roman-amphitheatre",
+  "name": "Roman Amphitheatre",
+  "governorateSlug": "alexandria",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2001,
+   "lng": 29.9187
+  },
+  "summary": "Roman Amphitheatre — Alexandria governorate.",
+  "description": "Roman Amphitheatre is one of the signature places of Alexandria. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "alexandria"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-karnak-temple",
+  "slug": "karnak-temple",
+  "name": "Karnak Temple",
+  "governorateSlug": "luxor",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.6872,
+   "lng": 32.6396
+  },
+  "summary": "Karnak Temple — Luxor governorate.",
+  "description": "Karnak Temple is one of the signature places of Luxor. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-luxor-temple",
+  "slug": "luxor-temple",
+  "name": "Luxor Temple",
+  "governorateSlug": "luxor",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.6872,
+   "lng": 32.6396
+  },
+  "summary": "Luxor Temple — Luxor governorate.",
+  "description": "Luxor Temple is one of the signature places of Luxor. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-valley-of-the-kings",
+  "slug": "valley-of-the-kings",
+  "name": "Valley of the Kings",
+  "governorateSlug": "luxor",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.6872,
+   "lng": 32.6396
+  },
+  "summary": "Valley of the Kings — Luxor governorate.",
+  "description": "Valley of the Kings is one of the signature places of Luxor. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-hatshepsut-temple",
+  "slug": "hatshepsut-temple",
+  "name": "Hatshepsut Temple",
+  "governorateSlug": "luxor",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.6872,
+   "lng": 32.6396
+  },
+  "summary": "Hatshepsut Temple — Luxor governorate.",
+  "description": "Hatshepsut Temple is one of the signature places of Luxor. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-valley-of-the-queens",
+  "slug": "valley-of-the-queens",
+  "name": "Valley of the Queens",
+  "governorateSlug": "luxor",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.6872,
+   "lng": 32.6396
+  },
+  "summary": "Valley of the Queens — Luxor governorate.",
+  "description": "Valley of the Queens is one of the signature places of Luxor. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-medinet-habu",
+  "slug": "medinet-habu",
+  "name": "Medinet Habu",
+  "governorateSlug": "luxor",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.6872,
+   "lng": 32.6396
+  },
+  "summary": "Medinet Habu — Luxor governorate.",
+  "description": "Medinet Habu is one of the signature places of Luxor. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "luxor"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-abu-simbel",
+  "slug": "abu-simbel",
+  "name": "Abu Simbel",
+  "governorateSlug": "aswan",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 24.0889,
+   "lng": 32.8998
+  },
+  "summary": "Abu Simbel — Aswan governorate.",
+  "description": "Abu Simbel is one of the signature places of Aswan. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-philae-temple",
+  "slug": "philae-temple",
+  "name": "Philae Temple",
+  "governorateSlug": "aswan",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 24.0889,
+   "lng": 32.8998
+  },
+  "summary": "Philae Temple — Aswan governorate.",
+  "description": "Philae Temple is one of the signature places of Aswan. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-high-dam",
+  "slug": "high-dam",
+  "name": "High Dam",
+  "governorateSlug": "aswan",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 24.0889,
+   "lng": 32.8998
+  },
+  "summary": "High Dam — Aswan governorate.",
+  "description": "High Dam is one of the signature places of Aswan. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-nubian-museum",
+  "slug": "nubian-museum",
+  "name": "Nubian Museum",
+  "governorateSlug": "aswan",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 24.0889,
+   "lng": 32.8998
+  },
+  "summary": "Nubian Museum — Aswan governorate.",
+  "description": "Nubian Museum is one of the signature places of Aswan. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-elephantine-island",
+  "slug": "elephantine-island",
+  "name": "Elephantine Island",
+  "governorateSlug": "aswan",
+  "category": "nile",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 24.0889,
+   "lng": 32.8998
+  },
+  "summary": "Elephantine Island — Aswan governorate.",
+  "description": "Elephantine Island is one of the signature places of Aswan. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "nile",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-unfinished-obelisk",
+  "slug": "unfinished-obelisk",
+  "name": "Unfinished Obelisk",
+  "governorateSlug": "aswan",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 24.0889,
+   "lng": 32.8998
+  },
+  "summary": "Unfinished Obelisk — Aswan governorate.",
+  "description": "Unfinished Obelisk is one of the signature places of Aswan. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "aswan"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-hurghada",
+  "slug": "hurghada",
+  "name": "Hurghada",
+  "governorateSlug": "red-sea",
+  "category": "coast",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.2579,
+   "lng": 33.8116
+  },
+  "summary": "Hurghada — Red Sea governorate.",
+  "description": "Hurghada is one of the signature places of Red Sea. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-el-gouna",
+  "slug": "el-gouna",
+  "name": "El Gouna",
+  "governorateSlug": "red-sea",
+  "category": "coast",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.2579,
+   "lng": 33.8116
+  },
+  "summary": "El Gouna — Red Sea governorate.",
+  "description": "El Gouna is one of the signature places of Red Sea. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-soma-bay",
+  "slug": "soma-bay",
+  "name": "Soma Bay",
+  "governorateSlug": "red-sea",
+  "category": "coast",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.2579,
+   "lng": 33.8116
+  },
+  "summary": "Soma Bay — Red Sea governorate.",
+  "description": "Soma Bay is one of the signature places of Red Sea. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-marsa-alam",
+  "slug": "marsa-alam",
+  "name": "Marsa Alam",
+  "governorateSlug": "red-sea",
+  "category": "coast",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.2579,
+   "lng": 33.8116
+  },
+  "summary": "Marsa Alam — Red Sea governorate.",
+  "description": "Marsa Alam is one of the signature places of Red Sea. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-safaga",
+  "slug": "safaga",
+  "name": "Safaga",
+  "governorateSlug": "red-sea",
+  "category": "coast",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.2579,
+   "lng": 33.8116
+  },
+  "summary": "Safaga — Red Sea governorate.",
+  "description": "Safaga is one of the signature places of Red Sea. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-giftun-islands",
+  "slug": "giftun-islands",
+  "name": "Giftun Islands",
+  "governorateSlug": "red-sea",
+  "category": "coast",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.2579,
+   "lng": 33.8116
+  },
+  "summary": "Giftun Islands — Red Sea governorate.",
+  "description": "Giftun Islands is one of the signature places of Red Sea. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "red-sea"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-sharm-el-sheikh",
+  "slug": "sharm-el-sheikh",
+  "name": "Sharm El Sheikh",
+  "governorateSlug": "south-sinai",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 28.24,
+   "lng": 33.62
+  },
+  "summary": "Sharm El Sheikh — South Sinai governorate.",
+  "description": "Sharm El Sheikh is one of the signature places of South Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-dahab",
+  "slug": "dahab",
+  "name": "Dahab",
+  "governorateSlug": "south-sinai",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 28.24,
+   "lng": 33.62
+  },
+  "summary": "Dahab — South Sinai governorate.",
+  "description": "Dahab is one of the signature places of South Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-saint-catherine-monastery",
+  "slug": "saint-catherine-monastery",
+  "name": "Saint Catherine Monastery",
+  "governorateSlug": "south-sinai",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 28.24,
+   "lng": 33.62
+  },
+  "summary": "Saint Catherine Monastery — South Sinai governorate.",
+  "description": "Saint Catherine Monastery is one of the signature places of South Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-mount-sinai",
+  "slug": "mount-sinai",
+  "name": "Mount Sinai",
+  "governorateSlug": "south-sinai",
+  "category": "desert",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 28.24,
+   "lng": 33.62
+  },
+  "summary": "Mount Sinai — South Sinai governorate.",
+  "description": "Mount Sinai is one of the signature places of South Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "desert",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-ras-mohammed",
+  "slug": "ras-mohammed",
+  "name": "Ras Mohammed",
+  "governorateSlug": "south-sinai",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 28.24,
+   "lng": 33.62
+  },
+  "summary": "Ras Mohammed — South Sinai governorate.",
+  "description": "Ras Mohammed is one of the signature places of South Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-nuweiba",
+  "slug": "nuweiba",
+  "name": "Nuweiba",
+  "governorateSlug": "south-sinai",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 28.24,
+   "lng": 33.62
+  },
+  "summary": "Nuweiba — South Sinai governorate.",
+  "description": "Nuweiba is one of the signature places of South Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "south-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-marsa-matrouh",
+  "slug": "marsa-matrouh",
+  "name": "Marsa Matrouh",
+  "governorateSlug": "matrouh",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.3543,
+   "lng": 27.2373
+  },
+  "summary": "Marsa Matrouh — Matrouh governorate.",
+  "description": "Marsa Matrouh is one of the signature places of Matrouh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-siwa-oasis",
+  "slug": "siwa-oasis",
+  "name": "Siwa Oasis",
+  "governorateSlug": "matrouh",
+  "category": "oasis",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.3543,
+   "lng": 27.2373
+  },
+  "summary": "Siwa Oasis — Matrouh governorate.",
+  "description": "Siwa Oasis is one of the signature places of Matrouh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "oasis",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-agiba-beach",
+  "slug": "agiba-beach",
+  "name": "Agiba Beach",
+  "governorateSlug": "matrouh",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.3543,
+   "lng": 27.2373
+  },
+  "summary": "Agiba Beach — Matrouh governorate.",
+  "description": "Agiba Beach is one of the signature places of Matrouh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-cleopatras-bath",
+  "slug": "cleopatras-bath",
+  "name": "Cleopatra's Bath",
+  "governorateSlug": "matrouh",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.3543,
+   "lng": 27.2373
+  },
+  "summary": "Cleopatra's Bath — Matrouh governorate.",
+  "description": "Cleopatra's Bath is one of the signature places of Matrouh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-shali-fortress",
+  "slug": "shali-fortress",
+  "name": "Shali Fortress",
+  "governorateSlug": "matrouh",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.3543,
+   "lng": 27.2373
+  },
+  "summary": "Shali Fortress — Matrouh governorate.",
+  "description": "Shali Fortress is one of the signature places of Matrouh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-el-alamein",
+  "slug": "el-alamein",
+  "name": "El Alamein",
+  "governorateSlug": "matrouh",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.3543,
+   "lng": 27.2373
+  },
+  "summary": "El Alamein — Matrouh governorate.",
+  "description": "El Alamein is one of the signature places of Matrouh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "matrouh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-arish-coast",
+  "slug": "arish-coast",
+  "name": "Arish coast",
+  "governorateSlug": "north-sinai",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1249,
+   "lng": 33.7986
+  },
+  "summary": "Arish coast — North Sinai governorate.",
+  "description": "Arish coast is one of the signature places of North Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-pelusium-archaeological-area",
+  "slug": "pelusium-archaeological-area",
+  "name": "Pelusium archaeological area",
+  "governorateSlug": "north-sinai",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1249,
+   "lng": 33.7986
+  },
+  "summary": "Pelusium archaeological area — North Sinai governorate.",
+  "description": "Pelusium archaeological area is one of the signature places of North Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-zaranik-protectorate",
+  "slug": "zaranik-protectorate",
+  "name": "Zaranik Protectorate",
+  "governorateSlug": "north-sinai",
+  "category": "desert",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1249,
+   "lng": 33.7986
+  },
+  "summary": "Zaranik Protectorate — North Sinai governorate.",
+  "description": "Zaranik Protectorate is one of the signature places of North Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "desert",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-bedouin-heritage-trails",
+  "slug": "bedouin-heritage-trails",
+  "name": "Bedouin heritage trails",
+  "governorateSlug": "north-sinai",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1249,
+   "lng": 33.7986
+  },
+  "summary": "Bedouin heritage trails — North Sinai governorate.",
+  "description": "Bedouin heritage trails is one of the signature places of North Sinai. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "north-sinai"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-suez-canal-entrance",
+  "slug": "suez-canal-entrance",
+  "name": "Suez Canal entrance",
+  "governorateSlug": "port-said",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2653,
+   "lng": 32.3019
+  },
+  "summary": "Suez Canal entrance — Port Said governorate.",
+  "description": "Suez Canal entrance is one of the signature places of Port Said. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-port-said-lighthouse",
+  "slug": "port-said-lighthouse",
+  "name": "Port Said Lighthouse",
+  "governorateSlug": "port-said",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2653,
+   "lng": 32.3019
+  },
+  "summary": "Port Said Lighthouse — Port Said governorate.",
+  "description": "Port Said Lighthouse is one of the signature places of Port Said. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-national-museum-of-port-said",
+  "slug": "national-museum-of-port-said",
+  "name": "National Museum of Port Said",
+  "governorateSlug": "port-said",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2653,
+   "lng": 32.3019
+  },
+  "summary": "National Museum of Port Said — Port Said governorate.",
+  "description": "National Museum of Port Said is one of the signature places of Port Said. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-italian-era-architecture",
+  "slug": "italian-era-architecture",
+  "name": "Italian-era architecture",
+  "governorateSlug": "port-said",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.2653,
+   "lng": 32.3019
+  },
+  "summary": "Italian-era architecture — Port Said governorate.",
+  "description": "Italian-era architecture is one of the signature places of Port Said. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "port-said"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-suez-canal-authority-buildings",
+  "slug": "suez-canal-authority-buildings",
+  "name": "Suez Canal Authority buildings",
+  "governorateSlug": "ismailia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5965,
+   "lng": 32.2715
+  },
+  "summary": "Suez Canal Authority buildings — Ismailia governorate.",
+  "description": "Suez Canal Authority buildings is one of the signature places of Ismailia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-ismailia-museum",
+  "slug": "ismailia-museum",
+  "name": "Ismailia Museum",
+  "governorateSlug": "ismailia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5965,
+   "lng": 32.2715
+  },
+  "summary": "Ismailia Museum — Ismailia governorate.",
+  "description": "Ismailia Museum is one of the signature places of Ismailia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-lake-timsah",
+  "slug": "lake-timsah",
+  "name": "Lake Timsah",
+  "governorateSlug": "ismailia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5965,
+   "lng": 32.2715
+  },
+  "summary": "Lake Timsah — Ismailia governorate.",
+  "description": "Lake Timsah is one of the signature places of Ismailia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-garden-city-district",
+  "slug": "garden-city-district",
+  "name": "Garden city district",
+  "governorateSlug": "ismailia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5965,
+   "lng": 32.2715
+  },
+  "summary": "Garden city district — Ismailia governorate.",
+  "description": "Garden city district is one of the signature places of Ismailia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "ismailia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-ain-sokhna",
+  "slug": "ain-sokhna",
+  "name": "Ain Sokhna",
+  "governorateSlug": "suez",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.9668,
+   "lng": 32.5498
+  },
+  "summary": "Ain Sokhna — Suez governorate.",
+  "description": "Ain Sokhna is one of the signature places of Suez. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-suez-canal-southern-gate",
+  "slug": "suez-canal-southern-gate",
+  "name": "Suez Canal southern gate",
+  "governorateSlug": "suez",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.9668,
+   "lng": 32.5498
+  },
+  "summary": "Suez Canal southern gate — Suez governorate.",
+  "description": "Suez Canal southern gate is one of the signature places of Suez. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-ataqa-mountain",
+  "slug": "ataqa-mountain",
+  "name": "Ataqa Mountain",
+  "governorateSlug": "suez",
+  "category": "desert",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.9668,
+   "lng": 32.5498
+  },
+  "summary": "Ataqa Mountain — Suez governorate.",
+  "description": "Ataqa Mountain is one of the signature places of Suez. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "desert",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-port-tawfik",
+  "slug": "port-tawfik",
+  "name": "Port Tawfik",
+  "governorateSlug": "suez",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 29.9668,
+   "lng": 32.5498
+  },
+  "summary": "Port Tawfik — Suez governorate.",
+  "description": "Port Tawfik is one of the signature places of Suez. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "suez"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-banha-heritage-centre",
+  "slug": "banha-heritage-centre",
+  "name": "Banha heritage centre",
+  "governorateSlug": "qalyubia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.4599,
+   "lng": 31.1837
+  },
+  "summary": "Banha heritage centre — Qalyubia governorate.",
+  "description": "Banha heritage centre is one of the signature places of Qalyubia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-qalyub-nile-corniche",
+  "slug": "qalyub-nile-corniche",
+  "name": "Qalyub Nile corniche",
+  "governorateSlug": "qalyubia",
+  "category": "nile",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.4599,
+   "lng": 31.1837
+  },
+  "summary": "Qalyub Nile corniche — Qalyubia governorate.",
+  "description": "Qalyub Nile corniche is one of the signature places of Qalyubia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "nile",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-delta-agricultural-landscapes",
+  "slug": "delta-agricultural-landscapes",
+  "name": "Delta agricultural landscapes",
+  "governorateSlug": "qalyubia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.4599,
+   "lng": 31.1837
+  },
+  "summary": "Delta agricultural landscapes — Qalyubia governorate.",
+  "description": "Delta agricultural landscapes is one of the signature places of Qalyubia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "qalyubia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-tell-basta-bubastis",
+  "slug": "tell-basta-bubastis",
+  "name": "Tell Basta (Bubastis)",
+  "governorateSlug": "sharqia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5877,
+   "lng": 31.502
+  },
+  "summary": "Tell Basta (Bubastis) — Sharqia governorate.",
+  "description": "Tell Basta (Bubastis) is one of the signature places of Sharqia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-zagazig-museum",
+  "slug": "zagazig-museum",
+  "name": "Zagazig Museum",
+  "governorateSlug": "sharqia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5877,
+   "lng": 31.502
+  },
+  "summary": "Zagazig Museum — Sharqia governorate.",
+  "description": "Zagazig Museum is one of the signature places of Sharqia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-san-el-hagar-tanis",
+  "slug": "san-el-hagar-tanis",
+  "name": "San El Hagar (Tanis)",
+  "governorateSlug": "sharqia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5877,
+   "lng": 31.502
+  },
+  "summary": "San El Hagar (Tanis) — Sharqia governorate.",
+  "description": "San El Hagar (Tanis) is one of the signature places of Sharqia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-delta-rural-trails",
+  "slug": "delta-rural-trails",
+  "name": "Delta rural trails",
+  "governorateSlug": "sharqia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5877,
+   "lng": 31.502
+  },
+  "summary": "Delta rural trails — Sharqia governorate.",
+  "description": "Delta rural trails is one of the signature places of Sharqia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sharqia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-mansoura-dar-ibn-luqman",
+  "slug": "mansoura-dar-ibn-luqman",
+  "name": "Mansoura Dar Ibn Luqman",
+  "governorateSlug": "dakahlia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0409,
+   "lng": 31.3785
+  },
+  "summary": "Mansoura Dar Ibn Luqman — Dakahlia governorate.",
+  "description": "Mansoura Dar Ibn Luqman is one of the signature places of Dakahlia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-gamasa-beaches",
+  "slug": "gamasa-beaches",
+  "name": "Gamasa beaches",
+  "governorateSlug": "dakahlia",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0409,
+   "lng": 31.3785
+  },
+  "summary": "Gamasa beaches — Dakahlia governorate.",
+  "description": "Gamasa beaches is one of the signature places of Dakahlia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-lake-manzala",
+  "slug": "lake-manzala",
+  "name": "Lake Manzala",
+  "governorateSlug": "dakahlia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0409,
+   "lng": 31.3785
+  },
+  "summary": "Lake Manzala — Dakahlia governorate.",
+  "description": "Lake Manzala is one of the signature places of Dakahlia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-talkha-industrial-heritage",
+  "slug": "talkha-industrial-heritage",
+  "name": "Talkha industrial heritage",
+  "governorateSlug": "dakahlia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0409,
+   "lng": 31.3785
+  },
+  "summary": "Talkha industrial heritage — Dakahlia governorate.",
+  "description": "Talkha industrial heritage is one of the signature places of Dakahlia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "dakahlia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-ras-el-bar",
+  "slug": "ras-el-bar",
+  "name": "Ras El Bar",
+  "governorateSlug": "damietta",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.4165,
+   "lng": 31.8133
+  },
+  "summary": "Ras El Bar — Damietta governorate.",
+  "description": "Ras El Bar is one of the signature places of Damietta. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-damietta-furniture-district",
+  "slug": "damietta-furniture-district",
+  "name": "Damietta furniture district",
+  "governorateSlug": "damietta",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.4165,
+   "lng": 31.8133
+  },
+  "summary": "Damietta furniture district — Damietta governorate.",
+  "description": "Damietta furniture district is one of the signature places of Damietta. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-old-damietta-houses",
+  "slug": "old-damietta-houses",
+  "name": "Old Damietta houses",
+  "governorateSlug": "damietta",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.4165,
+   "lng": 31.8133
+  },
+  "summary": "Old Damietta houses — Damietta governorate.",
+  "description": "Old Damietta houses is one of the signature places of Damietta. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "damietta"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-tanta-sayed-el-badawi-mosque",
+  "slug": "tanta-sayed-el-badawi-mosque",
+  "name": "Tanta Sayed El Badawi Mosque",
+  "governorateSlug": "gharbia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.7885,
+   "lng": 30.9977
+  },
+  "summary": "Tanta Sayed El Badawi Mosque — Gharbia governorate.",
+  "description": "Tanta Sayed El Badawi Mosque is one of the signature places of Gharbia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-mahalla-textile-heritage",
+  "slug": "mahalla-textile-heritage",
+  "name": "Mahalla textile heritage",
+  "governorateSlug": "gharbia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.7885,
+   "lng": 30.9977
+  },
+  "summary": "Mahalla textile heritage — Gharbia governorate.",
+  "description": "Mahalla textile heritage is one of the signature places of Gharbia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-delta-market-towns",
+  "slug": "delta-market-towns",
+  "name": "Delta market towns",
+  "governorateSlug": "gharbia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.7885,
+   "lng": 30.9977
+  },
+  "summary": "Delta market towns — Gharbia governorate.",
+  "description": "Delta market towns is one of the signature places of Gharbia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "gharbia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-shibin-el-kom",
+  "slug": "shibin-el-kom",
+  "name": "Shibin El Kom",
+  "governorateSlug": "monufia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5599,
+   "lng": 31.0094
+  },
+  "summary": "Shibin El Kom — Monufia governorate.",
+  "description": "Shibin El Kom is one of the signature places of Monufia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-quesna-heritage",
+  "slug": "quesna-heritage",
+  "name": "Quesna heritage",
+  "governorateSlug": "monufia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5599,
+   "lng": 31.0094
+  },
+  "summary": "Quesna heritage — Monufia governorate.",
+  "description": "Quesna heritage is one of the signature places of Monufia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-sadat-city",
+  "slug": "sadat-city",
+  "name": "Sadat City",
+  "governorateSlug": "monufia",
+  "category": "modern",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5599,
+   "lng": 31.0094
+  },
+  "summary": "Sadat City — Monufia governorate.",
+  "description": "Sadat City is one of the signature places of Monufia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "modern",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-rural-delta-villages",
+  "slug": "rural-delta-villages",
+  "name": "Rural Delta villages",
+  "governorateSlug": "monufia",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 30.5599,
+   "lng": 31.0094
+  },
+  "summary": "Rural Delta villages — Monufia governorate.",
+  "description": "Rural Delta villages is one of the signature places of Monufia. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "monufia"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-rosetta-rashid-ottoman-houses",
+  "slug": "rosetta-rashid-ottoman-houses",
+  "name": "Rosetta (Rashid) Ottoman houses",
+  "governorateSlug": "beheira",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0341,
+   "lng": 30.4682
+  },
+  "summary": "Rosetta (Rashid) Ottoman houses — Beheira governorate.",
+  "description": "Rosetta (Rashid) Ottoman houses is one of the signature places of Beheira. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-abu-mena-world-heritage-area",
+  "slug": "abu-mena-world-heritage-area",
+  "name": "Abu Mena World Heritage area",
+  "governorateSlug": "beheira",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0341,
+   "lng": 30.4682
+  },
+  "summary": "Abu Mena World Heritage area — Beheira governorate.",
+  "description": "Abu Mena World Heritage area is one of the signature places of Beheira. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-lake-idku",
+  "slug": "lake-idku",
+  "name": "Lake Idku",
+  "governorateSlug": "beheira",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0341,
+   "lng": 30.4682
+  },
+  "summary": "Lake Idku — Beheira governorate.",
+  "description": "Lake Idku is one of the signature places of Beheira. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-damanhour-heritage",
+  "slug": "damanhour-heritage",
+  "name": "Damanhour heritage",
+  "governorateSlug": "beheira",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.0341,
+   "lng": 30.4682
+  },
+  "summary": "Damanhour heritage — Beheira governorate.",
+  "description": "Damanhour heritage is one of the signature places of Beheira. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "beheira"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-baltim-beaches",
+  "slug": "baltim-beaches",
+  "name": "Baltim beaches",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "coast",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1117,
+   "lng": 30.9388
+  },
+  "summary": "Baltim beaches — Kafr El Sheikh governorate.",
+  "description": "Baltim beaches is one of the signature places of Kafr El Sheikh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "coast",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-burullus-lake",
+  "slug": "burullus-lake",
+  "name": "Burullus Lake",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1117,
+   "lng": 30.9388
+  },
+  "summary": "Burullus Lake — Kafr El Sheikh governorate.",
+  "description": "Burullus Lake is one of the signature places of Kafr El Sheikh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-sakha-coptic-heritage",
+  "slug": "sakha-coptic-heritage",
+  "name": "Sakha Coptic heritage",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1117,
+   "lng": 30.9388
+  },
+  "summary": "Sakha Coptic heritage — Kafr El Sheikh governorate.",
+  "description": "Sakha Coptic heritage is one of the signature places of Kafr El Sheikh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-delta-wetlands",
+  "slug": "delta-wetlands",
+  "name": "Delta wetlands",
+  "governorateSlug": "kafr-el-sheikh",
+  "category": "heritage",
+  "bestSeason": "March – November",
+  "coordinates": {
+   "lat": 31.1117,
+   "lng": 30.9388
+  },
+  "summary": "Delta wetlands — Kafr El Sheikh governorate.",
+  "description": "Delta wetlands is one of the signature places of Kafr El Sheikh. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "kafr-el-sheikh"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-wadi-el-rayan",
+  "slug": "wadi-el-rayan",
+  "name": "Wadi El Rayan",
+  "governorateSlug": "faiyum",
+  "category": "oasis",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.3084,
+   "lng": 30.8428
+  },
+  "summary": "Wadi El Rayan — Faiyum governorate.",
+  "description": "Wadi El Rayan is one of the signature places of Faiyum. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "oasis",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-wadi-el-hitan-whale-valley",
+  "slug": "wadi-el-hitan-whale-valley",
+  "name": "Wadi El Hitan (Whale Valley)",
+  "governorateSlug": "faiyum",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.3084,
+   "lng": 30.8428
+  },
+  "summary": "Wadi El Hitan (Whale Valley) — Faiyum governorate.",
+  "description": "Wadi El Hitan (Whale Valley) is one of the signature places of Faiyum. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-lake-qarun",
+  "slug": "lake-qarun",
+  "name": "Lake Qarun",
+  "governorateSlug": "faiyum",
+  "category": "oasis",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.3084,
+   "lng": 30.8428
+  },
+  "summary": "Lake Qarun — Faiyum governorate.",
+  "description": "Lake Qarun is one of the signature places of Faiyum. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "oasis",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-tunis-village",
+  "slug": "tunis-village",
+  "name": "Tunis Village",
+  "governorateSlug": "faiyum",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.3084,
+   "lng": 30.8428
+  },
+  "summary": "Tunis Village — Faiyum governorate.",
+  "description": "Tunis Village is one of the signature places of Faiyum. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-hawara-pyramid",
+  "slug": "hawara-pyramid",
+  "name": "Hawara Pyramid",
+  "governorateSlug": "faiyum",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.3084,
+   "lng": 30.8428
+  },
+  "summary": "Hawara Pyramid — Faiyum governorate.",
+  "description": "Hawara Pyramid is one of the signature places of Faiyum. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-karanis",
+  "slug": "karanis",
+  "name": "Karanis",
+  "governorateSlug": "faiyum",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.3084,
+   "lng": 30.8428
+  },
+  "summary": "Karanis — Faiyum governorate.",
+  "description": "Karanis is one of the signature places of Faiyum. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "faiyum"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-meidum-pyramid",
+  "slug": "meidum-pyramid",
+  "name": "Meidum Pyramid",
+  "governorateSlug": "beni-suef",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.0661,
+   "lng": 31.0994
+  },
+  "summary": "Meidum Pyramid — Beni Suef governorate.",
+  "description": "Meidum Pyramid is one of the signature places of Beni Suef. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-beni-suef-museum",
+  "slug": "beni-suef-museum",
+  "name": "Beni Suef Museum",
+  "governorateSlug": "beni-suef",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.0661,
+   "lng": 31.0994
+  },
+  "summary": "Beni Suef Museum — Beni Suef governorate.",
+  "description": "Beni Suef Museum is one of the signature places of Beni Suef. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-eastern-desert-monasteries",
+  "slug": "eastern-desert-monasteries",
+  "name": "Eastern Desert monasteries",
+  "governorateSlug": "beni-suef",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.0661,
+   "lng": 31.0994
+  },
+  "summary": "Eastern Desert monasteries — Beni Suef governorate.",
+  "description": "Eastern Desert monasteries is one of the signature places of Beni Suef. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-nile-corniche",
+  "slug": "nile-corniche",
+  "name": "Nile corniche",
+  "governorateSlug": "beni-suef",
+  "category": "nile",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 29.0661,
+   "lng": 31.0994
+  },
+  "summary": "Nile corniche — Beni Suef governorate.",
+  "description": "Nile corniche is one of the signature places of Beni Suef. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "nile",
+   "beni-suef"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-beni-hasan-tombs",
+  "slug": "beni-hasan-tombs",
+  "name": "Beni Hasan tombs",
+  "governorateSlug": "minya",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 28.1099,
+   "lng": 30.7503
+  },
+  "summary": "Beni Hasan tombs — Minya governorate.",
+  "description": "Beni Hasan tombs is one of the signature places of Minya. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-tell-el-amarna",
+  "slug": "tell-el-amarna",
+  "name": "Tell el-Amarna",
+  "governorateSlug": "minya",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 28.1099,
+   "lng": 30.7503
+  },
+  "summary": "Tell el-Amarna — Minya governorate.",
+  "description": "Tell el-Amarna is one of the signature places of Minya. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-tuna-el-gebel",
+  "slug": "tuna-el-gebel",
+  "name": "Tuna el-Gebel",
+  "governorateSlug": "minya",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 28.1099,
+   "lng": 30.7503
+  },
+  "summary": "Tuna el-Gebel — Minya governorate.",
+  "description": "Tuna el-Gebel is one of the signature places of Minya. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-mallawi-museum",
+  "slug": "mallawi-museum",
+  "name": "Mallawi Museum",
+  "governorateSlug": "minya",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 28.1099,
+   "lng": 30.7503
+  },
+  "summary": "Mallawi Museum — Minya governorate.",
+  "description": "Mallawi Museum is one of the signature places of Minya. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-gebel-el-teir-monastery",
+  "slug": "gebel-el-teir-monastery",
+  "name": "Gebel el-Teir monastery",
+  "governorateSlug": "minya",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 28.1099,
+   "lng": 30.7503
+  },
+  "summary": "Gebel el-Teir monastery — Minya governorate.",
+  "description": "Gebel el-Teir monastery is one of the signature places of Minya. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "minya"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-asyut-barrage",
+  "slug": "asyut-barrage",
+  "name": "Asyut Barrage",
+  "governorateSlug": "asyut",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.1809,
+   "lng": 31.1837
+  },
+  "summary": "Asyut Barrage — Asyut governorate.",
+  "description": "Asyut Barrage is one of the signature places of Asyut. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-deir-el-muharraq",
+  "slug": "deir-el-muharraq",
+  "name": "Deir El Muharraq",
+  "governorateSlug": "asyut",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.1809,
+   "lng": 31.1837
+  },
+  "summary": "Deir El Muharraq — Asyut governorate.",
+  "description": "Deir El Muharraq is one of the signature places of Asyut. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-meir-tombs",
+  "slug": "meir-tombs",
+  "name": "Meir tombs",
+  "governorateSlug": "asyut",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.1809,
+   "lng": 31.1837
+  },
+  "summary": "Meir tombs — Asyut governorate.",
+  "description": "Meir tombs is one of the signature places of Asyut. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-asyut-university-heritage",
+  "slug": "asyut-university-heritage",
+  "name": "Asyut University heritage",
+  "governorateSlug": "asyut",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 27.1809,
+   "lng": 31.1837
+  },
+  "summary": "Asyut University heritage — Asyut governorate.",
+  "description": "Asyut University heritage is one of the signature places of Asyut. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "asyut"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-abydos-temple-of-seti-i",
+  "slug": "abydos-temple-of-seti-i",
+  "name": "Abydos Temple of Seti I",
+  "governorateSlug": "sohag",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.5591,
+   "lng": 31.6957
+  },
+  "summary": "Abydos Temple of Seti I — Sohag governorate.",
+  "description": "Abydos Temple of Seti I is one of the signature places of Sohag. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-red-and-white-monasteries",
+  "slug": "red-and-white-monasteries",
+  "name": "Red and White Monasteries",
+  "governorateSlug": "sohag",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.5591,
+   "lng": 31.6957
+  },
+  "summary": "Red and White Monasteries — Sohag governorate.",
+  "description": "Red and White Monasteries is one of the signature places of Sohag. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-akhmim",
+  "slug": "akhmim",
+  "name": "Akhmim",
+  "governorateSlug": "sohag",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.5591,
+   "lng": 31.6957
+  },
+  "summary": "Akhmim — Sohag governorate.",
+  "description": "Akhmim is one of the signature places of Sohag. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-sohag-national-museum",
+  "slug": "sohag-national-museum",
+  "name": "Sohag National Museum",
+  "governorateSlug": "sohag",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.5591,
+   "lng": 31.6957
+  },
+  "summary": "Sohag National Museum — Sohag governorate.",
+  "description": "Sohag National Museum is one of the signature places of Sohag. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "sohag"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-dendera-temple-of-hathor",
+  "slug": "dendera-temple-of-hathor",
+  "name": "Dendera Temple of Hathor",
+  "governorateSlug": "qena",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.1642,
+   "lng": 32.7267
+  },
+  "summary": "Dendera Temple of Hathor — Qena governorate.",
+  "description": "Dendera Temple of Hathor is one of the signature places of Qena. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-qift",
+  "slug": "qift",
+  "name": "Qift",
+  "governorateSlug": "qena",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.1642,
+   "lng": 32.7267
+  },
+  "summary": "Qift — Qena governorate.",
+  "description": "Qift is one of the signature places of Qena. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-naqada",
+  "slug": "naqada",
+  "name": "Naqada",
+  "governorateSlug": "qena",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.1642,
+   "lng": 32.7267
+  },
+  "summary": "Naqada — Qena governorate.",
+  "description": "Naqada is one of the signature places of Qena. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-qena-pottery-workshops",
+  "slug": "qena-pottery-workshops",
+  "name": "Qena pottery workshops",
+  "governorateSlug": "qena",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 26.1642,
+   "lng": 32.7267
+  },
+  "summary": "Qena pottery workshops — Qena governorate.",
+  "description": "Qena pottery workshops is one of the signature places of Qena. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "qena"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-kharga-oasis",
+  "slug": "kharga-oasis",
+  "name": "Kharga Oasis",
+  "governorateSlug": "new-valley",
+  "category": "oasis",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.4514,
+   "lng": 30.5467
+  },
+  "summary": "Kharga Oasis — New Valley governorate.",
+  "description": "Kharga Oasis is one of the signature places of New Valley. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "oasis",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-dakhla-oasis",
+  "slug": "dakhla-oasis",
+  "name": "Dakhla Oasis",
+  "governorateSlug": "new-valley",
+  "category": "oasis",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.4514,
+   "lng": 30.5467
+  },
+  "summary": "Dakhla Oasis — New Valley governorate.",
+  "description": "Dakhla Oasis is one of the signature places of New Valley. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "oasis",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-farafra-and-white-desert",
+  "slug": "farafra-and-white-desert",
+  "name": "Farafra & White Desert",
+  "governorateSlug": "new-valley",
+  "category": "oasis",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.4514,
+   "lng": 30.5467
+  },
+  "summary": "Farafra & White Desert — New Valley governorate.",
+  "description": "Farafra & White Desert is one of the signature places of New Valley. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "oasis",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-bagawat-necropolis",
+  "slug": "bagawat-necropolis",
+  "name": "Bagawat Necropolis",
+  "governorateSlug": "new-valley",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.4514,
+   "lng": 30.5467
+  },
+  "summary": "Bagawat Necropolis — New Valley governorate.",
+  "description": "Bagawat Necropolis is one of the signature places of New Valley. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "new-valley"
+  ]
+ },
+ {
+  "sourceStatus": "DEMO",
+  "sourceOwner": "Egypt One content team",
+  "dataClass": "PUBLIC",
+  "verifiedAt": null,
+  "id": "dest-al-qasr-village",
+  "slug": "al-qasr-village",
+  "name": "Al-Qasr village",
+  "governorateSlug": "new-valley",
+  "category": "heritage",
+  "bestSeason": "October – April",
+  "coordinates": {
+   "lat": 25.4514,
+   "lng": 30.5467
+  },
+  "summary": "Al-Qasr village — New Valley governorate.",
+  "description": "Al-Qasr village is one of the signature places of New Valley. This is a demo content record; verified opening information, ticketing and access come from the competent authority once connected.",
+  "images": [],
+  "tags": [
+   "heritage",
+   "new-valley"
+  ]
+ }
+]

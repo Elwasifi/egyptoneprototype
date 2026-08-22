@@ -1,0 +1,52 @@
+# Egypt One — local development stack.
+# `docker compose up` brings up the web app plus the infrastructure it is
+# designed to use (Postgres, Redis, OpenSearch, S3-compatible storage).
+# The web app runs in DEMO_MODE (seeded in-memory data) unless DATABASE_URL
+# is set, so this stack is optional for day-to-day frontend work.
+version: "3.9"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/Dockerfile.web
+    ports: ["3000:3000"]
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://egyptone:egyptone@postgres:5432/egyptone
+      - REDIS_URL=redis://redis:6379
+      - OPENSEARCH_URL=http://opensearch:9200
+    depends_on: [postgres, redis, opensearch]
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_USER=egyptone
+      - POSTGRES_PASSWORD=egyptone
+      - POSTGRES_DB=egyptone
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+
+  opensearch:
+    image: opensearchproject/opensearch:2
+    environment:
+      - discovery.type=single-node
+      - plugins.security.disabled=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports: ["9200:9200"]
+
+  minio:
+    image: minio/minio
+    command: server /data --console-address ":9001"
+    environment:
+      - MINIO_ROOT_USER=egyptone
+      - MINIO_ROOT_PASSWORD=egyptone123
+    ports: ["9000:9000", "9001:9001"]
+    volumes: ["miniodata:/data"]
+
+volumes:
+  pgdata:
+  miniodata:

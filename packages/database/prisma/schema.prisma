@@ -1,0 +1,1056 @@
+// Egypt One — domain schema.
+// Every content and supply table carries source provenance and a data class so
+// that provenance survives from the database through the API into AI answers.
+
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum SourceStatus { LIVE VERIFIED_DATA PARTNER_DATA DEMO SIMULATED PLANNED_INTEGRATION }
+enum DataClass { PUBLIC PARTNER PERSONAL SENSITIVE RESTRICTED_GOVERNMENT }
+enum VerificationState { UNVERIFIED SUBMITTED IN_REVIEW VERIFIED REJECTED SUSPENDED }
+enum IntegrationState { PLANNED SANDBOX LIVE DISABLED }
+enum HeritageAccess { OPEN LIMITED_ACCESS PERMIT_REQUIRED CLOSED UNDER_RESTORATION PROPOSED_FOR_RESTORATION DEMO_UNVERIFIED }
+enum RestorationStatus { NONE PLANNED IN_PROGRESS PROPOSED COMPLETED }
+enum EraKey { PREDYNASTIC ANCIENT PTOLEMAIC GRECO_ROMAN COPTIC ISLAMIC OTTOMAN MUHAMMAD_ALI KINGDOM REPUBLIC CONTEMPORARY }
+enum BookingState { DRAFT PENDING CONFIRMED CANCELLED REFUNDED FAILED }
+enum PaymentState { INITIATED AUTHORISED CAPTURED FAILED REFUNDED SETTLED }
+enum ConsentScope { LOCATION MARKETING DATA_SHARING AI_PERSONALISATION HEALTH_DATA GENETIC_RESEARCH }
+enum LocationMode { OFF TRIP_MODE EMERGENCY_MODE }
+enum ModerationState { DRAFT IN_REVIEW APPROVED PUBLISHED REJECTED }
+enum PublishState { DRAFT IN_REVIEW PUBLISHED ARCHIVED }
+
+// ---------------------------------------------------------------- identity
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  name          String
+  passwordHash  String?
+  mfaEnabled    Boolean  @default(false)
+  locale        String   @default("en")
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  profile       Profile?
+  roles         UserRole[]
+  organisationId String?
+  organisation  Organisation? @relation(fields: [organisationId], references: [id])
+  trips         Trip[]
+  bookings      Booking[]
+  reviews       Review[]
+  consents      ConsentRecord[]
+  aiSessions    AiSession[]
+  supportCases  SupportCase[]
+  notifications Notification[]
+  auditLogs     AuditLog[]
+}
+
+model Profile {
+  id           String  @id @default(cuid())
+  userId       String  @unique
+  user         User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  nationality  String?
+  countryCode  String?
+  phone        String?
+  avatarUrl    String?
+  dataClass    DataClass @default(PERSONAL)
+  touristMeta  Json?
+  investorMeta Json?
+  researcherMeta Json?
+}
+
+model Organisation {
+  id        String  @id @default(cuid())
+  name      String
+  type      String
+  taxId     String?
+  country   String  @default("EG")
+  users     User[]
+  providers Provider[]
+  partners  Partner[]
+  createdAt DateTime @default(now())
+}
+
+model Role {
+  id String @id @default(cuid())
+  key String @unique
+  label String
+  users UserRole[]
+  permissions RolePermission[]
+}
+model Permission {
+  id String @id @default(cuid())
+  key String @unique
+  description String
+  roles RolePermission[]
+}
+model RolePermission {
+  roleId String
+  permissionId String
+  role Role @relation(fields: [roleId], references: [id])
+  permission Permission @relation(fields: [permissionId], references: [id])
+  @@id([roleId, permissionId])
+}
+model UserRole {
+  userId String
+  roleId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role Role @relation(fields: [roleId], references: [id]) scope String?
+  @@id([userId, roleId])
+}
+
+// ---------------------------------------------------------------- geography
+model Governorate {
+  id            String  @id @default(cuid())
+  slug          String  @unique
+  code          String
+  name          String
+  nameAr        String?
+  capital       String
+  region        String
+  areaKm2       Int
+  populationM   Float
+  lat           Float
+  lng           Float
+  hasCoast      Boolean @default(false)
+  hasNile       Boolean @default(false)
+  summary       String?
+  description   String?
+  highlights    String[]
+  cuisine       String[]
+  crafts        String[]
+  nature        String[]
+  investmentSectors String[]
+  heritageEras  EraKey[]
+  sourceStatus  SourceStatus @default(DEMO)
+  sourceOwner   String?
+  sourceUrl     String?
+  verifiedAt    DateTime?
+  dataClass     DataClass @default(PUBLIC)
+  publishState  PublishState @default(PUBLISHED)
+  cities        City[]
+  destinations  Destination[]
+  heritageSites HeritageSite[]
+  museums       Museum[]
+  providers     Provider[]
+  events        Event[]
+  opportunities InvestmentOpportunity[]
+  properties    Property[]
+  products      Product[]
+  metrics       TourismMetric[]
+}
+
+model City {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  nameAr String?
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  villages Village[]
+  districts District[]
+  summary String?
+  sourceStatus SourceStatus @default(DEMO)
+}
+model Village {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  cityId String
+  city City @relation(fields: [cityId], references: [id])
+  summary String?
+  sourceStatus SourceStatus @default(DEMO)
+}
+model District {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  cityId String
+  city City @relation(fields: [cityId], references: [id])
+  sourceStatus SourceStatus @default(DEMO)
+}
+
+model Country {
+  id String @id @default(cuid())
+  slug String @unique
+  iso2 String @unique
+  name String
+  region String
+  currency String
+  language String
+  hasEgyptianMission Boolean @default(false)
+  missionNote String?
+  visaRoute String?
+  directFlights String[]
+  suggestedRoutes String[]
+  sourceStatus SourceStatus @default(DEMO)
+  sourceOwner String?
+  verifiedAt DateTime?
+}
+
+// ---------------------------------------------------------------- content
+model HistoricalEra {
+  id String @id @default(cuid())
+  key EraKey @unique
+  name String
+  fromLabel String
+  toLabel String
+  colour String
+  summary String
+  monuments String[]
+  museums String[]
+  rulers Ruler[]
+}
+model Ruler {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  era EraKey
+  dynasty String?
+  reign String
+  achievements String[]
+  monuments String[]
+  summary String?
+  eraRef HistoricalEra? @relation(fields: [era], references: [key])
+  sourceStatus SourceStatus @default(DEMO)
+  publishState PublishState @default(PUBLISHED)
+}
+
+model Destination {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  category String
+  bestSeason String?
+  lat Float?
+  lng Float?
+  summary String?
+  description String?
+  images String[]
+  tags String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  attractions Attraction[]
+  sourceStatus SourceStatus @default(DEMO)
+  sourceOwner String?
+  publishState PublishState @default(PUBLISHED)
+}
+
+model Attraction {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  era EraKey
+  durationMinutes Int?
+  ticketFromEgp Int?
+  access HeritageAccess @default(DEMO_UNVERIFIED)
+  destinationId String?
+  destination Destination? @relation(fields: [destinationId], references: [id])
+  summary String?
+  sourceStatus SourceStatus @default(DEMO)
+}
+
+model HeritageSite {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  era EraKey
+  classification String
+  access HeritageAccess @default(DEMO_UNVERIFIED)
+  restorationStatus RestorationStatus @default(NONE)
+  hidden Boolean @default(false)
+  lat Float?
+  lng Float?
+  summary String?
+  description String?
+  images String[]
+  academicReferences String[]
+  relatedFigures String[]
+  accessibility String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  sourceStatus SourceStatus @default(DEMO)
+  sourceOwner String?
+  sourceUrl String?
+  verifiedAt DateTime?
+  publishState PublishState @default(PUBLISHED)
+  restorationRecords RestorationRecord[]
+}
+
+model RestorationRecord {
+  id String @id @default(cuid())
+  heritageSiteId String
+  site HeritageSite @relation(fields: [heritageSiteId], references: [id])
+  status RestorationStatus
+  stage String
+  note String?
+  competentEntity String?
+  sourceStatus SourceStatus @default(DEMO)
+  createdAt DateTime @default(now())
+}
+
+model Museum {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  opened String?
+  collectionsCount Int?
+  highlights String[]
+  access HeritageAccess @default(DEMO_UNVERIFIED)
+  summary String?
+  description String?
+  images String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  sourceStatus SourceStatus @default(DEMO)
+  publishState PublishState @default(PUBLISHED)
+}
+
+model HeritageWorldwideObject {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  era EraKey
+  institution String
+  country String
+  provenanceNote String
+  summary String?
+  images String[]
+  sourceStatus SourceStatus @default(DEMO)
+  sourceUrl String?
+  verifiedAt DateTime?
+}
+
+// ---------------------------------------------------------------- supply
+model Provider {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  type String
+  verification VerificationState @default(UNVERIFIED)
+  licenceRef String?
+  rating Float?
+  reviewCount Int @default(0)
+  priceFrom Float?
+  currency String @default("USD")
+  languages String[]
+  specialties String[]
+  amenities String[]
+  accessibility String[]
+  availability String[]
+  summary String?
+  description String?
+  images String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  organisationId String?
+  organisation Organisation? @relation(fields: [organisationId], references: [id])
+  documents ProviderDocument[]
+  licences Licence[]
+  verificationRecords VerificationRecord[]
+  inventory InventoryItem[]
+  bookings Booking[]
+  reviews Review[]
+  settlements Settlement[]
+  sourceStatus SourceStatus @default(DEMO)
+  dataClass DataClass @default(PUBLIC)
+  publishState PublishState @default(PUBLISHED)
+  createdAt DateTime @default(now())
+}
+
+model ProviderDocument {
+  id String @id @default(cuid())
+  providerId String
+  provider Provider @relation(fields: [providerId], references: [id])
+  title String
+  url String
+  dataClass DataClass @default(PARTNER)
+  uploadedAt DateTime @default(now())
+}
+model Licence {
+  id String @id @default(cuid())
+  providerId String
+  provider Provider @relation(fields: [providerId], references: [id])
+  authority String
+  reference String
+  validUntil DateTime?
+  sourceStatus SourceStatus @default(DEMO)
+  verifiedAt DateTime?
+}
+model VerificationRecord {
+  id String @id @default(cuid())
+  providerId String
+  provider Provider @relation(fields: [providerId], references: [id])
+  state VerificationState
+  decidedBy String?
+  reason String?
+  decidedAt DateTime @default(now())
+}
+model InventoryItem {
+  id String @id @default(cuid())
+  providerId String
+  provider Provider @relation(fields: [providerId], references: [id])
+  name String
+  unitType String
+  price Float
+  currency String @default("USD")
+  capacity Int @default(1)
+  availability Json?
+  active Boolean @default(true)
+}
+
+model MedicalProvider {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  specialties String[]
+  accreditation String[]
+  languages String[]
+  governorateSlug String
+  summary String?
+  dataClass DataClass @default(SENSITIVE)
+  verification VerificationState @default(UNVERIFIED)
+  sourceStatus SourceStatus @default(DEMO)
+}
+model University {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  governorateSlug String
+  website String?
+  sourceStatus SourceStatus @default(DEMO)
+  programs ResearchProgram[]
+}
+model ResearchProgram {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  field String
+  degree String
+  languages String[]
+  universityId String?
+  university University? @relation(fields: [universityId], references: [id])
+  summary String?
+  sourceStatus SourceStatus @default(DEMO)
+}
+
+model Event {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  category String
+  startDate DateTime
+  endDate DateTime
+  venue String
+  organiser String
+  ticketed Boolean @default(false)
+  languages String[]
+  summary String?
+  description String?
+  images String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  moderationState ModerationState @default(IN_REVIEW)
+  sourceStatus SourceStatus @default(DEMO)
+  publishState PublishState @default(PUBLISHED)
+}
+
+model Activity {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  category String
+  durationMinutes Int?
+  priceFrom Float?
+  currency String @default("USD")
+  providerId String?
+  summary String?
+  sourceStatus SourceStatus @default(DEMO)
+}
+
+// ---------------------------------------------------------------- journey
+model Trip {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title String
+  originCountry String?
+  nationality String?
+  startDate DateTime?
+  endDate DateTime?
+  travellersAdults Int @default(1)
+  travellersChildren Int @default(0)
+  partyType String?
+  budgetUsd Int?
+  travelStyle String?
+  languages String[]
+  accessibilityNeeds String[]
+  interests String[]
+  state String @default("DRAFT")
+  itinerary Itinerary?
+  bookings Booking[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Itinerary {
+  id String @id @default(cuid())
+  tripId String @unique
+  trip Trip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+  generatedBy String @default("TRIP_PLANNER_AGENT")
+  days TripDay[]
+}
+model TripDay {
+  id String @id @default(cuid())
+  itineraryId String
+  itinerary Itinerary @relation(fields: [itineraryId], references: [id], onDelete: Cascade)
+  dayNumber Int
+  date DateTime?
+  governorateSlug String?
+  title String?
+  items TripItem[]
+}
+model TripItem {
+  id String @id @default(cuid())
+  tripDayId String
+  day TripDay @relation(fields: [tripDayId], references: [id], onDelete: Cascade)
+  kind String
+  refSlug String?
+  title String
+  startTime String?
+  durationMinutes Int?
+  note String?
+  bookingId String?
+  sourceStatus SourceStatus @default(DEMO)
+}
+
+model Booking {
+  id String @id @default(cuid())
+  reference String @unique
+  userId String
+  user User @relation(fields: [userId], references: [id])
+  tripId String?
+  trip Trip? @relation(fields: [tripId], references: [id])
+  providerId String?
+  provider Provider? @relation(fields: [providerId], references: [id])
+  serviceClass String
+  state BookingState @default(DRAFT)
+  grossAmount Float
+  currency String @default("USD")
+  startDate DateTime?
+  endDate DateTime?
+  travellers Int @default(1)
+  externalRef String?
+  adapter String?
+  sourceStatus SourceStatus @default(DEMO)
+  payment Payment?
+  commission Commission?
+  refunds Refund[]
+  createdAt DateTime @default(now())
+}
+
+// ---------------------------------------------------------------- money
+model Payment {
+  id String @id @default(cuid())
+  bookingId String @unique
+  booking Booking @relation(fields: [bookingId], references: [id])
+  psp String
+  state PaymentState @default(INITIATED)
+  amount Float
+  currency String @default("USD")
+  pspReference String?
+  dataClass DataClass @default(SENSITIVE)
+  createdAt DateTime @default(now())
+  transactions Transaction[]
+}
+model Transaction {
+  id String @id @default(cuid())
+  paymentId String
+  payment Payment @relation(fields: [paymentId], references: [id])
+  kind String
+  amount Float
+  currency String @default("USD")
+  occurredAt DateTime @default(now())
+}
+model Commission {
+  id String @id @default(cuid())
+  bookingId String @unique
+  booking Booking @relation(fields: [bookingId], references: [id])
+  serviceClass String
+  model String
+  rateOrAmount Float
+  amount Float
+  currency String @default("USD")
+  commissionable Boolean @default(true)
+  ruleNote String?
+}
+model Settlement {
+  id String @id @default(cuid())
+  providerId String
+  provider Provider @relation(fields: [providerId], references: [id])
+  periodStart DateTime
+  periodEnd DateTime
+  grossAmount Float
+  platformShare Float
+  providerShare Float
+  taxes Float
+  paymentFees Float
+  netPayable Float
+  currency String @default("USD")
+  state String @default("PENDING")
+}
+model Refund {
+  id String @id @default(cuid())
+  bookingId String
+  booking Booking @relation(fields: [bookingId], references: [id])
+  amount Float
+  currency String @default("USD")
+  reason String
+  state String @default("REQUESTED")
+  createdAt DateTime @default(now())
+}
+model RevenueRule {
+  id String @id @default(cuid())
+  serviceClass String @unique
+  commissionable Boolean @default(false)
+  model String
+  rate Float @default(0)
+  flat Float @default(0)
+  currency String @default("USD")
+  note String?
+  updatedAt DateTime @updatedAt
+}
+
+// ---------------------------------------------------------------- investment
+model InvestmentOpportunity {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  sector String
+  stage String
+  minInvestmentUsd Int
+  maxInvestmentUsd Int
+  landRequirementHa Float?
+  competentEntity String
+  restrictions String[]
+  demandSignals String[]
+  risks String[]
+  summary String?
+  description String?
+  images String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  sourceStatus SourceStatus @default(DEMO)
+  publishState PublishState @default(PUBLISHED)
+  leads InvestmentLead[]
+}
+
+model InvestmentLead {
+  id String @id @default(cuid())
+  opportunityId String?
+  opportunity InvestmentOpportunity? @relation(fields: [opportunityId], references: [id])
+  name String
+  email String
+  organisation String?
+  budgetUsd Int?
+  sector String?
+  message String?
+  state String @default("NEW")
+  dataClass DataClass @default(PERSONAL)
+  createdAt DateTime @default(now())
+}
+model Property {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  propertyType String
+  priceUsd Float?
+  areaM2 Int?
+  city String?
+  summary String?
+  description String?
+  images String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  sourceStatus SourceStatus @default(DEMO)
+}
+model BusinessOpportunity {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  activity String
+  legalStructure String
+  authorities String[]
+  licences String[]
+  documents String[]
+  officialLink String?
+  sourceStatus SourceStatus @default(DEMO)
+}
+model Product {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  category String
+  priceEgp Int
+  maker String
+  summary String?
+  description String?
+  images String[]
+  governorateId String
+  governorate Governorate @relation(fields: [governorateId], references: [id])
+  sourceStatus SourceStatus @default(DEMO)
+}
+
+// ---------------------------------------------------------------- voice
+model Review {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id])
+  providerId String?
+  provider Provider? @relation(fields: [providerId], references: [id])
+  subjectSlug String?
+  rating Int
+  country String?
+  groupType String?
+  positives String[]
+  negatives String[]
+  suggestions String[]
+  body String?
+  moderationState ModerationState @default(IN_REVIEW)
+  createdAt DateTime @default(now())
+}
+model TravellerStory {
+  id String @id @default(cuid())
+  slug String @unique
+  title String
+  country String?
+  groupType String?
+  destinations String[]
+  body String?
+  mediaType String @default("text")
+  mediaUrl String?
+  moderationState ModerationState @default(IN_REVIEW)
+  marketingApprovedBy String?
+  publishedAt DateTime?
+  createdAt DateTime @default(now())
+}
+model MediaAsset {
+  id String @id @default(cuid())
+  key String @unique
+  url String
+  kind String
+  alt String?
+  credit String?
+  licence String?
+  dataClass DataClass @default(PUBLIC)
+  createdAt DateTime @default(now())
+}
+
+// ---------------------------------------------------------------- ecosystem
+model Partner {
+  id String @id @default(cuid())
+  slug String @unique
+  name String
+  category String
+  organisationId String?
+  organisation Organisation? @relation(fields: [organisationId], references: [id])
+  integrations PartnerIntegration[]
+  apiClients ApiClient[]
+  createdAt DateTime @default(now())
+}
+model PartnerIntegration {
+  id String @id @default(cuid())
+  partnerId String
+  partner Partner @relation(fields: [partnerId], references: [id])
+  adapter String
+  state IntegrationState @default(PLANNED)
+  dataClass DataClass @default(PARTNER)
+  sourceOwner String
+  notes String?
+  rateLimitPerMin Int @default(60)
+  auditRequired Boolean @default(true)
+  updatedAt DateTime @updatedAt
+}
+model ApiClient {
+  id String @id @default(cuid())
+  partnerId String
+  partner Partner @relation(fields: [partnerId], references: [id])
+  clientId String @unique
+  secretHash String
+  scopes String[]
+  active Boolean @default(true)
+  lastUsedAt DateTime?
+  createdAt DateTime @default(now())
+}
+model Webhook {
+  id String @id @default(cuid())
+  apiClientId String
+  url String
+  events String[]
+  secretHash String
+  active Boolean @default(true)
+}
+model GovernmentIntegration {
+  id String @id @default(cuid())
+  key String @unique
+  authority String
+  purpose String
+  state IntegrationState @default(PLANNED)
+  dataClass DataClass @default(RESTRICTED_GOVERNMENT)
+  legalBasis String?
+  readOnly Boolean @default(true)
+  notes String?
+  updatedAt DateTime @updatedAt
+}
+model IntegrationRegistry {
+  id String @id @default(cuid())
+  key String @unique
+  name String
+  category String
+  adapter String
+  state IntegrationState @default(PLANNED)
+  dataClass DataClass @default(PUBLIC)
+  sourceOwner String
+  commissionable Boolean @default(false)
+  notes String?
+  updatedAt DateTime @updatedAt
+}
+
+// ---------------------------------------------------------------- ops
+model Notification {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id])
+  kind String
+  title String
+  body String?
+  readAt DateTime?
+  createdAt DateTime @default(now())
+}
+model SupportCase {
+  id String @id @default(cuid())
+  reference String @unique
+  userId String?
+  user User? @relation(fields: [userId], references: [id])
+  subject String
+  category String
+  priority String @default("NORMAL")
+  state String @default("OPEN")
+  body String?
+  createdAt DateTime @default(now())
+}
+model ConsentRecord {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  scope ConsentScope
+  granted Boolean @default(false)
+  purpose String?
+  grantedAt DateTime?
+  revokedAt DateTime?
+  version String @default("1.0")
+  @@unique([userId, scope])
+}
+model LocationConsent {
+  id String @id @default(cuid())
+  userId String @unique
+  mode LocationMode @default(OFF)
+  updatedAt DateTime @updatedAt
+}
+model LocationEvent {
+  id String @id @default(cuid())
+  userId String
+  lat Float
+  lng Float
+  accuracyM Int?
+  mode LocationMode
+  purpose String
+  dataClass DataClass @default(SENSITIVE)
+  createdAt DateTime @default(now())
+}
+model AuditLog {
+  id String @id @default(cuid())
+  actorId String?
+  actor User? @relation(fields: [actorId], references: [id])
+  actorRole String
+  action String
+  resource String
+  resourceId String?
+  dataClass DataClass @default(PUBLIC)
+  purpose String?
+  decision String
+  outcome String?
+  ip String?
+  userAgent String?
+  metadata Json?
+  createdAt DateTime @default(now())
+  @@index([resource, createdAt])
+}
+
+// ---------------------------------------------------------------- AI
+model AiAgent {
+  id String @id @default(cuid())
+  key String @unique
+  name String
+  purpose String
+  canDo String[]
+  cannotDo String[]
+  allowedTools String[]
+  dataClasses DataClass[]
+  requiredRoles String[]
+  requiresHumanApproval Boolean @default(false)
+  active Boolean @default(true)
+}
+model Skill {
+  id String @id @default(cuid())
+  key String @unique
+  name String
+  description String
+  tools String[]
+  agentKey String
+  active Boolean @default(true)
+}
+model McpServer {
+  id String @id @default(cuid())
+  key String @unique
+  name String
+  family String
+  state IntegrationState @default(SANDBOX)
+  baseUrl String?
+  tools McpTool[]
+}
+model McpTool {
+  id String @id @default(cuid())
+  key String @unique
+  name String
+  description String
+  serverId String
+  server McpServer @relation(fields: [serverId], references: [id])
+  inputSchema Json
+  permissions String[]
+  dataClass DataClass @default(PUBLIC)
+  sourceOwner String
+  auditRequired Boolean @default(false)
+  rateLimitPerMin Int @default(60)
+  state IntegrationState @default(SANDBOX)
+}
+model KnowledgeSource {
+  id String @id @default(cuid())
+  key String @unique
+  title String
+  kind String
+  url String?
+  sourceStatus SourceStatus @default(DEMO)
+  owner String
+  lastIndexedAt DateTime?
+}
+model AiSession {
+  id String @id @default(cuid())
+  userId String?
+  user User? @relation(fields: [userId], references: [id])
+  locale String @default("en")
+  portal String @default("public")
+  createdAt DateTime @default(now())
+  messages AiMessage[]
+  actions AiAction[]
+}
+model AiMessage {
+  id String @id @default(cuid())
+  sessionId String
+  session AiSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  role String
+  content String
+  agentKey String?
+  sourceLabels String[]
+  createdAt DateTime @default(now())
+}
+model AiAction {
+  id String @id @default(cuid())
+  sessionId String
+  session AiSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  agentKey String
+  toolKey String
+  input Json
+  output Json?
+  decision String
+  latencyMs Int?
+  createdAt DateTime @default(now())
+}
+
+// ---------------------------------------------------------------- analytics
+model AnalyticsEvent {
+  id String @id @default(cuid())
+  name String
+  userId String?
+  sessionId String?
+  properties Json?
+  occurredAt DateTime @default(now())
+  @@index([name, occurredAt])
+}
+model TourismMetric {
+  id String @id @default(cuid())
+  governorateId String?
+  governorate Governorate? @relation(fields: [governorateId], references: [id])
+  periodStart DateTime
+  periodEnd DateTime
+  visitors Int @default(0)
+  bookingValueUsd Float @default(0)
+  avgStayNights Float @default(0)
+  occupancyPct Float @default(0)
+  sourceStatus SourceStatus @default(SIMULATED)
+}
+model InvestmentMetric {
+  id String @id @default(cuid())
+  sector String
+  governorateSlug String?
+  leads Int @default(0)
+  pipelineUsd Float @default(0)
+  periodStart DateTime
+  periodEnd DateTime
+  sourceStatus SourceStatus @default(SIMULATED)
+}
+
+// ---------------------------------------------------------------- CMS
+model ContentBlock {
+  id String @id @default(cuid())
+  key String @unique
+  kind String
+  locale String @default("en")
+  title String?
+  body Json
+  publishState PublishState @default(DRAFT)
+  updatedBy String?
+  updatedAt DateTime @updatedAt
+  @@index([kind, publishState])
+}
+model Translation {
+  id String @id @default(cuid())
+  locale String
+  key String
+  value String
+  updatedBy String?
+  updatedAt DateTime @updatedAt
+  @@unique([locale, key])
+}
+model FeatureFlag {
+  id String @id @default(cuid())
+  key String @unique
+  enabled Boolean @default(false)
+  description String?
+  audience String @default("all")
+  updatedAt DateTime @updatedAt
+}
+model GoldenLicenceItem {
+  id String @id @default(cuid())
+  key String @unique
+  title String
+  category String
+  state String @default("NOT_STARTED")
+  evidence String?
+  owner String?
+  note String?
+  updatedAt DateTime @updatedAt
+}
