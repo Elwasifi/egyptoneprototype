@@ -13,14 +13,14 @@ import { GOVERNMENT_NAV } from '@/lib/nav';
 import { href as L } from '@/lib/locale';
 import { EgyptMap } from '@/components/EgyptMap';
 
-export const metadata: Metadata = { title: "National map", description: "Governorate, heritage, provider, event and investment layers on one schematic map." };
+export const metadata: Metadata = { title: "National map", description: "Governorate, heritage, provider, event and investment layers on a real, interactive basemap." };
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const metrics = db.metrics() as any;
 
   return (
-    <PortalShell portal={"Government"} title={"National map"} subtitle={"Governorate, heritage, provider, event and investment layers on one schematic map."} nav={GOVERNMENT_NAV} active={"/government/national-map"} accent={"emerald"} roleNote={""}>
+    <PortalShell portal={"Government"} title={"National map"} subtitle={"Governorate, heritage, provider, event and investment layers on a real, interactive basemap."} nav={GOVERNMENT_NAV} active={"/government/national-map"} accent={"emerald"} roleNote={""}>
       <div className="grid gap-6">
         <EgyptMap locale={locale as Locale} />
       </div>

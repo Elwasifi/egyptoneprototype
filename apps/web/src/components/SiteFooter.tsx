@@ -11,11 +11,11 @@ export function SiteFooter({ locale, messages }: { locale: Locale; messages: Rec
     <footer className="mt-20 border-t border-white/8 bg-raised/60">
       <div className="mx-auto grid w-full max-w-[1600px] gap-4 px-4 py-8 sm:grid-cols-2 lg:grid-cols-3 lg:px-6">
         {TRUST_ITEMS.map((item) => (
-          <div key={item.title} className="flex gap-3">
+          <div key={item.key} className="flex gap-3">
             <span className="mt-0.5 text-gold-500" aria-hidden="true">{item.icon}</span>
             <div>
-              <div className="text-[12.5px] font-semibold text-ink-hi">{item.title}</div>
-              <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{item.body}</div>
+              <div className="text-[12.5px] font-semibold text-ink-hi">{t(`${item.key}.title`)}</div>
+              <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{t(`${item.key}.body`)}</div>
             </div>
           </div>
         ))}
@@ -34,7 +34,7 @@ export function SiteFooter({ locale, messages }: { locale: Locale; messages: Rec
                 <ul className="grid gap-1.5">
                   {col.items.map((i) => (
                     <li key={i.href + i.label}>
-                      <Link href={L(locale, i.href)} className="text-[12.5px] text-ink-low transition-colors hover:text-gold-300">{i.label}</Link>
+                      <Link href={L(locale, i.href)} className="text-[12.5px] text-ink-low transition-colors hover:text-gold-300">{t(i.label)}</Link>
                     </li>
                   ))}
                 </ul>
@@ -48,7 +48,7 @@ export function SiteFooter({ locale, messages }: { locale: Locale; messages: Rec
         <div className="mx-auto flex w-full max-w-[1600px] flex-col items-center justify-between gap-3 px-4 py-5 text-[11.5px] text-ink-faint sm:flex-row lg:px-6">
           <span>© {new Date().getFullYear()} Egypt One (prototype). {t('footer.rights')}</span>
           <span className="text-center sm:text-end">
-            A coordination and technology layer. Government authority, approvals and sovereign data remain with the competent authorities.
+            {t('footer.disclaimer')}
           </span>
         </div>
       </div>

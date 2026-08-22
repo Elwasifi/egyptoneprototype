@@ -16,8 +16,23 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
   const [open, setOpen] = React.useState<string | null>(null);
   const [drawer, setDrawer] = React.useState(false);
   const [searchOpen, setSearchOpen] = React.useState(false);
+  const closeTimer = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  /** Cancels any pending close — call on entering the trigger or the panel. */
+  const openMenu = (key: string) => {
+    if (closeTimer.current) { clearTimeout(closeTimer.current); closeTimer.current = null; }
+    setOpen(key);
+  };
+  /** Closes after a short grace period, so a diagonal mouse path from the
+      trigger to the panel below doesn't register as "left" and snap the
+      menu shut before the user can reach it. */
+  const scheduleClose = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => setOpen(null), 300);
+  };
 
   React.useEffect(() => { setOpen(null); setDrawer(false); }, [pathname]);
+  React.useEffect(() => () => { if (closeTimer.current) clearTimeout(closeTimer.current); }, []);
 
   React.useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -55,10 +70,10 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
           <nav aria-label="Primary" className="ms-auto hidden items-center gap-0.5 lg:flex">
             <Link href={L(locale, '/')} className="truncate rounded-lg px-2.5 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.home')}</Link>
             {MEGA.map((s) => (
-              <div key={s.key} className="relative" onMouseEnter={() => setOpen(s.key)} onMouseLeave={() => setOpen(null)}>
+              <div key={s.key} className="relative" onMouseEnter={() => openMenu(s.key)} onMouseLeave={scheduleClose}>
                 <button
                   aria-expanded={open === s.key} aria-haspopup="true"
-                  onClick={() => setOpen(open === s.key ? null : s.key)}
+                  onClick={() => (open === s.key ? setOpen(null) : openMenu(s.key))}
                   className={`truncate rounded-lg px-2.5 py-2 text-[13.5px] transition-colors ${open === s.key ? 'bg-gold-600/14 text-gold-200' : 'text-ink-mid hover:bg-white/6 hover:text-ink-hi'}`}
                 >
                   {t(s.label)}
@@ -105,19 +120,19 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
         {open && (
           <div
             className="absolute inset-x-0 top-16 hidden border-b border-white/8 glass shadow-2xl lg:block"
-            onMouseEnter={() => setOpen(open)} onMouseLeave={() => setOpen(null)}
+            onMouseEnter={() => openMenu(open)} onMouseLeave={scheduleClose}
           >
             {MEGA.filter((s) => s.key === open).map((s) => (
               <div key={s.key} className="mx-auto grid w-full max-w-[1600px] gap-8 px-6 py-7 lg:grid-cols-[1fr_280px]">
                 <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                   {s.columns.map((c) => (
                     <div key={c.title}>
-                      <div className="mb-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">{c.title}</div>
+                      <div className="mb-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">{t(c.title)}</div>
                       <ul className="grid gap-0.5">
                         {c.items.map((i) => (
                           <li key={i.href}>
                             <Link href={L(locale, i.href)} className="flex items-center gap-2 rounded-lg px-2 py-1.5 text-[13px] text-ink-mid transition-colors hover:bg-white/6 hover:text-ink-hi">
-                              {i.label}
+                              {t(i.label)}
                               {i.badge && <Badge tone={i.badge === 'Hot' ? 'danger' : 'gold'}>{i.badge}</Badge>}
                             </Link>
                           </li>
@@ -128,10 +143,10 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
                 </div>
                 {s.feature && (
                   <div className="surface-gold p-5">
-                    <div className="text-[15px] font-semibold text-gold-200">{s.feature.title}</div>
-                    <p className="mt-2 text-[12.5px] leading-relaxed text-ink-low">{s.feature.body}</p>
+                    <div className="text-[15px] font-semibold text-gold-200">{t(s.feature.title)}</div>
+                    <p className="mt-2 text-[12.5px] leading-relaxed text-ink-low">{t(s.feature.body)}</p>
                     <Link href={L(locale, s.feature.href)} className="mt-4 inline-flex rounded-lg bg-gold-500/90 px-3 py-2 text-[12.5px] font-semibold text-[#0a1017] hover:bg-gold-400">
-                      {s.feature.cta} →
+                      {t(s.feature.cta)} →
                     </Link>
                   </div>
                 )}
@@ -163,11 +178,11 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
                   <div className="pb-2 ps-2">
                     {s.columns.map((c) => (
                       <div key={c.title} className="mb-3">
-                        <div className="mb-1 text-[10.5px] uppercase tracking-wider text-gold-600">{c.title}</div>
+                        <div className="mb-1 text-[10.5px] uppercase tracking-wider text-gold-600">{t(c.title)}</div>
                         <ul>
                           {c.items.map((i) => (
                             <li key={i.href}>
-                              <Link href={L(locale, i.href)} className="block py-1.5 text-[13px] text-ink-mid">{i.label}</Link>
+                              <Link href={L(locale, i.href)} className="block py-1.5 text-[13px] text-ink-mid">{t(i.label)}</Link>
                             </li>
                           ))}
                         </ul>

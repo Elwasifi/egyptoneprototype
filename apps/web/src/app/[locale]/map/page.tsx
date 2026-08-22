@@ -10,7 +10,7 @@ import { EgyptMap } from '@/components/EgyptMap';
 
 export const metadata: Metadata = {
   title: "National map",
-  description: "All 27 governorates on one canvas, with layers for heritage, providers, events and investment. The map renders from local vector data because no map vendor is connected — a deliber",
+  description: "All 27 governorates on a real, interactive basemap, with layers for heritage, providers, events and investment.",
 };
 
 export default async function MapPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -22,13 +22,13 @@ export default async function MapPage({ params }: { params: Promise<{ locale: st
       <ModuleHero
         eyebrow={"Geography"}
         title={"National map"}
-        lead={"All 27 governorates on one canvas, with layers for heritage, providers, events and investment. The map renders from local vector data because no map vendor is connected — a deliberate choice over an empty frame or a vendor lock-in."}
+        lead={"All 27 governorates on a real, interactive basemap, with layers for heritage, providers, events and investment. Tiles are live OpenStreetMap data via CARTO's free tier; no paid map vendor is under contract yet."}
         seed={"map"}
         subject={"desert"}
         stats={[
       { label: 'Governorates plotted', value: '27' },
       { label: 'Heritage points', value: String(db.heritage.all().filter((h) => h.coordinates).length) },
-      { label: 'Map vendor', value: 'None selected' },
+      { label: 'Basemap', value: 'OpenStreetMap / CARTO' },
       { label: 'Adapter', value: 'MapProviderAdapter' },
     ]}
       />
@@ -38,12 +38,12 @@ export default async function MapPage({ params }: { params: Promise<{ locale: st
         <h2 className="mb-4 text-[17px] font-semibold text-ink-hi">Egypt at a glance</h2>
         <EgyptMap locale={locale as Locale} />
       </section>
-        <InfoCard title={"Why there is no vendor here"}>
+        <InfoCard title={"Why there is no paid vendor here yet"}>
         <p>Mapping is one of the easiest places to create a dependency that is painful to unwind later. The platform declares a MapProviderAdapter contract with geocoding and tile methods, and every map surface in the product talks to that contract rather than to a vendor SDK. Mapbox, Google or a self-hosted OpenStreetMap stack can all satisfy it.</p>
-        <p className="mt-3">Until one is chosen, the map draws from local coordinates. It is deliberately schematic rather than pretending to be a survey-grade basemap.</p>
+        <p className="mt-3">Until a licensed vendor is chosen, the basemap itself is real — live OpenStreetMap data rendered through CARTO's free, no-key tile service — so the map already looks and behaves like a production map. What's still pending is a commercial tile agreement for guaranteed uptime and volume at scale, not the map's accuracy.</p>
       </InfoCard>
 
-        <Boundary points={["This canvas is schematic. It is not a survey, and boundaries shown are indicative only.","Coordinates for vulnerable heritage sites are deliberately approximate.","No location data about you is read or stored by this page."]} />
+        <Boundary points={["Basemap tiles are live and real (OpenStreetMap contributors, via CARTO). The markers plotted on top are Egypt One's own demo data, not live provider or booking data.","Coordinates for vulnerable heritage sites are deliberately approximate.","No location data about you is read or stored by this page."]} />
 
         <RelatedLinks
           locale={locale as Locale}

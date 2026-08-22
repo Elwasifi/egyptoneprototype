@@ -12,21 +12,21 @@ import { href as L } from '@/lib/locale';
 import { TRUST_ITEMS } from '@/lib/trust';
 
 const QUICK = [
-  { href: '/hotels', label: 'Hotels', icon: '⌂' }, { href: '/flights', label: 'Flights', icon: '✈' },
-  { href: '/activities', label: 'Attractions', icon: '◈' }, { href: '/cruises', label: 'Nile cruises', icon: '⛵' },
-  { href: '/guides', label: 'Guides', icon: '☺' }, { href: '/transport', label: 'Transport', icon: '⇄' },
-  { href: '/restaurants', label: 'Food', icon: '❉' }, { href: '/events', label: 'Events', icon: '♪' },
-  { href: '/wear-egypt', label: 'Shopping', icon: '◍' }, { href: '/medical-tourism', label: 'Health', icon: '✚' },
-  { href: '/invest', label: 'Invest', icon: '◆' }, { href: '/discover', label: 'More', icon: '⋯' },
+  { href: '/hotels', key: 'quick.hotels', icon: '⌂' }, { href: '/flights', key: 'quick.flights', icon: '✈' },
+  { href: '/activities', key: 'quick.attractions', icon: '◈' }, { href: '/cruises', key: 'quick.cruises', icon: '⛵' },
+  { href: '/guides', key: 'quick.guides', icon: '☺' }, { href: '/transport', key: 'quick.transport', icon: '⇄' },
+  { href: '/restaurants', key: 'quick.food', icon: '❉' }, { href: '/events', key: 'quick.events', icon: '♪' },
+  { href: '/wear-egypt', key: 'quick.shopping', icon: '◍' }, { href: '/medical-tourism', key: 'quick.health', icon: '✚' },
+  { href: '/invest', key: 'quick.invest', icon: '◆' }, { href: '/discover', key: 'quick.more', icon: '⋯' },
 ];
 
 const MODULES = [
-  { href: '/entertainment-investment', title: 'Entertainment investment', body: 'Theme parks, water parks, marinas, arenas, live entertainment and leisure districts.', cta: 'Explore opportunities', tone: 'royal' },
-  { href: '/real-estate', title: 'Real estate & living', body: 'Residential, commercial and hospitality property, plus what ownership actually requires.', cta: 'Explore property', tone: 'nile' },
-  { href: '/medical-tourism', title: 'Health & wellness', body: 'Hospitals, clinics, specialists and wellness journeys with elevated privacy protection.', cta: 'Find providers', tone: 'emerald' },
-  { href: '/research', title: 'Research & education', body: 'Universities, Egyptology programmes, archives and academic partnerships.', cta: 'Explore programmes', tone: 'gold' },
-  { href: '/rural-egypt', title: 'Rural Egypt', body: 'Village stays, farms, crafts and the parts of the country most itineraries miss.', cta: 'Discover rural Egypt', tone: 'emerald' },
-  { href: '/know-your-origin', title: 'Know your origin', body: 'An educational and research concept about ancestry, built with strict consent boundaries.', cta: 'Read the boundaries', tone: 'royal' },
+  { href: '/entertainment-investment', key: 'modules.entertainment', tone: 'royal' },
+  { href: '/real-estate', key: 'modules.realestate', tone: 'nile' },
+  { href: '/medical-tourism', key: 'modules.health', tone: 'emerald' },
+  { href: '/research', key: 'modules.research', tone: 'gold' },
+  { href: '/rural-egypt', key: 'modules.rural', tone: 'emerald' },
+  { href: '/know-your-origin', key: 'modules.origin', tone: 'royal' },
 ];
 
 const TONE: Record<string, string> = {
@@ -41,27 +41,29 @@ function subjectForOffer(kind: string) {
   return (map[kind] ?? 'generic') as never;
 }
 
-const INVESTMENT_CATEGORIES: { label: string; icon: string; href: string; status: 'DEMO' | 'PLANNED' }[] = [
-  { label: 'Real Estate', icon: '◫', href: '/real-estate', status: 'DEMO' },
-  { label: 'Land & Development', icon: '◧', href: '/investment-opportunities', status: 'DEMO' },
-  { label: 'Tourism Investment', icon: '◆', href: '/tourism-investment', status: 'DEMO' },
-  { label: 'Business Setup', icon: '⬡', href: '/business-setup', status: 'DEMO' },
-  { label: 'Industrial Opportunities', icon: '◩', href: '/investment-opportunities', status: 'PLANNED' },
-  { label: 'Long-Term Residency', icon: '◈', href: '/visa', status: 'PLANNED' },
-  { label: 'Government Services', icon: '⛨', href: '/government', status: 'PLANNED' },
+const INVESTMENT_CATEGORIES: { key: string; icon: string; href: string; status: 'DEMO' | 'PLANNED' }[] = [
+  { key: 'invest.cat.realestate', icon: '◫', href: '/real-estate', status: 'DEMO' },
+  { key: 'invest.cat.land', icon: '◧', href: '/investment-opportunities', status: 'DEMO' },
+  { key: 'invest.cat.tourism', icon: '◆', href: '/tourism-investment', status: 'DEMO' },
+  { key: 'invest.cat.business', icon: '⬡', href: '/business-setup', status: 'DEMO' },
+  { key: 'invest.cat.industrial', icon: '◩', href: '/investment-opportunities', status: 'PLANNED' },
+  { key: 'invest.cat.residency', icon: '◈', href: '/visa', status: 'PLANNED' },
+  { key: 'invest.cat.government', icon: '⛨', href: '/government', status: 'PLANNED' },
 ];
 
 const PROGRAMME_TILES = [
-  { slug: 'egypt-one-pass', icon: '♛', tone: 'gold', cta: 'Join the Pass' },
-  { slug: 'visit-all-27-challenge', icon: '◈', tone: 'royal', cta: 'Start the challenge' },
-  { slug: 'stopover-egypt', icon: '✈', tone: 'nile', cta: 'Plan a stopover' },
-  { slug: 'one-more-night', icon: '☾', tone: 'emerald', cta: 'Extend your stay' },
+  { slug: 'egypt-one-pass', icon: '♛', tone: 'gold', ctaKey: 'programme.cta.pass' },
+  { slug: 'visit-all-27-challenge', icon: '◈', tone: 'royal', ctaKey: 'programme.cta.challenge' },
+  { slug: 'stopover-egypt', icon: '✈', tone: 'nile', ctaKey: 'programme.cta.stopover' },
+  { slug: 'one-more-night', icon: '☾', tone: 'emerald', ctaKey: 'programme.cta.night' },
 ] as const;
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const m = getMessages(locale as Locale);
   const t = (k: string) => m[k] ?? k;
+  const tn = (k: string, vars: Record<string, string | number>) =>
+    Object.entries(vars).reduce((s, [key, v]) => s.replaceAll(`{${key}}`, String(v)), t(k));
   const l = (p: string) => L(locale as Locale, p);
 
   const govs = db.governorates.all();
@@ -129,18 +131,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                   <Badge tone="gold">{db.countries.count()}</Badge>
                 </div>
                 <p className="mt-2 text-[12.5px] leading-relaxed text-ink-low">{t('section.egypt195.sub')}</p>
-                <Link href={l('/egypt-195')} className="mt-4 inline-flex rounded-lg bg-gold-500/90 px-3.5 py-2 text-[12.5px] font-semibold text-[#0a1017] hover:bg-gold-400">Choose your country →</Link>
+                <Link href={l('/egypt-195')} className="mt-4 inline-flex rounded-lg bg-gold-500/90 px-3.5 py-2 text-[12.5px] font-semibold text-[#0a1017] hover:bg-gold-400">{t('aside.chooseCountry')}</Link>
               </Card>
 
               <div className="surface lift overflow-hidden p-0">
                 <SmartImage seed="trip-builder-sample" subject="nile" alt="Sample Egypt itinerary" ratio="16/9" />
                 <div className="p-4">
                   <div className="flex items-center justify-between">
-                    <h2 className="text-[14px] font-semibold text-ink-hi">Start a trip</h2>
+                    <h2 className="text-[14px] font-semibold text-ink-hi">{t('aside.startTrip.title')}</h2>
                     <SourceBadge status="DEMO" size="sm" />
                   </div>
-                  <p className="mt-1.5 text-[12px] text-ink-low">Answer a few questions and preview a sample day-by-day itinerary you can edit.</p>
-                  <Link href={l('/trip-builder')} className="mt-3 inline-flex rounded-lg border border-gold-600/40 px-3.5 py-2 text-[12.5px] font-medium text-gold-300 hover:bg-gold-600/12">Open the trip builder →</Link>
+                  <p className="mt-1.5 text-[12px] text-ink-low">{t('aside.startTrip.body')}</p>
+                  <Link href={l('/trip-builder')} className="mt-3 inline-flex rounded-lg border border-gold-600/40 px-3.5 py-2 text-[12.5px] font-medium text-gold-300 hover:bg-gold-600/12">{t('aside.startTrip.cta')}</Link>
                 </div>
               </div>
 
@@ -148,12 +150,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <SmartImage seed={events[0]?.slug ?? 'next-event'} subject={subjectFor([events[0]?.category ?? '', events[0]?.venue ?? ''], events[0]?.name ?? '')} alt={events[0]?.name ?? 'Upcoming event'} ratio="16/9" />
                 <div className="p-4">
                   <div className="flex items-center justify-between">
-                    <h2 className="text-[14px] font-semibold text-ink-hi">Next event</h2>
+                    <h2 className="text-[14px] font-semibold text-ink-hi">{t('aside.nextEvent.title')}</h2>
                     <SourceBadge status="DEMO" size="sm" />
                   </div>
                   <div className="mt-2 text-[13px] text-gold-200">{events[0]?.name}</div>
                   <div className="mt-1 text-[11.5px] text-ink-faint">{events[0]?.startDate} → {events[0]?.endDate} · {events[0]?.venue}</div>
-                  <Link href={l('/events')} className="mt-3 inline-flex text-[12px] text-gold-300 hover:underline">All events →</Link>
+                  <Link href={l('/events')} className="mt-3 inline-flex text-[12px] text-gold-300 hover:underline">{t('aside.nextEvent.cta')}</Link>
                 </div>
               </div>
             </aside>
@@ -165,9 +167,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <Container wide>
         <nav aria-label="Quick actions" className="surface grid grid-cols-4 gap-1 p-2 sm:grid-cols-6 lg:grid-cols-12">
           {QUICK.map((q) => (
-            <Link key={q.href + q.label} href={l(q.href)} className="flex min-h-[68px] flex-col items-center justify-center gap-1.5 rounded-lg px-1 py-2 text-center transition-colors hover:bg-white/6">
+            <Link key={q.href + q.key} href={l(q.href)} className="flex min-h-[68px] flex-col items-center justify-center gap-1.5 rounded-lg px-1 py-2 text-center transition-colors hover:bg-white/6">
               <span aria-hidden="true" className="text-[17px] text-gold-400">{q.icon}</span>
-              <span className="text-[11px] leading-tight text-ink-mid">{q.label}</span>
+              <span className="text-[11px] leading-tight text-ink-mid">{t(q.key)}</span>
             </Link>
           ))}
         </nav>
@@ -176,7 +178,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* ------------------------------------------------------------ governorates */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="Discover Egypt" title={t('section.governorates')} sub={t('section.governorates.sub')} href={l('/governorates')} hrefLabel={t('nav.viewAll')} />
+          <SectionHeader eyebrow={t('eyebrow.discoverEgypt')} title={t('section.governorates')} sub={t('section.governorates.sub')} href={l('/governorates')} hrefLabel={t('nav.viewAll')} />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {featuredGovs.map((g) => (
               <Link key={g.slug} href={l(`/governorates/${g.slug}`)} className="surface lift group block overflow-hidden p-0">
@@ -186,7 +188,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                     <h3 className="text-[16px] font-semibold text-ink-hi group-hover:text-gold-200">{g.name}</h3>
                     <span className="text-[11px] text-ink-faint">{g.region}</span>
                   </div>
-                  <p className="mt-1 text-[12px] text-ink-low">Capital {g.capital} · {g.metrics.heritageSites} heritage sites</p>
+                  <p className="mt-1 text-[12px] text-ink-low">{t('gov.capital')} {g.capital} · {g.metrics.heritageSites} {t('gov.heritageSites')}</p>
                   <div className="mt-3 flex flex-wrap gap-1.5">
                     {g.highlights.slice(0, 2).map((h) => <Badge key={h} tone="gold">{h}</Badge>)}
                   </div>
@@ -207,7 +209,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* ------------------------------------------------------------- through time */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="Heritage" title={t('section.time')} sub={t('section.time.sub')} href={l('/egypt-through-time')} hrefLabel="Explore the timeline" />
+          <SectionHeader eyebrow={t('eyebrow.heritage')} title={t('section.time')} sub={t('section.time.sub')} href={l('/egypt-through-time')} hrefLabel={t('nav.exploreTimeline')} />
           <div className="surface p-5">
             <ol className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
               {eras.map((e) => (
@@ -223,11 +225,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <GoldRule />
             <div className="flex flex-wrap items-center justify-between gap-3">
               <p className="max-w-2xl text-[12.5px] text-ink-low">
-                {db.rulers.all().length} ruler profiles, {heritage.length} registry entries and {museums.length} museums are linked to these eras.
+                {tn('time.linkedSummary', { rulers: db.rulers.all().length, heritage: heritage.length, museums: museums.length })}
               </p>
               <div className="flex gap-2">
-                <Link href={l('/rulers-of-egypt')} className="rounded-lg border border-white/12 px-3.5 py-2 text-[12.5px] text-ink-hi hover:bg-white/6">Rulers of Egypt</Link>
-                <Link href={l('/ancient-egypt-academy')} className="rounded-lg border border-white/12 px-3.5 py-2 text-[12.5px] text-ink-hi hover:bg-white/6">Academy</Link>
+                <Link href={l('/rulers-of-egypt')} className="rounded-lg border border-white/12 px-3.5 py-2 text-[12.5px] text-ink-hi hover:bg-white/6">{t('nav.rulersOfEgypt')}</Link>
+                <Link href={l('/ancient-egypt-academy')} className="rounded-lg border border-white/12 px-3.5 py-2 text-[12.5px] text-ink-hi hover:bg-white/6">{t('nav.academy')}</Link>
               </div>
             </div>
           </div>
@@ -237,7 +239,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* ------------------------------------------------------------ heritage row */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="Registry" title={t('section.heritage')} sub={t('section.heritage.sub')} href={l('/heritage')} hrefLabel={t('nav.viewAll')} />
+          <SectionHeader eyebrow={t('eyebrow.registry')} title={t('section.heritage')} sub={t('section.heritage.sub')} href={l('/heritage')} hrefLabel={t('nav.viewAll')} />
           <CarouselRow ariaLabel="Heritage highlights">
             {heritage.filter((h) => !h.hidden).slice(0, 12).map((h) => (
               <div key={h.slug} className="w-[240px]">
@@ -254,17 +256,17 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </CarouselRow>
           <div className="mt-4 grid gap-4 sm:grid-cols-3">
             <Link href={l('/hidden-heritage')} className="surface lift p-5">
-              <Badge tone="gold">New</Badge>
-              <h3 className="mt-2.5 text-[15px] font-semibold text-ink-hi">Hidden heritage</h3>
-              <p className="mt-1.5 text-[12.5px] text-ink-low">{db.heritage.hidden().length} sites outside ordinary itineraries, with honest access classifications.</p>
+              <Badge tone="gold">{t('badge.new')}</Badge>
+              <h3 className="mt-2.5 text-[15px] font-semibold text-ink-hi">{t('heritage.hidden.title')}</h3>
+              <p className="mt-1.5 text-[12.5px] text-ink-low">{tn('heritage.hidden.body', { count: db.heritage.hidden().length })}</p>
             </Link>
             <Link href={l('/restoration')} className="surface lift p-5">
-              <h3 className="text-[15px] font-semibold text-ink-hi">Restoration pipeline</h3>
-              <p className="mt-1.5 text-[12.5px] text-ink-low">{db.heritage.restoration().length} sites tracked from proposal through completion.</p>
+              <h3 className="text-[15px] font-semibold text-ink-hi">{t('heritage.restoration.title')}</h3>
+              <p className="mt-1.5 text-[12.5px] text-ink-low">{tn('heritage.restoration.body', { count: db.heritage.restoration().length })}</p>
             </Link>
             <Link href={l('/egyptian-heritage-worldwide')} className="surface lift p-5">
-              <h3 className="text-[15px] font-semibold text-ink-hi">Egyptian heritage worldwide</h3>
-              <p className="mt-1.5 text-[12.5px] text-ink-low">A catalogue of Egyptian objects held abroad — recorded without asserting provenance.</p>
+              <h3 className="text-[15px] font-semibold text-ink-hi">{t('heritage.worldwide.title')}</h3>
+              <p className="mt-1.5 text-[12.5px] text-ink-low">{t('heritage.worldwide.body')}</p>
             </Link>
           </div>
         </Container>
@@ -275,18 +277,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <Container wide>
           <div className="grid gap-5 lg:grid-cols-2">
             <div>
-              <SectionHeader eyebrow="Water" title={t('section.nileSea')} sub="Cruises, feluccas, reefs, marinas and yacht charter." href={l('/nile')} hrefLabel="Explore" />
+              <SectionHeader eyebrow={t('eyebrow.water')} title={t('section.nileSea')} sub={t('water.sub')} href={l('/nile')} hrefLabel={t('nav.explore')} />
               <div className="grid grid-cols-2 gap-3">
-                {([['/nile', 'The Nile', 'nile'], ['/sea', 'Red Sea & Mediterranean', 'sea'], ['/cruises', 'Nile cruises', 'nile'], ['/yachts', 'Yachts & marinas', 'sea']] as const).map(([hrefP, title, subject]) => (
+                {([['/nile', 'water.nile', 'nile'], ['/sea', 'water.seaMed', 'sea'], ['/cruises', 'water.cruises', 'nile'], ['/yachts', 'water.yachts', 'sea']] as const).map(([hrefP, titleKey, subject]) => (
                   <Link key={hrefP} href={l(hrefP)} className="surface lift overflow-hidden p-0">
-                    <SmartImage seed={title} subject={subject} alt={title} ratio="16/10" />
-                    <div className="p-3.5 text-[13px] font-medium text-ink-hi">{title}</div>
+                    <SmartImage seed={titleKey} subject={subject} alt={t(titleKey)} ratio="16/10" />
+                    <div className="p-3.5 text-[13px] font-medium text-ink-hi">{t(titleKey)}</div>
                   </Link>
                 ))}
               </div>
             </div>
             <div>
-              <SectionHeader eyebrow="People" title="Guides & assistants" sub="Matched on language, governorate, specialty, availability and accessibility expertise." href={l('/guides')} hrefLabel="Find a guide" />
+              <SectionHeader eyebrow={t('eyebrow.people')} title={t('guides.title')} sub={t('guides.sub')} href={l('/guides')} hrefLabel={t('nav.findGuide')} />
               <div className="grid gap-3 sm:grid-cols-2">
                 {guides.slice(0, 4).map((g) => <ProviderCard key={g.slug} p={g} href={l(`/guides/${g.slug}`)} />)}
               </div>
@@ -298,13 +300,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* ---------------------------------------------------------------- modules */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="One ecosystem" title="Beyond the visit" sub="Every module below is a full experience of its own, connected by one identity and one assistant." />
+          <SectionHeader eyebrow={t('eyebrow.oneEcosystem')} title={t('modules.sectionTitle')} sub={t('modules.sectionSub')} />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {MODULES.map((mod) => (
               <Link key={mod.href} href={l(mod.href)} className={`lift rounded-[16px] border bg-gradient-to-b to-transparent p-5 ${TONE[mod.tone]}`}>
-                <h3 className="text-[16px] font-semibold text-ink-hi">{mod.title}</h3>
-                <p className="mt-2 text-[12.5px] leading-relaxed text-ink-low">{mod.body}</p>
-                <span className="mt-4 inline-flex text-[12.5px] font-medium text-gold-300">{mod.cta} →</span>
+                <h3 className="text-[16px] font-semibold text-ink-hi">{t(`${mod.key}.title`)}</h3>
+                <p className="mt-2 text-[12.5px] leading-relaxed text-ink-low">{t(`${mod.key}.body`)}</p>
+                <span className="mt-4 inline-flex text-[12.5px] font-medium text-gold-300">{t(`${mod.key}.cta`)} →</span>
               </Link>
             ))}
           </div>
@@ -314,17 +316,17 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* -------------------------------------------------------------- investment */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="Invest" title={t('section.invest')} sub="Egypt One connects tourism with economic opportunity — real estate, industry, business setup and long-term residency, alongside the trip you're planning." href={l('/invest')} hrefLabel="Investor portal" />
+          <SectionHeader eyebrow={t('eyebrow.invest')} title={t('section.invest')} sub={t('invest.sub')} href={l('/invest')} hrefLabel={t('nav.investorPortal')} />
           <div className="mb-6 grid grid-cols-2 gap-2.5 sm:grid-cols-4 lg:grid-cols-7">
             {INVESTMENT_CATEGORIES.map((c) => (
-              <Link key={c.label} href={l(c.href)} className="surface lift flex flex-col items-center gap-2 px-2 py-4 text-center">
+              <Link key={c.key} href={l(c.href)} className="surface lift flex flex-col items-center gap-2 px-2 py-4 text-center">
                 <span aria-hidden="true" className="text-[19px] text-gold-400">{c.icon}</span>
-                <span className="text-[11.5px] font-medium leading-tight text-ink-hi">{c.label}</span>
+                <span className="text-[11.5px] font-medium leading-tight text-ink-hi">{t(c.key)}</span>
                 <Badge tone={c.status === 'PLANNED' ? 'neutral' : 'gold'} className="text-[9px]">{c.status}</Badge>
               </Link>
             ))}
           </div>
-          <SectionHeader title={`${opps.length} indicative opportunities`} sub={`Across ${db.investment.sectors().length} sectors and all 27 governorates.`} />
+          <SectionHeader title={tn('invest.oppCount.title', { count: opps.length })} sub={tn('invest.oppCount.sub', { sectors: db.investment.sectors().length })} />
           <CarouselRow ariaLabel="Investment opportunities">
             {opps.slice(0, 10).map((o) => (
               <DiscoveryCard
@@ -336,7 +338,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             ))}
           </CarouselRow>
           <p className="mt-3 text-[11.5px] text-ink-faint">
-            No opportunity on this platform is a guaranteed return, an allocation of land, or an approval. Terms are set by the competent entity.
+            {t('invest.disclaimer')}
           </p>
         </Container>
       </Section>
@@ -346,7 +348,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <Container wide>
           <div className="grid gap-5 lg:grid-cols-[1.4fr_1fr]">
             <div className="min-w-0">
-              <SectionHeader eyebrow="Marketplace" title={t('section.marketplace')} sub={`Crafts and clothing from all 27 governorates — ${products.length} demo collection entries.`} href={l('/wear-egypt')} hrefLabel="Shop the collections" />
+              <SectionHeader eyebrow={t('eyebrow.marketplace')} title={t('section.marketplace')} sub={tn('marketplace.sub', { count: products.length })} href={l('/wear-egypt')} hrefLabel={t('nav.shopCollections')} />
               <CarouselRow ariaLabel="Wear Egypt products">
                 {products.slice(0, 10).map((p) => (
                   <DiscoveryCard key={p.slug} href={l('/wear-egypt')} name={p.name} summary={p.summary} sourceStatus={p.sourceStatus} tags={p.tags} meta={<span>EGP {p.priceEgp.toLocaleString()}</span>} />
@@ -354,7 +356,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </CarouselRow>
             </div>
             <div>
-              <SectionHeader eyebrow="Connectors" title="Affiliate marketplace" sub="Adapter contracts are built; none is live." />
+              <SectionHeader eyebrow={t('eyebrow.connectors')} title={t('marketplace.affiliate.title')} sub={t('marketplace.affiliate.sub')} />
               <div className="surface p-5">
                 <ul className="grid gap-2.5">
                   {integrations.slice(0, 7).map((i) => (
@@ -364,9 +366,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                     </li>
                   ))}
                 </ul>
-                <Link href={l('/partner/integrations')} className="mt-4 inline-flex text-[12px] text-gold-300 hover:underline">View the full registry →</Link>
+                <Link href={l('/partner/integrations')} className="mt-4 inline-flex text-[12px] text-gold-300 hover:underline">{t('nav.fullRegistry')}</Link>
                 <p className="mt-3 text-[11px] leading-relaxed text-ink-faint">
-                  Brand names appear only as adapter classes. Egypt One does not represent a commercial partnership with any company unless an agreement exists.
+                  {t('marketplace.affiliate.disclaimer')}
                 </p>
               </div>
             </div>
@@ -393,7 +395,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                     <h3 className="text-[14.5px] font-semibold text-ink-hi group-hover:text-gold-200">{o.name}</h3>
                     <p className="mt-1.5 line-clamp-2 text-[12px] text-ink-low">{o.summary}</p>
                     <div className="mt-3 flex items-center justify-between gap-2">
-                      <span className="text-[12px] font-medium text-gold-300">{tile.cta} →</span>
+                      <span className="text-[12px] font-medium text-gold-300">{t(tile.ctaKey)} →</span>
                       <SourceBadge status="DEMO" size="sm" />
                     </div>
                   </div>
@@ -407,24 +409,24 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* ------------------------------------------------------- tourism intelligence */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="Operations preview" title={t('section.intel')} sub="A public preview of the government and operations dashboards. Every figure below is synthetic." href={l('/government/tourism-intelligence')} hrefLabel="Full dashboard" />
+          <SectionHeader eyebrow={t('eyebrow.operationsPreview')} title={t('section.intel')} sub={t('intel.sub')} href={l('/government/tourism-intelligence')} hrefLabel={t('nav.fullDashboard')} />
           <div className="grid gap-4 lg:grid-cols-3">
             <div className="grid gap-3 sm:grid-cols-2">
-              <Stat label="Visitors this month" value={(metrics.headline.visitorsThisMonth / 1e6).toFixed(2) + 'M'} sub={`+${metrics.headline.visitorsYoYPct}% year on year`} />
-              <Stat label="Countries reached" value={metrics.headline.countriesReached} sub="Egypt 195 gateways" tone="nile" />
-              <Stat label="Average stay" value={metrics.headline.avgStayNights + ' nights'} tone="neutral" />
-              <Stat label="Tourism revenue" value={'$' + (metrics.headline.tourismRevenueUsd / 1e9).toFixed(2) + 'B'} sub={`+${metrics.headline.revenueYoYPct}%`} tone="ok" />
+              <Stat label={t('intel.visitorsThisMonth')} value={(metrics.headline.visitorsThisMonth / 1e6).toFixed(2) + 'M'} sub={tn('intel.yoy', { pct: metrics.headline.visitorsYoYPct })} />
+              <Stat label={t('intel.countriesReached')} value={metrics.headline.countriesReached} sub={t('intel.egypt195Gateways')} tone="nile" />
+              <Stat label={t('intel.avgStay')} value={metrics.headline.avgStayNights + ' ' + t('intel.nights')} tone="neutral" />
+              <Stat label={t('intel.tourismRevenue')} value={'$' + (metrics.headline.tourismRevenueUsd / 1e9).toFixed(2) + 'B'} sub={tn('intel.yoy', { pct: metrics.headline.revenueYoYPct })} tone="ok" />
             </div>
             <div className="surface p-5">
               <div className="mb-3 flex items-center justify-between">
-                <h3 className="text-[13px] font-semibold text-ink-hi">Top origin markets</h3>
+                <h3 className="text-[13px] font-semibold text-ink-hi">{t('intel.topMarkets')}</h3>
                 <SourceBadge status="SIMULATED" size="sm" />
               </div>
               <BarStrip rows={metrics.topCountries.slice(0, 6).map((c) => ({ label: c.country, value: c.visitors }))} />
             </div>
             <div className="surface p-5">
               <div className="mb-3 flex items-center justify-between">
-                <h3 className="text-[13px] font-semibold text-ink-hi">Traveller interests</h3>
+                <h3 className="text-[13px] font-semibold text-ink-hi">{t('intel.travellerInterests')}</h3>
                 <SourceBadge status="SIMULATED" size="sm" />
               </div>
               <Donut
@@ -437,7 +439,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
           <div className="surface mt-4 p-5">
             <div className="mb-2 flex items-center justify-between">
-              <h3 className="text-[13px] font-semibold text-ink-hi">Monthly visitor trend</h3>
+              <h3 className="text-[13px] font-semibold text-ink-hi">{t('intel.monthlyTrend')}</h3>
               <SourceBadge status="SIMULATED" size="sm" />
             </div>
             <Trend points={metrics.monthlyVisitors.map((x) => x.visitors)} height={72} />
@@ -451,18 +453,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* --------------------------------------------------------------- portals */}
       <Section>
         <Container wide>
-          <SectionHeader eyebrow="One ecosystem, seven experiences" title="Portals" sub="Shared identity, design system, API platform, permissions and audit — separate navigation and UX." />
+          <SectionHeader eyebrow={t('eyebrow.sevenExperiences')} title={t('portals.title')} sub={t('portals.sub')} />
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {[
-              ['/account', 'Traveller account', 'Trips, bookings, pass, wallet and consent.'],
-              ['/provider', 'Provider portal', 'Profile, inventory, availability, bookings, settlement.'],
-              ['/partner', 'Partner portal', 'Integrations, credentials, transactions, commission.'],
-              ['/government', 'Government portal', 'Tourism intelligence on synthetic data only.'],
-              ['/admin', 'Platform operations', 'CMS, verification, revenue, AI registry, audit.'],
-            ].map(([hrefP, title, body]) => (
+              ['/account', 'portals.account'],
+              ['/provider', 'portals.provider'],
+              ['/partner', 'portals.partner'],
+              ['/government', 'portals.government'],
+              ['/admin', 'portals.admin'],
+            ].map(([hrefP, key]) => (
               <Link key={hrefP} href={l(hrefP)} className="surface lift p-5">
-                <h3 className="text-[14.5px] font-semibold text-ink-hi">{title}</h3>
-                <p className="mt-1.5 text-[12px] leading-relaxed text-ink-low">{body}</p>
+                <h3 className="text-[14.5px] font-semibold text-ink-hi">{t(`${key}.title`)}</h3>
+                <p className="mt-1.5 text-[12px] leading-relaxed text-ink-low">{t(`${key}.body`)}</p>
               </Link>
             ))}
           </div>
@@ -474,11 +476,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <Container wide>
           <div className="surface grid gap-4 p-5 sm:grid-cols-2 lg:grid-cols-3">
             {TRUST_ITEMS.map((item) => (
-              <div key={item.title} className="flex gap-3">
+              <div key={item.key} className="flex gap-3">
                 <span className="mt-0.5 text-gold-500" aria-hidden="true">{item.icon}</span>
                 <div>
-                  <div className="text-[12.5px] font-semibold text-ink-hi">{item.title}</div>
-                  <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{item.body}</div>
+                  <div className="text-[12.5px] font-semibold text-ink-hi">{t(`${item.key}.title`)}</div>
+                  <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{t(`${item.key}.body`)}</div>
                 </div>
               </div>
             ))}
@@ -493,11 +495,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <div className="flex flex-wrap items-start justify-between gap-6">
               <div className="max-w-2xl">
                 <Logo variant="compact" size={30} />
-                <h2 className="mt-4 text-[20px] font-semibold text-ink-hi">What this platform is, and is not</h2>
+                <h2 className="mt-4 text-[20px] font-semibold text-ink-hi">{t('honesty.title')}</h2>
                 <p className="mt-2.5 text-[13px] leading-relaxed text-ink-mid">
-                  Egypt One is a coordination and technology layer. It does not replace government systems, issue licences or
-                  approvals, hold funds, or assert official status for any record. Authority, approvals and sovereign data stay
-                  with the competent authorities; the platform connects to them through approved, auditable integrations.
+                  {t('honesty.body')}
                 </p>
               </div>
               <div className="grid gap-2 text-[12px]">

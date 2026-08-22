@@ -12,119 +12,119 @@ export const MEGA: MegaSection[] = [
   {
     key: 'discover', label: 'nav.discover', href: '/discover',
     columns: [
-      { title: 'Places', items: [
-        { href: '/governorates', label: '27 governorates', hint: 'Every region of Egypt' },
-        { href: '/destinations/pyramids-of-giza', label: 'Destinations' },
-        { href: '/map', label: 'Interactive map' },
-        { href: '/rural-egypt', label: 'Rural Egypt' },
-        { href: '/new-cities', label: 'New cities' },
+      { title: 'mega.discover.places', items: [
+        { href: '/governorates', label: 'mega.discover.governorates' },
+        { href: '/destinations/pyramids-of-giza', label: 'mega.discover.destinations' },
+        { href: '/map', label: 'mega.discover.map' },
+        { href: '/rural-egypt', label: 'mega.discover.ruralEgypt' },
+        { href: '/new-cities', label: 'mega.discover.newCities' },
       ]},
-      { title: 'Through time', items: [
-        { href: '/egypt-through-time', label: 'Egypt through time', hint: '11 eras' },
-        { href: '/rulers-of-egypt', label: 'Rulers of Egypt' },
-        { href: '/ancient-egypt-academy', label: 'Ancient Egypt Academy' },
+      { title: 'mega.discover.throughTime', items: [
+        { href: '/egypt-through-time', label: 'mega.discover.egyptThroughTime' },
+        { href: '/rulers-of-egypt', label: 'mega.discover.rulersOfEgypt' },
+        { href: '/ancient-egypt-academy', label: 'mega.discover.academy' },
       ]},
-      { title: 'Water', items: [
-        { href: '/nile', label: 'The Nile' },
-        { href: '/sea', label: 'Red Sea & Mediterranean' },
-        { href: '/cruises', label: 'Nile cruises' },
-        { href: '/yachts', label: 'Yachts & marinas' },
+      { title: 'mega.discover.water', items: [
+        { href: '/nile', label: 'mega.discover.theNile' },
+        { href: '/sea', label: 'mega.discover.seaMed' },
+        { href: '/cruises', label: 'mega.discover.cruises' },
+        { href: '/yachts', label: 'mega.discover.yachts' },
       ]},
     ],
-    feature: { title: 'Egypt 195', body: 'A gateway page for every country in the world — missions, routes and entry guidance.', href: '/egypt-195', cta: 'Choose your country' },
+    feature: { title: 'mega.discover.feature.title', body: 'mega.discover.feature.body', href: '/egypt-195', cta: 'mega.discover.feature.cta' },
   },
   {
     key: 'heritage', label: 'nav.heritage', href: '/heritage',
     columns: [
-      { title: 'Registry', items: [
-        { href: '/heritage', label: 'Heritage registry' },
-        { href: '/hidden-heritage', label: 'Hidden heritage', badge: 'New' },
-        { href: '/restoration', label: 'Restoration pipeline' },
+      { title: 'mega.heritage.registry', items: [
+        { href: '/heritage', label: 'mega.heritage.registryItem' },
+        { href: '/hidden-heritage', label: 'heritage.hidden.title', badge: 'New' },
+        { href: '/restoration', label: 'heritage.restoration.title' },
       ]},
-      { title: 'Collections', items: [
-        { href: '/museums', label: 'Museums' },
-        { href: '/egyptian-heritage-worldwide', label: 'Egyptian heritage worldwide' },
+      { title: 'mega.heritage.collections', items: [
+        { href: '/museums', label: 'mega.heritage.museums' },
+        { href: '/egyptian-heritage-worldwide', label: 'heritage.worldwide.title' },
       ]},
-      { title: 'Learn', items: [
-        { href: '/ancient-egypt-academy', label: 'Ancient Egypt Academy' },
-        { href: '/research', label: 'Research & education' },
-        { href: '/universities', label: 'Universities' },
+      { title: 'mega.heritage.learn', items: [
+        { href: '/ancient-egypt-academy', label: 'mega.discover.academy' },
+        { href: '/research', label: 'modules.research.title' },
+        { href: '/universities', label: 'mega.heritage.universities' },
       ]},
     ],
   },
   {
     key: 'plan', label: 'nav.plan', href: '/trip-builder',
     columns: [
-      { title: 'Plan', items: [
-        { href: '/trip-builder', label: 'Smart trip builder', badge: 'AI' },
-        { href: '/my-itinerary', label: 'My itinerary' },
-        { href: '/offers', label: 'Special offers' },
-        { href: '/events', label: 'Events & festivals' },
+      { title: 'mega.plan.plan', items: [
+        { href: '/trip-builder', label: 'mega.plan.tripBuilder', badge: 'AI' },
+        { href: '/my-itinerary', label: 'mega.plan.myItinerary' },
+        { href: '/offers', label: 'mega.plan.specialOffers' },
+        { href: '/events', label: 'mega.plan.events' },
       ]},
-      { title: 'Stay & move', items: [
-        { href: '/hotels', label: 'Hotels' },
-        { href: '/accommodation', label: 'Accommodation' },
-        { href: '/flights', label: 'Flights' },
-        { href: '/transport', label: 'Transport' },
-        { href: '/car-rental', label: 'Car rental' },
-        { href: '/vip-transport', label: 'VIP transport' },
+      { title: 'mega.plan.stayMove', items: [
+        { href: '/hotels', label: 'quick.hotels' },
+        { href: '/accommodation', label: 'mega.plan.accommodation' },
+        { href: '/flights', label: 'quick.flights' },
+        { href: '/transport', label: 'quick.transport' },
+        { href: '/car-rental', label: 'mega.plan.carRental' },
+        { href: '/vip-transport', label: 'mega.plan.vipTransport' },
       ]},
-      { title: 'Experience', items: [
-        { href: '/guides', label: 'Guides' },
-        { href: '/activities', label: 'Activities' },
-        { href: '/restaurants', label: 'Restaurants' },
-        { href: '/cafes', label: 'Cafés' },
-        { href: '/shopping', label: 'Shopping' },
+      { title: 'mega.plan.experience', items: [
+        { href: '/guides', label: 'quick.guides' },
+        { href: '/activities', label: 'mega.plan.activities' },
+        { href: '/restaurants', label: 'mega.plan.restaurants' },
+        { href: '/cafes', label: 'mega.plan.cafes' },
+        { href: '/shopping', label: 'quick.shopping' },
       ]},
-      { title: 'Before you go', items: [
-        { href: '/visa', label: 'Visa & entry' },
-        { href: '/safety', label: 'Safety centre' },
-        { href: '/health', label: 'Health & wellness' },
+      { title: 'mega.plan.beforeYouGo', items: [
+        { href: '/visa', label: 'mega.plan.visaEntry' },
+        { href: '/safety', label: 'footer.link.safety' },
+        { href: '/health', label: 'mega.plan.healthWellness' },
       ]},
     ],
   },
   {
     key: 'invest', label: 'nav.invest', href: '/invest',
     columns: [
-      { title: 'Opportunities', items: [
-        { href: '/invest', label: 'Invest in Egypt' },
-        { href: '/investment-opportunities', label: 'Opportunity registry' },
-        { href: '/tourism-investment', label: 'Tourism investment' },
-        { href: '/entertainment-investment', label: 'Entertainment investment', badge: 'Hot' },
+      { title: 'mega.invest.opportunities', items: [
+        { href: '/invest', label: 'footer.link.investEgypt' },
+        { href: '/investment-opportunities', label: 'mega.invest.oppRegistry' },
+        { href: '/tourism-investment', label: 'invest.cat.tourism' },
+        { href: '/entertainment-investment', label: 'modules.entertainment.title', badge: 'Hot' },
       ]},
-      { title: 'Property & place', items: [
-        { href: '/real-estate', label: 'Real estate' },
-        { href: '/new-cities', label: 'New cities' },
-        { href: '/rural-egypt', label: 'Rural Egypt' },
+      { title: 'mega.invest.propertyPlace', items: [
+        { href: '/real-estate', label: 'footer.link.realEstate' },
+        { href: '/new-cities', label: 'mega.discover.newCities' },
+        { href: '/rural-egypt', label: 'mega.discover.ruralEgypt' },
       ]},
-      { title: 'Do business', items: [
-        { href: '/business-setup', label: 'Business setup navigator' },
-        { href: '/corporate-mice', label: 'Corporate & MICE' },
-        { href: '/marketplace', label: 'Marketplace' },
+      { title: 'mega.invest.doBusiness', items: [
+        { href: '/business-setup', label: 'mega.invest.bizNavigator' },
+        { href: '/corporate-mice', label: 'mega.invest.corporateMice' },
+        { href: '/marketplace', label: 'mega.invest.marketplace' },
       ]},
     ],
-    feature: { title: 'Investment AI', body: 'Describe a budget and a sector; the Investment Agent compares governorates using labelled data.', href: '/invest#ai', cta: 'Try the analysis' },
+    feature: { title: 'mega.invest.feature.title', body: 'mega.invest.feature.body', href: '/invest#ai', cta: 'mega.invest.feature.cta' },
   },
   {
     key: 'services', label: 'nav.services', href: '/support',
     columns: [
-      { title: 'Health & research', items: [
-        { href: '/medical-tourism', label: 'Medical tourism' },
-        { href: '/wellness', label: 'Wellness' },
-        { href: '/know-your-origin', label: 'Know your origin' },
-        { href: '/research', label: 'Research programmes' },
+      { title: 'mega.services.healthResearch', items: [
+        { href: '/medical-tourism', label: 'mega.services.medicalTourism' },
+        { href: '/wellness', label: 'mega.services.wellness' },
+        { href: '/know-your-origin', label: 'modules.origin.title' },
+        { href: '/research', label: 'mega.services.researchProgrammes' },
       ]},
-      { title: 'Marketplace', items: [
-        { href: '/wear-egypt', label: 'Wear Egypt' },
-        { href: '/marketplace', label: 'Made in Egypt' },
+      { title: 'mega.invest.marketplace', items: [
+        { href: '/wear-egypt', label: 'mega.services.wearEgypt' },
+        { href: '/marketplace', label: 'mega.services.madeInEgypt' },
       ]},
-      { title: 'Help', items: [
-        { href: '/support', label: 'Support centre' },
-        { href: '/safety', label: 'Safety & emergency' },
-        { href: '/reviews', label: 'Reviews' },
-        { href: '/traveler-stories', label: 'Traveller stories' },
-        { href: '/media', label: 'Media centre' },
-        { href: '/about', label: 'About Egypt One' },
+      { title: 'mega.services.help', items: [
+        { href: '/support', label: 'mega.services.supportCentre' },
+        { href: '/safety', label: 'mega.services.safetyEmergency' },
+        { href: '/reviews', label: 'mega.services.reviews' },
+        { href: '/traveler-stories', label: 'footer.link.travellerStories' },
+        { href: '/media', label: 'footer.link.media' },
+        { href: '/about', label: 'mega.services.aboutEgyptOne' },
       ]},
     ],
   },
@@ -227,23 +227,23 @@ export const ADMIN_NAV: PortalNavItem[] = [
 
 export const FOOTER = [
   { title: 'footer.about', items: [
-    { href: '/about', label: 'About us' }, { href: '/media', label: 'Media centre' },
-    { href: '/traveler-stories', label: 'Traveller stories' }, { href: '/partner', label: 'Partners' },
+    { href: '/about', label: 'footer.link.aboutUs' }, { href: '/media', label: 'footer.link.media' },
+    { href: '/traveler-stories', label: 'footer.link.travellerStories' }, { href: '/partner', label: 'footer.link.partners' },
   ]},
   { title: 'footer.travel', items: [
-    { href: '/trip-builder', label: 'Plan your trip' }, { href: '/governorates', label: 'Destinations' },
-    { href: '/guides', label: 'Travel guides' }, { href: '/visa', label: 'Visa information' },
+    { href: '/trip-builder', label: 'footer.link.planTrip' }, { href: '/governorates', label: 'footer.link.destinations' },
+    { href: '/guides', label: 'footer.link.travelGuides' }, { href: '/visa', label: 'footer.link.visaInfo' },
   ]},
   { title: 'footer.invest', items: [
-    { href: '/invest', label: 'Invest in Egypt' }, { href: '/investment-opportunities', label: 'Opportunities' },
-    { href: '/business-setup', label: 'Business setup' }, { href: '/real-estate', label: 'Real estate' },
+    { href: '/invest', label: 'footer.link.investEgypt' }, { href: '/investment-opportunities', label: 'footer.link.opportunities' },
+    { href: '/business-setup', label: 'footer.link.businessSetup' }, { href: '/real-estate', label: 'footer.link.realEstate' },
   ]},
   { title: 'footer.legal', items: [
-    { href: '/about#terms', label: 'Terms & conditions' }, { href: '/about#privacy', label: 'Privacy policy' },
-    { href: '/account/consent', label: 'Consent centre' }, { href: '/about#data', label: 'Data protection' },
+    { href: '/about#terms', label: 'footer.link.terms' }, { href: '/about#privacy', label: 'footer.link.privacy' },
+    { href: '/account/consent', label: 'footer.link.consent' }, { href: '/about#data', label: 'footer.link.dataProtection' },
   ]},
   { title: 'footer.support', items: [
-    { href: '/support', label: 'Help centre' }, { href: '/support#contact', label: 'Contact us' },
-    { href: '/safety', label: 'Safety centre' }, { href: '/support#report', label: 'Report an issue' },
+    { href: '/support', label: 'footer.link.helpCentre' }, { href: '/support#contact', label: 'footer.link.contact' },
+    { href: '/safety', label: 'footer.link.safety' }, { href: '/support#report', label: 'footer.link.reportIssue' },
   ]},
 ];
