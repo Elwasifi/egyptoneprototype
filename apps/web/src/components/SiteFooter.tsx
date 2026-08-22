@@ -1,27 +1,21 @@
 import Link from 'next/link';
 import { Logo } from '@egypt-one/ui';
 import { FOOTER } from '@/lib/nav';
+import { TRUST_ITEMS } from '@/lib/trust';
 import { href as L } from '@/lib/locale';
 import type { Locale } from '@egypt-one/i18n';
 
 export function SiteFooter({ locale, messages }: { locale: Locale; messages: Record<string, string> }) {
   const t = (k: string) => messages[k] ?? k;
-  const trust = [
-    ['Secure payments', 'Handled by a licensed PSP — Egypt One never holds funds.'],
-    ['Verification, not licensing', 'Licences are issued by the competent authority, never by this platform.'],
-    ['Source labels everywhere', 'Each record shows whether it is live, verified, partner or demo data.'],
-    ['Privacy by design', 'Consent centre, data classes and an audit trail on sensitive access.'],
-    ['Accessibility', 'Built against WCAG 2.2 AA targets.'],
-  ];
   return (
     <footer className="mt-20 border-t border-white/8 bg-raised/60">
-      <div className="mx-auto grid w-full max-w-[1600px] gap-4 px-4 py-8 sm:grid-cols-2 lg:grid-cols-5 lg:px-6">
-        {trust.map(([title, body]) => (
-          <div key={title} className="flex gap-3">
-            <span className="mt-0.5 text-gold-500" aria-hidden="true">◆</span>
+      <div className="mx-auto grid w-full max-w-[1600px] gap-4 px-4 py-8 sm:grid-cols-2 lg:grid-cols-3 lg:px-6">
+        {TRUST_ITEMS.map((item) => (
+          <div key={item.title} className="flex gap-3">
+            <span className="mt-0.5 text-gold-500" aria-hidden="true">{item.icon}</span>
             <div>
-              <div className="text-[12.5px] font-semibold text-ink-hi">{title}</div>
-              <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{body}</div>
+              <div className="text-[12.5px] font-semibold text-ink-hi">{item.title}</div>
+              <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{item.body}</div>
             </div>
           </div>
         ))}

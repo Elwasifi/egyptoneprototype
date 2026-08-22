@@ -4,11 +4,12 @@ import { getMessages, type Locale } from '@egypt-one/i18n';
 import {
   Logo, Badge, Card, Stat, SourceBadge, GoldRule,
   SectionHeader, CarouselRow, DiscoveryCard, GovernorateCard, HeritageCard, ProviderCard,
-  SmartImage, BarStrip, Donut, Trend,
+  SmartImage, subjectFor, BarStrip, Donut, Trend,
 } from '@egypt-one/ui';
 import { Container, Section } from '@/components/Container';
 import { HeroSearch } from '@/components/HeroSearch';
 import { href as L } from '@/lib/locale';
+import { TRUST_ITEMS } from '@/lib/trust';
 
 const QUICK = [
   { href: '/hotels', label: 'Hotels', icon: '⌂' }, { href: '/flights', label: 'Flights', icon: '✈' },
@@ -39,6 +40,13 @@ function subjectForOffer(kind: string) {
   const map: Record<string, string> = { stopover: 'city', extend: 'temple', challenge: 'desert', pass: 'modern', seasonal: 'temple', rural: 'rural', dive: 'sea', family: 'museum' };
   return (map[kind] ?? 'generic') as never;
 }
+
+const PROGRAMME_TILES = [
+  { slug: 'egypt-one-pass', icon: '♛', tone: 'gold', cta: 'Join the Pass' },
+  { slug: 'visit-all-27-challenge', icon: '◈', tone: 'royal', cta: 'Start the challenge' },
+  { slug: 'stopover-egypt', icon: '✈', tone: 'nile', cta: 'Plan a stopover' },
+  { slug: 'one-more-night', icon: '☾', tone: 'emerald', cta: 'Extend your stay' },
+] as const;
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -114,26 +122,30 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <Link href={l('/egypt-195')} className="mt-4 inline-flex rounded-lg bg-gold-500/90 px-3.5 py-2 text-[12.5px] font-semibold text-[#0a1017] hover:bg-gold-400">Choose your country →</Link>
               </Card>
 
-              <Card>
-                <h2 className="text-[14px] font-semibold text-ink-hi">Start a trip</h2>
-                <p className="mt-1.5 text-[12px] text-ink-low">Answer a few questions and the planner drafts a day-by-day itinerary you can edit.</p>
-                <ul className="mt-3 grid gap-1.5 text-[12px] text-ink-mid">
-                  <li>· Nationality, dates and party</li>
-                  <li>· Budget, style and interests</li>
-                  <li>· Accessibility and languages</li>
-                </ul>
-                <Link href={l('/trip-builder')} className="mt-4 inline-flex rounded-lg border border-gold-600/40 px-3.5 py-2 text-[12.5px] font-medium text-gold-300 hover:bg-gold-600/12">Open the trip builder →</Link>
-              </Card>
-
-              <Card>
-                <div className="flex items-center justify-between">
-                  <h2 className="text-[14px] font-semibold text-ink-hi">Next event</h2>
-                  <SourceBadge status="DEMO" size="sm" />
+              <div className="surface lift overflow-hidden p-0">
+                <SmartImage seed="trip-builder-sample" subject="nile" alt="Sample Egypt itinerary" ratio="16/9" />
+                <div className="p-4">
+                  <div className="flex items-center justify-between">
+                    <h2 className="text-[14px] font-semibold text-ink-hi">Start a trip</h2>
+                    <SourceBadge status="DEMO" size="sm" />
+                  </div>
+                  <p className="mt-1.5 text-[12px] text-ink-low">Answer a few questions and preview a sample day-by-day itinerary you can edit.</p>
+                  <Link href={l('/trip-builder')} className="mt-3 inline-flex rounded-lg border border-gold-600/40 px-3.5 py-2 text-[12.5px] font-medium text-gold-300 hover:bg-gold-600/12">Open the trip builder →</Link>
                 </div>
-                <div className="mt-2 text-[13px] text-gold-200">{events[0]?.name}</div>
-                <div className="mt-1 text-[11.5px] text-ink-faint">{events[0]?.startDate} → {events[0]?.endDate} · {events[0]?.venue}</div>
-                <Link href={l('/events')} className="mt-3 inline-flex text-[12px] text-gold-300 hover:underline">All events →</Link>
-              </Card>
+              </div>
+
+              <div className="surface lift overflow-hidden p-0">
+                <SmartImage seed={events[0]?.slug ?? 'next-event'} subject={subjectFor([events[0]?.category ?? '', events[0]?.venue ?? ''], events[0]?.name ?? '')} alt={events[0]?.name ?? 'Upcoming event'} ratio="16/9" />
+                <div className="p-4">
+                  <div className="flex items-center justify-between">
+                    <h2 className="text-[14px] font-semibold text-ink-hi">Next event</h2>
+                    <SourceBadge status="DEMO" size="sm" />
+                  </div>
+                  <div className="mt-2 text-[13px] text-gold-200">{events[0]?.name}</div>
+                  <div className="mt-1 text-[11.5px] text-ink-faint">{events[0]?.startDate} → {events[0]?.endDate} · {events[0]?.venue}</div>
+                  <Link href={l('/events')} className="mt-3 inline-flex text-[12px] text-gold-300 hover:underline">All events →</Link>
+                </div>
+              </div>
             </aside>
           </div>
         </Container>
@@ -313,7 +325,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <Section>
         <Container wide>
           <div className="grid gap-5 lg:grid-cols-[1.4fr_1fr]">
-            <div>
+            <div className="min-w-0">
               <SectionHeader eyebrow="Marketplace" title={t('section.marketplace')} sub={`Crafts and clothing from all 27 governorates — ${products.length} demo collection entries.`} href={l('/wear-egypt')} hrefLabel="Shop the collections" />
               <CarouselRow ariaLabel="Wear Egypt products">
                 {products.slice(0, 10).map((p) => (
@@ -347,16 +359,27 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <Container wide>
           <SectionHeader eyebrow="Programmes" title={t('section.offers')} href={l('/offers')} hrefLabel={t('nav.viewAll')} />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {offers.slice(0, 4).map((o: { slug: string; name: string; summary: string; kind: string }) => (
-              <Link key={o.slug} href={l('/offers')} className="surface lift overflow-hidden p-0">
-                <SmartImage seed={o.slug} subject={subjectForOffer(o.kind)} alt={o.name} ratio="16/9" />
-                <div className="p-4">
-                  <h3 className="text-[14.5px] font-semibold text-ink-hi">{o.name}</h3>
-                  <p className="mt-1.5 line-clamp-2 text-[12px] text-ink-low">{o.summary}</p>
-                  <div className="mt-3"><SourceBadge status="DEMO" size="sm" /></div>
-                </div>
-              </Link>
-            ))}
+            {PROGRAMME_TILES.map((tile) => {
+              const o = offers.find((x: { slug: string; name: string; summary: string; kind: string }) => x.slug === tile.slug) as
+                { slug: string; name: string; summary: string; kind: string } | undefined;
+              if (!o) return null;
+              return (
+                <Link key={tile.slug} href={l('/offers')} className={`lift group block overflow-hidden rounded-[16px] border bg-gradient-to-b to-transparent ${TONE[tile.tone]}`}>
+                  <div className="relative">
+                    <SmartImage seed={o.slug} subject={subjectForOffer(o.kind)} alt={o.name} ratio="16/10" className="rounded-none" />
+                    <span aria-hidden="true" className="absolute left-3 top-3 grid h-8 w-8 place-items-center rounded-full bg-base/70 text-[15px] text-gold-300 backdrop-blur">{tile.icon}</span>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-[14.5px] font-semibold text-ink-hi group-hover:text-gold-200">{o.name}</h3>
+                    <p className="mt-1.5 line-clamp-2 text-[12px] text-ink-low">{o.summary}</p>
+                    <div className="mt-3 flex items-center justify-between gap-2">
+                      <span className="text-[12px] font-medium text-gold-300">{tile.cta} →</span>
+                      <SourceBadge status="DEMO" size="sm" />
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </Container>
       </Section>
@@ -421,6 +444,23 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <h3 className="text-[14.5px] font-semibold text-ink-hi">{title}</h3>
                 <p className="mt-1.5 text-[12px] leading-relaxed text-ink-low">{body}</p>
               </Link>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* ----------------------------------------------------------------- trust */}
+      <Section className="py-6 sm:py-8">
+        <Container wide>
+          <div className="surface grid gap-4 p-5 sm:grid-cols-2 lg:grid-cols-3">
+            {TRUST_ITEMS.map((item) => (
+              <div key={item.title} className="flex gap-3">
+                <span className="mt-0.5 text-gold-500" aria-hidden="true">{item.icon}</span>
+                <div>
+                  <div className="text-[12.5px] font-semibold text-ink-hi">{item.title}</div>
+                  <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{item.body}</div>
+                </div>
+              </div>
             ))}
           </div>
         </Container>

@@ -1,12 +1,30 @@
 import * as React from 'react';
 
 /**
- * Egypt One mark.
+ * Egypt One mark — raster.
  *
- * Adapted from the supplied circular brand artwork: gold ring, central ankh,
- * two pyramids to the left and a Sphinx profile to the right, on a deep field.
- * Drawn as vector so it stays crisp at favicon size and in print, and so the
- * screenshot itself is never used as a logo.
+ * The approved circular brand artwork (gold ring, ankh, pyramids, Sphinx
+ * profile, on a black field), served from /brand/egypt-one-logo.jpg. This is
+ * the mark used everywhere the logo appears in the product.
+ */
+export function LogoImage({ size = 40, className = '', title = 'Egypt One' }: { size?: number; className?: string; title?: string }) {
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src="/brand/egypt-one-logo.jpg"
+      alt={title}
+      width={size}
+      height={size}
+      className={`shrink-0 rounded-full object-cover ${className}`}
+      style={{ width: size, height: size }}
+    />
+  );
+}
+
+/**
+ * Vector fallback mark — kept only for contexts a raster asset can't serve
+ * (e.g. the favicon pipeline, which wants a scalable SVG). Not used for the
+ * on-page logo any more; see LogoImage above.
  */
 export function AnkhMark({ size = 40, ring = true, title = 'Egypt One' }: { size?: number; ring?: boolean; title?: string }) {
   const id = React.useId();
@@ -49,11 +67,11 @@ export function Logo({
   size = 38,
   className = '',
 }: { variant?: 'full' | 'compact' | 'mark' | 'stacked'; size?: number; className?: string }) {
-  if (variant === 'mark') return <AnkhMark size={size} />;
+  if (variant === 'mark') return <LogoImage size={size} />;
   const stacked = variant === 'stacked';
   return (
     <span className={`inline-flex items-center gap-2.5 ${stacked ? 'flex-col gap-1.5 text-center' : ''} ${className}`}>
-      <AnkhMark size={size} ring={variant !== 'compact'} />
+      <LogoImage size={size} />
       <span className={stacked ? '' : 'leading-tight'}>
         <span className="block text-[15px] font-bold tracking-[0.16em] text-ink-hi">
           EGYPT <span className="gold-text">ONE</span>

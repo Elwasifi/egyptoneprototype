@@ -87,6 +87,10 @@ Every internal package is listed in `next.config.mjs`'s `transpilePackages`.
 
 No stock photography and no mapping vendor are used. `SmartImage`
 (`packages/ui/src/media.tsx`) renders a deterministic, seed-hashed SVG
-illustration per subject; `EgyptMap` renders a schematic, layered SVG map
-projected from a hardcoded Egypt bounding box. Both are designed to be
-swapped for a licensed vendor later without changing call sites.
+illustration per subject — a bespoke, multi-layer scene composition (sky,
+sun/moon glow, silhouette elements) for each of the 14 `ImageSubject`
+values, not a shared generic backdrop — as lightweight inline vector, with
+no rasters and no client/server hydration risk. `EgyptMap` renders a
+schematic, layered SVG map projected from a hardcoded Egypt bounding box.
+Both are designed to be swapped for a licensed vendor later without
+changing call sites.
