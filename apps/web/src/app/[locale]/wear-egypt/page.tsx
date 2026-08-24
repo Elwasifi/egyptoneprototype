@@ -52,7 +52,7 @@ export default async function WearEgyptPage({ params }: { params: Promise<{ loca
         <Boundary points={["Prices are demonstration values. Checkout requires a marketplace adapter and a licensed payment provider; neither is connected.","Artisan attribution in this dataset is illustrative. Real listings would carry a verified maker record."]} />
         <RelatedLinks
           locale={locale as Locale}
-          links={[{"href":"/marketplace","label":"Made in Egypt","body":"The wider marketplace."},{"href":"/governorates","label":"Governorates","body":"Where each craft comes from."},{"href":"/provider","label":"Provider portal","body":"Sell your craft."},{"href":"/offers","label":"Offers","body":"Bundles and programmes."}]}
+          links={[{"href":"/marketplace/wear-egypt","label":"Wear Egypt collection","body":"The editorial designer story behind this catalogue."},{"href":"/marketplace","label":"Made in Egypt","body":"The wider marketplace."},{"href":"/governorates","label":"Governorates","body":"Where each craft comes from."},{"href":"/provider","label":"Provider portal","body":"Sell your craft."}]}
         />
       </div>
     </Page>
