@@ -22,6 +22,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <PortalShell portal={"Account"} title={"Your Egypt One account"} subtitle={"A single identity across all seven experiences — trips, bookings, your pass, wallet and consent, all in one place."} nav={ACCOUNT_NAV} active={"/account"} accent={"gold"} roleNote={"Signed in as a demo traveller."}>
       <div className="grid gap-6">
+        <p className="text-[12.5px] text-ink-faint">
+          This is a demonstration session — no real account is signed in.{' '}
+          <Link href={L(locale as Locale, '/auth')} className="text-gold-300 hover:underline">Preview the sign-in form →</Link>
+        </p>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Stat label="Upcoming trips" value="1" />
           <Stat label="Saved places" value="12" />
