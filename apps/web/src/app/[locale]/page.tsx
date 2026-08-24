@@ -5,9 +5,12 @@ import {
   Logo, Badge, Card, Stat, SourceBadge, GoldRule,
   SectionHeader, CarouselRow, DiscoveryCard, GovernorateCard, HeritageCard, ProviderCard,
   SmartImage, CinematicHero, subjectFor, BarStrip, Donut, Trend,
+  ProgrammeCard, TrustBar,
 } from '@egypt-one/ui';
 import { Container, Section } from '@/components/Container';
 import { HeroSearch } from '@/components/HeroSearch';
+import { HomeTripTeaser } from '@/components/HomeTripTeaser';
+import { HomeConciergeStrip } from '@/components/HomeConciergeStrip';
 import { href as L } from '@/lib/locale';
 import { TRUST_ITEMS } from '@/lib/trust';
 
@@ -297,6 +300,21 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </Container>
       </Section>
 
+      {/* --------------------------------------------------- live planner + concierge */}
+      <Section>
+        <Container wide>
+          <SectionHeader
+            eyebrow={t('eyebrow.oneEcosystem')}
+            title="Plan it now — or just ask"
+            sub="Both panels below call the platform's own planner and concierge in real time. Every result is a labelled draft, never a booking."
+          />
+          <div className="grid gap-4 lg:grid-cols-[1.4fr_1fr]">
+            <HomeTripTeaser locale={locale as Locale} />
+            <HomeConciergeStrip locale={locale as Locale} />
+          </div>
+        </Container>
+      </Section>
+
       {/* ---------------------------------------------------------------- modules */}
       <Section>
         <Container wide>
@@ -386,20 +404,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 { slug: string; name: string; summary: string; kind: string } | undefined;
               if (!o) return null;
               return (
-                <Link key={tile.slug} href={l('/offers')} className={`lift group block overflow-hidden rounded-[16px] border bg-gradient-to-b to-transparent ${TONE[tile.tone]}`}>
-                  <div className="relative">
-                    <SmartImage seed={o.slug} subject={subjectForOffer(o.kind)} alt={o.name} ratio="16/10" className="rounded-none" />
-                    <span aria-hidden="true" className="absolute left-3 top-3 grid h-8 w-8 place-items-center rounded-full bg-base/70 text-[15px] text-gold-300 backdrop-blur">{tile.icon}</span>
-                  </div>
-                  <div className="p-4">
-                    <h3 className="text-[14.5px] font-semibold text-ink-hi group-hover:text-gold-200">{o.name}</h3>
-                    <p className="mt-1.5 line-clamp-2 text-[12px] text-ink-low">{o.summary}</p>
-                    <div className="mt-3 flex items-center justify-between gap-2">
-                      <span className="text-[12px] font-medium text-gold-300">{t(tile.ctaKey)} →</span>
-                      <SourceBadge status="DEMO" size="sm" />
-                    </div>
-                  </div>
-                </Link>
+                <ProgrammeCard
+                  key={tile.slug}
+                  href={l('/offers')}
+                  seed={o.slug}
+                  subject={subjectForOffer(o.kind)}
+                  icon={tile.icon}
+                  tone={tile.tone}
+                  title={o.name}
+                  summary={o.summary}
+                  cta={t(tile.ctaKey)}
+                  sourceStatus="DEMO"
+                />
               );
             })}
           </div>
@@ -474,17 +490,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* ----------------------------------------------------------------- trust */}
       <Section className="py-6 sm:py-8">
         <Container wide>
-          <div className="surface grid gap-4 p-5 sm:grid-cols-2 lg:grid-cols-3">
-            {TRUST_ITEMS.map((item) => (
-              <div key={item.key} className="flex gap-3">
-                <span className="mt-0.5 text-gold-500" aria-hidden="true">{item.icon}</span>
-                <div>
-                  <div className="text-[12.5px] font-semibold text-ink-hi">{t(`${item.key}.title`)}</div>
-                  <div className="mt-0.5 text-[11.5px] leading-relaxed text-ink-faint">{t(`${item.key}.body`)}</div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <TrustBar items={TRUST_ITEMS.map((item) => ({ icon: item.icon, title: t(`${item.key}.title`), body: t(`${item.key}.body`) }))} />
         </Container>
       </Section>
 

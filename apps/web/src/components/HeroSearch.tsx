@@ -2,6 +2,7 @@
 import * as React from 'react';
 import { useRouter } from 'next/navigation';
 import { href as L } from '@/lib/locale';
+import { SourceBadge } from '@egypt-one/ui';
 import type { Locale } from '@egypt-one/i18n';
 
 const TABS = [
@@ -13,11 +14,32 @@ const TABS = [
 ];
 const ROUTE: Record<string, string> = { explore: '/search', stays: '/hotels', flights: '/flights', activities: '/activities', transport: '/transport' };
 
+type Hit = { id: string; name: string; kind: string; href: string; summary?: string; sourceStatus: string };
+
 export function HeroSearch({ locale, messages, popular }: { locale: Locale; messages: Record<string, string>; popular: { label: string; href: string }[] }) {
   const t = (k: string) => messages[k] ?? k;
   const router = useRouter();
   const [tab, setTab] = React.useState('explore');
   const [where, setWhere] = React.useState('');
+  const [hits, setHits] = React.useState<Hit[]>([]);
+  const [loading, setLoading] = React.useState(false);
+  const [openHits, setOpenHits] = React.useState(false);
+
+  // Live typeahead against the platform's real unified search endpoint.
+  React.useEffect(() => {
+    const q = where.trim();
+    if (q.length < 2) { setHits([]); setLoading(false); return; }
+    const ctrl = new AbortController();
+    setLoading(true);
+    const id = setTimeout(() => {
+      fetch(`/api/search?q=${encodeURIComponent(q)}`, { signal: ctrl.signal })
+        .then((r) => r.json())
+        .then((d) => setHits((d.hits ?? []).slice(0, 6)))
+        .catch(() => { /* aborted or offline — the form still submits */ })
+        .finally(() => setLoading(false));
+    }, 220);
+    return () => { clearTimeout(id); ctrl.abort(); };
+  }, [where]);
 
   return (
     <div className="surface p-3 sm:p-4">
@@ -36,13 +58,39 @@ export function HeroSearch({ locale, messages, popular }: { locale: Locale; mess
         onSubmit={(e) => { e.preventDefault(); router.push(L(locale, `${ROUTE[tab]}${where ? `?q=${encodeURIComponent(where)}` : ''}`)); }}
         className="grid gap-2 md:grid-cols-[1.6fr_1.1fr_1fr_auto]"
       >
-        <div className="flex h-12 items-center gap-2 rounded-lg border border-white/10 bg-white/4 px-3">
-          <span aria-hidden="true" className="text-gold-500">⌕</span>
-          <input
-            value={where} onChange={(e) => setWhere(e.target.value)}
-            placeholder={t('search.placeholder')} aria-label={t('search.placeholder')}
-            className="h-full w-full bg-transparent text-[13.5px] text-ink-hi outline-none placeholder:text-ink-faint"
-          />
+        <div className="relative">
+          <div className="flex h-12 items-center gap-2 rounded-lg border border-white/10 bg-white/4 px-3">
+            <span aria-hidden="true" className="text-gold-500">⌕</span>
+            <input
+              value={where} onChange={(e) => { setWhere(e.target.value); setOpenHits(true); }}
+              onFocus={() => setOpenHits(true)}
+              onBlur={() => setTimeout(() => setOpenHits(false), 150)}
+              role="combobox" aria-expanded={openHits && hits.length > 0} aria-controls="hero-search-hits" aria-autocomplete="list"
+              placeholder={t('search.placeholder')} aria-label={t('search.placeholder')}
+              className="h-full w-full bg-transparent text-[13.5px] text-ink-hi outline-none placeholder:text-ink-faint"
+            />
+            {loading && <span aria-hidden="true" className="h-3 w-3 shrink-0 animate-pulse rounded-full bg-gold-500/70" />}
+          </div>
+          {openHits && hits.length > 0 && (
+            <ul id="hero-search-hits" role="listbox" className="absolute inset-x-0 top-[calc(100%+6px)] z-30 max-h-[300px] overflow-y-auto rounded-lg border border-white/10 bg-panel/95 p-1.5 shadow-xl backdrop-blur">
+              {hits.map((h) => (
+                <li key={h.id} role="option" aria-selected="false">
+                  <button
+                    type="button"
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => { setOpenHits(false); router.push(L(locale, h.href)); }}
+                    className="flex w-full items-center justify-between gap-3 rounded-md px-2.5 py-2 text-start hover:bg-white/6"
+                  >
+                    <span className="min-w-0">
+                      <span className="block truncate text-[13px] text-ink-hi">{h.name}</span>
+                      <span className="block truncate text-[11px] text-ink-faint">{h.kind}</span>
+                    </span>
+                    <SourceBadge status={h.sourceStatus as never} size="sm" />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
         <div className="flex h-12 items-center gap-2 rounded-lg border border-white/10 bg-white/4 px-3">
           <span aria-hidden="true" className="text-gold-500">▤</span>

@@ -4,3 +4,4 @@ export * from './data';
 export * from './media';
 export * from './discovery';
 export * from './layout/PortalShell';
+export * from './marketing';
