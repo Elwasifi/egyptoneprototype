@@ -12,6 +12,9 @@ import { HeroSearch } from '@/components/HeroSearch';
 import { HomeTripTeaser } from '@/components/HomeTripTeaser';
 import { HomeConciergeStrip } from '@/components/HomeConciergeStrip';
 import { HomeIntelligenceRail } from '@/components/HomeIntelligenceRail';
+import { HomeWeatherStrip } from '@/components/HomeWeatherStrip';
+import { HomeDiscoverTeaser } from '@/components/HomeDiscoverTeaser';
+import { HomePopularDestinations } from '@/components/HomePopularDestinations';
 import { href as L } from '@/lib/locale';
 import { TRUST_ITEMS } from '@/lib/trust';
 
@@ -85,6 +88,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const featuredGovs = ['cairo', 'giza', 'luxor', 'aswan', 'red-sea', 'south-sinai', 'alexandria', 'matrouh']
     .map((s) => db.governorates.bySlug(s)!)
     .filter(Boolean);
+
+  const popularHeritage = heritage.filter((h) => !h.hidden).slice(0, 6);
 
   return (
     <main id="main" className="mx-auto grid w-full max-w-[1880px] gap-6 2xl:grid-cols-[minmax(0,1fr)_360px] 2xl:items-start 2xl:px-4">
@@ -180,6 +185,55 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </nav>
       </Container>
 
+      {/* ------------------------------------------------------------- weather strip */}
+      <Container wide className="mt-4">
+        <HomeWeatherStrip t={t} />
+      </Container>
+
+      {/* ------------------------------------------------------------- discover teaser */}
+      <Section>
+        <Container wide>
+          <SectionHeader eyebrow="Discovery" title="Discover Egypt in depth" href={l('/discover')} hrefLabel={t('nav.viewAll')} />
+          <HomeDiscoverTeaser t={t} l={l} />
+        </Container>
+      </Section>
+
+      {/* --------------------------------------------------------- popular destinations */}
+      <Section>
+        <Container wide>
+          <SectionHeader eyebrow="Destinations" title="Popular destinations" sub={t('section.heritage.sub')} href={l('/heritage')} hrefLabel={t('nav.viewAll')} />
+          <HomePopularDestinations items={popularHeritage} l={l} />
+        </Container>
+      </Section>
+
+      {/* --------------------------------------------------------------- offers */}
+      <Section>
+        <Container wide>
+          <SectionHeader eyebrow="Programmes" title={t('section.offers')} href={l('/offers')} hrefLabel={t('nav.viewAll')} />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {PROGRAMME_TILES.map((tile) => {
+              const o = offers.find((x: { slug: string; name: string; summary: string; kind: string }) => x.slug === tile.slug) as
+                { slug: string; name: string; summary: string; kind: string } | undefined;
+              if (!o) return null;
+              return (
+                <ProgrammeCard
+                  key={tile.slug}
+                  href={l('/offers')}
+                  seed={o.slug}
+                  subject={subjectForOffer(o.kind)}
+                  icon={tile.icon}
+                  tone={tile.tone}
+                  title={o.name}
+                  summary={o.summary}
+                  cta={t(tile.ctaKey)}
+                  sourceStatus="DEMO"
+                />
+              );
+            })}
+          </div>
+        </Container>
+      </Section>
+
       {/* ------------------------------------------------------------ governorates */}
       <Section>
         <Container wide>
@@ -238,6 +292,40 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </div>
             </div>
           </div>
+        </Container>
+      </Section>
+
+      {/* -------------------------------------------------- research & continuity */}
+      <Section>
+        <Container wide>
+          <SectionHeader eyebrow="Research & continuity" title="Egyptian genetic continuity" href={l('/encyclopedia#genome')} hrefLabel={t('nav.viewAll')} />
+          <Link href={l('/encyclopedia#genome')} className="surface lift grid gap-0 overflow-hidden p-0 lg:grid-cols-2">
+            <img src="/media/research-genome.jpg" alt="Golden DNA helix over a hieroglyph wall" loading="lazy" className="h-56 w-full object-cover lg:h-full" />
+            <div className="grid content-center gap-3 p-6">
+              <p className="text-[16px] font-semibold text-ink-hi">An unbroken line, studied and documented</p>
+              <p className="text-[13px] leading-relaxed text-ink-low">
+                A dedicated research track presenting genetic, linguistic and cultural continuity between ancient and modern Egyptians — sourced from published studies and national archives.
+              </p>
+              <SourceBadge status="DEMO" size="sm" className="w-fit" />
+            </div>
+          </Link>
+        </Container>
+      </Section>
+
+      {/* ------------------------------------------------------------- film & culture */}
+      <Section>
+        <Container wide>
+          <SectionHeader eyebrow="Film & culture" title="Film, culture & creative Egypt" href={l('/encyclopedia#film')} hrefLabel={t('nav.viewAll')} />
+          <Link href={l('/encyclopedia#film')} className="surface lift grid gap-0 overflow-hidden p-0 lg:grid-cols-2">
+            <img src="/media/film-egypt.jpg" alt="Film crew shooting on location in the Egyptian desert at dusk" loading="lazy" className="h-56 w-full object-cover lg:h-full" />
+            <div className="grid content-center gap-3 p-6">
+              <p className="text-[16px] font-semibold text-ink-hi">Films, series and location scouting</p>
+              <p className="text-[13px] leading-relaxed text-ink-low">
+                A dedicated track for productions: shooting locations, permits guidance and cultural advisers — turning screen exposure into visits.
+              </p>
+              <SourceBadge status="DEMO" size="sm" className="w-fit" />
+            </div>
+          </Link>
         </Container>
       </Section>
 
@@ -302,6 +390,39 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </Container>
       </Section>
 
+      {/* ------------------------------------------------------------- marketplace */}
+      <Section>
+        <Container wide>
+          <div className="grid gap-5 lg:grid-cols-[1.4fr_1fr]">
+            <div className="min-w-0">
+              <SectionHeader eyebrow={t('eyebrow.marketplace')} title={t('section.marketplace')} sub={tn('marketplace.sub', { count: products.length })} href={l('/wear-egypt')} hrefLabel={t('nav.shopCollections')} />
+              <CarouselRow ariaLabel="Wear Egypt products">
+                {products.slice(0, 10).map((p) => (
+                  <DiscoveryCard key={p.slug} href={l('/wear-egypt')} name={p.name} summary={p.summary} sourceStatus={p.sourceStatus} tags={p.tags} meta={<span>EGP {p.priceEgp.toLocaleString()}</span>} />
+                ))}
+              </CarouselRow>
+            </div>
+            <div>
+              <SectionHeader eyebrow={t('eyebrow.connectors')} title={t('marketplace.affiliate.title')} sub={t('marketplace.affiliate.sub')} />
+              <div className="surface p-5">
+                <ul className="grid gap-2.5">
+                  {integrations.slice(0, 7).map((i) => (
+                    <li key={i.id} className="flex items-center justify-between gap-3 text-[12px]">
+                      <span className="min-w-0 truncate text-ink-mid">{i.name}</span>
+                      <SourceBadge status={i.state === 'LIVE' ? 'LIVE' : i.state === 'SANDBOX' ? 'SIMULATED' : 'PLANNED_INTEGRATION'} size="sm" />
+                    </li>
+                  ))}
+                </ul>
+                <Link href={l('/partner/integrations')} className="mt-4 inline-flex text-[12px] text-gold-300 hover:underline">{t('nav.fullRegistry')}</Link>
+                <p className="mt-3 text-[11px] leading-relaxed text-ink-faint">
+                  {t('marketplace.affiliate.disclaimer')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </Section>
+
       {/* --------------------------------------------------- live planner + concierge */}
       <Section>
         <Container wide>
@@ -360,67 +481,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <p className="mt-3 text-[11.5px] text-ink-faint">
             {t('invest.disclaimer')}
           </p>
-        </Container>
-      </Section>
-
-      {/* ------------------------------------------------------------- marketplace */}
-      <Section>
-        <Container wide>
-          <div className="grid gap-5 lg:grid-cols-[1.4fr_1fr]">
-            <div className="min-w-0">
-              <SectionHeader eyebrow={t('eyebrow.marketplace')} title={t('section.marketplace')} sub={tn('marketplace.sub', { count: products.length })} href={l('/wear-egypt')} hrefLabel={t('nav.shopCollections')} />
-              <CarouselRow ariaLabel="Wear Egypt products">
-                {products.slice(0, 10).map((p) => (
-                  <DiscoveryCard key={p.slug} href={l('/wear-egypt')} name={p.name} summary={p.summary} sourceStatus={p.sourceStatus} tags={p.tags} meta={<span>EGP {p.priceEgp.toLocaleString()}</span>} />
-                ))}
-              </CarouselRow>
-            </div>
-            <div>
-              <SectionHeader eyebrow={t('eyebrow.connectors')} title={t('marketplace.affiliate.title')} sub={t('marketplace.affiliate.sub')} />
-              <div className="surface p-5">
-                <ul className="grid gap-2.5">
-                  {integrations.slice(0, 7).map((i) => (
-                    <li key={i.id} className="flex items-center justify-between gap-3 text-[12px]">
-                      <span className="min-w-0 truncate text-ink-mid">{i.name}</span>
-                      <SourceBadge status={i.state === 'LIVE' ? 'LIVE' : i.state === 'SANDBOX' ? 'SIMULATED' : 'PLANNED_INTEGRATION'} size="sm" />
-                    </li>
-                  ))}
-                </ul>
-                <Link href={l('/partner/integrations')} className="mt-4 inline-flex text-[12px] text-gold-300 hover:underline">{t('nav.fullRegistry')}</Link>
-                <p className="mt-3 text-[11px] leading-relaxed text-ink-faint">
-                  {t('marketplace.affiliate.disclaimer')}
-                </p>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </Section>
-
-      {/* --------------------------------------------------------------- offers */}
-      <Section>
-        <Container wide>
-          <SectionHeader eyebrow="Programmes" title={t('section.offers')} href={l('/offers')} hrefLabel={t('nav.viewAll')} />
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {PROGRAMME_TILES.map((tile) => {
-              const o = offers.find((x: { slug: string; name: string; summary: string; kind: string }) => x.slug === tile.slug) as
-                { slug: string; name: string; summary: string; kind: string } | undefined;
-              if (!o) return null;
-              return (
-                <ProgrammeCard
-                  key={tile.slug}
-                  href={l('/offers')}
-                  seed={o.slug}
-                  subject={subjectForOffer(o.kind)}
-                  icon={tile.icon}
-                  tone={tile.tone}
-                  title={o.name}
-                  summary={o.summary}
-                  cta={t(tile.ctaKey)}
-                  sourceStatus="DEMO"
-                />
-              );
-            })}
-          </div>
         </Container>
       </Section>
 
