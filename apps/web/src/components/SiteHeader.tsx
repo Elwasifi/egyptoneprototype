@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Logo, Badge } from '@egypt-one/ui';
+import { Logo, LogoImage, Badge } from '@egypt-one/ui';
 import { LOCALE_META, LOCALES, type Locale } from '@egypt-one/i18n';
 import { CURRENCIES } from '@egypt-one/i18n';
 import { MEGA } from '@/lib/nav';
@@ -52,10 +52,14 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
   return (
     <>
       <header className="sticky top-0 z-50 glass border-b border-white/8">
-        <div className="mx-auto flex h-16 w-full max-w-[1600px] items-center gap-3 px-4 lg:px-6">
-          <Link href={L(locale, '/')} aria-label="Egypt One home" className="shrink-0">
-            <span className="hidden sm:inline-flex"><Logo variant="full" size={34} /></span>
-            <span className="sm:hidden"><Logo variant="compact" size={28} /></span>
+        <div className="mx-auto flex h-16 w-full max-w-[1600px] items-center gap-2 px-3 sm:gap-3 sm:px-4 lg:px-6">
+          <Link href={L(locale, '/')} aria-label="Egypt One home" className="flex min-w-0 shrink-0 items-center gap-2.5">
+            <LogoImage size={28} className="sm:hidden" />
+            <LogoImage size={34} className="hidden sm:block" />
+            <span className="hidden min-w-0 leading-tight lg:block">
+              <span className="block truncate text-[15px] font-bold tracking-[0.16em] text-ink-hi">EGYPT <span className="gold-text">ONE</span></span>
+              <span className="block truncate text-[9.5px] tracking-[0.12em] text-gold-600/85">One Egypt. One Journey. One Platform.</span>
+            </span>
           </Link>
 
           <button
