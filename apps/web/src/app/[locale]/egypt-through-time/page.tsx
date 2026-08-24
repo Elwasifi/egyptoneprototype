@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { db } from '@egypt-one/database';
-import type { Locale } from '@egypt-one/i18n';
+import { getMessages, type Locale } from '@egypt-one/i18n';
 import { Badge, SourceBadge, SectionHeader, SmartImage, BarStrip } from '@egypt-one/ui';
 import { Page } from '@/components/Container';
 import { ModuleHero, InfoCard, FactList, ChipList, StepList, Boundary, RelatedLinks } from '@/components/Module';
@@ -15,7 +15,8 @@ export const metadata: Metadata = {
 
 export default async function EgyptThroughTimePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  
+  const m = getMessages(locale as Locale);
+  const t = (k: string) => m[k] ?? k;
 
   return (
     <Page wide>
@@ -53,7 +54,7 @@ export default async function EgyptThroughTimePage({ params }: { params: Promise
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div>
                   <span className="block h-1 w-14 rounded-full" style={{ background: e.colour }} aria-hidden="true" />
-                  <h3 className="mt-3 text-[18px] font-semibold text-ink-hi">{isContemporary ? 'Modern Egypt (The New Republic)' : e.name}</h3>
+                  <h3 className="mt-3 text-[18px] font-semibold text-ink-hi">{isContemporary ? t('eras.modernEgypt.label') : e.name}</h3>
                   <p className="mt-1 text-[12px] text-gold-500">{(e as unknown as { from_: string }).from_} – {e.to}</p>
                 </div>
                 <div className="flex gap-2">

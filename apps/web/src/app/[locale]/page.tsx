@@ -219,7 +219,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <li key={e.key}>
                   <Link href={l(`/egypt-through-time#${e.key.toLowerCase()}`)} className="block rounded-xl border border-white/8 bg-white/3 p-3.5 transition-colors hover:border-gold-600/35">
                     <span className="block h-1 w-10 rounded-full" style={{ background: e.colour }} aria-hidden="true" />
-                    <span className="mt-2.5 block text-[13px] font-semibold text-ink-hi">{e.key === 'CONTEMPORARY' ? 'Modern Egypt (The New Republic)' : e.name}</span>
+                    <span className="mt-2.5 block text-[13px] font-semibold text-ink-hi">{e.key === 'CONTEMPORARY' ? t('eras.modernEgypt.label') : e.name}</span>
                     <span className="mt-0.5 block text-[11px] text-ink-faint">{(e as unknown as { from_: string }).from_} – {e.to}</span>
                   </Link>
                 </li>
