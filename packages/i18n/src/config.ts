@@ -1,4 +1,4 @@
-export const LOCALES = ['en', 'ar', 'fr', 'de', 'es', 'it', 'zh', 'ja', 'ru', 'el', 'hi'] as const;
+export const LOCALES = ['en', 'ar', 'fr', 'de', 'es', 'it', 'ru', 'zh', 'hi'] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = 'en';
 export const RTL_LOCALES: Locale[] = ['ar'];
@@ -10,10 +10,8 @@ export const LOCALE_META: Record<Locale, { label: string; native: string; dir: '
   de: { label: 'German', native: 'Deutsch', dir: 'ltr', font: 'sans', flag: '🇩🇪' },
   es: { label: 'Spanish', native: 'Español', dir: 'ltr', font: 'sans', flag: '🇪🇸' },
   it: { label: 'Italian', native: 'Italiano', dir: 'ltr', font: 'sans', flag: '🇮🇹' },
-  zh: { label: 'Chinese', native: '中文', dir: 'ltr', font: 'sans', flag: '🇨🇳' },
-  ja: { label: 'Japanese', native: '日本語', dir: 'ltr', font: 'sans', flag: '🇯🇵' },
   ru: { label: 'Russian', native: 'Русский', dir: 'ltr', font: 'sans', flag: '🇷🇺' },
-  el: { label: 'Greek', native: 'Ελληνικά', dir: 'ltr', font: 'sans', flag: '🇬🇷' },
+  zh: { label: 'Chinese', native: '中文', dir: 'ltr', font: 'sans', flag: '🇨🇳' },
   hi: { label: 'Hindi', native: 'हिन्दी', dir: 'ltr', font: 'sans', flag: '🇮🇳' },
 };
 

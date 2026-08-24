@@ -4,17 +4,15 @@ import fr from './messages/fr.json';
 import de from './messages/de.json';
 import es from './messages/es.json';
 import it from './messages/it.json';
-import zh from './messages/zh.json';
-import ja from './messages/ja.json';
 import ru from './messages/ru.json';
-import el from './messages/el.json';
+import zh from './messages/zh.json';
 import hi from './messages/hi.json';
 import { DEFAULT_LOCALE, type Locale } from './config';
 
 export * from './config';
 
 type Dict = Record<string, string>;
-const DICTS: Record<Locale, Dict> = { en, ar, fr, de, es, it, zh, ja, ru, el, hi } as unknown as Record<Locale, Dict>;
+const DICTS: Record<Locale, Dict> = { en, ar, fr, de, es, it, ru, zh, hi } as unknown as Record<Locale, Dict>;
 
 export function getMessages(locale: Locale): Dict {
   return { ...DICTS[DEFAULT_LOCALE], ...(DICTS[locale] ?? {}) };
