@@ -4,11 +4,13 @@ import { FOOTER } from '@/lib/nav';
 import { TRUST_ITEMS } from '@/lib/trust';
 import { href as L } from '@/lib/locale';
 import type { Locale } from '@egypt-one/i18n';
+import { SocialBar } from './SocialBar';
 
 export function SiteFooter({ locale, messages }: { locale: Locale; messages: Record<string, string> }) {
   const t = (k: string) => messages[k] ?? k;
   return (
     <footer className="mt-20 border-t border-white/8 bg-raised/60">
+      <SocialBar messages={messages} />
       <div className="mx-auto grid w-full max-w-[1600px] gap-4 px-4 py-8 sm:grid-cols-2 lg:grid-cols-3 lg:px-6">
         {TRUST_ITEMS.map((item) => (
           <div key={item.key} className="flex gap-3">
