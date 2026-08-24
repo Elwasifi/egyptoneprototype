@@ -5,6 +5,12 @@ import { TRUST_ITEMS } from '@/lib/trust';
 import { href as L } from '@/lib/locale';
 import type { Locale } from '@egypt-one/i18n';
 import { SocialBar } from './SocialBar';
+import { AppleIcon, GooglePlayIcon } from './SocialIcons';
+
+const APP_STORES = [
+  { label: 'App Store', Icon: AppleIcon },
+  { label: 'Google Play', Icon: GooglePlayIcon },
+];
 
 export function SiteFooter({ locale, messages }: { locale: Locale; messages: Record<string, string> }) {
   const t = (k: string) => messages[k] ?? k;
@@ -28,6 +34,22 @@ export function SiteFooter({ locale, messages }: { locale: Locale; messages: Rec
           <div>
             <Logo variant="full" size={40} />
             <p className="mt-4 max-w-xs text-[12px] leading-relaxed text-ink-faint">{t('footer.note')}</p>
+            <div className="mt-6">
+              <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">{t('footer.downloadApp')}</div>
+              <ul className="mt-3 flex items-center gap-3">
+                {APP_STORES.map(({ label, Icon }) => (
+                  <li key={label}>
+                    <span
+                      title={label}
+                      aria-label={label}
+                      className="grid h-14 w-14 place-items-center rounded-full border border-white/10 bg-white/4 text-gold-300 transition-colors hover:border-gold-500/45 hover:bg-gold-600/14"
+                    >
+                      <Icon className="h-7 w-7" />
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
           <div className="grid gap-6 sm:grid-cols-3 lg:grid-cols-5">
             {FOOTER.map((col) => (
