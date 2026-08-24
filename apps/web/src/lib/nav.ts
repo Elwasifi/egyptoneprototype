@@ -243,7 +243,7 @@ export const FOOTER = [
     { href: '/legal/consent', label: 'footer.link.consent' }, { href: '/legal/data-protection', label: 'footer.link.dataProtection' },
   ]},
   { title: 'footer.support', items: [
-    { href: '/support', label: 'footer.link.helpCentre' }, { href: '/support#contact', label: 'footer.link.contact' },
+    { href: '/support', label: 'footer.link.helpCentre' }, { href: '/contact', label: 'footer.link.contact' },
     { href: '/safety', label: 'footer.link.safety' }, { href: '/support#report', label: 'footer.link.reportIssue' },
   ]},
 ];

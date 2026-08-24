@@ -59,6 +59,7 @@ export default async function SupportPage({ params }: { params: Promise<{ locale
       </section>
         <InfoCard title={"Contact"}>
         <FactList rows={[["Prototype status","This is a demonstration build; no live support desk is staffed."],["Emergency","Contact local emergency services directly. This platform is not an emergency service."],["Data protection requests","Handled through the consent centre and the platform’s data protection process."],["Report an issue","Anything that looks misrepresented — especially a verification claim — should be reported."]]} />
+        <Link href={L(locale as Locale, '/contact')} className="mt-3 inline-block text-[12.5px] font-medium text-gold-300 hover:underline">Contact the team →</Link>
       </InfoCard>
 
         <Boundary points={["No live support desk operates in this prototype.","Support agents can see customer records with a stated purpose, and those accesses are audited and minimised.","Support cannot override a provider’s cancellation terms, a payment provider’s decision or an authority’s ruling."]} />
