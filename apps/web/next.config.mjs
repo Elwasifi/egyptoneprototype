@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Windows-only: the parallel static-generation worker pool segfaults
+  // (STATUS_ACCESS_VIOLATION) on this platform across ~8.7k SSG pages.
+  ...(process.platform === 'win32' ? { experimental: { cpus: 1, workerThreads: false } } : {}),
   transpilePackages: [
     '@egypt-one/types', '@egypt-one/config', '@egypt-one/i18n', '@egypt-one/ui',
     '@egypt-one/database', '@egypt-one/integrations', '@egypt-one/mcp',
