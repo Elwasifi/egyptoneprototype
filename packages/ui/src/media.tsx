@@ -488,8 +488,8 @@ export function CinematicHero({ seed = 'egypt-one-hero', alt, className }: { see
         </g>
       </svg>
 
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-base/55 via-transparent to-transparent" />
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_100%_at_50%_100%,transparent_45%,rgba(4,10,16,0.5)_100%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-base/28 via-transparent to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_100%_at_50%_100%,transparent_45%,rgba(4,10,16,0.25)_100%)]" />
     </div>
   );
 }
