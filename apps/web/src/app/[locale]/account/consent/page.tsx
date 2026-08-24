@@ -45,6 +45,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             <li>· Every consent change is written to the audit log.</li>
           </ul>
         </InfoCard>
+        <p className="text-[12.5px] text-ink-faint">
+          This panel controls what AI agents and providers may read. For platform-wide consents — cookies, marketing,
+          media use — see the <Link href={L(locale as Locale, '/legal/consent')} className="text-gold-300 hover:underline">Consent Centre</Link>.
+        </p>
       </div>
     </PortalShell>
   );

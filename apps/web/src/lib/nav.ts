@@ -239,8 +239,8 @@ export const FOOTER = [
     { href: '/business-setup', label: 'footer.link.businessSetup' }, { href: '/real-estate', label: 'footer.link.realEstate' },
   ]},
   { title: 'footer.legal', items: [
-    { href: '/about#terms', label: 'footer.link.terms' }, { href: '/about#privacy', label: 'footer.link.privacy' },
-    { href: '/account/consent', label: 'footer.link.consent' }, { href: '/about#data', label: 'footer.link.dataProtection' },
+    { href: '/legal/terms', label: 'footer.link.terms' }, { href: '/legal/privacy', label: 'footer.link.privacy' },
+    { href: '/legal/consent', label: 'footer.link.consent' }, { href: '/legal/data-protection', label: 'footer.link.dataProtection' },
   ]},
   { title: 'footer.support', items: [
     { href: '/support', label: 'footer.link.helpCentre' }, { href: '/support#contact', label: 'footer.link.contact' },
