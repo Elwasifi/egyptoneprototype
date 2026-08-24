@@ -2,15 +2,16 @@ import Link from 'next/link';
 import { db } from '@egypt-one/database';
 import { getMessages, type Locale } from '@egypt-one/i18n';
 import {
-  Logo, Badge, Card, Stat, SourceBadge, GoldRule,
+  Logo, Badge, Card, SourceBadge, GoldRule,
   SectionHeader, CarouselRow, DiscoveryCard, GovernorateCard, HeritageCard, ProviderCard,
-  SmartImage, CinematicHero, subjectFor, BarStrip, Donut, Trend,
+  SmartImage, CinematicHero, subjectFor,
   ProgrammeCard, TrustBar,
 } from '@egypt-one/ui';
 import { Container, Section } from '@/components/Container';
 import { HeroSearch } from '@/components/HeroSearch';
 import { HomeTripTeaser } from '@/components/HomeTripTeaser';
 import { HomeConciergeStrip } from '@/components/HomeConciergeStrip';
+import { HomeIntelligenceRail } from '@/components/HomeIntelligenceRail';
 import { href as L } from '@/lib/locale';
 import { TRUST_ITEMS } from '@/lib/trust';
 
@@ -86,7 +87,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     .filter(Boolean);
 
   return (
-    <main id="main">
+    <main id="main" className="mx-auto grid w-full max-w-[1880px] gap-6 2xl:grid-cols-[minmax(0,1fr)_360px] 2xl:items-start 2xl:px-4">
+    <div className="min-w-0">
       {/* ---------------------------------------------------------------- hero */}
       <Section className="pt-6 sm:pt-8">
         <Container wide>
@@ -422,50 +424,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </Container>
       </Section>
 
-      {/* ------------------------------------------------------- tourism intelligence */}
-      <Section>
-        <Container wide>
-          <SectionHeader eyebrow={t('eyebrow.operationsPreview')} title={t('section.intel')} sub={t('intel.sub')} href={l('/government/tourism-intelligence')} hrefLabel={t('nav.fullDashboard')} />
-          <div className="grid gap-4 lg:grid-cols-3">
-            <div className="grid gap-3 sm:grid-cols-2">
-              <Stat label={t('intel.visitorsThisMonth')} value={(metrics.headline.visitorsThisMonth / 1e6).toFixed(2) + 'M'} sub={tn('intel.yoy', { pct: metrics.headline.visitorsYoYPct })} />
-              <Stat label={t('intel.countriesReached')} value={metrics.headline.countriesReached} sub={t('intel.egypt195Gateways')} tone="nile" />
-              <Stat label={t('intel.avgStay')} value={metrics.headline.avgStayNights + ' ' + t('intel.nights')} tone="neutral" />
-              <Stat label={t('intel.tourismRevenue')} value={'$' + (metrics.headline.tourismRevenueUsd / 1e9).toFixed(2) + 'B'} sub={tn('intel.yoy', { pct: metrics.headline.revenueYoYPct })} tone="ok" />
-            </div>
-            <div className="surface p-5">
-              <div className="mb-3 flex items-center justify-between">
-                <h3 className="text-[13px] font-semibold text-ink-hi">{t('intel.topMarkets')}</h3>
-                <SourceBadge status="SIMULATED" size="sm" />
-              </div>
-              <BarStrip rows={metrics.topCountries.slice(0, 6).map((c) => ({ label: c.country, value: c.visitors }))} />
-            </div>
-            <div className="surface p-5">
-              <div className="mb-3 flex items-center justify-between">
-                <h3 className="text-[13px] font-semibold text-ink-hi">{t('intel.travellerInterests')}</h3>
-                <SourceBadge status="SIMULATED" size="sm" />
-              </div>
-              <Donut
-                slices={metrics.interests.slice(0, 5).map((x, i) => ({
-                  label: x.name, value: x.sharePct,
-                  colour: ['#D8A84E', '#2E7D9A', '#3FB6AD', '#5B4B8A', '#A2703F'][i],
-                }))}
-              />
-            </div>
-          </div>
-          <div className="surface mt-4 p-5">
-            <div className="mb-2 flex items-center justify-between">
-              <h3 className="text-[13px] font-semibold text-ink-hi">{t('intel.monthlyTrend')}</h3>
-              <SourceBadge status="SIMULATED" size="sm" />
-            </div>
-            <Trend points={metrics.monthlyVisitors.map((x) => x.visitors)} height={72} />
-            <div className="mt-1 flex justify-between text-[10.5px] text-ink-faint">
-              {metrics.monthlyVisitors.map((x) => <span key={x.month}>{x.month}</span>)}
-            </div>
-          </div>
-        </Container>
-      </Section>
-
       {/* --------------------------------------------------------------- portals */}
       <Section>
         <Container wide>
@@ -515,6 +473,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </Container>
       </Section>
+    </div>
+
+    <aside className="min-w-0 2xl:sticky 2xl:top-20" aria-label="Tourism intelligence at a glance">
+      <Container wide className="2xl:px-0">
+        <HomeIntelligenceRail metrics={metrics} t={t} tn={tn} href={l('/government/tourism-intelligence')} />
+      </Container>
+    </aside>
     </main>
   );
 }
