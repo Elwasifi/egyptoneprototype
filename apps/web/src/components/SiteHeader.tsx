@@ -2,41 +2,34 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Logo, LogoImage, Badge } from '@egypt-one/ui';
+import { Logo, LogoImage } from '@egypt-one/ui';
 import { LOCALE_META, LOCALES, type Locale } from '@egypt-one/i18n';
 import { CURRENCIES } from '@egypt-one/i18n';
-import { MEGA } from '@/lib/nav';
+import { SIDEBAR_GROUPS } from '@/lib/nav';
 import { href as L } from '@/lib/locale';
 import { GlobalSearch } from './GlobalSearch';
 
+/**
+ * Top bar — search-centric, mirrors the Lovable reference's DashboardTopBar.
+ * Primary site discovery now lives in AppRailNav (the persistent left icon
+ * rail, lg: and up); this bar keeps the logo, the prominent search trigger,
+ * locale/currency, and account/notification/concierge shortcuts. The mobile
+ * drawer below (which still owns navigation under lg:, where the rail is
+ * hidden) is sourced from the same SIDEBAR_GROUPS data as the rail, so there
+ * is one navigation graph, not two.
+ */
 export function SiteHeader({ locale, messages }: { locale: Locale; messages: Record<string, string> }) {
   const t = (k: string) => messages[k] ?? k;
   const pathname = usePathname();
   const router = useRouter();
-  const [open, setOpen] = React.useState<string | null>(null);
   const [drawer, setDrawer] = React.useState(false);
   const [searchOpen, setSearchOpen] = React.useState(false);
-  const closeTimer = React.useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  /** Cancels any pending close — call on entering the trigger or the panel. */
-  const openMenu = (key: string) => {
-    if (closeTimer.current) { clearTimeout(closeTimer.current); closeTimer.current = null; }
-    setOpen(key);
-  };
-  /** Closes after a short grace period, so a diagonal mouse path from the
-      trigger to the panel below doesn't register as "left" and snap the
-      menu shut before the user can reach it. */
-  const scheduleClose = () => {
-    if (closeTimer.current) clearTimeout(closeTimer.current);
-    closeTimer.current = setTimeout(() => setOpen(null), 300);
-  };
-
-  React.useEffect(() => { setOpen(null); setDrawer(false); }, [pathname]);
-  React.useEffect(() => () => { if (closeTimer.current) clearTimeout(closeTimer.current); }, []);
+  React.useEffect(() => { setDrawer(false); }, [pathname]);
 
   React.useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') { setOpen(null); setDrawer(false); setSearchOpen(false); }
+      if (e.key === 'Escape') { setDrawer(false); setSearchOpen(false); }
       if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); setSearchOpen(true); }
     };
     window.addEventListener('keydown', onKey);
@@ -51,44 +44,30 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
 
   return (
     <>
-      <header className="sticky top-0 z-50 glass border-b border-white/8">
+      <header className="sticky top-0 z-30 glass border-b border-white/8">
         <div className="mx-auto flex h-16 w-full max-w-[1600px] items-center gap-2 px-3 sm:gap-3 sm:px-4 lg:px-6">
-          <Link href={L(locale, '/')} aria-label="Egypt One home" className="flex min-w-0 shrink-0 items-center gap-2.5">
+          <Link href={L(locale, '/')} aria-label="Egypt One home" className="flex min-w-0 shrink-0 items-center gap-2.5 lg:hidden">
             <LogoImage size={28} className="sm:hidden" />
             <LogoImage size={34} className="hidden sm:block" />
-            <span className="hidden min-w-0 leading-tight lg:block">
-              <span className="block truncate text-[15px] font-bold tracking-[0.16em] text-ink-hi">EGYPT <span className="gold-text">ONE</span></span>
-              <span className="block truncate text-[9.5px] tracking-[0.12em] text-gold-600/85">One Egypt. One Journey. One Platform.</span>
-            </span>
           </Link>
 
           <button
             onClick={() => setSearchOpen(true)}
-            className="ms-2 hidden h-10 min-w-[110px] max-w-[420px] flex-1 items-center gap-2 rounded-lg border border-white/10 bg-white/4 px-3 text-[13px] text-ink-faint transition-colors hover:border-gold-600/35 md:flex"
+            className="hidden h-11 min-w-[110px] max-w-2xl flex-1 items-center gap-2 rounded-full border border-white/10 bg-white/4 px-4 text-[13.5px] text-ink-faint transition-colors hover:border-gold-600/35 md:flex"
           >
             <span aria-hidden="true">⌕</span>
             <span className="flex-1 truncate text-start">{t('search.placeholder')}</span>
             <kbd className="rounded border border-white/12 px-1.5 py-0.5 text-[10px]">⌘K</kbd>
           </button>
+          <button
+            onClick={() => setSearchOpen(true)}
+            aria-label={t('search.placeholder')}
+            className="grid h-9 w-9 shrink-0 place-items-center rounded-lg text-ink-mid hover:bg-white/6 md:hidden"
+          >
+            ⌕
+          </button>
 
-          <nav aria-label="Primary" className="ms-auto hidden items-center gap-0.5 lg:flex">
-            <Link href={L(locale, '/')} className="truncate rounded-lg px-2.5 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.home')}</Link>
-            {MEGA.map((s) => (
-              <div key={s.key} className="relative" onMouseEnter={() => openMenu(s.key)} onMouseLeave={scheduleClose}>
-                <button
-                  aria-expanded={open === s.key} aria-haspopup="true"
-                  onClick={() => (open === s.key ? setOpen(null) : openMenu(s.key))}
-                  className={`truncate rounded-lg px-2.5 py-2 text-[13.5px] transition-colors ${open === s.key ? 'bg-gold-600/14 text-gold-200' : 'text-ink-mid hover:bg-white/6 hover:text-ink-hi'}`}
-                >
-                  {t(s.label)}
-                </button>
-              </div>
-            ))}
-            <Link href={L(locale, '/map')} className="truncate rounded-lg px-2.5 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.map')}</Link>
-            <Link href={L(locale, '/support')} className="truncate rounded-lg px-2.5 py-2 text-[13.5px] text-ink-mid hover:bg-white/6 hover:text-ink-hi">{t('nav.support')}</Link>
-          </nav>
-
-          <div className="ms-auto flex items-center gap-1.5 lg:ms-0">
+          <div className="ms-auto flex items-center gap-1.5">
             <label className="sr-only" htmlFor="locale-select">{t('nav.language')}</label>
             <select
               id="locale-select" value={locale} onChange={(e) => changeLocale(e.target.value)}
@@ -119,48 +98,9 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
             <button onClick={() => setDrawer(true)} aria-label={t('nav.menu')} className="grid h-9 w-9 place-items-center rounded-lg text-ink-mid hover:bg-white/6 lg:hidden">☰</button>
           </div>
         </div>
-
-        {/* Mega menu panel */}
-        {open && (
-          <div
-            className="absolute inset-x-0 top-16 hidden border-b border-white/8 glass shadow-2xl lg:block"
-            onMouseEnter={() => openMenu(open)} onMouseLeave={scheduleClose}
-          >
-            {MEGA.filter((s) => s.key === open).map((s) => (
-              <div key={s.key} className="mx-auto grid w-full max-w-[1600px] gap-8 px-6 py-7 lg:grid-cols-[1fr_280px]">
-                <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-                  {s.columns.map((c) => (
-                    <div key={c.title}>
-                      <div className="mb-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">{t(c.title)}</div>
-                      <ul className="grid gap-0.5">
-                        {c.items.map((i) => (
-                          <li key={i.href}>
-                            <Link href={L(locale, i.href)} className="flex items-center gap-2 rounded-lg px-2 py-1.5 text-[13px] text-ink-mid transition-colors hover:bg-white/6 hover:text-ink-hi">
-                              {t(i.label)}
-                              {i.badge && <Badge tone={i.badge === 'Hot' ? 'danger' : 'gold'}>{i.badge}</Badge>}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
-                {s.feature && (
-                  <div className="surface-gold p-5">
-                    <div className="text-[15px] font-semibold text-gold-200">{t(s.feature.title)}</div>
-                    <p className="mt-2 text-[12.5px] leading-relaxed text-ink-low">{t(s.feature.body)}</p>
-                    <Link href={L(locale, s.feature.href)} className="mt-4 inline-flex rounded-lg bg-gold-500/90 px-3 py-2 text-[12.5px] font-semibold text-[#0a1017] hover:bg-gold-400">
-                      {t(s.feature.cta)} →
-                    </Link>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        )}
       </header>
 
-      {/* Mobile drawer */}
+      {/* Mobile drawer — sourced from the same SIDEBAR_GROUPS the desktop rail uses */}
       {drawer && (
         <div className="fixed inset-0 z-[60] lg:hidden" role="dialog" aria-modal="true" aria-label={t('nav.menu')}>
           <div className="absolute inset-0 bg-void/80" onClick={() => setDrawer(false)} />
@@ -176,22 +116,17 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
               <select value={locale} onChange={(e) => changeLocale(e.target.value)} aria-label={t('nav.language')} className="mb-4 h-11 w-full rounded-lg border border-white/10 bg-raised px-3 text-[13px] text-ink-hi">
                 {LOCALES.map((l) => <option key={l} value={l}>{LOCALE_META[l].flag} {LOCALE_META[l].native}</option>)}
               </select>
-              {MEGA.map((s) => (
-                <details key={s.key} className="border-b border-white/7 py-1">
-                  <summary className="cursor-pointer list-none py-2.5 text-[14px] font-medium text-ink-hi">{t(s.label)}</summary>
+              {SIDEBAR_GROUPS.map((group) => (
+                <details key={group.title} className="border-b border-white/7 py-1">
+                  <summary className="cursor-pointer list-none py-2.5 text-[14px] font-medium text-ink-hi">{group.title}</summary>
                   <div className="pb-2 ps-2">
-                    {s.columns.map((c) => (
-                      <div key={c.title} className="mb-3">
-                        <div className="mb-1 text-[10.5px] uppercase tracking-wider text-gold-600">{t(c.title)}</div>
-                        <ul>
-                          {c.items.map((i) => (
-                            <li key={i.href}>
-                              <Link href={L(locale, i.href)} className="block py-1.5 text-[13px] text-ink-mid">{t(i.label)}</Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
+                    <ul>
+                      {group.items.map((item) => (
+                        <li key={item.href}>
+                          <Link href={L(locale, item.href)} className="block py-1.5 text-[13px] text-ink-mid">{item.label}</Link>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </details>
               ))}
