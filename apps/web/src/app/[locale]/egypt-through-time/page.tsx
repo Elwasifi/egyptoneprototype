@@ -40,12 +40,20 @@ export default async function EgyptThroughTimePage({ params }: { params: Promise
         {db.eras.all().map((e) => {
           const sites = db.heritage.byEra(e.key);
           const rulers = db.rulers.byEra(e.key);
+          const isContemporary = e.key === 'CONTEMPORARY';
           return (
-            <section key={e.key} id={e.key.toLowerCase()} className="surface p-5 scroll-mt-24">
+            <section key={e.key} id={e.key.toLowerCase()} className="surface overflow-hidden p-5 scroll-mt-24">
+              {isContemporary && (
+                <img
+                  src="/media/era-modern-gem.jpg"
+                  alt="The Grand Egyptian Museum at night, with the pyramids, a Ramses II statue and the Egyptian flag"
+                  className="-mx-5 -mt-5 mb-5 h-48 w-[calc(100%+2.5rem)] object-cover sm:h-64"
+                />
+              )}
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div>
                   <span className="block h-1 w-14 rounded-full" style={{ background: e.colour }} aria-hidden="true" />
-                  <h3 className="mt-3 text-[18px] font-semibold text-ink-hi">{e.name}</h3>
+                  <h3 className="mt-3 text-[18px] font-semibold text-ink-hi">{isContemporary ? 'Modern Egypt (The New Republic)' : e.name}</h3>
                   <p className="mt-1 text-[12px] text-gold-500">{(e as unknown as { from_: string }).from_} – {e.to}</p>
                 </div>
                 <div className="flex gap-2">
