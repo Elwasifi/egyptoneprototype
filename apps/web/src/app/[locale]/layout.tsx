@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation';
 import { getMessages, LOCALE_META, LOCALES, isLocale } from '@egypt-one/i18n';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
-import { TopUtilityBar } from '@/components/TopUtilityBar';
 import { BottomNav } from '@/components/BottomNav';
 import { ConciergeLauncher } from '@/components/Concierge';
 import { DemoBanner } from '@/components/DemoBanner';
@@ -37,7 +36,6 @@ export default async function LocaleLayout({
       <body>
         <a href="#main" className="skip-link">Skip to main content</a>
         <DemoBanner message={messages['demo.banner']} />
-        <TopUtilityBar locale={locale} messages={messages} />
         <SiteHeader locale={locale} messages={messages} />
         <div className="pb-20 lg:pb-0">{children}</div>
         <SiteFooter locale={locale} messages={messages} />
