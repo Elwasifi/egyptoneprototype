@@ -102,20 +102,22 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <div className="absolute inset-0">
                 <CinematicHero alt="Cinematic view of the Giza pyramids and sphinx at dusk" className="h-full w-full" />
               </div>
-              <div className="relative px-6 py-12 sm:px-10 sm:py-16 lg:py-20">
-                <Badge tone="gold">{t('brand.tagline')}</Badge>
-                <h1 className="mt-4 max-w-2xl text-[36px] font-semibold leading-[1.06] sm:text-[52px] lg:text-[60px]">
+              <div className="relative flex min-h-[460px] flex-col justify-end px-6 py-8 sm:min-h-[560px] sm:px-10 sm:py-10">
+                <span className="mb-3 inline-flex w-fit items-center gap-2 rounded-full border border-gold-600/40 bg-void/70 px-3 py-1 text-[10.5px] uppercase tracking-[0.2em] text-gold-300 backdrop-blur">
+                  ✦ {t('brand.tagline')}
+                </span>
+                <h1 className="max-w-2xl text-[36px] font-semibold leading-[1.06] drop-shadow-[0_2px_12px_rgba(0,0,0,0.85)] sm:text-[52px] lg:text-[60px]">
                   {t('hero.title.a')}
                   <span className="mt-1 block italic gold-text" style={{ fontFamily: 'var(--font-display)' }}>{t('hero.title.b')}</span>
                 </h1>
-                <p className="mt-4 max-w-xl text-[14.5px] leading-relaxed text-ink-mid">{t('hero.subtitle')}</p>
+                <p className="mt-4 max-w-xl text-[14.5px] leading-relaxed text-ink-mid drop-shadow-[0_1px_8px_rgba(0,0,0,0.8)]">{t('hero.subtitle')}</p>
                 <div className="mt-6 flex flex-wrap gap-2.5">
                   <Link href={l('/discover')} className="rounded-lg bg-gradient-to-b from-gold-400 to-gold-600 px-5 py-3 text-[13.5px] font-semibold text-[#0a1017]">{t('hero.cta.explore')}</Link>
                   <Link href={l('/trip-builder')} className="rounded-lg border border-gold-600/45 px-5 py-3 text-[13.5px] font-semibold text-gold-300 hover:bg-gold-600/12">{t('hero.cta.plan')}</Link>
                   <Link href={l('/ai')} className="rounded-lg border border-white/12 px-5 py-3 text-[13.5px] font-semibold text-ink-hi hover:bg-white/6">✦ {t('hero.cta.ask')}</Link>
                   <Link href={l('/invest')} className="rounded-lg border border-white/12 px-5 py-3 text-[13.5px] font-semibold text-ink-hi hover:bg-white/6">{t('hero.cta.invest')}</Link>
                 </div>
-                <div className="mt-8 max-w-4xl">
+                <div className="mt-6 max-w-4xl">
                   <HeroSearch
                     locale={locale as Locale}
                     messages={m}
