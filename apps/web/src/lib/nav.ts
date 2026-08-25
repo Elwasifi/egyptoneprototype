@@ -1,11 +1,18 @@
 import type { PortalNavItem } from '@egypt-one/ui';
 
-/**
- * The AppRail's grouped link data — the sidebar navigation used site-wide in
- * place of the old horizontal mega-menu. Deliberately a superset of every
- * route the mega-menu used to reach, so replacing the header nav doesn't
- * orphan any route (verified by scripts/verify-nav-coverage.mjs).
- */
+/** Primary horizontal nav shown in the header at lg: and up. */
+export const HEADER_NAV: { href: string; labelKey: string }[] = [
+  { href: '/', labelKey: 'nav.home' },
+  { href: '/discover', labelKey: 'nav.headerExplore' },
+  { href: '/activities', labelKey: 'nav.experiences' },
+  { href: '/accommodation', labelKey: 'nav.stay' },
+  { href: '/events', labelKey: 'nav.events' },
+  { href: '/transport', labelKey: 'nav.transport' },
+  { href: '/visa', labelKey: 'nav.services' },
+  { href: '/support', labelKey: 'nav.esim' },
+];
+
+/** Grouped link data used by the mobile drawer — the full route list the header nav's 8 top-level items summarize. */
 export const SIDEBAR_GROUPS: { title: string; items: { href: string; label: string; badge?: string }[] }[] = [
   { title: 'Plan your trip', items: [
     { href: '/trip-builder', label: 'Smart trip planner', badge: 'AI' },

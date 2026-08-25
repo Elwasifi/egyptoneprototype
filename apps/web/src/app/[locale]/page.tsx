@@ -92,7 +92,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const popularHeritage = heritage.filter((h) => !h.hidden).slice(0, 6);
 
   return (
-    <main id="main" className="mx-auto grid w-full max-w-[1880px] gap-6 2xl:grid-cols-[minmax(0,1fr)_360px] 2xl:items-start 2xl:px-4">
+    <main id="main" className="mx-auto grid w-full max-w-[1880px] gap-6 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start lg:px-4">
     <div className="min-w-0">
       {/* ---------------------------------------------------------------- hero */}
       <Section className="pt-6 sm:pt-8">
@@ -537,8 +537,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       </Section>
     </div>
 
-    <aside className="min-w-0 2xl:sticky 2xl:top-20" aria-label="Tourism intelligence at a glance">
-      <Container wide className="2xl:px-0">
+    <aside className="min-w-0 lg:sticky lg:top-20" aria-label="Tourism intelligence at a glance">
+      <Container wide className="lg:px-0">
         <HomeIntelligenceRail metrics={metrics} t={t} tn={tn} href={l('/government/tourism-intelligence')} />
       </Container>
     </aside>

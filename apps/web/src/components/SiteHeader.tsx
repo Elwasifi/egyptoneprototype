@@ -5,18 +5,15 @@ import { usePathname, useRouter } from 'next/navigation';
 import { Logo, LogoImage } from '@egypt-one/ui';
 import { LOCALE_META, LOCALES, type Locale } from '@egypt-one/i18n';
 import { CURRENCIES } from '@egypt-one/i18n';
-import { SIDEBAR_GROUPS } from '@/lib/nav';
+import { SIDEBAR_GROUPS, HEADER_NAV } from '@/lib/nav';
 import { href as L } from '@/lib/locale';
 import { GlobalSearch } from './GlobalSearch';
 
 /**
- * Top bar — search-centric, mirrors the Lovable reference's DashboardTopBar.
- * Primary site discovery now lives in AppRailNav (the persistent left icon
- * rail, lg: and up); this bar keeps the logo, the prominent search trigger,
- * locale/currency, and account/notification/concierge shortcuts. The mobile
- * drawer below (which still owns navigation under lg:, where the rail is
- * hidden) is sourced from the same SIDEBAR_GROUPS data as the rail, so there
- * is one navigation graph, not two.
+ * Top bar — search-centric, plus a horizontal primary nav row (lg: and up).
+ * The mobile drawer below (which owns navigation under lg:, where the row is
+ * hidden) is sourced from the broader SIDEBAR_GROUPS data, so every route the
+ * header nav summarizes is still reachable on small screens.
  */
 export function SiteHeader({ locale, messages }: { locale: Locale; messages: Record<string, string> }) {
   const t = (k: string) => messages[k] ?? k;
@@ -98,6 +95,27 @@ export function SiteHeader({ locale, messages }: { locale: Locale; messages: Rec
             <button onClick={() => setDrawer(true)} aria-label={t('nav.menu')} className="grid h-9 w-9 place-items-center rounded-lg text-ink-mid hover:bg-white/6 lg:hidden">☰</button>
           </div>
         </div>
+
+        <nav aria-label="Primary" className="hidden border-t border-white/8 lg:block">
+          <div className="mx-auto flex h-12 w-full max-w-[1600px] items-center gap-1 px-3 sm:px-4 lg:px-6">
+            {HEADER_NAV.map((item) => {
+              const target = L(locale, item.href);
+              const active = pathname === target;
+              return (
+                <Link
+                  key={item.href}
+                  href={target}
+                  aria-current={active ? 'page' : undefined}
+                  className={`rounded-full px-3.5 py-1.5 text-[13px] font-medium transition-colors ${
+                    active ? 'bg-gold-500/90 text-[#0a1017]' : 'text-ink-mid hover:bg-white/6 hover:text-ink-hi'
+                  }`}
+                >
+                  {t(item.labelKey)}
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
       </header>
 
       {/* Mobile drawer — sourced from the same SIDEBAR_GROUPS the desktop rail uses */}
